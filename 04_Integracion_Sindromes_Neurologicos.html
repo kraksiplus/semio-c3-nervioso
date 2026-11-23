@@ -1,0 +1,1239 @@
+<!doctype html>
+<html lang="es-CL" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Guía de estudio del Certamen 3 de Semiología (sistema nervioso), con citas por número de diapositiva.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f5c57'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='34' fill='%23d9f0ea' text-anchor='middle'%3EN%3C/text%3E%3C/svg%3E">
+<meta property="og:title" content="Semiología C3 — Sistema nervioso">
+<meta property="og:description" content="Guía de estudio del Certamen 3 de Semiología (sistema nervioso), con citas por número de diapositiva.">
+<meta property="og:type" content="website">
+
+<title>Guía de estudio — Integración Clínica y Síndromes Neurológicos · Semiología C3</title>
+<style>  :root{
+    --bg:#f6f4ee;
+    --surface:#fffdf8;
+    --surface-2:#efeae0;
+    --surface-3:#e6dfd1;
+    --ink:#1d2a2e;
+    --muted:#5d6b70;
+    --line:#d8d1c3;
+    --brand:#0f5c57;
+    --brand-2:#147d74;
+    --brand-3:#d9f0ea;
+    --accent:#b45309;
+    --accent-2:#fef3c7;
+    --rose:#9f1239;
+    --rose-2:#ffe4e6;
+    --blue:#1e3a8a;
+    --blue-2:#dbeafe;
+    --shadow:0 10px 30px rgba(20,40,40,.08);
+    --radius:16px;
+    --serif:Georgia,"Iowan Old Style","Palatino Linotype",Palatino,serif;
+    --sans:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  }
+  [data-theme="dark"]{
+    --bg:#0f1617;
+    --surface:#162022;
+    --surface-2:#1d2a2c;
+    --surface-3:#263638;
+    --ink:#e8eeec;
+    --muted:#a7b6b2;
+    --line:#2c3c3d;
+    --brand:#5eead4;
+    --brand-2:#2dd4bf;
+    --brand-3:#123330;
+    --accent:#fbbf24;
+    --accent-2:#3a2a0a;
+    --rose:#fb7185;
+    --rose-2:#3b1119;
+    --blue:#93c5fd;
+    --blue-2:#12233f;
+    --shadow:0 10px 30px rgba(0,0,0,.35);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;
+    font-family:var(--sans);
+    line-height:1.65;
+    color:var(--ink);
+    background:var(--bg);
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--brand-2);text-decoration-thickness:1px;text-underline-offset:2px}
+  a:hover{color:var(--brand)}
+  :focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:4px}
+  .skip-link{
+    position:absolute;left:-9999px;top:0;background:var(--surface);color:var(--ink);
+    padding:.7rem 1rem;z-index:100;border:1px solid var(--line);border-radius:0 0 10px 0
+  }
+  .skip-link:focus{left:0}
+
+  /* HERO */
+  .hero{
+    background:
+      radial-gradient(1200px 500px at 85% -10%,rgba(255,255,255,.16),transparent 60%),
+      linear-gradient(135deg,#082f2c 0%,#0d4b47 55%,#147d74 100%);
+    color:#f7fbfa;
+    padding:clamp(2rem,5vw,4.2rem) clamp(1.2rem,4vw,3rem) clamp(2.4rem,5vw,3.6rem);
+    position:relative;
+    overflow:hidden;
+  }
+  .hero::after{
+    content:"";position:absolute;right:-120px;bottom:-160px;width:420px;height:420px;
+    border:1px solid rgba(255,255,255,.18);border-radius:50%;
+    box-shadow:0 0 0 40px rgba(255,255,255,.04),0 0 0 90px rgba(255,255,255,.03);
+    pointer-events:none;
+  }
+  .hero-inner{max-width:1120px;margin:0 auto;position:relative;z-index:1}
+  .eyebrow{
+    display:inline-flex;align-items:center;gap:.5rem;
+    font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;
+    color:#bff3e9;font-weight:700;margin:0 0 1rem
+  }
+  .eyebrow::before{content:"";width:28px;height:1px;background:#bff3e9;display:inline-block}
+  .hero h1{
+    font-family:var(--serif);
+    font-size:clamp(2rem,5.4vw,4rem);
+    line-height:1.06;
+    margin:0 0 .7rem;
+    letter-spacing:-.02em;
+    max-width:15ch;
+    text-wrap:balance;
+  }
+  .hero .lede{
+    font-size:clamp(1.02rem,2vw,1.28rem);
+    max-width:70ch;color:#d7f1ec;margin:.4rem 0 1.6rem
+  }
+  .hero .lede em{color:#fff}
+  .meta-grid{
+    display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));
+    gap:.75rem;margin:1.6rem 0 1.2rem;max-width:1000px
+  }
+  .meta-grid div{
+    background:rgba(255,255,255,.08);
+    border:1px solid rgba(255,255,255,.16);
+    border-radius:12px;padding:.7rem .85rem;backdrop-filter:blur(3px)
+  }
+  .meta-grid span{
+    display:block;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;
+    color:#a8dfd6;font-weight:700;margin-bottom:.2rem
+  }
+  .meta-grid strong{font-size:.92rem;font-weight:600;color:#f7fbfa;line-height:1.35}
+  .hero-actions{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1.1rem}
+  .btn{
+    appearance:none;border:1px solid rgba(255,255,255,.28);
+    background:rgba(255,255,255,.10);color:#fff;
+    padding:.62rem .95rem;border-radius:10px;font:inherit;font-size:.9rem;font-weight:650;
+    cursor:pointer;transition:background .15s ease,transform .15s ease
+  }
+  .btn:hover{background:rgba(255,255,255,.2);transform:translateY(-1px)}
+  .btn.primary{background:#fff;color:#0b4a45;border-color:#fff}
+  .btn.primary:hover{background:#e9fbf6}
+
+  /* LAYOUT */
+  .shell{
+    max-width:1420px;margin:0 auto;
+    display:grid;grid-template-columns:290px minmax(0,1fr);
+    gap:clamp(1rem,3vw,2.4rem);
+    padding:2rem clamp(1rem,3vw,2rem) 4rem;
+    align-items:start;
+  }
+  .sidebar{
+    position:sticky;top:1rem;align-self:start;
+    max-height:calc(100vh - 2rem);overflow:auto;
+    background:var(--surface);border:1px solid var(--line);
+    border-radius:var(--radius);padding:1rem;
+    box-shadow:var(--shadow);
+    scrollbar-width:thin;
+  }
+  .sidebar h2{
+    font-family:var(--sans);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--muted);margin:.2rem 0 .7rem
+  }
+  .toc{list-style:none;margin:0;padding:0;font-size:.9rem}
+  .toc li{margin:.12rem 0}
+  .toc a{
+    display:block;padding:.42rem .55rem;border-radius:8px;color:var(--ink);
+    text-decoration:none;border-left:3px solid transparent;line-height:1.3
+  }
+  .toc a:hover{background:var(--surface-2)}
+  .toc a.active{background:var(--brand-3);border-left-color:var(--brand-2);font-weight:700;color:var(--brand)}
+  .toc .figs{
+    margin-top:.9rem;padding-top:.8rem;border-top:1px solid var(--line);
+    display:flex;flex-wrap:wrap;gap:.35rem;align-items:center;font-size:.82rem;color:var(--muted)
+  }
+  .toc .figs a{
+    display:inline-flex;align-items:center;justify-content:center;
+    width:1.7rem;height:1.7rem;border:1px solid var(--line);border-radius:7px;
+    padding:0;background:var(--surface-2);font-weight:700;color:var(--brand)
+  }
+  main{min-width:0}
+  .card{
+    background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+    padding:clamp(1.1rem,2.6vw,2rem);box-shadow:var(--shadow);margin:1.35rem 0;
+    scroll-margin-top:1rem;
+  }
+  .card > :first-child{margin-top:0}
+  .card > :last-child{margin-bottom:0}
+  .section-kicker{
+    display:inline-flex;align-items:center;gap:.5rem;
+    font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--brand-2);font-weight:800;margin-bottom:.45rem
+  }
+  .section-kicker .n{
+    display:inline-flex;align-items:center;justify-content:center;
+    min-width:1.55rem;height:1.55rem;padding:0 .35rem;border-radius:6px;
+    background:var(--brand);color:#fff;font-size:.75rem;letter-spacing:0
+  }
+  h2{
+    font-family:var(--serif);font-size:clamp(1.55rem,3.2vw,2.2rem);
+    line-height:1.15;margin:.1rem 0 .8rem;letter-spacing:-.015em;text-wrap:balance
+  }
+  h3{font-family:var(--serif);font-size:clamp(1.18rem,2.2vw,1.45rem);line-height:1.25;margin:1.6rem 0 .55rem}
+  h4{font-size:1rem;margin:1.2rem 0 .4rem;letter-spacing:.01em}
+  p{margin:.65rem 0}
+  ul,ol{margin:.55rem 0 .8rem;padding-left:1.35rem}
+  li{margin:.28rem 0}
+  li::marker{color:var(--brand-2)}
+  strong{font-weight:750}
+  em{font-style:italic}
+  .cite{
+    display:inline-block;font-size:.74rem;font-weight:700;line-height:1.2;
+    color:var(--brand);background:var(--brand-3);
+    border:1px solid color-mix(in srgb,var(--brand-2) 25%,transparent);
+    padding:.08rem .38rem;border-radius:5px;white-space:nowrap;vertical-align:.08em
+  }
+  .small{font-size:.88rem;color:var(--muted)}
+  .th-abbr{display:none}
+  .muted{color:var(--muted)}
+
+  /* CALLOUTS */
+  .keybox,.databox,.warnbox,.quotebox{
+    border-radius:12px;padding:1rem 1.05rem;margin:1rem 0;border:1px solid var(--line)
+  }
+  .keybox{background:var(--brand-3);border-left:5px solid var(--brand-2)}
+  .databox{background:var(--accent-2);border-left:5px solid var(--accent)}
+  .warnbox{background:var(--rose-2);border-left:5px solid var(--rose)}
+  .quotebox{background:var(--surface-2);border-left:5px solid var(--blue);font-family:var(--serif);font-size:1.05rem}
+  .box-title{
+    display:block;font-family:var(--sans);font-size:.72rem;letter-spacing:.11em;
+    text-transform:uppercase;font-weight:800;margin-bottom:.35rem
+  }
+  .keybox .box-title{color:var(--brand)}
+  .databox .box-title{color:var(--accent)}
+  .warnbox .box-title{color:var(--rose)}
+  .quotebox .box-title{color:var(--blue)}
+
+  /* GRIDS */
+  .grid-2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem;margin:1rem 0}
+  .grid-3{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:.85rem;margin:1rem 0}
+  .stat{
+    background:var(--surface-2);border:1px solid var(--line);border-radius:12px;
+    padding:.9rem 1rem
+  }
+  .stat b{display:block;font-family:var(--serif);font-size:1.65rem;line-height:1.1;color:var(--brand)}
+  .stat span{display:block;font-size:.82rem;color:var(--muted);margin-top:.25rem}
+  .mini-card{
+    background:var(--surface-2);border:1px solid var(--line);border-radius:12px;padding:.9rem 1rem
+  }
+  .mini-card h4{margin:.05rem 0 .35rem;font-size:.98rem}
+  .mini-card p,.mini-card ul{font-size:.9rem;margin:.35rem 0}
+  .tag{
+    display:inline-block;font-size:.72rem;font-weight:800;letter-spacing:.04em;
+    padding:.15rem .5rem;border-radius:999px;background:var(--brand-3);color:var(--brand);
+    border:1px solid color-mix(in srgb,var(--brand-2) 25%,transparent)
+  }
+  .tag.amber{background:var(--accent-2);color:var(--accent);border-color:color-mix(in srgb,var(--accent) 25%,transparent)}
+  .tag.rose{background:var(--rose-2);color:var(--rose);border-color:color-mix(in srgb,var(--rose) 25%,transparent)}
+
+  /* TABLES */
+  .table-wrap{
+    overflow-x:auto;border:1px solid var(--line);border-radius:12px;margin:1rem 0;
+    background:var(--surface);-webkit-overflow-scrolling:touch
+  }
+  table{width:100%;border-collapse:collapse;font-size:.88rem;min-width:720px}
+  caption{
+    caption-side:top;text-align:left;padding:.8rem .9rem .2rem;
+    font-size:.82rem;color:var(--muted);font-weight:600
+  }
+  th,td{padding:.62rem .7rem;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}
+  th{
+    background:var(--surface-2);font-size:.76rem;letter-spacing:.04em;text-transform:uppercase;
+    color:var(--muted);font-weight:800;position:sticky;top:0;z-index:1
+  }
+  tbody tr:nth-child(even) td{background:color-mix(in srgb,var(--surface-2) 45%,var(--surface))}
+  tbody tr:hover td{background:var(--brand-3)}
+  td.nw{white-space:nowrap}
+  .t1{min-width:1180px;font-size:.8rem}
+  .t1 th,.t1 td{padding:.5rem .55rem}
+  .t1 td:first-child{font-weight:650}
+
+  /* FIGURES */
+  figure.diagram{
+    margin:1.25rem 0;background:#fbfaf6;border:1px solid #d8d1c3;border-radius:14px;
+    padding:1rem;color:#1d2a2e;box-shadow:0 4px 16px rgba(20,40,40,.05)
+  }
+  figure.diagram svg{display:block;width:100%;height:auto}
+  figure.diagram figcaption{font-size:.86rem;color:#5d6b70;margin:.75rem .15rem 0;line-height:1.5}
+  figure.diagram figcaption b{color:#1d2a2e}
+  .fig-label{
+    display:inline-block;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;
+    font-weight:800;color:#0f5c57;background:#d9f0ea;border:1px solid #b7e4da;
+    padding:.15rem .5rem;border-radius:999px;margin-bottom:.6rem
+  }
+
+  /* DETAILS Q&A */
+  details.qa{
+    border:1px solid var(--line);border-radius:12px;background:var(--surface-2);
+    padding:.2rem .9rem;margin:.55rem 0
+  }
+  details.qa summary{
+    cursor:pointer;font-weight:700;padding:.65rem 0;list-style:none;
+    display:flex;gap:.55rem;align-items:flex-start
+  }
+  details.qa summary::-webkit-details-marker{display:none}
+  details.qa summary::before{
+    content:"+";flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;
+    width:1.35rem;height:1.35rem;border-radius:6px;background:var(--brand);color:#fff;
+    font-weight:800;font-size:.95rem;line-height:1;margin-top:.1rem
+  }
+  details.qa[open] summary::before{content:"−"}
+  details.qa .answer{padding:.1rem 0 .9rem 1.95rem;font-size:.94rem}
+  details.qa .answer p:first-child{margin-top:0}
+  .qa-tools{display:flex;gap:.5rem;flex-wrap:wrap;margin:.7rem 0 1rem}
+  .qa-tools button{
+    font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;
+    background:var(--surface);color:var(--ink);border:1px solid var(--line);
+    padding:.4rem .65rem;border-radius:8px
+  }
+  .qa-tools button:hover{background:var(--brand-3);border-color:var(--brand-2)}
+
+  /* CHECKLIST */
+  .checklist{list-style:none;padding-left:0}
+  .checklist li{padding-left:1.7rem;position:relative;margin:.45rem 0}
+  .checklist li::before{
+    content:"✓";position:absolute;left:0;top:.05rem;color:var(--brand-2);font-weight:900
+  }
+
+  /* FOOTER */
+  footer{
+    border-top:1px solid var(--line);background:var(--surface);
+    padding:2rem clamp(1rem,4vw,3rem);color:var(--muted);font-size:.86rem
+  }
+  footer .foot-inner{max-width:1120px;margin:0 auto;display:flex;gap:1rem;flex-wrap:wrap;justify-content:space-between}
+  footer strong{color:var(--ink)}
+
+  @media (max-width:980px){
+    .shell{grid-template-columns:1fr;padding-top:1.2rem}
+    .sidebar{position:static;max-height:none;order:-1}
+    .toc{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.1rem}
+  }
+  @media (max-width:560px){
+    .hero h1{max-width:none}
+    .meta-grid{grid-template-columns:1fr}
+    .card{padding:1rem}
+    table{font-size:.82rem}
+  }
+  @media print{
+    :root{--bg:#fff;--surface:#fff;--surface-2:#f3f3f3;--surface-3:#eee;--ink:#111;--muted:#444;--line:#bbb;--shadow:none}
+    @page{margin:12mm}
+    body{background:#fff;font-size:10.5pt}
+    .table-wrap{overflow:visible!important;border:none!important}
+    table{min-width:0!important;width:100%!important;font-size:6.4pt!important;table-layout:fixed}
+    .t1{min-width:0!important;font-size:6.4pt!important}
+    .t1 th:nth-child(1){width:13%}
+    .t1 th:nth-child(2){width:6%}
+    .t1 th:nth-child(3){width:11%}
+    .t1 th:nth-child(4){width:11%}
+    .t1 th:nth-child(5){width:7%}
+    .t1 th:nth-child(6){width:6%}
+    .t1 th:nth-child(7){width:17%}
+    .t1 th:nth-child(8){width:18%}
+    .t1 th:nth-child(9){width:7%}
+    th,td{padding:.2rem .2rem!important;word-break:normal;overflow-wrap:anywhere;hyphens:auto}
+    th{position:static!important;word-break:normal!important;overflow-wrap:normal!important;hyphens:none!important}
+    thead{display:table-header-group}
+    .hero{background:#fff;color:#111;padding:0 0 1rem;border-bottom:2px solid #111}
+    .hero .lede,.meta-grid span{color:#333}
+    .meta-grid div{background:#f4f4f4;border-color:#ccc}
+    .meta-grid strong{color:#111}
+    .hero-actions,.sidebar,.skip-link,.qa-tools{display:none!important}
+    .shell{display:block;max-width:none;padding:0}
+    .card{box-shadow:none;border:1px solid #ccc;break-inside:avoid;page-break-inside:avoid}
+    h2,h3{break-after:avoid}
+    figure.diagram,.table-wrap,details.qa{break-inside:avoid;page-break-inside:avoid}
+    .th-full{display:none}
+    .th-abbr{display:inline}
+    a{color:#111;text-decoration:none}
+  }
+  p,li,td,figcaption{text-wrap:pretty}
+  blockquote{
+    margin:1.1rem 0;padding:.9rem 1.1rem;background:var(--surface-2);
+    border-left:4px solid var(--brand-2);border-radius:0 12px 12px 0;color:var(--ink)
+  }
+  blockquote p{margin:.4rem 0}
+  .guide-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem;margin:1.2rem 0}
+  .guide-grid a{display:block;text-decoration:none;color:inherit;background:var(--surface);
+    border:1px solid var(--line);border-radius:var(--radius);padding:1rem 1.1rem;box-shadow:var(--shadow);
+    transition:transform .15s ease,border-color .15s ease}
+  .guide-grid a:hover{transform:translateY(-2px);border-color:var(--brand-2)}
+  .guide-grid a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+  .guide-grid .gn{font-family:var(--serif);font-size:1.6rem;color:var(--brand-2);line-height:1}
+  .guide-grid h3{margin:.3rem 0 .4rem;font-size:1.05rem;font-family:var(--sans);font-weight:700;color:var(--ink)}
+  .guide-grid p{margin:0;font-size:.9rem;color:var(--muted)}
+  .badges{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.7rem}
+  .badges span{font-size:.72rem;font-weight:700;letter-spacing:.03em;background:var(--brand-3);
+    color:var(--brand);border-radius:999px;padding:.18rem .55rem}
+  caption{caption-side:top;text-align:left;font-size:.82rem;font-weight:700;color:var(--muted);padding:.2rem .2rem .5rem}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+<header class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">Certamen 3 · Semiología · Sistema nervioso</p>
+    <h1>Integración Clínica y Síndromes Neurológicos</h1>
+    <p class="lede">Clase 4 de 4. Guía de estudio construida desde las diapositivas de la clase, con cada afirmación clínica citada por número de diapositiva.</p>
+    <div class="meta-grid">
+      <div><span>Clase</span><strong>4 de 4</strong></div>
+      <div><span>Diapositivas</span><strong>49 de 49 cubiertas</strong></div>
+      <div><span>Citas distintas</span><strong>47</strong></div>
+      <div><span>Preguntas</span><strong>30</strong></div>
+      <div><span>Fuente</span><strong><code>Clase-4-Integracion-Clinica-y-Sindromes-Neurologicos.pdf</code></strong></div>
+      <div><span>Ramo</span><strong>Semiología · Medicina UBB · 2026-2</strong></div>
+    </div>
+    <div class="hero-actions">
+      <button class="btn primary" id="printBtn" type="button">Imprimir / guardar PDF</button>
+      <button class="btn" id="themeBtn" type="button" aria-pressed="false">Modo oscuro</button>
+      <a class="btn" href="#alcance">Empezar por el alcance</a>
+    </div>
+  </div>
+</header>
+
+<div class="shell">
+  <aside class="sidebar" aria-label="Índice de la guía">
+    <h2>Contenido</h2>
+    <nav>
+      <ul class="toc">
+                <li><a href="#alcance">Alcance y método</a></li>
+        <li><a href="#sec-las-seis-preguntas-del-razonamiento-neurologico">Las seis preguntas del razonamiento neurológico</a></li>
+        <li><a href="#sec-por-que-el-orden-importa">Por qué el orden importa</a></li>
+        <li><a href="#sec-sindrome-piramidal">Síndrome piramidal</a></li>
+        <li><a href="#sec-sindrome-extrapiramidal">Síndrome extrapiramidal</a></li>
+        <li><a href="#sec-sindrome-cerebeloso">Síndrome cerebeloso</a></li>
+        <li><a href="#sec-sindrome-meningeo">Síndrome meníngeo</a></li>
+        <li><a href="#sec-acv-como-sindrome">ACV como síndrome</a></li>
+        <li><a href="#sec-epilepsia">Epilepsia</a></li>
+        <li><a href="#sec-enfermedad-de-parkinson">Enfermedad de Parkinson</a></li>
+        <li><a href="#sec-neuropatias-perifericas">Neuropatías periféricas</a></li>
+        <li><a href="#sec-caso-integrador-final">Caso integrador final</a></li>
+        <li><a href="#sec-cierre-los-cinco-sindromes">Cierre: los cinco síndromes</a></li>
+        <li><a href="#sec-conceptos-clave-y-siglas">Conceptos clave y siglas</a></li>
+        <li><a href="#sec-preguntas-probables">Preguntas probables</a></li>
+        <li><a href="#sec-diapositivas-sin-texto-extraible">Diapositivas sin texto extraíble</a></li>
+      </ul>
+      <div class="figs">
+        <strong>Otras guías:</strong>
+        <a href="01_Anamnesis_y_Razonamiento_Localizador.html" title="Anamnesis y razonamiento localizador">1</a><a href="02_Del_Sintoma_Al_Sindrome.html" title="Del síntoma al síndrome">2</a><a href="03_Examen_Motor_Sensitivo_Reflejos.html" title="Examen motor, sensitivo y reflejos">3</a>
+        <a href="index.html" title="Índice del certamen">Índice</a>
+      </div>
+    </nav>
+  </aside>
+
+  <main id="contenido">
+
+<section id="alcance" class="card">
+  <div class="section-kicker"><span class="n">00</span> Alcance</div>
+  <h2>Qué cubre esta guía</h2>
+  <div class="keybox">
+    <span class="box-title">Alcance</span>
+    Archivo fuente `Clase-4-Integracion-Clinica-y-Sindromes-Neurologicos.pdf` (Clase 4 de 4 del Certamen 3, Semiología UBB). Cubre las diapositivas 1–49 de 49, a partir de la extracción de texto/OCR (`c4_pages.json`). Queda fuera: contenido puramente visual de las diapositivas solo-imagen (1, 2, 5, 8, 15, 20, 37, 44) — ver sección final; no se incluyen escalas, dosis ni datos que el deck no muestre (p. ej., no está en el material la escala NIHSS).
+  </div>
+  <p class="small">Clase 4 de 4 del Certamen 3 (Semiología del sistema nervioso). Fuente: <code>Clase-4-Integracion-Clinica-y-Sindromes-Neurologicos.pdf</code>. Las citas <span class="cite">diapo N</span> corresponden al número de diapositiva del PDF. Texto extraído con <code>pdftotext -layout</code> y, en las diapositivas sin capa de texto, OCR <code>tesseract -l spa</code>.</p>
+</section>
+<section id="sec-las-seis-preguntas-del-razonamiento-neurologico" class="card">
+<div class="section-kicker"><span class="n">01</span> Diapositiva 3</div>
+<h2>Las seis preguntas del razonamiento neurológico</h2>
+<p>Secuencia de seis pasos <span class="cite">diapo 3</span>:</p>
+<ol type="1">
+<li><strong>¿Cuál es el síntoma principal?</strong> Identificar el motivo de consulta dominante: debilidad, alteración del habla, pérdida de conciencia, cefalea, movimientos anormales.</li>
+<li><strong>¿Qué signos encuentro en la exploración?</strong> Hiperreflexia, espasticidad, ataxia, rigidez, Babinski, rigidez de nuca.</li>
+<li><strong>¿Qué función neurológica está alterada?</strong> Motilidad voluntaria, coordinación, tono, sensibilidad, cognición, conciencia, lenguaje.</li>
+<li><strong>¿Dónde podría estar la lesión?</strong> Corteza, vía piramidal, ganglios basales, cerebelo, médula, nervio periférico. La localización anatómica es el núcleo del razonamiento neurológico.</li>
+<li><strong>¿Qué síndrome explica el conjunto?</strong> Integrar en un patrón reconocible: piramidal, cerebeloso, meníngeo, extrapiramidal.</li>
+<li><strong>¿Qué diagnósticos podrían explicar ese síndrome?</strong> Solo aquí se genera la hipótesis etiológica; el síndrome debe estar bien construido antes.</li>
+</ol>
+
+</section>
+<section id="sec-por-que-el-orden-importa" class="card">
+<div class="section-kicker"><span class="n">02</span> Diapositiva 4</div>
+<h2>Por qué el orden importa</h2>
+<ul>
+<li>El error frecuente: plantear el diagnóstico directamente (“parece un ACV”, “podría ser Parkinson”) antes de analizar signos y construir el síndrome; nombrar una enfermedad prematuramente cierra la mente a alternativas no apoyadas ni descartadas aún <span class="cite">diapo 4</span>.</li>
+<li>Vía correcta: síntoma → signo → función afectada → localización → síndrome → hipótesis etiológica. Cada paso depende del anterior; ninguno puede omitirse <span class="cite">diapo 4</span>.</li>
+<li>La localización anatómica es información diagnóstica de primer orden: un síndrome piramidal unilateral orienta a lesión contralateral de la vía corticoespinal y ya excluye patología muscular o de la unión neuromuscular antes de pedir cualquier prueba complementaria <span class="cite">diapo 4</span>.</li>
+</ul>
+
+</section>
+<section id="sec-sindrome-piramidal" class="card">
+<div class="section-kicker"><span class="n">03</span> Diapositivas 6–10</div>
+<h2>Síndrome piramidal</h2>
+<p>Definición: consecuencia de la lesión de la primera neurona motora (motoneurona superior, MNS) a lo largo de su recorrido desde la corteza cerebral hasta el asta anterior medular <span class="cite">diapo 6</span>.</p>
+<p>Clínica <span class="cite">diapo 7</span>:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Debilidad</td>
+<td>Distribución característica: en miembro superior afecta más a extensores; en inferior, a flexores. Proporcional a la extensión de la lesión</td>
+</tr>
+<tr>
+<td>Espasticidad</td>
+<td>Tono aumentado velocidad-dependiente; asimétrico, cede a altas velocidades (“navaja de muelle”); se distingue de la rigidez extrapiramidal</td>
+</tr>
+<tr>
+<td>Hiperreflexia</td>
+<td>Exaltación de reflejos miotáticos profundos por pérdida de la inhibición supraespinal; puede haber clonus aquíleo o rotuliano</td>
+</tr>
+<tr>
+<td>Babinski</td>
+<td>Extensión del dedo gordo al estimular la planta; el signo más específico de lesión piramidal, puede preceder a otros signos</td>
+</tr>
+<tr>
+<td>Reflejos superficiales</td>
+<td>Abolición de abdominales y cremasterianos</td>
+</tr>
+<tr>
+<td>Trofismo</td>
+<td>Hipotrofia por desuso</td>
+</tr>
+</tbody>
+</table></div>
+<p>Localización de la lesión: la diapositiva 9 muestra el recorrido de la vía con los pares craneales (III, VI, VII) y el concepto de <strong>síndrome cruzado de pares craneales</strong> (lesión de tronco con déficit de pares ipsilateral y déficit largo contralateral; el detalle gráfico no es legible en la extracción).</p>
+<p>Caso clínico <span class="cite">diapo 10</span>: varón 68 años, hipertenso, debilidad brusca de brazo y pierna derechos de 2 h. Fuerza 2/5 en hemicuerpo derecho, hiperreflexia rotuliana y aquílea derechas, Babinski derecho; sin afectación de pares craneales.</p>
+<ul>
+<li>Aplicación del método: síntoma = debilidad hemicorporal de inicio agudo; signos = fuerza 2/5 + hiperreflexia + Babinski; función = motilidad voluntaria hemisómica; localización = vía piramidal izquierda por encima de la decusación (sin pares → probablemente supratentorial); síndrome = piramidal izquierdo.</li>
+<li>Hipótesis: cuadro agudo en mayor hipertenso orienta primero a lesión vascular (ACV isquémico o hemorrágico en territorio de ACM izquierda); sin fiebre e inicio súbito hacen menos probable causa inflamatoria o tumoral <span class="cite">diapo 10</span>.</li>
+</ul>
+
+</section>
+<section id="sec-sindrome-extrapiramidal" class="card">
+<div class="section-kicker"><span class="n">04</span> Diapositivas 11–14</div>
+<h2>Síndrome extrapiramidal</h2>
+<p>Definición: lesión de los ganglios basales y sus circuitos de modulación motora (conexiones con tálamo y corteza) <span class="cite">diapo 11, 12</span>. No cursa con Babinski ni hiperreflexia; el tono está aumentado pero con características distintas a la espasticidad <span class="cite">diapo 12</span>.</p>
+<p>Elementos clínicos <span class="cite">diapo 12</span>:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bradicinesia</td>
+<td>Lentitud en el inicio y ejecución del movimiento; signo cardinal. Dificultad para iniciar la marcha, reducción del braceo, hipomimia, micrografía</td>
+</tr>
+<tr>
+<td>Rigidez</td>
+<td>Resistencia constante al movimiento pasivo en todas direcciones; “en rueda dentada” si se combina con temblor, “en tubo de plomo” si es pura</td>
+</tr>
+<tr>
+<td>Temblor de reposo</td>
+<td>Oscilación rítmica de 4–6 Hz en reposo, disminuye con el movimiento voluntario; “cuenta monedas” o “hacer pelotillas”; desaparece durante el sueño</td>
+</tr>
+<tr>
+<td>Alteraciones posturales y de la marcha</td>
+<td>Postura en flexión generalizada, inestabilidad postural, pasos cortos, marcha festinante (“corre detrás de su centro de gravedad”), ausencia de braceo, riesgo elevado de caídas</td>
+</tr>
+</tbody>
+</table></div>
+<p>Caso clínico <span class="cite">diapo 13</span>: mujer 72 años, “se mueve muy lento”, cara “inexpresiva”, pasos muy cortos. Exploración: bradipsiquia leve, hipomimia marcada, temblor de reposo en mano derecha (cesa al extender el brazo), rigidez en rueda dentada bilateral, marcha festinante con reducción del braceo. Construcción del síndrome: localización en ganglios basales (circuito nigroestriado) → síndrome extrapiramidal. Pregunta siguiente: qué enfermedad lo produce — EP idiopática (la más frecuente), parkinsonismos secundarios (farmacológico: antipsicóticos, metoclopramida; vascular; tóxico), parkinsonismos atípicos (atrofia multisistémica, parálisis supranuclear progresiva). El síndrome extrapiramidal no equivale automáticamente a enfermedad de Parkinson <span class="cite">diapo 13</span>.</p>
+<h3 class="sub" id="tabla-comparativa-piramidal-vs-extrapiramidal-diapo-14">Tabla comparativa: piramidal vs. extrapiramidal <span class="cite">diapo 14</span></h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Característica</th>
+<th>Síndrome Piramidal</th>
+<th>Síndrome Extrapiramidal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tipo de debilidad</td>
+<td>Paresia/plegia hemisómica o bilateral</td>
+<td>Sin paresia franca; enlentecimiento</td>
+</tr>
+<tr>
+<td>Tono muscular</td>
+<td>Espasticidad (velocidad-dependiente)</td>
+<td>Rigidez (rueda dentada o tubo de plomo)</td>
+</tr>
+<tr>
+<td>Reflejos</td>
+<td>Hiperreflexia + Babinski</td>
+<td>Normales o levemente alterados</td>
+</tr>
+<tr>
+<td>Temblor</td>
+<td>Ausente o de acción</td>
+<td>De reposo (4–6 Hz)</td>
+</tr>
+<tr>
+<td>Localización</td>
+<td>Corteza → cápsula → tronco → médula</td>
+<td>Ganglios basales (nigroestriado)</td>
+</tr>
+</tbody>
+</table></div>
+
+</section>
+<section id="sec-sindrome-cerebeloso" class="card">
+<div class="section-kicker"><span class="n">05</span> Diapositivas 16–19</div>
+<h2>Síndrome cerebeloso</h2>
+<p>Definición: lesión del cerebelo o sus vías de conexión; la coordinación como eje diagnóstico <span class="cite">diapo 16</span>. El cerebelo coordina la actividad motora en tiempo real, corrigiendo errores de trayectoria y modulando el tono postural; su lesión produce ataxia, término que engloba fenómenos distintos <span class="cite">diapo 17</span>.</p>
+<p>Componentes clínicos <span class="cite">diapo 17</span>:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Componente</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ataxia de la marcha</td>
+<td>Base amplia, irregular, desequilibrio hacia el lado de la lesión; paciente “parece ebrio”; no mejora con ojos cerrados (a diferencia de la ataxia sensitiva)</td>
+</tr>
+<tr>
+<td>Dismetría</td>
+<td>Incapacidad de calcular trayectoria y amplitud; prueba dedo-nariz y talón-rodilla; el movimiento pasa el objetivo o queda corto (hiper- o hipometría)</td>
+</tr>
+<tr>
+<td>Disdiadococinesia</td>
+<td>Incapacidad para movimientos alternantes rápidos fluidos (pronosupinación rápida); ritmo y amplitud irregulares</td>
+</tr>
+<tr>
+<td>Temblor de intención</td>
+<td>Aparece o se acentúa al acercar el dedo al objetivo; opuesto al temblor de reposo extrapiramidal; mayor frecuencia (6–12 Hz)</td>
+</tr>
+<tr>
+<td>Alteraciones del habla y equilibrio</td>
+<td>Disartria cerebelosa (habla escandida, explosiva, irregular en intensidad); nistagmo; alteración del equilibrio estático con base de sustentación aumentada</td>
+</tr>
+</tbody>
+</table></div>
+<h3 class="sub" id="tipos-de-ataxia-diapo-18">Tipos de ataxia <span class="cite">diapo 18</span></h3>
+<p>La ataxia es un síntoma, no un diagnóstico. Tres orígenes posibles; diferenciarlos clínicamente antes de pedir imagen.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Origen</th>
+<th>Claves diferenciales</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ataxia cerebelosa</td>
+<td>Cerebelo o sus pedúnculos</td>
+<td>No empeora con ojos cerrados; base amplia; dismetría, disdiadococinesia, temblor de intención; sin alteración de la sensibilidad profunda</td>
+</tr>
+<tr>
+<td>Ataxia sensitiva</td>
+<td>Cordones posteriores o raíces sensitivas</td>
+<td>Empeora marcadamente con ojos cerrados (Romberg positivo); sin dismetría apendicular significativa; alteración de propiocepción y palestesia</td>
+</tr>
+<tr>
+<td>Ataxia vestibular</td>
+<td>Laberinto o nervio vestibular</td>
+<td>Vértigo, náuseas, nistagmo; desviación siempre hacia el mismo lado; empeora con movimientos de cabeza</td>
+</tr>
+</tbody>
+</table></div>
+<p>La prueba de Romberg diferencia la ataxia sensitiva (positivo) de la cerebelosa (negativo o no claramente positivo); dato exploratorio de alto valor localizador <span class="cite">diapo 18</span>.</p>
+<p>Caso clínico <span class="cite">diapo 19</span>: hombre 55 años, bebedor habitual, inestabilidad de la marcha progresiva de meses. Base amplia con lateropulsión, dismetría bilateral dedo-nariz, disdiadococinesia bilateral, habla algo escandida, sin alteración de la sensibilidad, Romberg negativo. Tipo de ataxia: cerebelosa. Hipótesis: degeneración cerebelosa alcohólica (afecta preferentemente el vermis anterior, ataxia predominantemente de la marcha). Otras causas: encefalopatía de Wernicke (déficit de tiamina), neoplasias (el cerebelo es localización frecuente de metástasis), ataxias hereditarias (pacientes más jóvenes sin tóxicos) <span class="cite">diapo 19</span>.</p>
+
+</section>
+<section id="sec-sindrome-meningeo" class="card">
+<div class="section-kicker"><span class="n">06</span> Diapositivas 20–23</div>
+<h2>Síndrome meníngeo</h2>
+<p>Irritación de las meninges: urgencia neurológica <span class="cite">diapo 20</span>.</p>
+<p>Clínica <span class="cite">diapo 21</span>:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Manifestación</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cefalea</td>
+<td>Intensa, de inicio agudo, “la peor cefalea de mi vida”; holomicraneana y persistente; no alivia con analgésicos comunes</td>
+</tr>
+<tr>
+<td>Rigidez de nuca</td>
+<td>Resistencia a la flexión del cuello; el paciente no puede llevar el mentón al esternón; el signo meníngeo más constante y el primero en buscarse</td>
+</tr>
+<tr>
+<td>Fotofobia y fonofobia</td>
+<td>Intolerancia a la luz y al ruido por hiperexcitabilidad del SNC; el paciente prefiere oscuridad y silencio; muy orientadores junto a cefalea</td>
+</tr>
+<tr>
+<td>Náuseas y vómitos</td>
+<td>De origen central, no relacionados con la ingesta; pueden preceder o acompañar la cefalea; frecuentes en meningitis aguda y HSA</td>
+</tr>
+</tbody>
+</table></div>
+<p>Signos meníngeos clásicos <span class="cite">diapo 22</span>: maniobras que objetivan la irritación radicular y meníngea; su sensibilidad no es perfecta (pueden faltar en inmunosuprimidos, ancianos o fases iniciales), pero la especificidad es alta.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Signo</th>
+<th>Maniobra</th>
+<th>Interpretación</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kernig</td>
+<td>En decúbito supino, flexión de cadera a 90° y extensión de rodilla; positivo si hay resistencia dolorosa por encima de los 135°</td>
+<td>Irritación de las raíces lumbares</td>
+</tr>
+<tr>
+<td>Brudzinski</td>
+<td>Al flexionar pasivamente el cuello, se produce flexión involuntaria de las rodillas</td>
+<td>Irritación meníngea generalizada; signo reflejo de protección</td>
+</tr>
+</tbody>
+</table></div>
+<p>Con alteración de conciencia: la asociación de síndrome meníngeo con alteración del nivel de conciencia indica afectación del parénquima (meningoencefalitis) y empeora significativamente el pronóstico <span class="cite">diapo 22</span>.</p>
+<p>Diferencial <span class="cite">diapo 23</span>:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Entidad</th>
+<th>Claves</th>
+<th>LCR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Meningitis bacteriana aguda</td>
+<td>Fiebre elevada, síndrome meníngeo completo, progresión rápida; urgencia máxima (mortalidad sin tratamiento &gt; 50 %)</td>
+<td>Pleocitosis neutrofílica, proteínas elevadas, glucosa baja</td>
+</tr>
+<tr>
+<td>Meningitis vírica</td>
+<td>Más larvado, autolimitado; habitualmente benigna, requiere excluir encefalitis herpética</td>
+<td>Pleocitosis linfocitaria, proteínas moderadas, glucosa normal</td>
+</tr>
+<tr>
+<td>Hemorragia subaracnoidea (HSA)</td>
+<td>Cefalea “en trueno” hiperaguda, sin fiebre; TC craneal urgente puede ser diagnóstica; causa habitual: rotura de aneurisma</td>
+<td>Xantocromía</td>
+</tr>
+<tr>
+<td>Meningitis crónica o carcinomatosa</td>
+<td>Instauración insidiosa; causas: tuberculosis, hongos (Cryptococcus), células tumorales</td>
+<td>Pleocitosis variable, proteínas elevadas, glucosa baja</td>
+</tr>
+</tbody>
+</table></div>
+
+</section>
+<section id="sec-acv-como-sindrome" class="card">
+<div class="section-kicker"><span class="n">07</span> Diapositivas 25–31</div>
+<h2>ACV como síndrome</h2>
+<p>El ACV es un síndrome, no una enfermedad única: conjunto de síntomas y signos de déficit neurológico focal de comienzo agudo, de causa isquémica (80 %) u hemorrágica (20 %); la distinción es esencial porque los tratamientos son opuestos <span class="cite">diapo 25</span>.</p>
+<ul>
+<li>Definición operativa: déficit neurológico focal de instauración aguda atribuible a causa vascular. Clave = <strong>focal</strong>: los síntomas reflejan el territorio vascular afectado, no una disfunción cerebral global. La instauración es aguda (máxima expresión en segundos o minutos); una evolución subaguda en días obliga a reconsiderar el diagnóstico <span class="cite">diapo 25</span>.</li>
+<li>El razonamiento clínico tiene valor diagnóstico propio y debe preceder a la TC, no sustituirla: hemiparesia derecha + afasia + desviación de la mirada a la izquierda ya localiza en territorio de ACM izquierda antes de ver cualquier imagen <span class="cite">diapo 25</span>.</li>
+</ul>
+<h3 class="sub" id="las-ocho-preguntas-del-acv-agudo-diapo-26">Las ocho preguntas del ACV agudo <span class="cite">diapo 26</span></h3>
+<ol type="1">
+<li><strong>¿Cuándo comenzaron los síntomas?</strong> Hora exacta o “último momento normal” si estaba dormido; determina elegibilidad para trombolisis IV (ventana de 4,5 h) o trombectomía mecánica.</li>
+<li><strong>¿Existe déficit motor?</strong> Paresia facial, hemi- o monoplejia. Brazo + pierna + cara = territorio ACA/ACM; solo pierna = territorio ACA.</li>
+<li><strong>¿Existe déficit sensitivo?</strong> Hemianestesia contralateral → vía sensitiva (tálamo, corteza parietal).</li>
+<li><strong>¿Hay alteración del lenguaje?</strong> Afasia expresiva (Broca), receptiva (Wernicke) o global; implica siempre hemisferio dominante (izquierdo en diestros).</li>
+<li><strong>¿Hay compromiso visual?</strong> Hemianopsia homónima → lesión retroquiasmática; amaurosis fugax → isquemia retiniana (arteria oftálmica).</li>
+<li><strong>¿Existe desviación de la mirada?</strong> Hacia el lado de la lesión hemisférica (“el paciente mira su lesión”) o al lado contrario en lesiones pontinas.</li>
+<li><strong>¿Existe alteración de conciencia?</strong> Indica lesión hemisférica bilateral, del tronco o del sistema reticular activador; empeora el pronóstico.</li>
+<li><strong>¿Cuál fue el último momento normal?</strong> Si despertó con déficit, es cuando se durmió; referencia para calcular la ventana terapéutica.</li>
+</ol>
+<h3 class="sub" id="territorios-vasculares-y-sus-síndromes-diapo-2730">Territorios vasculares y sus síndromes <span class="cite">diapo 27–30</span></h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Territorio</th>
+<th>Síndrome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ACM (territorio más frecuentemente afectado) <span class="cite">diapo 27</span></td>
+<td>Oclusión proximal: hemiplejia contralateral, hemianestesia, hemianopsia homónima, afasia (hemisferio dominante) o heminegligencia (no dominante), desviación de la mirada hacia la lesión</td>
+</tr>
+<tr>
+<td>ACA <span class="cite">diapo 29</span></td>
+<td>Déficit motor y sensitivo predominantemente en miembro inferior contralateral; puede asociar abulia o cambios de comportamiento por afectación frontal</td>
+</tr>
+<tr>
+<td>ACP <span class="cite">diapo 28</span></td>
+<td>Hemianopsia homónima contralateral sin déficit motor; posible confusión o desorientación; si afecta el tálamo: síndrome talámico (hemianestesia contralateral intensa)</td>
+</tr>
+<tr>
+<td>Vertebrobasilar <span class="cite">diapo 30</span></td>
+<td>Síndromes alternos (pares craneales ipsilateral + déficit largo contralateral), ataxia, vértigo, nistagmo, disartria; el síndrome de Wallenberg (arteria cerebelosa posteroinferior) es el más frecuente</td>
+</tr>
+</tbody>
+</table></div>
+<p>Caso clínico <span class="cite">diapo 31</span>: mujer 76 años con fibrilación auricular; encontrada con “cara torcida, brazo derecho caído y sin poder hablar”; hace exactamente 1 hora estaba normal. Paresia facial central derecha, hemiparesia derecha 1/5, afasia global, desviación de la mirada hacia la izquierda, Babinski derecho. Localización: hemisferio izquierdo, territorio ACM proximal. La FA es factor de riesgo mayor de ACV cardioembólico. Con 60 minutos desde el inicio, está en ventana para trombolisis IV con rtPA si la TC excluye hemorragia; el door-to-needle time debe ser menor de 60 minutos en hospitales con código ictus activo <span class="cite">diapo 31</span>.</p>
+
+</section>
+<section id="sec-epilepsia" class="card">
+<div class="section-kicker"><span class="n">08</span> Diapositivas 32–36</div>
+<h2>Epilepsia</h2>
+<p>Del evento paroxístico al diagnóstico: caracterizar antes de clasificar; semiología ictal <span class="cite">diapo 32</span>.</p>
+<p>Secuencia diagnóstica <span class="cite">diapo 33</span>: el diagnóstico de epilepsia es fundamentalmente clínico. EEG y neuroimagen son complementarias que apoyan la hipótesis clínica, no la reemplazan. El primer paso es siempre una descripción exhaustiva del evento: evento → caracterización → semiología → hipótesis.</p>
+<p>Caracterización del evento paroxístico <span class="cite">diapo 34</span>:</p>
+<ul>
+<li><strong>Tipo de movimientos:</strong> tónicos (rigidez sostenida), clónicos (sacudidas rítmicas), tónico-clónicos generalizados, automatismos (orales, manuales repetitivos), ausencia de movimiento con pérdida de contacto. Cada patrón motor tiene implicaciones semiológicas y localizadoras.</li>
+<li><strong>Estado de conciencia:</strong> ¿respondía?, ¿podía hablar?, ¿recordaba? Distingue crisis focales con y sin alteración de conciencia, y focales de generalizadas.</li>
+<li><strong>Duración y recuperación:</strong> las crisis típicas duran entre 30 segundos y 3 minutos; si no cede en 5 minutos es estado epiléptico y requiere tratamiento urgente. La recuperación lenta y confusa (estado postictal) apoya el origen epiléptico.</li>
+<li><strong>Fenómenos asociados:</strong> mordedura lateral de lengua (muy específica de crisis tónico-clónica generalizada), incontinencia urinaria, cianosis perioral, aura previa (fenómenos sensoriales o autonómicos que preceden la crisis en pocos segundos o minutos).</li>
+</ul>
+<h3 class="sub" id="crisis-vs-síncope-vs-evento-no-epiléptico-diapo-35">Crisis vs. síncope vs. evento no epiléptico <span class="cite">diapo 35</span></h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Característica</th>
+<th>Crisis epiléptica</th>
+<th>Síncope</th>
+<th>Evento no epiléptico</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Duración</td>
+<td>30 s – 3 min</td>
+<td>Segundos</td>
+<td>Variable, a menudo &gt; 3 min</td>
+</tr>
+<tr>
+<td>Movimientos</td>
+<td>Tónicos/clónicos organizados</td>
+<td>Sacudidas breves, pocas</td>
+<td>Irregulares, asincrónicos</td>
+</tr>
+<tr>
+<td>Recuperación</td>
+<td>Lenta, confusión postictal</td>
+<td>Rápida, lúcido en segundos</td>
+<td>Variable, sin confusión real</td>
+</tr>
+<tr>
+<td>Mordedura de lengua</td>
+<td>Lateral, frecuente</td>
+<td>Ausente o punta</td>
+<td>Ausente</td>
+</tr>
+<tr>
+<td>Desencadenante</td>
+<td>Ausente o disparador específico</td>
+<td>Ortostasis, dolor, calor</td>
+<td>Estrés emocional frecuente</td>
+</tr>
+<tr>
+<td>EEG ictal</td>
+<td>Actividad epileptiforme</td>
+<td>Enlentecimiento difuso</td>
+<td>Normal durante el evento</td>
+</tr>
+</tbody>
+</table></div>
+<h3 class="sub" id="tipos-de-crisis-ilae-2017-diapo-36">Tipos de crisis (ILAE 2017) <span class="cite">diapo 36</span></h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Inicio</th>
+<th>Características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Focal</td>
+<td>Comienza en una red localizada en un hemisferio; con conciencia conservada (antes “simples”) o con alteración de conciencia (antes “complejas”); puede generalizarse secundariamente. La semiología ictal localiza el foco: crisis versivas → frontal; aura epigástrica → temporal; aura visual → occipital</td>
+</tr>
+<tr>
+<td>Generalizado</td>
+<td>Comienza en redes de ambos hemisferios simultáneamente desde el inicio; incluye ausencias típicas, mioclónicas, tónicas, tónico-clónicas generalizadas, atónicas; EEG con descargas sincrónicas bilaterales desde el inicio</td>
+</tr>
+<tr>
+<td>Desconocido</td>
+<td>Cuando la información no permite clasificar el inicio; categoría provisional hasta completar el estudio</td>
+</tr>
+</tbody>
+</table></div>
+
+</section>
+<section id="sec-enfermedad-de-parkinson" class="card">
+<div class="section-kicker"><span class="n">09</span> Diapositivas 37–39</div>
+<h2>Enfermedad de Parkinson</h2>
+<p>Reconocimiento del síndrome extrapiramidal en su expresión más paradigmática <span class="cite">diapo 37</span>.</p>
+<p>Tétrada clásica <span class="cite">diapo 38</span>:</p>
+<ul>
+<li><strong>Bradicinesia:</strong> lentitud global, hipomimia, micrografía, reducción del braceo, dificultad para iniciar el movimiento (“congelación”).</li>
+<li><strong>Rigidez:</strong> en rueda dentada, presente en muñeca, codo y cuello; contribuye a la postura en flexión generalizada.</li>
+<li><strong>Temblor de reposo:</strong> 4–6 Hz, asimétrico en el inicio, “cuenta monedas”; desaparece con el movimiento voluntario y durante el sueño.</li>
+<li><strong>Inestabilidad postural:</strong> aparece en estadios avanzados; prueba de retropulsión positiva; riesgo elevado de caídas.</li>
+</ul>
+<p>Marcha característica <span class="cite">diapo 38</span>: inicio dificultoso, a menudo con congelamiento en el umbral de una puerta; pasos cortos rozando el suelo; ausencia de braceo bilateral o unilateral; postura encorvada con flexión de tronco y rodillas; festinación (aceleración progresiva incontrolada); giro en bloque con múltiples pasos.</p>
+<h3 class="sub" id="parkinson-idiopático-vs-parkinsonismos-diapo-39">Parkinson idiopático vs. parkinsonismos <span class="cite">diapo 39</span></h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Entidad</th>
+<th>Características</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Parkinson idiopático</td>
+<td>Inicio asimétrico, temblor de reposo prominente, buena respuesta inicial a levodopa, progresión lenta; el más frecuente (70–80 % de los parkinsonismos)</td>
+</tr>
+<tr>
+<td>Parkinsonismo farmacológico</td>
+<td>Causa más frecuente de parkinsonismo secundario; antipsicóticos (haloperidol, risperidona), metoclopramida, cinnarizina; habitualmente simétrico; reversible al retirar el fármaco</td>
+</tr>
+<tr>
+<td>Parálisis supranuclear progresiva (PSP)</td>
+<td>Parálisis de la mirada vertical, caídas precoces, rigidez axial predominante, poca respuesta a levodopa; señal de alarma: caídas en el primer año</td>
+</tr>
+<tr>
+<td>Atrofia multisistémica (AMS)</td>
+<td>Parkinsonismo con disfunción autonómica prominente (hipotensión ortostática, incontinencia), signos cerebelosos o piramidales asociados; escasa respuesta a levodopa</td>
+</tr>
+</tbody>
+</table></div>
+
+</section>
+<section id="sec-neuropatias-perifericas" class="card">
+<div class="section-kicker"><span class="n">10</span> Diapositivas 40–43</div>
+<h2>Neuropatías periféricas</h2>
+<p>Lesión del nervio periférico: el polo opuesto al síndrome piramidal; consecuencia de la lesión de la segunda neurona motora, de la fibra sensitiva o de ambas <span class="cite">diapo 40, 41</span>.</p>
+<p>Clínica <span class="cite">diapo 41</span>:</p>
+<ul>
+<li><strong>Debilidad distal:</strong> predomina en segmentos distales (manos y pies); inicialmente torpeza manual, dificultad para abrochar botones, pie caído o dificultad para caminar de puntillas; a diferencia del síndrome piramidal, la distribución es distal y simétrica.</li>
+<li><strong>Distribución en guante y calcetín:</strong> la afectación sensitiva es longitud-dependiente (las fibras más largas se afectan primero); comienza en los pies y asciende simétricamente; diagnóstica de polineuropatía axonal difusa.</li>
+<li><strong>Hiporreflexia o arreflexia:</strong> lesión de la segunda neurona motora o de fibras aferentes del arco reflejo; la arreflexia aquílea es precoz en la mayoría de las polineuropatías; contrasta con la hiperreflexia piramidal.</li>
+<li><strong>Alteraciones del trofismo:</strong> denervación crónica produce amiotrofia distal progresiva (adelgazamiento de músculos de manos y pies), piel adelgazada, pérdida de vello, uñas frágiles; en polineuropatías autonómicas, trastornos vasomotores y de la sudoración.</li>
+</ul>
+<h3 class="sub" id="piramidal-vs-neuropatía-periférica-diapo-42">Piramidal vs. neuropatía periférica <span class="cite">diapo 42</span></h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Característica</th>
+<th>Síndrome Piramidal (MNS)</th>
+<th>Neuropatía Periférica (MNI)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Distribución de la debilidad</td>
+<td>Hemicorporal / paraplejia / tetraplejia</td>
+<td>Distal y simétrica</td>
+</tr>
+<tr>
+<td>Tono muscular</td>
+<td>Aumentado (espasticidad)</td>
+<td>Disminuido (hipotonía)</td>
+</tr>
+<tr>
+<td>Reflejos miotáticos</td>
+<td>Hiperreflexia</td>
+<td>Hiporreflexia / arreflexia</td>
+</tr>
+<tr>
+<td>Babinski</td>
+<td>Presente</td>
+<td>Ausente</td>
+</tr>
+<tr>
+<td>Amiotrofia</td>
+<td>Ausente o tardía</td>
+<td>Precoz y prominente</td>
+</tr>
+<tr>
+<td>Fasciculaciones</td>
+<td>Ausentes</td>
+<td>Posibles (lesión de MNI pura)</td>
+</tr>
+<tr>
+<td>Localización</td>
+<td>Corteza → cápsula → médula</td>
+<td>Raíz → plexo → nervio periférico</td>
+</tr>
+</tbody>
+</table></div>
+<p>Causas frecuentes <span class="cite">diapo 43</span>:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Causa</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Diabetes mellitus</td>
+<td>Causa más frecuente de polineuropatía en países occidentales; polineuropatía sensitivo-motora distal simétrica con inicio en pies; asociada a neuropatía autonómica (taquicardia en reposo, hipotensión ortostática, disfunción eréctil)</td>
+</tr>
+<tr>
+<td>Alcohol</td>
+<td>Segunda causa más frecuente; polineuropatía axonal distal, combinada con déficit de tiamina (B1); afectación sensitiva predominante con dolor neuropático en pies (“quemor”) frecuente</td>
+</tr>
+<tr>
+<td>Tóxicos y fármacos</td>
+<td>Quimioterapia (cisplatino, paclitaxel), isoniazida, metronidazol, amiodarona; el antecedente farmacológico es esencial; suele ser reversible al retirar el agente</td>
+</tr>
+<tr>
+<td>Hereditarias y autoinmunes</td>
+<td>Charcot-Marie-Tooth (hereditaria más frecuente), polineuropatía desmielinizante inflamatoria crónica (PDIC), síndrome de Guillain-Barré (polineuropatía aguda ascendente, potencialmente mortal)</td>
+</tr>
+</tbody>
+</table></div>
+
+</section>
+<section id="sec-caso-integrador-final" class="card">
+<div class="section-kicker"><span class="n">11</span> Diapositivas 45–47</div>
+<h2>Caso integrador final</h2>
+<p>Presentación <span class="cite">diapo 45</span>: varón 62 años, hipertenso y fumador. Episodio de 20 minutos hace 3 días: “la mitad de la cara dormida” y “la mano derecha torpe”, sin pérdida de conciencia ni movimientos anormales; recuperación completa. Actualmente asintomático; exploración neurológica normal; PA 175/100 mmHg; ECG en ritmo sinusal.</p>
+<p>Razonamiento por los pasos del método <span class="cite">diapo 45</span>:</p>
+<ul>
+<li>Paso 1, síntoma principal: episodio transitorio de déficit sensitivo hemifacial y paresia de mano derecha con recuperación completa; la clave es el carácter transitorio y focal.</li>
+<li>Paso 2, signos: exploración actual normal; la normalidad exploratoria no descarta la patología — en un AIT por definición el déficit es transitorio.</li>
+<li>Paso 3, función afectada: sensibilidad hemifacial derecha y motilidad fina de mano derecha → vía sensitiva y motora en el lado izquierdo.</li>
+<li>Paso 4, localización: déficit hemisónico derecho transitorio → hemisferio o tálamo izquierdos; sin afectación de pares craneales → supratentorial.</li>
+<li>Paso 5, síndrome: síndrome neurológico focal transitorio → Accidente Isquémico Transitorio (AIT); duración menor de 24 h con recuperación completa define el AIT.</li>
+</ul>
+<p>Hipótesis y decisión <span class="cite">diapo 46</span>: el AIT es una emergencia neurológica; el riesgo de ACV completo en las 48–72 horas siguientes es de 3–10 %; la puntuación ABCD² estratifica el riesgo <span class="cite">diapo 46, 47</span>. Con ABCD² ≥ 4 el riesgo de ACV en las primeras 48 horas supera el 4–10 %, justificando hospitalización urgente; la mayoría de los ACV tras AIT son prevenibles con antitrombótico urgente, control de TA y estudio etiológico precoz <span class="cite">diapo 46</span>.</p>
+<ul>
+<li>Hipótesis etiológica: AIT en territorio de ACM izquierda en un hipertenso fumador. Causas probables por frecuencia: aterosclerosis de gran vaso (carótida interna izquierda), enfermedad de pequeño vaso (lacunar), cardioembolia (ECG sinusal, pero se requieren Holter 24 h y ecocardiograma) <span class="cite">diapo 46</span>.</li>
+<li>Actuación urgente: hospitalización en unidad de ictus o área de observación; TC craneal urgente; eco-Doppler de troncos supraaórticos (estenosis carotídea); Holter ECG 24 h (FA paroxística); antiagregación (AAS 300 mg + clopidogrel si no hay contraindicación); control estricto de la TA <span class="cite">diapo 46</span>.</li>
+</ul>
+<p>La diapositiva 47 muestra la tabla de la escala ABCD² (edad &gt; 60; PA &gt; 140/90; debilidad unilateral; alteración aislada del habla; duración ≥ 60 minutos; diabetes), con la estimación de riesgo de ACV isquémico a las 48 h de un AIT; los puntajes exactos son parcialmente legibles en la extracción (se distinguen 1 y 2 puntos según ítem).</p>
+
+</section>
+<section id="sec-cierre-los-cinco-sindromes" class="card">
+<div class="section-kicker"><span class="n">12</span> Diapositivas 48–49</div>
+<h2>Cierre: los cinco síndromes</h2>
+<p>Puntos clave para recordar <span class="cite">diapo 49</span>:</p>
+<ol type="1">
+<li><strong>Construir el síndrome antes del diagnóstico:</strong> nunca nombrar una enfermedad antes de identificar el síndrome; el síndrome localiza y la localización orienta la etiología.</li>
+<li><strong>El tiempo es cerebro en el ACV:</strong> el déficit focal agudo es una urgencia hasta demostrar lo contrario; la ventana terapéutica cierra en 4,5 horas.</li>
+<li><strong>El síndrome meníngeo febril es una urgencia:</strong> los antibióticos no se demoran esperando resultados; la clínica basta para iniciar tratamiento empírico ante sospecha de meningitis bacteriana.</li>
+<li><strong>La ataxia tiene tres orígenes distintos:</strong> cerebelosa, sensitiva o vestibular; el Romberg y el patrón sensitivo las distinguen antes de pedir imagen.</li>
+<li><strong>El AIT es una emergencia neurológica:</strong> la recuperación completa no reduce el riesgo; el 10 % de los AIT se sigue de ACV en las primeras 48 horas sin tratamiento precoz.</li>
+<li><strong>Piramidal e hiporreflexia no coexisten:</strong> si hay Babinski, debe haber hiperreflexia; si hay arreflexia, la lesión es periférica. Permite detectar errores exploratorios o cuadros mixtos (ELA).</li>
+</ol>
+<h3 class="sub" id="tabla-final-de-los-cinco-síndromes-diapo-48">Tabla final de los cinco síndromes <span class="cite">diapo 48</span></h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Síndrome</th>
+<th>Localización</th>
+<th>Clínica</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Piramidal</td>
+<td>Vía corticoespinal</td>
+<td>Debilidad hemisómica, hiperreflexia, Babinski positivo, espasticidad</td>
+</tr>
+<tr>
+<td>Extrapiramidal</td>
+<td>Ganglios basales</td>
+<td>Bradicinesia, rigidez, temblor de reposo</td>
+</tr>
+<tr>
+<td>Cerebeloso</td>
+<td>Cerebelo</td>
+<td>Ataxia, dismetría, temblor de intención, Romberg negativo</td>
+</tr>
+<tr>
+<td>Meníngeo</td>
+<td>Meninges</td>
+<td>Cefalea, rigidez de nuca, fotofobia, Kernig y Brudzinski; urgencia</td>
+</tr>
+<tr>
+<td>Neuropatía periférica</td>
+<td>Nervio periférico</td>
+<td>Debilidad distal, arreflexia, amiotrofia</td>
+</tr>
+</tbody>
+</table></div>
+
+</section>
+<section id="sec-conceptos-clave-y-siglas" class="card">
+<div class="section-kicker"><span class="n">13</span> Diapositivas 6–45</div>
+<h2>Conceptos clave y siglas</h2>
+<ul>
+<li><strong>Síndrome piramidal:</strong> lesión de la MNS (corteza → cápsula → tronco → médula); espasticidad, hiperreflexia, Babinski, reflejos superficiales abolidos <span class="cite">diapo 6, 7</span>.</li>
+<li><strong>Síndrome cruzado de pares craneales:</strong> lesión de tronco con pares craneales afectados del lado ipsilateral y déficit largo contralateral <span class="cite">diapo 9</span>.</li>
+<li><strong>Síndrome extrapiramidal:</strong> disfunción de ganglios basales y circuito nigroestriado; bradicinesia, rigidez, temblor de reposo, alteraciones posturales <span class="cite">diapo 12</span>.</li>
+<li><strong>Ataxia:</strong> síntoma (no diagnóstico) de origen cerebeloso, sensitivo o vestibular <span class="cite">diapo 18</span>.</li>
+<li><strong>Romberg:</strong> positivo en ataxia sensitiva, negativo en la cerebelosa; dato localizador <span class="cite">diapo 18</span>.</li>
+<li><strong>ACV:</strong> síndrome de déficit neurológico focal agudo de causa vascular (isquémico 80 % / hemorrágico 20 %) <span class="cite">diapo 25</span>.</li>
+<li><strong>Último momento normal:</strong> referencia para calcular la ventana terapéutica en ACV <span class="cite">diapo 26</span>.</li>
+<li><strong>Estado epiléptico:</strong> crisis que no cede en 5 minutos; urgencia <span class="cite">diapo 34</span>.</li>
+<li><strong>Estado postictal:</strong> recuperación lenta y confusa tras la crisis; apoya el origen epiléptico <span class="cite">diapo 34</span>.</li>
+<li><strong>AIT:</strong> déficit focal transitorio &lt; 24 h con recuperación completa; emergencia neurológica <span class="cite">diapo 45</span>.</li>
+<li><strong>Siglas:</strong> ACV, AIT, ACM/ACA/ACP (arterias cerebral media/anterior/posterior), HSA, MNS/MNI (motoneurona superior/inferior), EP, PSP (parálisis supranuclear progresiva), AMS (atrofia multisistémica), PDIC (polineuropatía desmielinizante inflamatoria crónica), ILAE (Liga Internacional Contra la Epilepsia), FA (fibrilación auricular), LCR, TC, EEG, ELA (esclerosis lateral amiotrófica), ABCD².</li>
+</ul>
+
+</section>
+<section id="sec-preguntas-probables" class="card">
+<div class="section-kicker"><span class="n">14</span> Diapositivas 3–49</div>
+<h2>Preguntas probables</h2>
+<div class="qa-tools"><button class="openAll" type="button">Abrir todas</button><button class="closeAll" type="button">Cerrar todas</button></div>
+<details class="qa"><summary>1. ¿Cuáles son las seis preguntas del razonamiento neurológico y en qué paso se genera la hipótesis etiológica?</summary><div class="answer">Síntoma principal; signos; función alterada; localización; síndrome; diagnóstico. La hipótesis etiológica solo en el paso 6, tras construir el síndrome. <span class="cite">diapo 3</span></div></details>
+<details class="qa"><summary>2. ¿Por qué el orden del razonamiento neurológico importa?</summary><div class="answer">Nombrar una enfermedad antes de construir el síndrome cierra la mente a alternativas y genera errores graves en cuadros incompletos o atípicos; la localización es información diagnóstica de primer orden. <span class="cite">diapo 4</span></div></details>
+<details class="qa"><summary>3. ¿Qué características definen al síndrome piramidal?</summary><div class="answer">Debilidad (extensores en MS, flexores en MI), espasticidad “navaja de muelle”, hiperreflexia ± clonus, Babinski, abolición de reflejos abdominales y cremasterianos, hipotrofia por desuso. <span class="cite">diapo 7</span></div></details>
+<details class="qa"><summary>4. ¿Por qué el Babinski es tan valioso?</summary><div class="answer">Es el signo más específico de lesión piramidal y puede estar presente incluso antes que los demás signos. <span class="cite">diapo 7</span></div></details>
+<details class="qa"><summary>5. Caso: hemiparesia derecha aguda con hiperreflexia y Babinski, sin afectación de pares craneales. Localización e hipótesis.</summary><div class="answer">Vía piramidal izquierda por encima de la decusación (supratentorial); ACV isquémico o hemorrágico en territorio de ACM izquierda. <span class="cite">diapo 10</span></div></details>
+<details class="qa"><summary>6. ¿Cómo se distingue la espasticidad de la rigidez extrapiramidal?</summary><div class="answer">Espasticidad: velocidad-dependiente, asimétrica, cede a altas velocidades (“navaja de muelle”). Rigidez: resistencia constante en todas direcciones, “rueda dentada” o “tubo de plomo”. <span class="cite">diapo 7, 12</span></div></details>
+<details class="qa"><summary>7. ¿Cuáles son los cuatro elementos clínicos del síndrome extrapiramidal?</summary><div class="answer">Bradicinesia (signo cardinal), rigidez, temblor de reposo de 4–6 Hz, alteraciones posturales y de la marcha (festinación). <span class="cite">diapo 12</span></div></details>
+<details class="qa"><summary>8. Hipomimia, temblor de reposo y rigidez en rueda dentada: ¿equivale a enfermedad de Parkinson?</summary><div class="answer">No; el síndrome extrapiramidal no equivale automáticamente a EP. Causas posibles: EP idiopática, parkinsonismos secundarios (farmacológico, vascular, tóxico) y atípicos (AMS, PSP). <span class="cite">diapo 13</span></div></details>
+<details class="qa"><summary>9. ¿Cómo diferenciar ataxia cerebelosa, sensitiva y vestibular en la exploración?</summary><div class="answer">Cerebelosa: no empeora con ojos cerrados, dismetría y disdiadococinesia. Sensitiva: Romberg positivo, sin dismetría apendicular significativa. Vestibular: vértigo, nistagmo, desviación al mismo lado, empeora con movimientos de cabeza. <span class="cite">diapo 18</span></div></details>
+<details class="qa"><summary>10. Caso: bebedor crónico con ataxia de la marcha progresiva y Romberg negativo. Diagnóstico más probable.</summary><div class="answer">Degeneración cerebelosa alcohólica (afecta vermis anterior); considerar además Wernicke, metástasis y ataxias hereditarias. <span class="cite">diapo 19</span></div></details>
+<details class="qa"><summary>11. ¿Qué significa el síndrome meníngeo con alteración de conciencia?</summary><div class="answer">Meningoencefalitis (afectación del parénquima); empeora significativamente el pronóstico. <span class="cite">diapo 22</span></div></details>
+<details class="qa"><summary>12. ¿Cómo se explora y qué indica el signo de Kernig?</summary><div class="answer">Supino, flexión de cadera a 90° y extensión de rodilla; positivo si resistencia dolorosa sobre los 135°; refleja irritación de raíces lumbares. <span class="cite">diapo 22</span></div></details>
+<details class="qa"><summary>13. ¿Qué hallazgo en el LCR orienta a meningitis bacteriana vs. vírica?</summary><div class="answer">Bacteriana: pleocitosis neutrofílica, proteínas elevadas, glucosa baja. Vírica: pleocitosis linfocitaria, proteínas moderadas, glucosa normal. <span class="cite">diapo 23</span></div></details>
+<details class="qa"><summary>14. ¿Por qué el ACV debe enseñarse como síndrome y no como enfermedad?</summary><div class="answer">Porque es déficit focal agudo de causa vascular, isquémica (80 %) o hemorrágica (20 %), con tratamientos opuestos; la focalidad refleja el territorio vascular. <span class="cite">diapo 25</span></div></details>
+<details class="qa"><summary>15. Hemiparesia de miembro inferior aislado: ¿qué territorio sugiere?</summary><div class="answer">Territorio de ACA (déficit predominantemente en miembro inferior contralateral, con posible abulia). <span class="cite">diapo 26, 29</span></div></details>
+<details class="qa"><summary>16. ¿Hacia dónde se desvía la mirada en un ACV hemisférico y en uno pontino?</summary><div class="answer">Hemisférico: hacia la lesión (“el paciente mira su lesión”); pontino: hacia el lado contrario. <span class="cite">diapo 26</span></div></details>
+<details class="qa"><summary>17. Hemianopsia homónima sin déficit motor: ¿qué territorio?</summary><div class="answer">Arteria cerebral posterior; si compromete el tálamo, síndrome talámico con hemianestesia contralateral intensa. <span class="cite">diapo 28</span></div></details>
+<details class="qa"><summary>18. ¿Qué es el síndrome de Wallenberg y con qué arteria se asocia?</summary><div class="answer">El síndrome vertebrobasilar más frecuente (arteria cerebelosa posteroinferior); sindromes alternos, ataxia, vértigo, nistagmo, disartria. <span class="cite">diapo 30</span></div></details>
+<details class="qa"><summary>19. ¿Qué dos datos del evento paroxístico más apoyan el origen epiléptico?</summary><div class="answer">La mordedura lateral de lengua (muy específica de tónico-clónica generalizada) y el estado postictal (recuperación lenta y confusa). <span class="cite">diapo 34</span></div></details>
+<details class="qa"><summary>20. ¿Cuándo una crisis se considera estado epiléptico?</summary><div class="answer">Cuando no cede en 5 minutos; requiere tratamiento urgente. <span class="cite">diapo 34</span></div></details>
+<details class="qa"><summary>21. Crisis que dura &gt; 3 minutos con movimientos irregulares y asincrónicos, sin mordedura de lengua, en contexto de estrés emocional: ¿qué sugiere?</summary><div class="answer">Evento no epiléptico (EEG ictal normal durante el evento; recuperación variable sin confusión real). <span class="cite">diapo 35</span></div></details>
+<details class="qa"><summary>22. Crisis versivas, aura epigástrica y aura visual: ¿dónde localizan el foco?</summary><div class="answer">Versivas → frontal; aura epigástrica → temporal; aura visual → occipital. <span class="cite">diapo 36</span></div></details>
+<details class="qa"><summary>23. ¿Qué elementos componen la tétrada parkinsoniana y cómo es el temblor?</summary><div class="answer">Bradicinesia, rigidez en rueda dentada, temblor de reposo 4–6 Hz asimétrico (“cuenta monedas”) e inestabilidad postural (estadios avanzados). <span class="cite">diapo 38</span></div></details>
+<details class="qa"><summary>24. ¿Qué señala que un parkinsonismo no es EP idiopática (PSP)?</summary><div class="answer">Parálisis de la mirada vertical, caídas precoces (señal de alarma: caídas en el primer año), rigidez axial, poca respuesta a levodopa. <span class="cite">diapo 39</span></div></details>
+<details class="qa"><summary>25. ¿Cuál es la causa más frecuente de parkinsonismo secundario y qué la caracteriza?</summary><div class="answer">Farmacológica: antipsicóticos (haloperidol, risperidona), metoclopramida, cinnarizina; habitualmente simétrico y reversible al retirar el fármaco. <span class="cite">diapo 39</span></div></details>
+<details class="qa"><summary>26. ¿Por qué la polineuropatía es “en guante y calcetín”?</summary><div class="answer">Afectación longitud-dependiente: las fibras más largas se afectan primero; síntomas que empiezan en los pies y ascienden simétricamente; diagnóstica de polineuropatía axonal difusa. <span class="cite">diapo 41</span></div></details>
+<details class="qa"><summary>27. Piramidal vs. neuropatía: reflejos, Babinski y trofismo.</summary><div class="answer">Piramidal: hiperreflexia, Babinski presente, amiotrofia ausente o tardía. Neuropatía: hiporreflexia/arreflexia, Babinski ausente, amiotrofia precoz y prominente (± fasciculaciones). <span class="cite">diapo 42</span></div></details>
+<details class="qa"><summary>28. ¿Cuáles son las dos causas más frecuentes de polineuropatía en países occidentales?</summary><div class="answer">Diabetes mellitus (primera) y alcohol (segunda, con déficit de tiamina asociado). <span class="cite">diapo 43</span></div></details>
+<details class="qa"><summary>29. Caso final: episodio de 20 min de hemifacial dormido + mano torpe, recuperado por completo. ¿Síndrome y manejo?</summary><div class="answer">AIT (déficit focal transitorio &lt; 24 h con recuperación completa); es emergencia: hospitalización, TC urgente, eco-Doppler carotídeo, Holter, antiagregación (AAS 300 mg + clopidogrel) y control de TA. <span class="cite">diapo 45, 46</span></div></details>
+<details class="qa"><summary>30. ¿Por qué piramidal e hiporreflexia no coexisten?</summary><div class="answer">Porque el síndrome piramidal incluye hiperreflexia; si hay arreflexia la lesión es periférica. La regla detecta errores exploratorios o cuadros mixtos (ELA). <span class="cite">diapo 49</span></div></details>
+</section>
+<section id="sec-diapositivas-sin-texto-extraible" class="card">
+<div class="section-kicker"><span class="n">15</span> Cierre</div>
+<h2>Diapositivas sin texto extraíble</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Diapositiva</th>
+<th>Contenido (según texto residual/título)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Portada: “Integración Clínica y Síndromes Neurológicos”</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Sección “Del Síntoma al Síndrome”; título del método; resto solo-imagen (OCR inutilizable)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Sección “Síndrome Piramidal”: lesión de la vía corticoespinal, motoneurona superior; resto gráfico</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Solo texto OCR aislado: “Cremasteric reflex”; el resto de la diapositiva no es legible</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Sin texto legible (OCR-thin vacío); presumiblemente sección gráfica del síndrome extrapiramidal</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Solo título: “Síndrome Meningeo — irritación de las meninges: urgencia neurológica”; resto imagen</td>
+</tr>
+<tr>
+<td>37</td>
+<td>Solo título: “Enfermedad de Parkinson — reconocimiento del síndrome extrapiramidal en su expresión más paradigmática”</td>
+</tr>
+<tr>
+<td>44</td>
+<td>Solo título: “Caso Final Integrador”; contenido en las diapositivas 45–46</td>
+</tr>
+</tbody>
+</table></div>
+
+</section>
+  </main>
+</div>
+
+<footer>
+  <div class="foot-inner">
+    <div><strong>Guía de estudio — Integración Clínica y Síndromes Neurológicos</strong><br>Certamen 3 · Semiología del sistema nervioso · Clase 4 de 4</div>
+    <div>Fuente: <code>Clase-4-Integracion-Clinica-y-Sindromes-Neurologicos.pdf</code> · 49 diapositivas<br>
+    Citaciones <code>[diapo N]</code> = número de diapositiva del PDF.<br>
+    Elaborada el 23 de noviembre de 2026.</div>
+  </div>
+</footer>
+
+<script>
+  const root = document.documentElement;
+  const themeBtn = document.getElementById('themeBtn');
+  const printBtn = document.getElementById('printBtn');
+
+  function setTheme(theme){
+    root.dataset.theme = theme;
+    const dark = theme === 'dark';
+    themeBtn.textContent = dark ? 'Modo claro' : 'Modo oscuro';
+    themeBtn.setAttribute('aria-pressed', String(dark));
+    try { localStorage.setItem('guia-theme', theme); } catch(e) {}
+  }
+  try {
+    const saved = localStorage.getItem('guia-theme');
+    if (saved === 'dark' || saved === 'light') setTheme(saved);
+  } catch(e) {}
+  themeBtn.addEventListener('click', () => setTheme(root.dataset.theme === 'dark' ? 'light' : 'dark'));
+  printBtn.addEventListener('click', () => window.print());
+  window.addEventListener('beforeprint', () => document.querySelectorAll('details').forEach(d => d.open = true));
+
+  const links = [...document.querySelectorAll('.toc a[href^="#"]')];
+  const sections = [...document.querySelectorAll('main section[id]')];
+  if ('IntersectionObserver' in window) {
+    const obs = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        const id = entry.target.id;
+        links.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + id));
+      });
+    }, {rootMargin: '-15% 0px -70% 0px', threshold: 0});
+    sections.forEach(s => obs.observe(s));
+  }
+
+  document.querySelectorAll('.openAll').forEach(b => b.addEventListener('click', () =>
+    b.closest('section').querySelectorAll('details.qa').forEach(d => d.open = true)));
+  document.querySelectorAll('.closeAll').forEach(b => b.addEventListener('click', () =>
+    b.closest('section').querySelectorAll('details.qa').forEach(d => d.open = false)));
+</script>
+</body>
+</html>

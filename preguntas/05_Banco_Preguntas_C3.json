@@ -1,0 +1,878 @@
+{
+  "version": 1,
+  "titulo": "Semiología C3 — sistema nervioso",
+  "preguntas": [
+    {
+      "id": "sc3-01",
+      "enunciado": "Un paciente refiere hormigueo en los dedos de la mano; el examen objetiva hipoestesia en el territorio del nervio mediano. ¿Qué representa cada hallazgo en la cadena diagnóstica?",
+      "alternativas": [
+        "Signo el primero y síntoma el segundo",
+        "Síndrome el primero y signo el segundo",
+        "Síntoma el primero y signo el segundo",
+        "Síntoma el primero y síndrome el segundo",
+        "Diagnóstico el primero y signo el segundo"
+      ],
+      "respuesta": 2,
+      "pista": "Pregúntese cuál de los dos datos existe solo porque el paciente lo cuenta.",
+      "argumento": "Correcta: el hormigueo es síntoma, porque es lo que el paciente refiere subjetivamente; la hipoestesia es signo, porque la detecta el explorador. Las opciones que invierten el orden intercambian ambos eslabones. Las que nombran síndrome o diagnóstico confunden pasos posteriores: el síndrome es la agrupación reconocible de síntomas y signos, y el diagnóstico integra esa agrupación con la etiología.",
+      "tipo": "directa",
+      "tags": [
+        "c3",
+        "cadena-diagnostica"
+      ],
+      "dificultad": "facil",
+      "fuente": "Guía 01 — Anamnesis, §1"
+    },
+    {
+      "id": "sc3-02",
+      "enunciado": "Una mujer de 45 años consulta por una cefalea que alcanzó su máxima intensidad en segundos, «la peor de mi vida»; la exploración neurológica es normal. ¿Cuál es la conducta más adecuada?",
+      "alternativas": [
+        "Descartar hemorragia subaracnoidea",
+        "Indicar analgésico y control ambulatorio",
+        "Solicitar radiografía simple de cráneo",
+        "Diagnosticar migraña sin aura",
+        "Citarla en un mes si persiste el dolor"
+      ],
+      "respuesta": 0,
+      "pista": "El inicio en trueno es por sí mismo un signo de alarma, aunque el examen sea normal.",
+      "argumento": "Correcta: la cefalea en trueno obliga a descartar hemorragia subaracnoidea incluso con exploración normal, porque es un red flag de alta sensibilidad. El control ambulatorio y la cita diferida subestiman el riesgo. La radiografía simple de cráneo no responde a la pregunta diagnóstica. Diagnostican migraña sin aura sin cumplir sus criterios ni descartar causa secundaria.",
+      "tipo": "directa",
+      "tags": [
+        "c3",
+        "cefalea",
+        "red-flags"
+      ],
+      "dificultad": "facil",
+      "fuente": "Guía 01 — Anamnesis, §8"
+    },
+    {
+      "id": "sc3-03",
+      "enunciado": "Sobre el «último momento en que estaba completamente normal» en el ACV isquémico: I) La fibrinólisis intravenosa se indica dentro de 4,5 horas desde el inicio de los síntomas.  II) Si el paciente despertó ya con el déficit, el inicio se cuenta desde la hora del despertar.  III) Su precisión se apoya también en el relato del acompañante.",
+      "alternativas": [
+        "Solo I",
+        "Solo II",
+        "Solo I y II",
+        "Solo II y III",
+        "Solo I y III"
+      ],
+      "respuesta": 4,
+      "pista": "Separe la ventana terapéutica del criterio con que se fija la hora de inicio en un paciente dormido.",
+      "argumento": "I: V, la ventana de fibrinólisis IV es de 4,5 horas desde el inicio. II: F, si despertó con síntomas el inicio es la última vez que fue visto normal, no la hora del despertar. III: V, el acompañante valida ese momento y es informador clave. Por eso la respuesta es «Solo I y III»; las demás opciones incluyen el numeral II falso o excluyen alguno verdadero.",
+      "tipo": "suficiencia",
+      "tags": [
+        "c3",
+        "acv",
+        "ventana-terapeutica"
+      ],
+      "dificultad": "media",
+      "fuente": "Guía 01 — Anamnesis, §7 y §11"
+    },
+    {
+      "id": "sc3-04",
+      "enunciado": "Vértigo intenso de inicio brusco con hipoacusia y acúfenos; el nistagmo es horizonto-rotatorio y se suprime con la fijación visual. ¿Qué origen corresponde?",
+      "alternativas": [
+        "Central, por el nistagmo vertical",
+        "Periférico, por los síntomas cocleares",
+        "Central, por la gran intensidad del cuadro",
+        "Central, por el curso progresivo",
+        "Central, por la hipoacusia referida"
+      ],
+      "respuesta": 1,
+      "pista": "Compare los acompañantes del vértigo: cocleares y sin otros déficit, o neurológicos centrales.",
+      "argumento": "Correcta: síntomas cocleares con nistagmo horizonto-rotatorio suprimido por la fijación configuran vértigo periférico. El nistagmo vertical y no suprimido es central, no lo descrito. La intensidad del cuadro no define el origen: el periférico suele ser el más incapacitante. El curso progresivo orientaría a central, pero el inicio aquí fue brusco. La hipoacusia es un dato periférico y no central.",
+      "tipo": "directa",
+      "tags": [
+        "c3",
+        "vertigo",
+        "mareo"
+      ],
+      "dificultad": "media",
+      "fuente": "Guía 01 — Anamnesis, §9"
+    },
+    {
+      "id": "sc3-05",
+      "enunciado": "Sensación de desmayo inminente con visión que se nubla, sin giro del entorno, que cede al sentarse. ¿Qué categoría de «mareo» corresponde?",
+      "alternativas": [
+        "Vértigo periférico de inicio brusco",
+        "Desequilibrio de origen cerebeloso",
+        "Mareo inespecífico por ansiedad",
+        "Presíncope por hipoperfusión cerebral",
+        "Síncope con pérdida de conciencia"
+      ],
+      "respuesta": 3,
+      "pista": "Distinga la sensación de desmayo sin perder la conciencia del giro del entorno.",
+      "argumento": "Correcta: presíncope es la sensación de desmayo inminente sin llegar a perder la conciencia, por hipoperfusión cerebral transitoria. El vértigo exige sensación ilusoria de movimiento. El desequilibrio es inestabilidad postural sin giro ni presíncope. El mareo inespecífico es difuso y sin este cortejo. El síncope implica pérdida efectiva de conciencia, que aquí no ocurrió.",
+      "tipo": "directa",
+      "tags": [
+        "c3",
+        "mareo",
+        "presincope"
+      ],
+      "dificultad": "facil",
+      "fuente": "Guía 01 — Anamnesis, §9"
+    },
+    {
+      "id": "sc3-06",
+      "enunciado": "¿Qué conjunto de hallazgos corresponde a una lesión de motoneurona superior?",
+      "alternativas": [
+        "Hiporreflexia, flacidez y atrofia",
+        "Arreflexia, fasciculaciones y atrofia",
+        "Hipotonía, clonus y atrofia precoz",
+        "Hiperreflexia, hipotonía y fasciculaciones",
+        "Hiperreflexia, espasticidad y Babinski"
+      ],
+      "respuesta": 4,
+      "pista": "El patrón central pierde la inhibición descendente; el periférico interrumpe el arco reflejo.",
+      "argumento": "Correcta: hiperreflexia, espasticidad y Babinski definen el compromiso de la vía corticoespinal. La hiporreflexia con flacidez y atrofia es el patrón periférico. La arreflexia con fasciculaciones y atrofia también es periférica. La hipotonía con clonus mezcla hallazgos incompatibles entre sí. La hiperreflexia con hipotonía y fasciculaciones combina signos que no coexisten en un mismo nivel.",
+      "tipo": "directa",
+      "tags": [
+        "c3",
+        "motoneurona-superior"
+      ],
+      "dificultad": "facil",
+      "fuente": "Guía 01 — Anamnesis, §10"
+    },
+    {
+      "id": "sc3-07",
+      "enunciado": "Un déficit neurológico que se instala a lo largo de semanas o meses orienta con mayor probabilidad a:",
+      "alternativas": [
+        "Ictus isquémico agudo",
+        "Crisis epiléptica focal",
+        "Neoplasia o déficit carencial",
+        "Hipoglucemia sintomática",
+        "Arritmia con hipoperfusión cerebral"
+      ],
+      "respuesta": 2,
+      "pista": "Relacione la velocidad de instauración con el grupo etiológico, no con la gravedad.",
+      "argumento": "Correcta: el curso de semanas a meses orienta a causa tumoral, desmielinizante progresiva o carencial, como B12 y tiamina. El ictus, la crisis epiléptica, la hipoglucemia y la arritmia se instalan en segundos o minutos. Ninguna de esas cuatro causas explica un déficit que progresa durante meses.",
+      "tipo": "directa",
+      "tags": [
+        "c3",
+        "velocidad-instauracion"
+      ],
+      "dificultad": "facil",
+      "fuente": "Guía 01 — Anamnesis, §11"
+    },
+    {
+      "id": "sc3-08",
+      "enunciado": "Paciente con ptosis y midriasis del ojo derecho, más hemiparesia del hemicuerpo izquierdo. ¿Dónde se localiza la lesión?",
+      "alternativas": [
+        "Cápsula interna derecha",
+        "Corteza motora izquierda",
+        "Médula cervical lateral",
+        "Cerebelo hemisférico derecho",
+        "Tronco encefálico derecho"
+      ],
+      "respuesta": 4,
+      "pista": "Un par craneal de un lado con déficit largo del otro es un patrón alterno.",
+      "argumento": "Correcta: par craneal ipsilateral más déficit motor contralateral define un síndrome alterno de tronco encefálico. La cápsula interna y la corteza producen déficit contralateral sin compromiso de pares craneales. La médula cervical no explica la ptosis ni la midriasis. El cerebelo no produce paresia directa.",
+      "tipo": "directa",
+      "tags": [
+        "c3",
+        "tronco-encefalico",
+        "sindrome-alterno"
+      ],
+      "dificultad": "media",
+      "fuente": "Guía 01 — Anamnesis, §10"
+    },
+    {
+      "id": "sc3-09",
+      "enunciado": "Un paciente con migraña conocida consulta porque la cefalea cambió de localización, frecuencia e intensidad. ¿Cuál es la conducta correcta?",
+      "alternativas": [
+        "Mantener el tratamiento habitual",
+        "Evaluarlo como posible causa secundaria",
+        "Atribuirlo al estrés y citarlo en un mes",
+        "Indicar solo analgesia de rescate",
+        "Repetir la receta previa sin estudio"
+      ],
+      "respuesta": 1,
+      "pista": "La pregunta central es si esta cefalea es igual a las anteriores o distinta.",
+      "argumento": "Correcta: el cambio de patrón en una cefalea conocida es red flag y obliga a descartar causa secundaria sobreañadida. Mantener el tratamiento, dar analgesia de rescate o repetir la receta asumen que se trata de la cefalea primaria habitual. Atribuirlo al estrés y diferir un mes posterga el estudio de un signo de alarma.",
+      "tipo": "directa",
+      "tags": [
+        "c3",
+        "cefalea",
+        "cambio-de-patron"
+      ],
+      "dificultad": "media",
+      "fuente": "Guía 01 — Anamnesis, §8"
+    },
+    {
+      "id": "sc3-10",
+      "enunciado": "Paciente despierto, que sigue órdenes simples pero no sabe la fecha ni dónde está. ¿Qué dimensión de la conciencia está alterada?",
+      "alternativas": [
+        "El nivel de conciencia",
+        "El ciclo vigilia-sueño",
+        "Ambas dimensiones a la vez",
+        "El contenido de conciencia",
+        "El sistema reticular ascendente"
+      ],
+      "respuesta": 3,
+      "pista": "Diferencie estar despierto de comprender, orientarse y responder adecuadamente.",
+      "argumento": "Correcta: el paciente está vigil, pero falla la orientación y la coherencia de los procesos cognitivos, es decir el contenido. El nivel está conservado, porque está despierto y responde. El ciclo vigilia-sueño no es una de las dos dimensiones descritas. No hay alteración de ambas. El sistema reticular activador sustenta el nivel, que aquí está normal.",
+      "tipo": "directa",
+      "tags": [
+        "c3",
+        "conciencia"
+      ],
+      "dificultad": "media",
+      "fuente": "Guía 02 — Del síntoma al síndrome, §2"
+    },
+    {
+      "id": "sc3-11",
+      "enunciado": "Respecto de las dimensiones de la conciencia: I) El nivel depende del sistema reticular activador ascendente del tronco.  II) Un paciente alerta puede tener el contenido gravemente alterado.  III) El contenido se evalúa observando la apertura ocular espontánea.",
+      "alternativas": [
+        "Solo I",
+        "Solo III",
+        "Solo I y II",
+        "Solo II y III",
+        "Todas son correctas"
+      ],
+      "respuesta": 2,
+      "pista": "La apertura ocular informa del nivel; el contenido se explora con preguntas de orientación.",
+      "argumento": "I: V, el nivel de conciencia depende del sistema reticular activador ascendente del tronco. II: V, el delirium y algunas demencias muestran alerta con contenido deteriorado. III: F, la apertura ocular es un indicador de nivel, no de contenido; el contenido se evalúa con orientación, atención y lenguaje. Por eso corresponde «Solo I y II».",
+      "tipo": "suficiencia",
+      "tags": [
+        "c3",
+        "conciencia"
+      ],
+      "dificultad": "media",
+      "fuente": "Guía 02 — Del síntoma al síndrome, §2"
+    },
+    {
+      "id": "sc3-12",
+      "enunciado": "Pérdida de conciencia de unos 30 segundos, con palidez, sin movimientos clónicos, y recuperación inmediata y completa. ¿Qué cuadro es más probable?",
+      "alternativas": [
+        "Crisis tónico-clónica generalizada",
+        "Crisis focal con generalización",
+        "Estado epiléptico no convulsivo",
+        "Síncope por hipoperfusión cerebral",
+        "Crisis de ausencia con automatismos"
+      ],
+      "respuesta": 3,
+      "pista": "Mire la duración y el tipo de recuperación: inmediata y sin confusión frente a postictal.",
+      "argumento": "Correcta: duración de segundos, palidez y recuperación inmediata y completa son propios del síncope. La crisis tónico-clónica dura habitualmente 1–3 minutos y deja confusión postictal. La focal generalizada suele acompañarse de clonías y postictal. El estado epiléptico no convulsivo no se resuelve en 30 segundos. La ausencia con automatismos no cursa con palidez ni recuperación tan rápida.",
+      "tipo": "directa",
+      "tags": [
+        "c3",
+        "convulsion",
+        "sincope"
+      ],
+      "dificultad": "media",
+      "fuente": "Guía 02 — Del síntoma al síndrome, §5"
+    },
+    {
+      "id": "sc3-13",
+      "enunciado": "Tras una crisis tónico-clónica generalizada el paciente queda con hemiparesia que se resuelve en horas. Ese déficit focal transitorio se denomina:",
+      "alternativas": [
+        "Aura motora",
+        "Estado postictal",
+        "Síndrome de Weber",
+        "Clonus sostenido",
+        "Parálisis de Todd"
+      ],
+      "respuesta": 4,
+      "pista": "Es un déficit focal transitorio de la fase posterior a la crisis, no la crisis misma.",
+      "argumento": "Correcta: la parálisis de Todd es el déficit focal transitorio postictal. El aura es un síntoma focal que precede a la crisis, no la sigue. El estado postictal es la confusión y somnolencia generales, no el déficit focal. El síndrome de Weber es una lesión mesencefálica con paresia del III y hemiparesia. El clonus es un signo de hiperexcitabilidad, no un déficit.",
+      "tipo": "directa",
+      "tags": [
+        "c3",
+        "convulsion",
+        "postictal"
+      ],
+      "dificultad": "facil",
+      "fuente": "Guía 02 — Del síntoma al síndrome, §4"
+    },
+    {
+      "id": "sc3-14",
+      "enunciado": "Paciente cuya fuerza es normal al inicio del esfuerzo pero decrece al repetir el movimiento, con recuperación tras el reposo. ¿Qué explica el cuadro?",
+      "alternativas": [
+        "Debilidad verdadera de origen miopático",
+        "Limitación mecánica de una articulación",
+        "Dolor que impide ejecutar el movimiento",
+        "Debilidad central de tipo piramidal",
+        "Fatiga por falla de la unión neuromuscular"
+      ],
+      "respuesta": 4,
+      "pista": "La fuerza inicial normal que cae con la actividad sostenida apunta a un mecanismo distinto de la paresia.",
+      "argumento": "Correcta: fatiga es el agotamiento con el esfuerzo mantenido, típico de la miastenia gravis. La debilidad verdadera es incapacidad de generar fuerza desde el inicio y no mejora con el reposo. La limitación mecánica depende de la articulación y no de la repetición. El dolor impide mover, pero la fuerza al vencerlo es normal. La debilidad piramidal es constante y no fluctúa con el esfuerzo.",
+      "tipo": "directa",
+      "tags": [
+        "c3",
+        "debilidad",
+        "fatiga"
+      ],
+      "dificultad": "media",
+      "fuente": "Guía 02 — Del síntoma al síndrome, §6"
+    },
+    {
+      "id": "sc3-15",
+      "enunciado": "Paciente con pérdida de la sensibilidad al dolor y a la temperatura en cuello y brazos, pero con vibración y propiocepción conservadas. ¿Qué explica el patrón?",
+      "alternativas": [
+        "Lesión de las columnas dorsales",
+        "Polineuropatía distal simétrica",
+        "Lesión medular central intrínseca",
+        "Lesión cortical parietal derecha",
+        "Radiculopatía cervical única"
+      ],
+      "respuesta": 2,
+      "pista": "Piense dónde cruzan la vía termoalgésica y la de los cordones posteriores.",
+      "argumento": "Correcta: la disociación sensitiva con termoalgesia perdida y propiocepción intacta es característica de lesiones medulares intrínsecas como la siringomielia. La lesión de columnas dorsales perdería vibración y propiocepción. La polineuropatía afecta distal y simétricamente todas las modalidades. La lesión parietal altera la integración cortical, no una modalidad aislada. La radiculopatía compromete un dermatoma completo.",
+      "tipo": "directa",
+      "tags": [
+        "c3",
+        "sensitivo",
+        "disociacion-sensitiva"
+      ],
+      "dificultad": "dificil",
+      "fuente": "Guía 02 — Del síntoma al síndrome, §9"
+    },
+    {
+      "id": "sc3-16",
+      "enunciado": "Paciente que comprende las órdenes, sabe qué quiere decir y escribe correctamente, pero articula mal las palabras. ¿Qué presenta?",
+      "alternativas": [
+        "Disartria por vía corticobulbar",
+        "Afasia de Broca",
+        "Afasia de conducción",
+        "Afasia de Wernicke",
+        "Negligencia del hemicampo izquierdo"
+      ],
+      "respuesta": 0,
+      "pista": "Distinga el sistema simbólico del lenguaje de la producción motora del sonido.",
+      "argumento": "Correcta: disartria es la alteración de la articulación con lenguaje y comprensión conservados, por lesión de vías corticobulbares, cerebelo o nervios craneales. En la afasia de Broca falla la expresión del lenguaje, no solo la articulación. La de conducción altera la repetición. La de Wernicke altera la comprensión. La negligencia es un déficit atencional del hemicampo, sin relación con el habla.",
+      "tipo": "directa",
+      "tags": [
+        "c3",
+        "lenguaje",
+        "disartria"
+      ],
+      "dificultad": "media",
+      "fuente": "Guía 02 — Del síntoma al síndrome, §14"
+    },
+    {
+      "id": "sc3-17",
+      "enunciado": "La repetición de frases está alterada, con comprensión y expresión conservadas. ¿Qué estructura está comprometida?",
+      "alternativas": [
+        "Área de Broca",
+        "Área de Wernicke",
+        "Nervio hipogloso",
+        "Fascículo arqueado",
+        "Corteza parietal derecha"
+      ],
+      "respuesta": 3,
+      "pista": "El componente aislado que falla conecta la comprensión con la producción.",
+      "argumento": "Correcta: la afasia de conducción por lesión del fascículo arqueado altera la repetición con comprensión y expresión preservadas. Broca explica la no fluencia y Wernicke la falla de comprensión. El hipogloso es motor de la lengua y no un componente del lenguaje. La corteza parietal derecha se vincula a negligencia y praxias, no a la repetición.",
+      "tipo": "directa",
+      "tags": [
+        "c3",
+        "lenguaje",
+        "afasia"
+      ],
+      "dificultad": "dificil",
+      "fuente": "Guía 02 — Del síntoma al síndrome, §14"
+    },
+    {
+      "id": "sc3-18",
+      "enunciado": "Recordar tres palabras tras cinco minutos de distracción evalúa principalmente la memoria:",
+      "alternativas": [
+        "Inmediata, del bucle fonológico",
+        "Reciente, dependiente del hipocampo",
+        "Remota, de tipo autobiográfico",
+        "Semántica, de la corteza temporal",
+        "De trabajo, del sistema prefrontal dorsolateral"
+      ],
+      "respuesta": 1,
+      "pista": "El intervalo con distracción impide apoyarse en la retención de segundos.",
+      "argumento": "Correcta: la memoria reciente o episódica se explora así y depende del hipocampo y del circuito de Papez; es la más precozmente afectada en Alzheimer. La inmediata se evalúa repitiendo dígitos al momento. La remota se refiere a hechos y vivencias antiguas. La semántica es el conocimiento de hechos. La de trabajo sostiene la información mientras se opera con ella, y no requiere cinco minutos.",
+      "tipo": "directa",
+      "tags": [
+        "c3",
+        "memoria"
+      ],
+      "dificultad": "facil",
+      "fuente": "Guía 02 — Del síntoma al síndrome, §15"
+    },
+    {
+      "id": "sc3-19",
+      "enunciado": "Paresia de toda la hemicara derecha, incluida la frente, con imposibilidad de cerrar el ojo derecho. ¿Qué origen tiene?",
+      "alternativas": [
+        "Central, por lesión corticobulbar",
+        "Central, por lesión del trigémino",
+        "Periférica, por lesión del hipogloso",
+        "Central, por lesión capsular derecha",
+        "Periférica, por lesión del nervio facial"
+      ],
+      "respuesta": 4,
+      "pista": "La frente tiene inervación bilateral desde la corteza; su compromiso cambia la localización.",
+      "argumento": "Correcta: el compromiso de toda la hemicara, frente incluida, con lagoftalmos, corresponde a lesión periférica del nervio facial. La lesión central respeta la frente por su inervación bilateral y suele afectar solo la parte inferior. El trigémino es sensitivo de la cara y motor de la masticación, no de la mímica. El hipogloso mueve la lengua. Una lesión capsular daría paresia facial central, con frente preservada.",
+      "tipo": "directa",
+      "tags": [
+        "c3",
+        "pares-craneales",
+        "facial"
+      ],
+      "dificultad": "media",
+      "fuente": "Guía 02 — Del síntoma al síndrome, §17"
+    },
+    {
+      "id": "sc3-20",
+      "enunciado": "Paciente con brazos en flexión rígida sobre el pecho y piernas extendidas, en postura bilateral simétrica. ¿Qué indica?",
+      "alternativas": [
+        "Lesión supratentorial con tronco preservado",
+        "Lesión de tronco con centros vitales comprometidos",
+        "Irritación meníngea con opistótonos",
+        "Rigidez extrapiramidal en rueda dentada",
+        "Espasticidad por lesión medular cervical"
+      ],
+      "respuesta": 0,
+      "pista": "Compare la flexión de los brazos con la extensión de las piernas y qué nivel queda funcional.",
+      "argumento": "Correcta: la decorticación combina flexión de miembros superiores con extensión de inferiores y refleja lesión supratentorial con tronco relativamente preservado. La descerebración da extensión rígida de los cuatro miembros y compromete centros vitales, con peor pronóstico. El opistótonos es arqueamiento dorsal por irritación meníngea. La rueda dentada es un hallazgo del examen pasivo, no una postura de coma. La lesión medular cervical no produce esta combinación.",
+      "tipo": "directa",
+      "tags": [
+        "c3",
+        "posturas",
+        "decorticacion"
+      ],
+      "dificultad": "media",
+      "fuente": "Guía 03 — Examen motor, §2"
+    },
+    {
+      "id": "sc3-21",
+      "enunciado": "En la escala MRC, un músculo que se mueve en toda su amplitud pero no vence la gravedad corresponde a:",
+      "alternativas": [
+        "Grado 1",
+        "Grado 2",
+        "Grado 3",
+        "Grado 4",
+        "Grado 5"
+      ],
+      "respuesta": 1,
+      "pista": "Ubique el grado en que hay movimiento completo, pero sin poder levantar el segmento.",
+      "argumento": "Correcta: el grado 2 es movimiento activo en toda la amplitud sin vencer la gravedad. El grado 1 es contracción visible o palpable sin movimiento. El grado 3 vence la gravedad pero no la resistencia. El grado 4 vence resistencia, aunque reducido. El grado 5 es fuerza normal frente a resistencia máxima.",
+      "tipo": "directa",
+      "tags": [
+        "c3",
+        "fuerza",
+        "escala-mrc"
+      ],
+      "dificultad": "facil",
+      "fuente": "Guía 03 — Examen motor, §7"
+    },
+    {
+      "id": "sc3-22",
+      "enunciado": "¿Qué par de hallazgos caracteriza a la espasticidad por lesión corticoespinal?",
+      "alternativas": [
+        "Rueda dentada y bradicinesia",
+        "Rueda dentada con temblor de reposo distal",
+        "Navaja y dependencia de la velocidad",
+        "Navaja y arreflexia generalizada",
+        "Flacidez y fasciculaciones"
+      ],
+      "respuesta": 2,
+      "pista": "Compare si la resistencia depende de la velocidad del movimiento pasivo.",
+      "argumento": "Correcta: la espasticidad es velocidad-dependiente y produce el fenómeno de navaja, propia de la lesión de motoneurona superior. La rueda dentada es rigidez extrapiramidal, con bradicinesia o temblor de reposo. La navaja con arreflexia es contradictoria: la lesión corticoespinal da hiperreflexia. La flacidez con fasciculaciones corresponde a motoneurona inferior.",
+      "tipo": "directa",
+      "tags": [
+        "c3",
+        "tono",
+        "espasticidad"
+      ],
+      "dificultad": "media",
+      "fuente": "Guía 03 — Examen motor, §5"
+    },
+    {
+      "id": "sc3-23",
+      "enunciado": "Fasciculaciones con atrofia muscular prominente y arreflexia orientan a lesión de:",
+      "alternativas": [
+        "Motoneurona superior",
+        "Vía corticoespinal",
+        "Ganglios basales",
+        "Motoneurona inferior",
+        "Cerebelo hemisférico"
+      ],
+      "respuesta": 3,
+      "pista": "La denervación activa con atrofia precoz interrumpe el arco reflejo.",
+      "argumento": "Correcta: fasciculaciones, atrofia prominente y arreflexia son el patrón de motoneurona inferior, con el arco reflejo interrumpido. La motoneurona superior y la vía corticoespinal dan hiperreflexia, espasticidad y atrofia tardía. Los ganglios basales producen rigidez y bradicinesia sin atrofia. El cerebelo da hipotonía e incoordinación, sin atrofia marcada.",
+      "tipo": "directa",
+      "tags": [
+        "c3",
+        "motoneurona-inferior"
+      ],
+      "dificultad": "facil",
+      "fuente": "Guía 03 — Examen motor, §9"
+    },
+    {
+      "id": "sc3-24",
+      "enunciado": "¿Qué reflejo osteotendinoso explora el nivel medular L3–L4?",
+      "alternativas": [
+        "Patelar",
+        "Aquíleo",
+        "Bicipital",
+        "Tricipital",
+        "Braquiorradial"
+      ],
+      "respuesta": 0,
+      "pista": "Relacione cada reflejo con el nervio que lo media y el segmento que lo integra.",
+      "argumento": "Correcta: el reflejo patelar o rotuliano explora L3–L4 por el nervio femoral. El aquíleo explora S1–S2 por el ciático. El bicipital y el braquiorradial exploran C5–C6. El tricipital explora C7–C8.",
+      "tipo": "directa",
+      "tags": [
+        "c3",
+        "reflejos",
+        "rot"
+      ],
+      "dificultad": "media",
+      "fuente": "Guía 03 — Examen motor, §15"
+    },
+    {
+      "id": "sc3-25",
+      "enunciado": "Respecto de la exploración de reflejos: I) El grado 3+ sugiere pérdida de la inhibición corticoespinal.  II) El grado 2+ solo se obtiene con la maniobra de Jendrassik.  III) El clonus es signo de hiperexcitabilidad de la motoneurona superior.",
+      "alternativas": [
+        "Solo I",
+        "Solo II",
+        "Solo I y III",
+        "Solo II y III",
+        "Todas son correctas"
+      ],
+      "respuesta": 2,
+      "pista": "Revise qué grado representa lo normal y para qué sirve la facilitación.",
+      "argumento": "I: V, el 3+ es hiperreflexia por pérdida de inhibición corticoespinal. II: F, el 2+ es la respuesta normal y vigorosa sin facilitación; Jendrassik se usa para rescatar respuestas hipoactivas. III: V, el clonus indica hiperexcitabilidad de la motoneurona superior. Por eso corresponde «Solo I y III».",
+      "tipo": "suficiencia",
+      "tags": [
+        "c3",
+        "reflejos",
+        "rot"
+      ],
+      "dificultad": "dificil",
+      "fuente": "Guía 03 — Examen motor, §15"
+    },
+    {
+      "id": "sc3-26",
+      "enunciado": "El signo de Babinski patológico en el adulto consiste en:",
+      "alternativas": [
+        "Flexión plantar del hallux y los dedos",
+        "Flexión refleja de rodillas al cuello",
+        "Resistencia dolorosa a extender la rodilla",
+        "Extensión lenta del hallux con abanico",
+        "Contracción sostenida del gastrocnemio"
+      ],
+      "respuesta": 3,
+      "pista": "Distinga la respuesta fisiológica del adulto de la respuesta extensora patológica.",
+      "argumento": "Correcta: la respuesta patológica es extensión lenta del hallux, con apertura en abanico de los demás dedos. La flexión plantar del hallux es la respuesta normal del adulto con vía corticoespinal íntegra. La flexión de rodillas al flexionar el cuello es el signo de Brudzinski. La resistencia dolorosa a extender la rodilla es el signo de Kernig. La contracción del gastrocnemio corresponde al estímulo de Gordon, no a la respuesta.",
+      "tipo": "directa",
+      "tags": [
+        "c3",
+        "babinski",
+        "piramidal"
+      ],
+      "dificultad": "media",
+      "fuente": "Guía 03 — Examen motor, §17"
+    },
+    {
+      "id": "sc3-27",
+      "enunciado": "Paciente que se mantiene estable de pie con ojos abiertos, pero se balancea y cae al cerrarlos. ¿Qué indica el hallazgo?",
+      "alternativas": [
+        "Síndrome cerebeloso hemisférico",
+        "Déficit propioceptivo o vestibular",
+        "Lesión piramidal con espasticidad",
+        "Parkinsonismo con festinación",
+        "Neuropatía motora pura distal"
+      ],
+      "respuesta": 1,
+      "pista": "El cierre de los ojos retira la compensación visual de un déficit de sensibilidad profunda.",
+      "argumento": "Correcta: un Romberg positivo indica que la visión compensaba un déficit propioceptivo o vestibular. No es cerebeloso: el paciente cerebeloso ya está inestable con los ojos abiertos. La lesión piramidal da espasticidad, no este patrón. La festinación parkinsoniana aparece al caminar. Una neuropatía solo motora no altera el equilibrio estático de esta forma.",
+      "tipo": "directa",
+      "tags": [
+        "c3",
+        "romberg",
+        "equilibrio"
+      ],
+      "dificultad": "media",
+      "fuente": "Guía 03 — Examen motor, §20"
+    },
+    {
+      "id": "sc3-28",
+      "enunciado": "Paciente que eleva exageradamente la rodilla porque el pie cae con los dedos hacia abajo. ¿Qué explica la alteración?",
+      "alternativas": [
+        "Espasticidad de la vía corticoespinal unilateral",
+        "Paresia de dorsiflexores por nervio peroneo",
+        "Ataxia cerebelosa con base amplia",
+        "Rigidez extrapiramidal con festinación",
+        "Debilidad de la musculatura pélvica"
+      ],
+      "respuesta": 1,
+      "pista": "Identifique qué grupo muscular impide que los dedos tropiecen y qué nervio lo inerva.",
+      "argumento": "Correcta: el steppage se debe a paresia de los dorsiflexores, por lesión del nervio peroneo, radiculopatía L4-L5 o neuropatía periférica. La espasticidad produce circunducción, no caída del pie. La ataxia cerebelosa amplía la base sin pie caído. La festinación es de pasos cortos y arrastrados. La debilidad pélvica da marcha de pato con balanceo lateral.",
+      "tipo": "directa",
+      "tags": [
+        "c3",
+        "marcha",
+        "steppage"
+      ],
+      "dificultad": "facil",
+      "fuente": "Guía 03 — Examen motor, §21"
+    },
+    {
+      "id": "sc3-29",
+      "enunciado": "El signo de Kernig se explora con el paciente en decúbito supino mediante:",
+      "alternativas": [
+        "Flexión pasiva del cuello y descenso del mentón",
+        "Presión sostenida sobre la tibia proximal",
+        "Flexión de cadera a 90° y extensión de rodilla",
+        "Percusión del maléolo externo del pie",
+        "Compresión manual del gastrocnemio"
+      ],
+      "respuesta": 2,
+      "pista": "El signo tensa las raíces lumbares al extender la rodilla con la cadera flexionada.",
+      "argumento": "Correcta: se flexiona la cadera a 90° y se intenta extender la rodilla; la resistencia o el dolor con la extensión son positivos. La flexión pasiva del cuello corresponde a la rigidez de nuca y al Brudzinski. La presión sobre la tibia es el estímulo de Oppenheim y la percusión del maléolo el de Chaddock. La compresión del gastrocnemio es el estímulo de Gordon.",
+      "tipo": "directa",
+      "tags": [
+        "c3",
+        "signos-meningeos",
+        "kernig"
+      ],
+      "dificultad": "facil",
+      "fuente": "Guía 03 — Examen motor, §22"
+    },
+    {
+      "id": "sc3-30",
+      "enunciado": "La dificultad para ejecutar movimientos alternantes rápidos y rítmicos se denomina:",
+      "alternativas": [
+        "Dismetría",
+        "Ataxia sensitiva",
+        "Temblor de reposo",
+        "Disdiadococinesia",
+        "Apraxia ideomotora"
+      ],
+      "respuesta": 3,
+      "pista": "Es el signo más sensible de disfunción hemisférica cerebelosa y se explora con pronosupinación.",
+      "argumento": "Correcta: disdiadococinesia es la dificultad para movimientos alternantes rápidos, con ritmo y amplitud irregulares. La dismetría es el error de alcance del objetivo. La ataxia sensitiva depende de la propiocepción. El temblor de reposo es extrapiramidal. La apraxia es la incapacidad de ejecutar actos motores aprendidos, sin paresia ni incoordinación que lo justifique.",
+      "tipo": "directa",
+      "tags": [
+        "c3",
+        "cerebelo",
+        "coordinacion"
+      ],
+      "dificultad": "media",
+      "fuente": "Guía 03 — Examen motor, §19"
+    },
+    {
+      "id": "sc3-31",
+      "enunciado": "Ataxia de tronco con incapacidad de mantenerse sentado sin apoyo y escasos signos en las extremidades. ¿Qué síndrome corresponde?",
+      "alternativas": [
+        "Vermiano o arquicerebeloso",
+        "Neocerebeloso hemisférico",
+        "Piramidal bilateral",
+        "Neuropatía periférica distal",
+        "Extrapiramidal rígido"
+      ],
+      "respuesta": 0,
+      "pista": "Distinga la ataxia de la línea media de la ataxia apendicular de un hemisferio.",
+      "argumento": "Correcta: la ataxia troncal con escasos signos apendiculares corresponde al síndrome vermiano, típico de la ataxia alcohólica crónica. El neocerebeloso hemisférico da ataxia apendicular ipsilateral con dismetría y disdiadococinesia. El piramidal da paresia con espasticidad. La neuropatía distal da déficit en guante y calcetín. El extrapiramidal da rigidez y bradicinesia.",
+      "tipo": "directa",
+      "tags": [
+        "c3",
+        "cerebelo",
+        "vermis"
+      ],
+      "dificultad": "dificil",
+      "fuente": "Guía 03 — Examen motor, §19"
+    },
+    {
+      "id": "sc3-32",
+      "enunciado": "Sobre los síndromes neurológicos: I) El extrapiramidal cursa con Babinski positivo e hiperreflexia.  II) El cerebeloso presenta Romberg negativo y dismetría.  III) La neuropatía periférica da debilidad distal simétrica y arreflexia.",
+      "alternativas": [
+        "Solo I",
+        "Solo II",
+        "Solo I y II",
+        "Solo II y III",
+        "Todas son correctas"
+      ],
+      "respuesta": 3,
+      "pista": "El Babinski pertenece a la vía corticoespinal, no a los ganglios basales.",
+      "argumento": "I: F, el extrapiramidal no cursa con Babinski ni hiperreflexia; sus reflejos son normales o levemente alterados. II: V, el cerebeloso tiene Romberg negativo, porque el paciente ya está inestable con ojos abiertos, y presenta dismetría. III: V, la neuropatía periférica da debilidad distal simétrica con hiporreflexia o arreflexia. Corresponde «Solo II y III».",
+      "tipo": "suficiencia",
+      "tags": [
+        "c3",
+        "sindromes"
+      ],
+      "dificultad": "media",
+      "fuente": "Guía 04 — Integración, §3 a §5"
+    },
+    {
+      "id": "sc3-33",
+      "enunciado": "¿Cuál es el signo más específico de lesión piramidal, que puede preceder a los demás?",
+      "alternativas": [
+        "Clonus aquíleo",
+        "Espasticidad",
+        "Hiperreflexia",
+        "Hipotrofia por desuso",
+        "Babinski"
+      ],
+      "respuesta": 4,
+      "pista": "Es el signo de la respuesta plantar extensora, y se explora con un objeto de punta roma.",
+      "argumento": "Correcta: el Babinski es el signo más específico de lesión piramidal y puede aparecer antes que el resto. El clonus, la espasticidad y la hiperreflexia acompañan al síndrome, pero son menos específicos. La hipotrofia por desuso es inespecífica y tardía.",
+      "tipo": "directa",
+      "tags": [
+        "c3",
+        "piramidal",
+        "babinski"
+      ],
+      "dificultad": "facil",
+      "fuente": "Guía 04 — Integración, §3"
+    },
+    {
+      "id": "sc3-34",
+      "enunciado": "¿Qué distingue a la rigidez extrapiramidal de la espasticidad piramidal?",
+      "alternativas": [
+        "Aumenta cuanto más rápido se moviliza",
+        "Se acompaña siempre de Babinski",
+        "Cede de golpe al vencer la resistencia",
+        "Produce hiperreflexia con clonus",
+        "Es constante e independiente de la velocidad"
+      ],
+      "respuesta": 4,
+      "pista": "Compare si la resistencia al movimiento pasivo cambia al imprimir más velocidad.",
+      "argumento": "Correcta: la rigidez es una resistencia constante en todas las direcciones, independiente de la velocidad, en rueda dentada o tubo de plomo. El aumento con la velocidad y el ceder de golpe describen la espasticidad. El Babinski, la hiperreflexia y el clonus son hallazgos piramidales, ausentes en el extrapiramidal.",
+      "tipo": "directa",
+      "tags": [
+        "c3",
+        "extrapiramidal",
+        "tono"
+      ],
+      "dificultad": "media",
+      "fuente": "Guía 04 — Integración, §4"
+    },
+    {
+      "id": "sc3-35",
+      "enunciado": "El temblor de la enfermedad de Parkinson se caracteriza por ser:",
+      "alternativas": [
+        "De intención, al acercarse al objetivo",
+        "De reposo, 4–6 Hz y asimétrico al inicio",
+        "Postural, simétrico y de alta frecuencia",
+        "Cinético, que cede con el reposo",
+        "Fascicular, de baja amplitud distal"
+      ],
+      "respuesta": 1,
+      "pista": "Piense en el temblor que desaparece con el movimiento voluntario y durante el sueño.",
+      "argumento": "Correcta: es de reposo, de 4–6 Hz, asimétrico al inicio y desaparece con el movimiento voluntario y el sueño. El de intención es cerebeloso y aumenta al acercarse al objetivo. El postural simétrico no es el patrón parkinsoniano típico. El cinético que cede con el reposo invierte la relación. El fascicular pertenece a la denervación de motoneurona inferior.",
+      "tipo": "directa",
+      "tags": [
+        "c3",
+        "parkinson",
+        "temblor"
+      ],
+      "dificultad": "facil",
+      "fuente": "Guía 04 — Integración, §9"
+    },
+    {
+      "id": "sc3-36",
+      "enunciado": "Paciente con marcha de base amplia que empeora marcadamente al cerrar los ojos, con palestesia abolida en los pies. ¿Qué tipo de ataxia es?",
+      "alternativas": [
+        "Cerebelosa hemisférica",
+        "Vestibular periférica con vértigo",
+        "Sensitiva por cordón posterior",
+        "Parkinsoniana festinante",
+        "Espástica en tijeras"
+      ],
+      "respuesta": 2,
+      "pista": "La mejora o el empeoramiento con la visión separa la ataxia sensitiva de la cerebelosa.",
+      "argumento": "Correcta: el empeoramiento marcado con los ojos cerrados junto a la pérdida de palestesia define ataxia sensitiva por compromiso de cordones posteriores o raíces sensitivas. La cerebelosa no empeora de ese modo y muestra dismetría. La vestibular se acompaña de vértigo y nistagmo. La parkinsoniana es de pasos cortos con festinación. La espástica en tijeras es piramidal, sin déficit de sensibilidad profunda.",
+      "tipo": "directa",
+      "tags": [
+        "c3",
+        "ataxia",
+        "sensitivo"
+      ],
+      "dificultad": "media",
+      "fuente": "Guía 04 — Integración, §5"
+    },
+    {
+      "id": "sc3-37",
+      "enunciado": "El LCR muestra pleocitosis neutrofílica, proteínas elevadas y glucosa baja. ¿Qué orienta?",
+      "alternativas": [
+        "Meningitis bacteriana aguda",
+        "Meningitis vírica autolimitada",
+        "Hemorragia subaracnoidea",
+        "Brote de esclerosis múltiple",
+        "Encefalopatía metabólica"
+      ],
+      "respuesta": 0,
+      "pista": "Distinga el perfil celular y la glucosa del patrón vírico y del hemático.",
+      "argumento": "Correcta: neutrofilia con proteínas altas y glucosa baja es el perfil de la meningitis bacteriana aguda. La vírica da pleocitosis linfocitaria con glucosa normal. La hemorragia subaracnoidea se reconoce por xantocromía. La esclerosis múltiple no produce ese perfil. La encefalopatía metabólica no genera pleocitosis.",
+      "tipo": "directa",
+      "tags": [
+        "c3",
+        "meningitis",
+        "lcr"
+      ],
+      "dificultad": "media",
+      "fuente": "Guía 04 — Integración, §6"
+    },
+    {
+      "id": "sc3-38",
+      "enunciado": "En el ACV isquémico: I) El déficit aislado de miembro inferior orienta a territorio de la arteria cerebral anterior.  II) La hemianopsia homónima sin déficit motor orienta a la arteria cerebral posterior.  III) La desviación de la mirada hacia el lado de la lesión es propia de la lesión pontina.  IV) La fibrilación auricular es factor de riesgo cardioembólico mayor.",
+      "alternativas": [
+        "Solo I y II",
+        "Solo I, II y IV",
+        "Solo I y III",
+        "Solo II y IV",
+        "Todas son correctas"
+      ],
+      "respuesta": 1,
+      "pista": "Repase qué territorio explica cada déficit y hacia dónde mira el paciente en la lesión hemisférica.",
+      "argumento": "I: V, el déficit predominantemente crural corresponde a la arteria cerebral anterior. II: V, la hemianopsia homónima aislada corresponde a la cerebral posterior. III: F, en la lesión hemisférica la mirada se desvía hacia el lado de la lesión; hacia el lado contrario ocurre en la lesión pontina. IV: V, la fibrilación auricular es factor de riesgo cardioembólico mayor. Corresponde «Solo I, II y IV».",
+      "tipo": "suficiencia",
+      "tags": [
+        "c3",
+        "acv",
+        "territorios"
+      ],
+      "dificultad": "dificil",
+      "fuente": "Guía 04 — Integración, §7"
+    },
+    {
+      "id": "sc3-39",
+      "enunciado": "Una crisis convulsiva que no cede en 5 minutos se considera:",
+      "alternativas": [
+        "Estado epiléptico",
+        "Crisis focal simple",
+        "Aura prolongada",
+        "Estado postictal",
+        "Crisis de ausencia"
+      ],
+      "respuesta": 0,
+      "pista": "Hay un corte temporal explícito para definir la urgencia.",
+      "argumento": "Correcta: la crisis que no cede en 5 minutos define estado epiléptico y requiere tratamiento urgente. La crisis focal simple es una clasificación por inicio y conciencia, no por duración. El aura precede a la crisis. El estado postictal es la recuperación confusa posterior. La ausencia típica dura segundos.",
+      "tipo": "directa",
+      "tags": [
+        "c3",
+        "epilepsia",
+        "urgencia"
+      ],
+      "dificultad": "facil",
+      "fuente": "Guía 04 — Integración, §8"
+    },
+    {
+      "id": "sc3-40",
+      "enunciado": "Episodio de 20 minutos de hemiparesia y disartria con recuperación completa; al examen está asintomático. ¿Qué corresponde?",
+      "alternativas": [
+        "AIT, emergencia con riesgo de ACV",
+        "ACV isquémico establecido en evolución",
+        "Crisis epiléptica focal resuelta",
+        "Síncope con déficit transitorio",
+        "Migraña con aura hemiplégica"
+      ],
+      "respuesta": 0,
+      "pista": "El déficit focal transitorio con recuperación completa no reduce el riesgo inmediato.",
+      "argumento": "Correcta: un déficit focal de menos de 24 horas con recuperación completa define AIT, que es emergencia neurológica por el riesgo de ACV en las 48–72 horas siguientes. El ACV establecido deja déficit persistente. La crisis epiléptica no cursa con hemiparesia y disartria focales de 20 minutos. El síncope no produce déficit focal. La migraña con aura no se presenta como hemiparesia con disartria sin cefalea.",
+      "tipo": "directa",
+      "tags": [
+        "c3",
+        "ait",
+        "acv"
+      ],
+      "dificultad": "media",
+      "fuente": "Guía 04 — Integración, §11"
+    }
+  ]
+}

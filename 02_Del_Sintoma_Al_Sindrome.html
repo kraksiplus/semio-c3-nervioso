@@ -1,0 +1,1249 @@
+<!doctype html>
+<html lang="es-CL" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Guía de estudio del Certamen 3 de Semiología (sistema nervioso), con citas por número de diapositiva.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f5c57'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='34' fill='%23d9f0ea' text-anchor='middle'%3EN%3C/text%3E%3C/svg%3E">
+<meta property="og:title" content="Semiología C3 — Sistema nervioso">
+<meta property="og:description" content="Guía de estudio del Certamen 3 de Semiología (sistema nervioso), con citas por número de diapositiva.">
+<meta property="og:type" content="website">
+
+<title>Guía de estudio — Del Síntoma Neurológico al Síndrome · Semiología C3</title>
+<style>  :root{
+    --bg:#f6f4ee;
+    --surface:#fffdf8;
+    --surface-2:#efeae0;
+    --surface-3:#e6dfd1;
+    --ink:#1d2a2e;
+    --muted:#5d6b70;
+    --line:#d8d1c3;
+    --brand:#0f5c57;
+    --brand-2:#147d74;
+    --brand-3:#d9f0ea;
+    --accent:#b45309;
+    --accent-2:#fef3c7;
+    --rose:#9f1239;
+    --rose-2:#ffe4e6;
+    --blue:#1e3a8a;
+    --blue-2:#dbeafe;
+    --shadow:0 10px 30px rgba(20,40,40,.08);
+    --radius:16px;
+    --serif:Georgia,"Iowan Old Style","Palatino Linotype",Palatino,serif;
+    --sans:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  }
+  [data-theme="dark"]{
+    --bg:#0f1617;
+    --surface:#162022;
+    --surface-2:#1d2a2c;
+    --surface-3:#263638;
+    --ink:#e8eeec;
+    --muted:#a7b6b2;
+    --line:#2c3c3d;
+    --brand:#5eead4;
+    --brand-2:#2dd4bf;
+    --brand-3:#123330;
+    --accent:#fbbf24;
+    --accent-2:#3a2a0a;
+    --rose:#fb7185;
+    --rose-2:#3b1119;
+    --blue:#93c5fd;
+    --blue-2:#12233f;
+    --shadow:0 10px 30px rgba(0,0,0,.35);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;
+    font-family:var(--sans);
+    line-height:1.65;
+    color:var(--ink);
+    background:var(--bg);
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--brand-2);text-decoration-thickness:1px;text-underline-offset:2px}
+  a:hover{color:var(--brand)}
+  :focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:4px}
+  .skip-link{
+    position:absolute;left:-9999px;top:0;background:var(--surface);color:var(--ink);
+    padding:.7rem 1rem;z-index:100;border:1px solid var(--line);border-radius:0 0 10px 0
+  }
+  .skip-link:focus{left:0}
+
+  /* HERO */
+  .hero{
+    background:
+      radial-gradient(1200px 500px at 85% -10%,rgba(255,255,255,.16),transparent 60%),
+      linear-gradient(135deg,#082f2c 0%,#0d4b47 55%,#147d74 100%);
+    color:#f7fbfa;
+    padding:clamp(2rem,5vw,4.2rem) clamp(1.2rem,4vw,3rem) clamp(2.4rem,5vw,3.6rem);
+    position:relative;
+    overflow:hidden;
+  }
+  .hero::after{
+    content:"";position:absolute;right:-120px;bottom:-160px;width:420px;height:420px;
+    border:1px solid rgba(255,255,255,.18);border-radius:50%;
+    box-shadow:0 0 0 40px rgba(255,255,255,.04),0 0 0 90px rgba(255,255,255,.03);
+    pointer-events:none;
+  }
+  .hero-inner{max-width:1120px;margin:0 auto;position:relative;z-index:1}
+  .eyebrow{
+    display:inline-flex;align-items:center;gap:.5rem;
+    font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;
+    color:#bff3e9;font-weight:700;margin:0 0 1rem
+  }
+  .eyebrow::before{content:"";width:28px;height:1px;background:#bff3e9;display:inline-block}
+  .hero h1{
+    font-family:var(--serif);
+    font-size:clamp(2rem,5.4vw,4rem);
+    line-height:1.06;
+    margin:0 0 .7rem;
+    letter-spacing:-.02em;
+    max-width:15ch;
+    text-wrap:balance;
+  }
+  .hero .lede{
+    font-size:clamp(1.02rem,2vw,1.28rem);
+    max-width:70ch;color:#d7f1ec;margin:.4rem 0 1.6rem
+  }
+  .hero .lede em{color:#fff}
+  .meta-grid{
+    display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));
+    gap:.75rem;margin:1.6rem 0 1.2rem;max-width:1000px
+  }
+  .meta-grid div{
+    background:rgba(255,255,255,.08);
+    border:1px solid rgba(255,255,255,.16);
+    border-radius:12px;padding:.7rem .85rem;backdrop-filter:blur(3px)
+  }
+  .meta-grid span{
+    display:block;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;
+    color:#a8dfd6;font-weight:700;margin-bottom:.2rem
+  }
+  .meta-grid strong{font-size:.92rem;font-weight:600;color:#f7fbfa;line-height:1.35}
+  .hero-actions{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1.1rem}
+  .btn{
+    appearance:none;border:1px solid rgba(255,255,255,.28);
+    background:rgba(255,255,255,.10);color:#fff;
+    padding:.62rem .95rem;border-radius:10px;font:inherit;font-size:.9rem;font-weight:650;
+    cursor:pointer;transition:background .15s ease,transform .15s ease
+  }
+  .btn:hover{background:rgba(255,255,255,.2);transform:translateY(-1px)}
+  .btn.primary{background:#fff;color:#0b4a45;border-color:#fff}
+  .btn.primary:hover{background:#e9fbf6}
+
+  /* LAYOUT */
+  .shell{
+    max-width:1420px;margin:0 auto;
+    display:grid;grid-template-columns:290px minmax(0,1fr);
+    gap:clamp(1rem,3vw,2.4rem);
+    padding:2rem clamp(1rem,3vw,2rem) 4rem;
+    align-items:start;
+  }
+  .sidebar{
+    position:sticky;top:1rem;align-self:start;
+    max-height:calc(100vh - 2rem);overflow:auto;
+    background:var(--surface);border:1px solid var(--line);
+    border-radius:var(--radius);padding:1rem;
+    box-shadow:var(--shadow);
+    scrollbar-width:thin;
+  }
+  .sidebar h2{
+    font-family:var(--sans);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--muted);margin:.2rem 0 .7rem
+  }
+  .toc{list-style:none;margin:0;padding:0;font-size:.9rem}
+  .toc li{margin:.12rem 0}
+  .toc a{
+    display:block;padding:.42rem .55rem;border-radius:8px;color:var(--ink);
+    text-decoration:none;border-left:3px solid transparent;line-height:1.3
+  }
+  .toc a:hover{background:var(--surface-2)}
+  .toc a.active{background:var(--brand-3);border-left-color:var(--brand-2);font-weight:700;color:var(--brand)}
+  .toc .figs{
+    margin-top:.9rem;padding-top:.8rem;border-top:1px solid var(--line);
+    display:flex;flex-wrap:wrap;gap:.35rem;align-items:center;font-size:.82rem;color:var(--muted)
+  }
+  .toc .figs a{
+    display:inline-flex;align-items:center;justify-content:center;
+    width:1.7rem;height:1.7rem;border:1px solid var(--line);border-radius:7px;
+    padding:0;background:var(--surface-2);font-weight:700;color:var(--brand)
+  }
+  main{min-width:0}
+  .card{
+    background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+    padding:clamp(1.1rem,2.6vw,2rem);box-shadow:var(--shadow);margin:1.35rem 0;
+    scroll-margin-top:1rem;
+  }
+  .card > :first-child{margin-top:0}
+  .card > :last-child{margin-bottom:0}
+  .section-kicker{
+    display:inline-flex;align-items:center;gap:.5rem;
+    font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--brand-2);font-weight:800;margin-bottom:.45rem
+  }
+  .section-kicker .n{
+    display:inline-flex;align-items:center;justify-content:center;
+    min-width:1.55rem;height:1.55rem;padding:0 .35rem;border-radius:6px;
+    background:var(--brand);color:#fff;font-size:.75rem;letter-spacing:0
+  }
+  h2{
+    font-family:var(--serif);font-size:clamp(1.55rem,3.2vw,2.2rem);
+    line-height:1.15;margin:.1rem 0 .8rem;letter-spacing:-.015em;text-wrap:balance
+  }
+  h3{font-family:var(--serif);font-size:clamp(1.18rem,2.2vw,1.45rem);line-height:1.25;margin:1.6rem 0 .55rem}
+  h4{font-size:1rem;margin:1.2rem 0 .4rem;letter-spacing:.01em}
+  p{margin:.65rem 0}
+  ul,ol{margin:.55rem 0 .8rem;padding-left:1.35rem}
+  li{margin:.28rem 0}
+  li::marker{color:var(--brand-2)}
+  strong{font-weight:750}
+  em{font-style:italic}
+  .cite{
+    display:inline-block;font-size:.74rem;font-weight:700;line-height:1.2;
+    color:var(--brand);background:var(--brand-3);
+    border:1px solid color-mix(in srgb,var(--brand-2) 25%,transparent);
+    padding:.08rem .38rem;border-radius:5px;white-space:nowrap;vertical-align:.08em
+  }
+  .small{font-size:.88rem;color:var(--muted)}
+  .th-abbr{display:none}
+  .muted{color:var(--muted)}
+
+  /* CALLOUTS */
+  .keybox,.databox,.warnbox,.quotebox{
+    border-radius:12px;padding:1rem 1.05rem;margin:1rem 0;border:1px solid var(--line)
+  }
+  .keybox{background:var(--brand-3);border-left:5px solid var(--brand-2)}
+  .databox{background:var(--accent-2);border-left:5px solid var(--accent)}
+  .warnbox{background:var(--rose-2);border-left:5px solid var(--rose)}
+  .quotebox{background:var(--surface-2);border-left:5px solid var(--blue);font-family:var(--serif);font-size:1.05rem}
+  .box-title{
+    display:block;font-family:var(--sans);font-size:.72rem;letter-spacing:.11em;
+    text-transform:uppercase;font-weight:800;margin-bottom:.35rem
+  }
+  .keybox .box-title{color:var(--brand)}
+  .databox .box-title{color:var(--accent)}
+  .warnbox .box-title{color:var(--rose)}
+  .quotebox .box-title{color:var(--blue)}
+
+  /* GRIDS */
+  .grid-2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem;margin:1rem 0}
+  .grid-3{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:.85rem;margin:1rem 0}
+  .stat{
+    background:var(--surface-2);border:1px solid var(--line);border-radius:12px;
+    padding:.9rem 1rem
+  }
+  .stat b{display:block;font-family:var(--serif);font-size:1.65rem;line-height:1.1;color:var(--brand)}
+  .stat span{display:block;font-size:.82rem;color:var(--muted);margin-top:.25rem}
+  .mini-card{
+    background:var(--surface-2);border:1px solid var(--line);border-radius:12px;padding:.9rem 1rem
+  }
+  .mini-card h4{margin:.05rem 0 .35rem;font-size:.98rem}
+  .mini-card p,.mini-card ul{font-size:.9rem;margin:.35rem 0}
+  .tag{
+    display:inline-block;font-size:.72rem;font-weight:800;letter-spacing:.04em;
+    padding:.15rem .5rem;border-radius:999px;background:var(--brand-3);color:var(--brand);
+    border:1px solid color-mix(in srgb,var(--brand-2) 25%,transparent)
+  }
+  .tag.amber{background:var(--accent-2);color:var(--accent);border-color:color-mix(in srgb,var(--accent) 25%,transparent)}
+  .tag.rose{background:var(--rose-2);color:var(--rose);border-color:color-mix(in srgb,var(--rose) 25%,transparent)}
+
+  /* TABLES */
+  .table-wrap{
+    overflow-x:auto;border:1px solid var(--line);border-radius:12px;margin:1rem 0;
+    background:var(--surface);-webkit-overflow-scrolling:touch
+  }
+  table{width:100%;border-collapse:collapse;font-size:.88rem;min-width:720px}
+  caption{
+    caption-side:top;text-align:left;padding:.8rem .9rem .2rem;
+    font-size:.82rem;color:var(--muted);font-weight:600
+  }
+  th,td{padding:.62rem .7rem;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}
+  th{
+    background:var(--surface-2);font-size:.76rem;letter-spacing:.04em;text-transform:uppercase;
+    color:var(--muted);font-weight:800;position:sticky;top:0;z-index:1
+  }
+  tbody tr:nth-child(even) td{background:color-mix(in srgb,var(--surface-2) 45%,var(--surface))}
+  tbody tr:hover td{background:var(--brand-3)}
+  td.nw{white-space:nowrap}
+  .t1{min-width:1180px;font-size:.8rem}
+  .t1 th,.t1 td{padding:.5rem .55rem}
+  .t1 td:first-child{font-weight:650}
+
+  /* FIGURES */
+  figure.diagram{
+    margin:1.25rem 0;background:#fbfaf6;border:1px solid #d8d1c3;border-radius:14px;
+    padding:1rem;color:#1d2a2e;box-shadow:0 4px 16px rgba(20,40,40,.05)
+  }
+  figure.diagram svg{display:block;width:100%;height:auto}
+  figure.diagram figcaption{font-size:.86rem;color:#5d6b70;margin:.75rem .15rem 0;line-height:1.5}
+  figure.diagram figcaption b{color:#1d2a2e}
+  .fig-label{
+    display:inline-block;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;
+    font-weight:800;color:#0f5c57;background:#d9f0ea;border:1px solid #b7e4da;
+    padding:.15rem .5rem;border-radius:999px;margin-bottom:.6rem
+  }
+
+  /* DETAILS Q&A */
+  details.qa{
+    border:1px solid var(--line);border-radius:12px;background:var(--surface-2);
+    padding:.2rem .9rem;margin:.55rem 0
+  }
+  details.qa summary{
+    cursor:pointer;font-weight:700;padding:.65rem 0;list-style:none;
+    display:flex;gap:.55rem;align-items:flex-start
+  }
+  details.qa summary::-webkit-details-marker{display:none}
+  details.qa summary::before{
+    content:"+";flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;
+    width:1.35rem;height:1.35rem;border-radius:6px;background:var(--brand);color:#fff;
+    font-weight:800;font-size:.95rem;line-height:1;margin-top:.1rem
+  }
+  details.qa[open] summary::before{content:"−"}
+  details.qa .answer{padding:.1rem 0 .9rem 1.95rem;font-size:.94rem}
+  details.qa .answer p:first-child{margin-top:0}
+  .qa-tools{display:flex;gap:.5rem;flex-wrap:wrap;margin:.7rem 0 1rem}
+  .qa-tools button{
+    font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;
+    background:var(--surface);color:var(--ink);border:1px solid var(--line);
+    padding:.4rem .65rem;border-radius:8px
+  }
+  .qa-tools button:hover{background:var(--brand-3);border-color:var(--brand-2)}
+
+  /* CHECKLIST */
+  .checklist{list-style:none;padding-left:0}
+  .checklist li{padding-left:1.7rem;position:relative;margin:.45rem 0}
+  .checklist li::before{
+    content:"✓";position:absolute;left:0;top:.05rem;color:var(--brand-2);font-weight:900
+  }
+
+  /* FOOTER */
+  footer{
+    border-top:1px solid var(--line);background:var(--surface);
+    padding:2rem clamp(1rem,4vw,3rem);color:var(--muted);font-size:.86rem
+  }
+  footer .foot-inner{max-width:1120px;margin:0 auto;display:flex;gap:1rem;flex-wrap:wrap;justify-content:space-between}
+  footer strong{color:var(--ink)}
+
+  @media (max-width:980px){
+    .shell{grid-template-columns:1fr;padding-top:1.2rem}
+    .sidebar{position:static;max-height:none;order:-1}
+    .toc{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.1rem}
+  }
+  @media (max-width:560px){
+    .hero h1{max-width:none}
+    .meta-grid{grid-template-columns:1fr}
+    .card{padding:1rem}
+    table{font-size:.82rem}
+  }
+  @media print{
+    :root{--bg:#fff;--surface:#fff;--surface-2:#f3f3f3;--surface-3:#eee;--ink:#111;--muted:#444;--line:#bbb;--shadow:none}
+    @page{margin:12mm}
+    body{background:#fff;font-size:10.5pt}
+    .table-wrap{overflow:visible!important;border:none!important}
+    table{min-width:0!important;width:100%!important;font-size:6.4pt!important;table-layout:fixed}
+    .t1{min-width:0!important;font-size:6.4pt!important}
+    .t1 th:nth-child(1){width:13%}
+    .t1 th:nth-child(2){width:6%}
+    .t1 th:nth-child(3){width:11%}
+    .t1 th:nth-child(4){width:11%}
+    .t1 th:nth-child(5){width:7%}
+    .t1 th:nth-child(6){width:6%}
+    .t1 th:nth-child(7){width:17%}
+    .t1 th:nth-child(8){width:18%}
+    .t1 th:nth-child(9){width:7%}
+    th,td{padding:.2rem .2rem!important;word-break:normal;overflow-wrap:anywhere;hyphens:auto}
+    th{position:static!important;word-break:normal!important;overflow-wrap:normal!important;hyphens:none!important}
+    thead{display:table-header-group}
+    .hero{background:#fff;color:#111;padding:0 0 1rem;border-bottom:2px solid #111}
+    .hero .lede,.meta-grid span{color:#333}
+    .meta-grid div{background:#f4f4f4;border-color:#ccc}
+    .meta-grid strong{color:#111}
+    .hero-actions,.sidebar,.skip-link,.qa-tools{display:none!important}
+    .shell{display:block;max-width:none;padding:0}
+    .card{box-shadow:none;border:1px solid #ccc;break-inside:avoid;page-break-inside:avoid}
+    h2,h3{break-after:avoid}
+    figure.diagram,.table-wrap,details.qa{break-inside:avoid;page-break-inside:avoid}
+    .th-full{display:none}
+    .th-abbr{display:inline}
+    a{color:#111;text-decoration:none}
+  }
+  p,li,td,figcaption{text-wrap:pretty}
+  blockquote{
+    margin:1.1rem 0;padding:.9rem 1.1rem;background:var(--surface-2);
+    border-left:4px solid var(--brand-2);border-radius:0 12px 12px 0;color:var(--ink)
+  }
+  blockquote p{margin:.4rem 0}
+  .guide-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem;margin:1.2rem 0}
+  .guide-grid a{display:block;text-decoration:none;color:inherit;background:var(--surface);
+    border:1px solid var(--line);border-radius:var(--radius);padding:1rem 1.1rem;box-shadow:var(--shadow);
+    transition:transform .15s ease,border-color .15s ease}
+  .guide-grid a:hover{transform:translateY(-2px);border-color:var(--brand-2)}
+  .guide-grid a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+  .guide-grid .gn{font-family:var(--serif);font-size:1.6rem;color:var(--brand-2);line-height:1}
+  .guide-grid h3{margin:.3rem 0 .4rem;font-size:1.05rem;font-family:var(--sans);font-weight:700;color:var(--ink)}
+  .guide-grid p{margin:0;font-size:.9rem;color:var(--muted)}
+  .badges{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.7rem}
+  .badges span{font-size:.72rem;font-weight:700;letter-spacing:.03em;background:var(--brand-3);
+    color:var(--brand);border-radius:999px;padding:.18rem .55rem}
+  caption{caption-side:top;text-align:left;font-size:.82rem;font-weight:700;color:var(--muted);padding:.2rem .2rem .5rem}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+<header class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">Certamen 3 · Semiología · Sistema nervioso</p>
+    <h1>Del Síntoma Neurológico al Síndrome</h1>
+    <p class="lede">Clase 2 de 4. Guía de estudio construida desde las diapositivas de la clase, con cada afirmación clínica citada por número de diapositiva.</p>
+    <div class="meta-grid">
+      <div><span>Clase</span><strong>2 de 4</strong></div>
+      <div><span>Diapositivas</span><strong>42 de 42 cubiertas</strong></div>
+      <div><span>Citas distintas</span><strong>42</strong></div>
+      <div><span>Preguntas</span><strong>22</strong></div>
+      <div><span>Fuente</span><strong><code>clase 2 semiologia sitema nervioso.pdf</code></strong></div>
+      <div><span>Ramo</span><strong>Semiología · Medicina UBB · 2026-2</strong></div>
+    </div>
+    <div class="hero-actions">
+      <button class="btn primary" id="printBtn" type="button">Imprimir / guardar PDF</button>
+      <button class="btn" id="themeBtn" type="button" aria-pressed="false">Modo oscuro</button>
+      <a class="btn" href="#alcance">Empezar por el alcance</a>
+    </div>
+  </div>
+</header>
+
+<div class="shell">
+  <aside class="sidebar" aria-label="Índice de la guía">
+    <h2>Contenido</h2>
+    <nav>
+      <ul class="toc">
+                <li><a href="#alcance">Alcance y método</a></li>
+        <li><a href="#sec-objetivos-y-metodo-sintoma-patron-localizacion">Objetivos y método: síntoma → patrón → localización</a></li>
+        <li><a href="#sec-dimensiones-y-espectro-de-la-conciencia">Dimensiones y espectro de la conciencia</a></li>
+        <li><a href="#sec-preguntas-fundamentales-ante-la-alteracion-de-conciencia">Preguntas fundamentales ante la alteración de conciencia</a></li>
+        <li><a href="#sec-convulsion-semiologia-temporal-de-la-crisis">Convulsión: semiología temporal de la crisis</a></li>
+        <li><a href="#sec-convulsion-vs-sincope">Convulsión vs síncope</a></li>
+        <li><a href="#sec-debilidad-muscular-que-significa-sentirse-debil">Debilidad muscular: qué significa &quot;sentirse débil&quot;</a></li>
+        <li><a href="#sec-caracterizacion-de-la-debilidad">Caracterización de la debilidad</a></li>
+        <li><a href="#sec-patrones-de-debilidad-y-localizacion">Patrones de debilidad y localización</a></li>
+        <li><a href="#sec-trastornos-sensitivos-modalidades-y-sustrato-anatomico">Trastornos sensitivos: modalidades y sustrato anatómico</a></li>
+        <li><a href="#sec-vocabulario-sensitivo-esencial">Vocabulario sensitivo esencial</a></li>
+        <li><a href="#sec-patrones-de-distribucion-sensitiva">Patrones de distribución sensitiva</a></li>
+        <li><a href="#sec-caso-clinico-la-mano-derecha-dormida">Caso clínico: &quot;la mano derecha dormida&quot;</a></li>
+        <li><a href="#sec-estado-mental-dominios-1-y-2">Estado mental: dominios 1 y 2</a></li>
+        <li><a href="#sec-estado-mental-dominio-3-lenguaje">Estado mental: dominio 3 — lenguaje</a></li>
+        <li><a href="#sec-estado-mental-dominio-4-memoria">Estado mental: dominio 4 — memoria</a></li>
+        <li><a href="#sec-praxias-gnosias-y-negligencia">Praxias, gnosias y negligencia</a></li>
+        <li><a href="#sec-pares-craneales-i-xii">Pares craneales I–XII</a></li>
+        <li><a href="#sec-patrones-localizadores-de-pares-craneales">Patrones localizadores de pares craneales</a></li>
+        <li><a href="#sec-tabla-sintomas-patrones-localizaciones-y-puntos-clave">Tabla síntomas–patrones–localizaciones y puntos clave</a></li>
+        <li><a href="#sec-conceptos-clave-y-siglas">Conceptos clave y siglas</a></li>
+        <li><a href="#sec-preguntas-probables">Preguntas probables</a></li>
+        <li><a href="#sec-diapositivas-sin-texto-extraible">Diapositivas sin texto extraíble</a></li>
+      </ul>
+      <div class="figs">
+        <strong>Otras guías:</strong>
+        <a href="01_Anamnesis_y_Razonamiento_Localizador.html" title="Anamnesis y razonamiento localizador">1</a><a href="03_Examen_Motor_Sensitivo_Reflejos.html" title="Examen motor, sensitivo y reflejos">3</a><a href="04_Integracion_Sindromes_Neurologicos.html" title="Integración y síndromes neurológicos">4</a>
+        <a href="index.html" title="Índice del certamen">Índice</a>
+      </div>
+    </nav>
+  </aside>
+
+  <main id="contenido">
+
+<section id="alcance" class="card">
+  <div class="section-kicker"><span class="n">00</span> Alcance</div>
+  <h2>Qué cubre esta guía</h2>
+  <div class="keybox">
+    <span class="box-title">Alcance</span>
+    Fuente única: `clase 2 semiologia sitema nervioso.pdf` (clase 2 de 4 del Certamen 3, Semiología del sistema nervioso, UBB). Cubre las diapositivas 1–42 de 42, a partir de la extracción de texto por página con OCR de las diapositivas sin capa de texto. Temas: dimensiones y espectro de conciencia, interrogatorio ante alteración de conciencia, convulsión y su semiología temporal, convulsión vs síncope, debilidad muscular (caracterización y patrones), trastornos sensitivos (modalidades, vocabulario, patrones), estado mental (dominios, lenguaje, memoria, praxias/gnosias/negligencia), pares craneales I–XII y patrones localizadores. Queda fuera: todo lo no presente en el deck (nombres de escalas de conciencia, examen motor en detalle, reflejos osteotendíneos, tratamiento y dosificación, y el contenido de las imágenes que no pudo leerse). Diapositivas con texto inutilizable (solo-imagen): 1, 3, 7, 10, 14, 22, 24, 32, 40 — se listan al final con lo que se puede afirmar.
+  </div>
+  <p class="small">Clase 2 de 4 del Certamen 3 (Semiología del sistema nervioso). Fuente: <code>clase 2 semiologia sitema nervioso.pdf</code>. Las citas <span class="cite">diapo N</span> corresponden al número de diapositiva del PDF. Texto extraído con <code>pdftotext -layout</code> y, en las diapositivas sin capa de texto, OCR <code>tesseract -l spa</code>.</p>
+</section>
+<section id="sec-objetivos-y-metodo-sintoma-patron-localizacion" class="card">
+<div class="section-kicker"><span class="n">01</span> Diapositivas 2–42</div>
+<h2>Objetivos y método: síntoma → patrón → localización</h2>
+<p>La clase persigue tres objetivos: caracterizar (alteración del nivel de conciencia, convulsiones y su semiología detallada, debilidad muscular y sus patrones, trastornos sensitivos y su distribución), diferenciar (síntoma versus patrón clínico, patrón versus localización anatómica, debilidad verdadera versus fatiga o dolor, convulsión versus síncope) y razonar: construir la primera hipótesis sindromática, usar el patrón de distribución como herramienta localizadora, integrar síntomas motores y sensitivos y aplicar el método a un caso clínico real <span class="cite">diapo 2</span>.</p>
+<p>La cadena de razonamiento que estructura toda la clase es: <strong>síntoma → patrón → localización</strong>. El síntoma es lo que describe el paciente (dolor, debilidad, hormigueo, pérdida de conciencia). El patrón es la combinación de síntomas: distribución, tiempo, modalidad sensitiva o motora. La localización es la parte específica del sistema nervioso responsable del cuadro clínico <span class="cite">diapo 21</span>.</p>
+<p>Puntos clave finales: la anamnesis dirige la exploración (preguntas dirigidas que anticipan el examen); el patrón es más informativo que el síntoma aislado (un síntoma solo rara vez localiza; la combinación —hemiparesia + afasia, NC III + hemiparesia contralateral— es la herramienta localizadora fundamental); localizar antes de etiquetar (dos etapas obligatorias y secuenciales: localización anatómica y luego diagnóstico etiológico; saltarse la primera produce errores y exámenes inapropiados); y reconocer la urgencia neurológica (NC III con midriasis, nivel sensitivo agudo, pérdida de conciencia súbita son señales de alarma) <span class="cite">diapo 42</span>.</p>
+
+</section>
+<section id="sec-dimensiones-y-espectro-de-la-conciencia" class="card">
+<div class="section-kicker"><span class="n">02</span> Diapositivas 4–5</div>
+<h2>Dimensiones y espectro de la conciencia</h2>
+<p>La conciencia tiene <strong>dos dimensiones que deben evaluarse siempre de forma independiente</strong> <span class="cite">diapo 4</span>:</p>
+<ul>
+<li><strong>Nivel de conciencia.</strong> Pregunta clave: ¿está despierto? Refleja el grado de activación o <em>arousal</em> del sistema nervioso, mediado fundamentalmente por el <strong>sistema reticular activador ascendente (SRAA)</strong>, localizado en el tronco del encéfalo. Su alteración implica disfunción del SRAA o afectación cortical difusa <span class="cite">diapo 4</span>.</li>
+<li><strong>Contenido de conciencia.</strong> Preguntas clave: ¿comprende?, ¿responde adecuadamente?, ¿está orientado? Se refiere a la calidad y coherencia de los procesos cognitivos durante la vigilia: orientación, atención, memoria, lenguaje y razonamiento. Un paciente puede estar alerta y tener el contenido gravemente deteriorado, como en ciertas demencias o en el <em>delirium</em> <span class="cite">diapo 4</span>.</li>
+</ul>
+<p>Un paciente puede estar “despierto” pero con el contenido de conciencia profundamente alterado <span class="cite">diapo 4</span>.</p>
+<p><strong>Espectro del nivel de conciencia</strong> (de mayor a menor profundidad), según el estímulo capaz de despertar al paciente <span class="cite">diapo 5</span>:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Grado</th>
+<th>Estado</th>
+<th>Definición</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><strong>Coma</strong></td>
+<td>Ausencia de respuesta a cualquier estímulo; sin apertura ocular espontánea ni a la orden</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>Estupor</strong></td>
+<td>Solo responde a estímulos intensos, dolorosos; respuesta mínima y no sostenida</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>Obnubilación</strong></td>
+<td>Somnoliento pero despertable con estímulos moderados; lentitud cognitiva marcada</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>Somnolencia</strong></td>
+<td>Tendencia al sueño; despertable con estímulos leves; coherente brevemente</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>Alerta</strong></td>
+<td>Despierto, orientado, con respuesta apropiada a estímulos ambientales y verbales</td>
+</tr>
+</tbody>
+</table></div>
+
+</section>
+<section id="sec-preguntas-fundamentales-ante-la-alteracion-de-conciencia" class="card">
+<div class="section-kicker"><span class="n">03</span> Diapositiva 6</div>
+<h2>Preguntas fundamentales ante la alteración de conciencia</h2>
+<p>Cuatro preguntas del interrogatorio <span class="cite">diapo 6</span>:</p>
+<ol type="1">
+<li><strong>¿El paciente estaba previamente normal?</strong> Distingue alteración aguda sobre base sana de deterioro progresivo sobre patología preexistente (demencia, encefalopatía crónica).</li>
+<li><strong>¿El compromiso fue súbito o gradual?</strong> El inicio brusco orienta a causas vasculares (ictus, hemorragia) o epilépticas; el gradual sugiere procesos metabólicos, infecciosos o tumorales.</li>
+<li><strong>¿Hubo pérdida completa de conciencia?</strong> La profundidad orienta la etiología y diferencia síncope, crisis epiléptica o coma propiamente dicho.</li>
+<li><strong>¿Cuánto duró?</strong> ¿Hubo recuperación espontánea? ¿Existieron movimientos anormales, traumatismo, consumo de sustancias?</li>
+</ol>
+
+</section>
+<section id="sec-convulsion-semiologia-temporal-de-la-crisis" class="card">
+<div class="section-kicker"><span class="n">04</span> Diapositivas 7–8</div>
+<h2>Convulsión: semiología temporal de la crisis</h2>
+<p>La convulsión se analiza cronológicamente en tres fases: ¿qué ocurrió <strong>antes, durante y después</strong>? <span class="cite">diapo 7</span></p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Fase</th>
+<th>Nombre</th>
+<th>Semiología <span class="cite">diapo 8</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Antes</strong></td>
+<td>Prodrómica / <strong>Aura</strong></td>
+<td>Aura: síntoma focal que precede la crisis. Sensación epigástrica ascendente; síntomas visuales (destellos, alucinaciones); <em>déjà vu</em> o <em>jamais vu</em>; sensación de miedo inexplicable</td>
+</tr>
+<tr>
+<td><strong>Durante</strong></td>
+<td><strong>Ictal</strong></td>
+<td>Pérdida de conciencia (total o parcial); rigidez tónica generalizada; movimientos clónicos rítmicos; desviación ocular/cefálica; mordedura lateral de lengua; cianosis, apnea, incontinencia</td>
+</tr>
+<tr>
+<td><strong>Después</strong></td>
+<td><strong>Postictal</strong></td>
+<td>Confusión y desorientación; somnolencia prolongada; cefalea intensa; mialgias difusas; déficit focal transitorio (<strong>parálisis de Todd</strong>)</td>
+</tr>
+</tbody>
+</table></div>
+
+</section>
+<section id="sec-convulsion-vs-sincope" class="card">
+<div class="section-kicker"><span class="n">05</span> Diapositiva 9</div>
+<h2>Convulsión vs síncope</h2>
+<p>Diagnóstico diferencial clave <span class="cite">diapo 9</span>:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Característica</th>
+<th>Crisis epiléptica</th>
+<th>Síncope</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Inicio</td>
+<td>Brusco, sin pródromos claros (o con aura)</td>
+<td>Pródromos: mareo, náuseas, visión borrosa</td>
+</tr>
+<tr>
+<td>Posición</td>
+<td>Cualquier posición</td>
+<td>Habitualmente de pie o tras esfuerzo</td>
+</tr>
+<tr>
+<td>Duración</td>
+<td>Habitualmente 1–3 minutos</td>
+<td>Segundos (recuperación muy rápida)</td>
+</tr>
+<tr>
+<td>Movimientos</td>
+<td>Clonías rítmicas, tónico-clónicas</td>
+<td>Sacudidas mioclónicas breves (si las hay)</td>
+</tr>
+<tr>
+<td>Mordedura lingual</td>
+<td>Lateral, característica</td>
+<td>Ausente o punta de lengua</td>
+</tr>
+<tr>
+<td>Incontinencia</td>
+<td>Frecuente</td>
+<td>Rara</td>
+</tr>
+<tr>
+<td>Fase postictal</td>
+<td>Sí: confusión, somnolencia prolongada</td>
+<td>No: recuperación inmediata y completa</td>
+</tr>
+<tr>
+<td>Color de piel</td>
+<td>Cianosis</td>
+<td>Palidez</td>
+</tr>
+</tbody>
+</table></div>
+
+</section>
+<section id="sec-debilidad-muscular-que-significa-sentirse-debil" class="card">
+<div class="section-kicker"><span class="n">06</span> Diapositiva 11</div>
+<h2>Debilidad muscular: qué significa &quot;sentirse débil&quot;</h2>
+<p>La pregunta fundamental es: <strong>“¿Qué significa para usted sentirse débil?”</strong>. Abre cuatro realidades clínicas que se confunden pero tienen implicaciones diagnósticas distintas <span class="cite">diapo 11</span>:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Realidad</th>
+<th>Definición <span class="cite">diapo 11</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Debilidad verdadera</strong></td>
+<td>Incapacidad real para generar fuerza muscular; el paciente no puede hacer movimientos que antes ejecutaba sin dificultad. Es la única que indica compromiso del sistema motor (neurona motora superior, inferior o músculo)</td>
+</tr>
+<tr>
+<td><strong>Fatiga</strong></td>
+<td>Agotamiento con el esfuerzo mantenido: la fuerza inicial puede ser normal pero decrece con la actividad sostenida. Típica de patologías de la unión neuromuscular, como la miastenia gravis</td>
+</tr>
+<tr>
+<td><strong>Dolor</strong></td>
+<td>El paciente no mueve el miembro porque duele, no porque no pueda; la fuerza puede ser normal al vencer la resistencia al dolor</td>
+</tr>
+<tr>
+<td><strong>Limitación mecánica</strong></td>
+<td>Rigidez articular, contracturas, patología osteoarticular o tendinosa; el sistema nervioso y el músculo son normales, el movimiento está limitado por causas estructurales periféricas</td>
+</tr>
+</tbody>
+</table></div>
+
+</section>
+<section id="sec-caracterizacion-de-la-debilidad" class="card">
+<div class="section-kicker"><span class="n">07</span> Diapositiva 12</div>
+<h2>Caracterización de la debilidad</h2>
+<p>Cuatro ejes del interrogatorio <span class="cite">diapo 12</span>:</p>
+<ul>
+<li><strong>Inicio y evolución temporal.</strong> ¿Súbita (minutos u horas) o gradual (días, semanas, meses)? ¿Progresiva, estable o fluctuante? El inicio hiperagudo orienta a ictus; el curso fluctuante sugiere miastenia o esclerosis múltiple.</li>
+<li><strong>Distribución y simetría.</strong> ¿Un lado del cuerpo, ambas piernas, los cuatro miembros? ¿Simétrica o asimétrica? La distribución es el <strong>elemento más informativo para localizar la lesión</strong>.</li>
+<li><strong>Proximal vs distal.</strong> Proximal (dificultad para levantarse de una silla, subir escalones, peinarse) → miopatía. Distal (caída del pie, dificultad para abrir tarros) → neuropatía periférica.</li>
+<li><strong>Asociación con síntomas sensitivos.</strong> Parestesias, hipoestesia o dolor acompañando la debilidad orientan a lesiones que afectan vías motoras y sensitivas a la vez: médula, nervios periféricos o síndrome de Guillain-Barré.</li>
+</ul>
+
+</section>
+<section id="sec-patrones-de-debilidad-y-localizacion" class="card">
+<div class="section-kicker"><span class="n">08</span> Diapositiva 13</div>
+<h2>Patrones de debilidad y localización</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Patrón</th>
+<th>Definición</th>
+<th>Localización probable</th>
+<th>Causas frecuentes <span class="cite">diapo 13</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Hemiparesia</strong></td>
+<td>Debilidad de un hemicuerpo (brazo y pierna ipsilaterales)</td>
+<td>Neurona motora superior contralateral: corteza motora, cápsula interna, tronco del encéfalo</td>
+<td>Ictus, tumor, lesión desmielinizante</td>
+</tr>
+<tr>
+<td><strong>Paraparesia</strong></td>
+<td>Debilidad de ambas extremidades inferiores</td>
+<td>Lesión medular (mielitis, compresión extrínseca) o, menos frecuentemente, lesiones corticales bilaterales parasagitales</td>
+<td>Esclerosis múltiple, compresión medular, isquemia medular</td>
+</tr>
+<tr>
+<td><strong>Tetraparesia</strong></td>
+<td>Debilidad de las cuatro extremidades</td>
+<td>Lesión medular alta (cervical), tronco del encéfalo o proceso sistémico (miopatía, neuropatía)</td>
+<td>Traumatismo cervical, Guillain-Barré, miopatía inflamatoria</td>
+</tr>
+<tr>
+<td><strong>Debilidad proximal</strong></td>
+<td>Dificultad para levantarse de sillas, subir escaleras, elevar brazos</td>
+<td>Músculo</td>
+<td>Miopatía (miositis, distrofias musculares)</td>
+</tr>
+<tr>
+<td><strong>Debilidad distal</strong></td>
+<td>Dificultad para abrir llaves, caída del pie, tropiezos</td>
+<td>Nervios periféricos</td>
+<td>Polineuropatía, radiculopatía</td>
+</tr>
+</tbody>
+</table></div>
+
+</section>
+<section id="sec-trastornos-sensitivos-modalidades-y-sustrato-anatomico" class="card">
+<div class="section-kicker"><span class="n">09</span> Diapositiva 15</div>
+<h2>Trastornos sensitivos: modalidades y sustrato anatómico</h2>
+<p>Dos grandes vías con anatomía diferenciada —base de la <strong>disociación sensitiva</strong>— <span class="cite">diapo 15</span>:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Vía</th>
+<th>Modalidades que conduce</th>
+<th>Cruce</th>
+<th>Lesión medular produce</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Vía espinotalámica (anterolateral)</strong></td>
+<td>Dolor y temperatura</td>
+<td>Las fibras cruzan la línea media a nivel del segmento espinal de entrada; ascienden por el cordón anterolateral contralateral hasta el tálamo</td>
+<td>Pérdida de dolor y temperatura <strong>contralateral</strong> a la lesión</td>
+</tr>
+<tr>
+<td><strong>Columnas dorsales (lemnisco medial)</strong></td>
+<td>Tacto discriminativo, vibración y propiocepción</td>
+<td>Las fibras ascienden <strong>ipsilateralmente</strong> hasta el bulbo, donde cruzan</td>
+<td>Pérdida de vibración y propiocepción <strong>ipsilateral</strong> a la lesión</td>
+</tr>
+</tbody>
+</table></div>
+<p>La <strong>disociación sensitiva</strong> —pérdida de dolor/temperatura con propiocepción conservada, o viceversa— es una clave localizadora muy potente, característica de lesiones medulares intrínsecas como la <strong>siringomielia</strong> <span class="cite">diapo 15</span>.</p>
+
+</section>
+<section id="sec-vocabulario-sensitivo-esencial" class="card">
+<div class="section-kicker"><span class="n">10</span> Diapositiva 16</div>
+<h2>Vocabulario sensitivo esencial</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Término</th>
+<th>Definición <span class="cite">diapo 16</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Parestesia</strong></td>
+<td>Sensación anormal espontánea: hormigueo, pinchazos, corriente eléctrica; no siempre dolorosa. Frecuente en neuropatías periféricas e inicio de mielopatías</td>
+</tr>
+<tr>
+<td><strong>Hipoestesia</strong></td>
+<td>Disminución de la sensibilidad a un estímulo (táctil, térmico o doloroso); el paciente “siente menos” de lo normal</td>
+</tr>
+<tr>
+<td><strong>Anestesia</strong></td>
+<td>Ausencia completa de sensación en una región. Si es selectiva del dolor: <strong>analgesia</strong>; de la temperatura: <strong>termoanestesia</strong></td>
+</tr>
+<tr>
+<td><strong>Disestesia</strong></td>
+<td>Sensación desagradable o dolorosa ante un estímulo normalmente no doloroso. Característica de lesiones de nervios periféricos y del tálamo</td>
+</tr>
+<tr>
+<td><strong>Alodinia</strong></td>
+<td>Dolor evocado por un estímulo que normalmente no es doloroso (roce de la ropa, viento). Característica del dolor neuropático central y periférico</td>
+</tr>
+</tbody>
+</table></div>
+
+</section>
+<section id="sec-patrones-de-distribucion-sensitiva" class="card">
+<div class="section-kicker"><span class="n">11</span> Diapositiva 17</div>
+<h2>Patrones de distribución sensitiva</h2>
+<p>La pregunta clínica fundamental es: <strong>“Muéstreme exactamente dónde siente la alteración”</strong> <span class="cite">diapo 17</span>. Cuatro patrones <span class="cite">diapo 17</span>:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Patrón</th>
+<th>Descripción</th>
+<th>Orienta a</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>En guante o calcetín</strong></td>
+<td>Afectación distal y simétrica de manos y/o pies; gradiente longitud-dependiente característico</td>
+<td>Polineuropatía periférica (diabética, alcohólica, carencial)</td>
+</tr>
+<tr>
+<td><strong>En banda o nivel sensitivo</strong></td>
+<td>Límite horizontal por debajo del cual se pierde la sensibilidad; puede identificar el segmento medular comprometido</td>
+<td>Lesión medular transversa</td>
+</tr>
+<tr>
+<td><strong>Hemicorporal</strong></td>
+<td>Hemicuerpo completo (cara, brazo y pierna del mismo lado)</td>
+<td>Lesión supratentorial (tálamo, corteza parietal) o de tronco del encéfalo contralateral</td>
+</tr>
+<tr>
+<td><strong>Dermatomérico o radicular</strong></td>
+<td>Franja lineal que sigue la distribución de una raíz nerviosa (dermatoma), frecuentemente con dolor irradiado</td>
+<td>Radiculopatía (hernia discal, espondilosis)</td>
+</tr>
+</tbody>
+</table></div>
+
+</section>
+<section id="sec-caso-clinico-la-mano-derecha-dormida" class="card">
+<div class="section-kicker"><span class="n">12</span> Diapositivas 18–19</div>
+<h2>Caso clínico: &quot;la mano derecha dormida&quot;</h2>
+<p>Caso: <em>“Desde esta mañana siento que la mano derecha está dormida y además se me cae lo que intento tomar”</em>. La descripción contiene <strong>dos síntomas diferenciados</strong>: un trastorno sensitivo y uno motor <span class="cite">diapo 18</span>.</p>
+<p>Interrogatorio sistemático <span class="cite">diapo 19</span>:</p>
+<ol type="1">
+<li><strong>¿Pérdida de fuerza real o caída de objetos por pérdida sensitiva?</strong> Diferenciar si suelta los objetos porque no puede sujetarlos (debilidad verdadera) o porque no los siente (déficit propioceptivo); la exploración de fuerza y propiocepción responde esto.</li>
+<li><strong>¿Distribución exacta?</strong> ¿Toda la mano o solo algunos dedos? Los dedos orientan a territorios de nervios periféricos (mediano, cubital, radial) o a dermatomas cervicales (C6–C8); toda la mano orienta más a lesiones centrales.</li>
+<li><strong>¿Inicio súbito? ¿Primer episodio?</strong> Inicio brusco en horas → etiología vascular (ictus isquémico o hemorrágico); progresivo en días → desmielinizante o compresiva.</li>
+<li><strong>¿Alteración del lenguaje o de la cara?</strong> Disfasia, disartria o paresia facial del mismo lado que la clínica de la mano apuntan a lesión supratentorial contralateral (hemisferio izquierdo, dado que la mano es derecha): corteza, cápsula interna o tronco.</li>
+</ol>
+<p>Localizaciones posibles en este caso: lesión contralateral supratentorial (hemisferio izquierdo), lesión de tronco derecho, radiculopatía cervical o síndrome del túnel carpiano. La historia clínica diferencia <span class="cite">diapo 19</span>.</p>
+
+</section>
+<section id="sec-estado-mental-dominios-1-y-2" class="card">
+<div class="section-kicker"><span class="n">13</span> Diapositivas 23–26</div>
+<h2>Estado mental: dominios 1 y 2</h2>
+<p>La evaluación clínica del cerebro se organiza en cuatro áreas: <strong>estado mental general</strong> (apariencia, conducta, nivel de conciencia, orientación y atención — punto de partida), <strong>funciones corticales superiores</strong> (memoria, lenguaje, praxias, gnosias y negligencia — localizan disfunciones hemisféricas), <strong>nervios craneanos</strong> (su patrón de afectación combinada localiza lesiones de tronco y base del cráneo) e <strong>integración clínica</strong> de las tres áreas para construir la hipótesis localizadora <span class="cite">diapo 23</span>.</p>
+<p><strong>Dominio 1: apariencia y conducta</strong> <span class="cite">diapo 25</span></p>
+<ul>
+<li><strong>Aspecto general:</strong> ¿bien cuidado o descuidado? ¿apariencia acorde a edad y contexto? El descuido en aseo y vestimenta puede ser el primer signo observable de deterioro cognitivo o depresión grave.</li>
+<li><strong>Interacción y contacto:</strong> contacto visual, respuesta a la presentación del médico, inicio espontáneo de la conversación. La falta de contacto puede reflejar alteración de conciencia, psicosis o trastornos del espectro autista.</li>
+<li><strong>Conducta observable:</strong> agitación psicomotriz, enlentecimiento, estereotipias, compulsiones; respuesta a estímulos del ambiente que el médico no percibe (alucinaciones). La conducta informa sobre lóbulo frontal y sistema límbico.</li>
+</ul>
+<p><strong>Dominio 2: orientación y atención</strong> <span class="cite">diapo 26</span></p>
+<ul>
+<li><strong>Orientación en cuatro esferas</strong>, que pierden integridad de forma característica y progresiva en el deterioro cognitivo: 1) persona (¿sabe cómo se llama?), 2) lugar (¿sabe dónde está?), 3) tiempo (¿sabe la fecha, el día, el año?), 4) situación (¿comprende por qué está aquí?). La <strong>desorientación temporal es habitualmente el primer dominio que se deteriora</strong> en las demencias degenerativas.</li>
+<li><strong>Atención:</strong> prerequisito para evaluar cualquier otra función cognitiva; sin atención la memoria, el lenguaje y las praxias no pueden evaluarse de forma válida. Métodos: mantener una conversación coherente, series regresivas (restar 7 de 100 consecutivamente), deletreo inverso (“MUNDO” al revés), seguir instrucciones de dos o tres pasos. La <strong>atención deteriorada con fluctuación a lo largo del día es la marca del delirium</strong>, a diferencia de la demencia, donde la atención se deteriora tardíamente.</li>
+</ul>
+
+</section>
+<section id="sec-estado-mental-dominio-3-lenguaje" class="card">
+<div class="section-kicker"><span class="n">14</span> Diapositivas 27–28</div>
+<h2>Estado mental: dominio 3 — lenguaje</h2>
+<p>Una distinción crítica: <strong>lenguaje ≠ habla</strong> <span class="cite">diapo 27</span>:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Concepto</th>
+<th>Definición</th>
+<th>Alteración</th>
+<th>Sustrato</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Lenguaje</strong></td>
+<td>Capacidad de comprender y expresar significados mediante un sistema simbólico (palabras, frases, gramática)</td>
+<td><strong>Afasia</strong></td>
+<td>Áreas corticales especializadas del hemisferio dominante (Broca y Wernicke)</td>
+</tr>
+<tr>
+<td><strong>Habla</strong></td>
+<td>Mecanismo de producción oral: selección de palabras, formulación gramatical</td>
+<td>Puede alterarse aunque el lenguaje subyacente sea correcto</td>
+<td>Lóbulos frontales y sistema extrapiramidal</td>
+</tr>
+<tr>
+<td><strong>Articulación</strong></td>
+<td>Producción motora del sonido mediante labios, lengua, paladar y laringe</td>
+<td><strong>Disartria</strong> (aislada): el paciente sabe lo que quiere decir y lo formula correctamente, pero no puede articularlo bien</td>
+<td>Vías corticobulbares, cerebelo o nervios craneanos</td>
+</tr>
+</tbody>
+</table></div>
+<p>Un paciente con afasia no puede comunicarse correctamente aunque articule bien; uno con disartria habla ininteligiblemente pero comprende y formula bien. La distinción tiene implicaciones localizadoras inmediatas <span class="cite">diapo 27</span>.</p>
+<p><strong>Cuatro componentes localizables del lenguaje</strong> <span class="cite">diapo 28</span>:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Componente</th>
+<th>Evaluación</th>
+<th>Localización</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Comprensión</strong></td>
+<td>¿Entiende órdenes simples y complejas?</td>
+<td>Área de Wernicke (T1 posterior del hemisferio dominante)</td>
+</tr>
+<tr>
+<td><strong>Expresión</strong></td>
+<td>¿Habla espontáneamente con fluencia normal? La no fluencia orienta aquí</td>
+<td>Área de Broca (F3 inferior)</td>
+</tr>
+<tr>
+<td><strong>Denominación</strong></td>
+<td>¿Nombra objetos presentados visualmente? La anomia puede ser el síntoma más sensible y precoz de disfunción cortical del lenguaje</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Repetición</strong></td>
+<td>¿Repite frases complejas? Su alteración con comprensión y expresión conservadas</td>
+<td>Afasia de conducción (fascículo arqueado)</td>
+</tr>
+</tbody>
+</table></div>
+
+</section>
+<section id="sec-estado-mental-dominio-4-memoria" class="card">
+<div class="section-kicker"><span class="n">15</span> Diapositiva 30</div>
+<h2>Estado mental: dominio 4 — memoria</h2>
+<p>Tres sistemas, tres vulnerabilidades <span class="cite">diapo 30</span>:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Tipo de memoria</th>
+<th>Definición y evaluación</th>
+<th>Sustrato</th>
+<th>Vulnerabilidad clínica</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Inmediata (de trabajo)</strong></td>
+<td>Retener información durante segundos; se evalúa pidiendo repetir inmediatamente una serie de dígitos</td>
+<td>Sistema prefrontal y bucle fonológico</td>
+<td>Alterada en el delirium y en lesiones frontales</td>
+</tr>
+<tr>
+<td><strong>Reciente (episódica)</strong></td>
+<td>Aprender y retener información nueva durante minutos u horas; se evalúa pidiendo recordar tres palabras tras 5 minutos de distracción</td>
+<td>Hipocampo y circuito de Papez</td>
+<td>Es la memoria más precozmente deteriorada en la enfermedad de Alzheimer</td>
+</tr>
+<tr>
+<td><strong>Remota (semántica/autobiográfica)</strong></td>
+<td>Recuerdo de hechos aprendidos en el pasado lejano y de experiencias autobiográficas</td>
+<td>— (no especificado en el material)</td>
+<td>Suele estar relativamente preservada en fases iniciales de las demencias; su deterioro precoz orienta a demencias frontales o enfermedad de Huntington</td>
+</tr>
+</tbody>
+</table></div>
+
+</section>
+<section id="sec-praxias-gnosias-y-negligencia" class="card">
+<div class="section-kicker"><span class="n">16</span> Diapositiva 31</div>
+<h2>Praxias, gnosias y negligencia</h2>
+<p><span class="cite">diapo 31</span></p>
+<ul>
+<li><strong>Praxias:</strong> capacidad de ejecutar actos motores aprendidos de forma voluntaria, en ausencia de paresia, ataxia o déficit sensitivo que lo justifiquen. Su alteración es la <strong>apraxia</strong>. Evaluación: “muéstreme cómo se peina”, “cómo se cepilla los dientes”, “cómo saluda con la mano”. Las apraxias ideomotoras y constructivas orientan a lesiones de los lóbulos parietales, especialmente del hemisferio dominante.</li>
+<li><strong>Gnosias:</strong> capacidad de reconocer estímulos a través de los sentidos, en ausencia de alteración sensorial primaria. Su alteración es la <strong>agnosia</strong>. Tipos relevantes: agnosia visual (no reconoce objetos vistos), prosopagnosia (no reconoce caras), astereognosia (no reconoce objetos por el tacto). Orientan a lesiones de las áreas de asociación parieto-occipitales.</li>
+<li><strong>Negligencia:</strong> el paciente no atiende a los estímulos que ocurren en el hemicampo contralateral a la lesión, aunque la sensibilidad primaria esté conservada. Más frecuente y grave en lesiones del <strong>hemisferio no dominante (derecho)</strong>. Se evalúa con la prueba de cancelación y la bisección de líneas.</li>
+</ul>
+
+</section>
+<section id="sec-pares-craneales-i-xii" class="card">
+<div class="section-kicker"><span class="n">17</span> Diapositivas 33–37</div>
+<h2>Pares craneales I–XII</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Par</th>
+<th>Función principal</th>
+<th>Evaluación y hallazgos de lesión [diapo]</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>I — Olfatorio</strong></td>
+<td>Identificación de olores <span class="cite">diapo 33</span></td>
+<td>Sustancias de olor conocido (café, jabón) por fosa nasal, con la otra ocluida y ojos cerrados. Anosmia unilateral: puede ser primer signo de meningioma del surco olfatorio o lesión del lóbulo frontal basal; bilateral: frecuente en traumatismo craneoencefálico y enfermedad de Parkinson</td>
+</tr>
+<tr>
+<td><strong>II — Óptico</strong></td>
+<td>Agudeza visual, campos visuales, reflejo fotomotor (vía aferente) <span class="cite">diapo 33</span></td>
+<td>Optotipo; campimetría por confrontación (un ojo a la vez); reflejo fotomotor directo y consensuado. Hemianopsia homónima: lesión retroquiasmática contralateral; escotoma central: neuritis óptica; pérdida del reflejo fotomotor aferente con eferente conservado: lesión del NC II</td>
+</tr>
+<tr>
+<td><strong>III — Oculomotor</strong></td>
+<td>Recto superior, inferior y medial, oblicuo inferior; elevador del párpado; fibras parasimpáticas para el esfínter pupilar <span class="cite">diapo 34</span></td>
+<td>Lesión: ptosis, ojo en abducción e infraducción (“ojo abajo y afuera”), midriasis. La midriasis dolorosa con cefalea intensa es urgencia (aneurisma comunicante posterior)</td>
+</tr>
+<tr>
+<td><strong>IV — Troclear</strong></td>
+<td>Oblicuo superior (infraducción con el ojo en aducción) <span class="cite">diapo 34</span></td>
+<td>Lesión: diplopía vertical que empeora mirando abajo y hacia adentro; el paciente inclina la cabeza al lado contrario. Es el nervio craneano con el trayecto intracraneal más largo, muy vulnerable al traumatismo</td>
+</tr>
+<tr>
+<td><strong>V — Trigémino</strong></td>
+<td>Sensibilidad de la cara (V1 oftálmica, V2 maxilar, V3 mandibular); músculos de la masticación; aferente del reflejo corneal <span class="cite">diapo 35</span></td>
+<td>Algodón y punta roma comparando los tres territorios; motricidad: apretar dientes, mover mandíbula lateralmente. Reflejo corneal: V aferente, VII eferente; su ausencia refleja lesión de cualquiera de los dos</td>
+</tr>
+<tr>
+<td><strong>VI — Abducens</strong></td>
+<td>Recto lateral (abducción del ojo) <span class="cite">diapo 34</span></td>
+<td>Lesión: ojo en aducción en reposo, incapacidad para abducir (estrabismo convergente). Su paresia puede ser signo de hipertensión intracraneal por el largo recorrido del nervio</td>
+</tr>
+<tr>
+<td><strong>VII — Facial</strong></td>
+<td>Movilidad de la mímica facial; gustación en los dos tercios anteriores de la lengua <span class="cite">diapo 35</span></td>
+<td>Simetría en reposo y con movimientos: subir cejas, cierre ocular forzado, sonreír, inflar carrillos. Lesión central (NMS): paresia de la parte inferior de la cara con frente relativamente preservada (inervación bilateral del frontal) → lesión hemisférica contralateral. Lesión periférica: paresia de toda la hemicara incluida la frente → parálisis de Bell, parotiditis, síndrome de Ramsay Hunt</td>
+</tr>
+<tr>
+<td><strong>VIII — Vestibulococlear</strong></td>
+<td>Coclear: audición; vestibular: equilibrio y movimiento ocular compensatorio <span class="cite">diapo 36</span></td>
+<td>Frotamiento digital junto al oído; si hay hipoacusia, Rinne y Weber con diapasón para distinguir hipoacusia conductiva (oído externo/medio) de neurosensorial (NC VIII o cóclea). Hipoacusia neurosensorial unilateral en adulto joven: descartar schwannoma vestibular. Vértigo vestibular periférico: intenso, posicional, con síntomas vegetativos; vértigo central (tronco, cerebelo): más persistente, con otros signos neurológicos</td>
+</tr>
+<tr>
+<td><strong>IX y X — Glosofaríngeo y vago</strong></td>
+<td>Voz (nasalidad, ronquera), deglución, paladar blando, reflejo nauseoso <span class="cite">diapo 37</span></td>
+<td>Elevación simétrica del paladar blando con el fonema “ahhh”. Voz nasal y paresia palatina unilateral (úvula desviada) orientan a lesión del NC X ipsilateral</td>
+</tr>
+<tr>
+<td><strong>XI — Espinal o accesorio</strong></td>
+<td>Esternocleidomastoideo (rotación de la cabeza hacia el lado contrario) y trapecio (elevación del hombro) <span class="cite">diapo 37</span></td>
+<td>Paresia del trapecio: caída del hombro y escápula alada. Afectado en lesiones del agujero yugular</td>
+</tr>
+<tr>
+<td><strong>XII — Hipogloso</strong></td>
+<td>Movilidad de la lengua <span class="cite">diapo 37</span></td>
+<td>Lesión: desviación de la lengua hacia el lado de la lesión al protruirla (la lengua “señala” la lesión). En lesiones crónicas: atrofia y fasciculaciones linguales visibles</td>
+</tr>
+</tbody>
+</table></div>
+<p>Nota sobre los oculomotores (NC III, IV, VI): se evalúan conjuntamente porque comparten función —controlar los movimientos oculares—; su alteración produce diplopía y desviación ocular. La diplopía es siempre <strong>binocular</strong>: desaparece al ocluir un ojo <span class="cite">diapo 34</span>.</p>
+
+</section>
+<section id="sec-patrones-localizadores-de-pares-craneales" class="card">
+<div class="section-kicker"><span class="n">18</span> Diapositivas 38–39</div>
+<h2>Patrones localizadores de pares craneales</h2>
+<p>No basta con examinar un nervio aislado: el <strong>patrón de afectación de varios pares craneales</strong> permite localizar la lesión <span class="cite">diapo 38</span>:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Patrón</th>
+<th>Localización</th>
+<th>Causas <span class="cite">diapo 38</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>NC III + IV + VI</strong></td>
+<td>Seno cavernoso (donde discurren juntos) u oftalmoplegia internuclear por lesión del fascículo longitudinal medial</td>
+<td>Trombosis del seno cavernoso, fístula carótido-cavernosa, tumor</td>
+</tr>
+<tr>
+<td><strong>NC VII + VIII</strong></td>
+<td>Ángulo pontocerebeloso (schwannoma vestibular, meningioma) o conducto auditivo interno; también ganglio geniculado (Ramsay Hunt)</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>NC IX + X + XI + XII</strong></td>
+<td>Agujero yugular o bulbo raquídeo. La combinación de disfonía, disfagia, disartria y paresia lingual se denomina parálisis bulbar progresiva (cuando es degenerativa) o síndrome bulbar</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>NC III + hemiparesia contralateral</strong></td>
+<td>Síndrome de Weber: lesión en el pie del pedúnculo mesencefálico; la lesión cruza la línea media al afectar la vía piramidal y el NC III en el mismo nivel</td>
+<td>—</td>
+</tr>
+</tbody>
+</table></div>
+<p>Organización funcional por tramo del tronco: lesiones del <strong>mesencéfalo</strong> afectan predominantemente al grupo oculomotor; de la <strong>protuberancia</strong>, al NC V, VI y VII; del <strong>bulbo</strong>, al grupo inferior <span class="cite">diapo 39</span>.</p>
+
+</section>
+<section id="sec-tabla-sintomas-patrones-localizaciones-y-puntos-clave" class="card">
+<div class="section-kicker"><span class="n">19</span> Diapositivas 41–42</div>
+<h2>Tabla síntomas–patrones–localizaciones y puntos clave</h2>
+<p>Síntesis del deck: del síntoma al patrón y a la localización <span class="cite">diapo 41</span>:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Síntoma / hallazgo</th>
+<th>Patrón orientador</th>
+<th>Localización posible</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hemiparesia + hemihipoestesia</td>
+<td>Déficit motor y sensitivo ipsilaterales</td>
+<td>Lesión supratentorial contralateral (cápsula interna, corteza)</td>
+</tr>
+<tr>
+<td>Paraparesia + nivel sensitivo</td>
+<td>Déficit bilateral desde un nivel</td>
+<td>Médula espinal (mielitis transversa, compresión)</td>
+</tr>
+<tr>
+<td>Diplopía + ptosis + midriasis</td>
+<td>Parálisis del NC III</td>
+<td>Mesencéfalo, seno cavernoso o aneurisma</td>
+</tr>
+<tr>
+<td>Paresia facial periférica + hipoacusia</td>
+<td>Afectación NC VII + NC VIII</td>
+<td>Ángulo pontocerebeloso o conducto auditivo interno</td>
+</tr>
+<tr>
+<td>Debilidad proximal simétrica sin déficit sensitivo</td>
+<td>Patrón miopático</td>
+<td>Músculo (miopatía inflamatoria, distrofia)</td>
+</tr>
+<tr>
+<td>Parestesias en guante-calcetín</td>
+<td>Polineuropatía longitud-dependiente</td>
+<td>Nervios periféricos (neuropatía diabética, alcohólica)</td>
+</tr>
+<tr>
+<td>Afasia no fluente + hemiparesia derecha</td>
+<td>Lesión fronto-parietal del hemisferio dominante</td>
+<td>Hemisferio izquierdo (área de Broca, cápsula interna)</td>
+</tr>
+<tr>
+<td>Fase postictal larga + mordedura lateral de lengua</td>
+<td>Patrón postcrítico epiléptico</td>
+<td>Crisis epiléptica (tónico-clónica generalizada)</td>
+</tr>
+</tbody>
+</table></div>
+<p>Ver también los puntos clave de <span class="cite">diapo 42</span>, resumidos en la sección 1.</p>
+
+</section>
+<section id="sec-conceptos-clave-y-siglas" class="card">
+<div class="section-kicker"><span class="n">20</span> Diapositivas 4–42</div>
+<h2>Conceptos clave y siglas</h2>
+<ul>
+<li><strong>SRAA:</strong> sistema reticular activador ascendente; sustento anatómico del nivel de conciencia, en el tronco del encéfalo <span class="cite">diapo 4</span>.</li>
+<li><strong>Contenido de conciencia:</strong> calidad y coherencia de los procesos cognitivos durante la vigilia; independiente del nivel <span class="cite">diapo 4</span>.</li>
+<li><strong>Aura:</strong> síntoma focal que precede a la crisis epiléptica <span class="cite">diapo 8</span>.</li>
+<li><strong>Parálisis de Todd:</strong> déficit focal transitorio postictal <span class="cite">diapo 8</span>.</li>
+<li><strong>Debilidad verdadera vs fatiga:</strong> la única que indica compromiso del sistema motor; la fatiga decrece con el esfuerzo sostenido (típica de miastenia gravis) <span class="cite">diapo 11</span>.</li>
+<li><strong>Disociación sensitiva:</strong> pérdida selectiva de dolor/temperatura o de vibración/propiocepción; clave de lesión medular intrínseca (siringomielia) <span class="cite">diapo 15</span>.</li>
+<li><strong>Disociación hemiparesia–hemisensibilidad ipsilaterales:</strong> lesión supratentorial contralateral <span class="cite">diapo 41</span>.</li>
+<li><strong>Nivel sensitivo:</strong> límite horizontal bajo el cual se pierde sensibilidad → lesión medular transversa <span class="cite">diapo 17</span>.</li>
+<li><strong>Afasia / disartria:</strong> alteración del sistema simbólico (lenguaje, hemisferio dominante) vs de la producción motora del sonido (disartria, vías corticobulbares/cerebelo/NC) <span class="cite">diapo 27</span>.</li>
+<li><strong>Fascículo arqueado:</strong> sustrato de la afasia de conducción (repetición alterada con comprensión y expresión conservadas) <span class="cite">diapo 28</span>.</li>
+<li><strong>Anomia:</strong> incapacidad de denominar; síntoma más sensible y precoz de disfunción cortical del lenguaje <span class="cite">diapo 28</span>.</li>
+<li><strong>Delirium vs demencia (atención):</strong> en el delirium la atención está deteriorada con fluctuación diaria; en la demencia se deteriora tardíamente <span class="cite">diapo 26</span>.</li>
+<li><strong>Apraxia / agnosia / negligencia:</strong> alteraciones de actos motores aprendidos (parietal dominante), reconocimiento sensorial (asociación parieto-occipital) y atención al hemicampo contralateral (hemisferio no dominante) <span class="cite">diapo 31</span>.</li>
+<li><strong>Reflejo corneal:</strong> V aferente, VII eferente <span class="cite">diapo 35</span>.</li>
+<li><strong>“La lengua señala la lesión”:</strong> desviación de la lengua protruida hacia el lado de la lesión del NC XII <span class="cite">diapo 37</span>.</li>
+<li><strong>Síndrome de Weber:</strong> NC III ipsilateral + hemiparesia contralateral; pie del pedúnculo mesencefálico <span class="cite">diapo 38</span>.</li>
+<li><strong>Síndrome bulbar / parálisis bulbar progresiva:</strong> disfonía + disfagia + disartria + paresia lingual por afectación de IX–XII <span class="cite">diapo 38</span>.</li>
+<li><strong>Localizar antes de etiquetar:</strong> primera etapa = localización anatómica; segunda = diagnóstico etiológico <span class="cite">diapo 42</span>.</li>
+</ul>
+
+</section>
+<section id="sec-preguntas-probables" class="card">
+<div class="section-kicker"><span class="n">21</span> Diapositivas 4–41</div>
+<h2>Preguntas probables</h2>
+<div class="qa-tools"><button class="openAll" type="button">Abrir todas</button><button class="closeAll" type="button">Cerrar todas</button></div>
+<details class="qa"><summary>1. ¿Cuáles son las dos dimensiones de la conciencia y cuál es su sustrato?</summary><div class="answer">Nivel de conciencia (¿está despierto?, sustentado por el SRAA del tronco) y contenido de conciencia (¿comprende, responde adecuadamente, está orientado?: procesos cognitivos de la vigilia). Se evalúan de forma independiente. <span class="cite">diapo 4</span></div></details>
+<details class="qa"><summary>2. Defina estupor y obnubilación según el espectro del nivel de conciencia.</summary><div class="answer">Estupor: solo responde a estímulos intensos y dolorosos, con respuesta mínima y no sostenida. Obnubilación: somnoliento pero despertable con estímulos moderados, con lentitud cognitiva marcada. <span class="cite">diapo 5</span></div></details>
+<details class="qa"><summary>3. ¿Qué orienta el inicio súbito versus gradual de una alteración de conciencia?</summary><div class="answer">Súbito: causas vasculares (ictus, hemorragia) o epilépticas. Gradual: procesos metabólicos, infecciosos o tumorales. <span class="cite">diapo 6</span></div></details>
+<details class="qa"><summary>4. ¿Qué elementos componen la fase ictal de una crisis convulsiva?</summary><div class="answer">Pérdida de conciencia (total o parcial), rigidez tónica generalizada, clonías rítmicas, desviación ocular/cefálica, mordedura lateral de lengua, cianosis, apnea e incontinencia. <span class="cite">diapo 8</span></div></details>
+<details class="qa"><summary>5. ¿Qué es la parálisis de Todd?</summary><div class="answer">Déficit focal transitorio que ocurre en la fase postictal de una crisis. <span class="cite">diapo 8</span></div></details>
+<details class="qa"><summary>6. Describa cuatro criterios clínicos que diferencian crisis epiléptica de síncope.</summary><div class="answer">Entre: inicio (brusco/con aura vs pródromos de mareo, náusea y visión borrosa), posición (cualquiera vs de pie o tras esfuerzo), duración (1–3 min vs segundos con recuperación rápida), movimientos (clonías rítmicas vs mioclónicas breves), mordedura lingual (lateral vs punta o ausente), incontinencia (frecuente vs rara), fase postictal (sí vs recuperación inmediata) y color de piel (cianosis vs palidez). <span class="cite">diapo 9</span></div></details>
+<details class="qa"><summary>7. ¿Por qué preguntar “¿qué significa para usted sentirse débil?”?</summary><div class="answer">Porque separa cuatro realidades distintas: debilidad verdadera (única que indica compromiso del sistema motor), fatiga (fuerza normal al inicio que decrece con el esfuerzo; miastenia), dolor (no mueve por dolor, no por incapacidad) y limitación mecánica (causa osteoarticular/tendinosa, sistema nervioso normal). <span class="cite">diapo 11</span></div></details>
+<details class="qa"><summary>8. Debilidad distal con caída del pie y dificultad para abrir tarros: ¿qué orientación sindromática tiene, y si es proximal?</summary><div class="answer">Distal: neuropatía periférica (polineuropatía, radiculopatía). Proximal (levantarse de silla, subir escalones, peinarse): miopatía. <span class="cite">diapo 12, 13</span></div></details>
+<details class="qa"><summary>9. Patrón paraparesia + nivel sensitivo: ¿localización probable?</summary><div class="answer">Médula espinal: mielitis transversa o compresión medular; el déficit bilateral desde un nivel es el patrón orientador. <span class="cite">diapo 13, 41</span></div></details>
+<details class="qa"><summary>10. ¿Qué es la disociación sensitiva y qué lesión la caracteriza?</summary><div class="answer">Pérdida selectiva de dolor/temperatura con conservación de vibración/propiocepción (o viceversa), por el distinto punto de cruce de la vía espinotalámica (a nivel del segmento de entrada) y de las columnas dorsales (a nivel del bulbo). Característica de lesiones medulares intrínsecas como la siringomielia. <span class="cite">diapo 15</span></div></details>
+<details class="qa"><summary>11. Diferencie hipoestesia, disestesia y alodinia.</summary><div class="answer">Hipoestesia: disminución de la sensibilidad a un estímulo. Disestesia: sensación desagradable o dolorosa ante un estímulo normalmente no doloroso. Alodinia: dolor evocado por estímulos inocuos como el roce de la ropa. <span class="cite">diapo 16</span></div></details>
+<details class="qa"><summary>12. Parestesias en guante y calcetín: ¿patrón y diagnóstico sindromático?</summary><div class="answer">Patrón distal y simétrico con gradiente longitud-dependiente → polineuropatía periférica (diabética, alcohólica, carencial). <span class="cite">diapo 17</span></div></details>
+<details class="qa"><summary>13. “La mano derecha dormida”: ¿qué dos preguntas diferencian una lesión central de un síndrome del túnel carpiano?</summary><div class="answer">Distribución exacta (toda la mano → lesión central; dedos individuales → nervios periféricos mediano/cubital/radial o dermatomas C6–C8) y presencia de alteración del lenguaje o paresia facial del mismo lado → lesión supratentorial contralateral (hemisferio izquierdo). <span class="cite">diapo 19</span></div></details>
+<details class="qa"><summary>14. ¿Qué marca separa el delirium de la demencia en la evaluación de la atención?</summary><div class="answer">Atención deteriorada con fluctuación a lo largo del día = delirium; en la demencia la atención se deteriora tardíamente. La desorientación temporal suele ser el primer dominio deteriorado en las demencias degenerativas. <span class="cite">diapo 26</span></div></details>
+<details class="qa"><summary>15. Diferencie afasia de disartria y su implicancia localizadora.</summary><div class="answer">Afasia: alteración del sistema simbólico del lenguaje, por lesión cortical del hemisferio dominante (Broca/Wernicke); el paciente no se comunica aunque articule bien. Disartria: alteración de la producción motora del sonido (vías corticobulbares, cerebelo, nervios craneanos); comprende y formula bien, pero articula mal. <span class="cite">diapo 27</span></div></details>
+<details class="qa"><summary>16. Afasia de conducción: ¿qué componente del lenguaje está alterado y por qué estructura?</summary><div class="answer">Repetición alterada con comprensión y expresión conservadas, por lesión del fascículo arqueado. <span class="cite">diapo 28</span></div></details>
+<details class="qa"><summary>17. ¿Qué tipo de memoria se evalúa recordando tres palabras tras 5 minutos de distracción, y cuál es su sustrato?</summary><div class="answer">Memoria reciente (episódica); depende del hipocampo y del circuito de Papez; es la más precozmente deteriorada en la enfermedad de Alzheimer. <span class="cite">diapo 30</span></div></details>
+<details class="qa"><summary>18. ¿En qué hemisferio es más frecuente y grave la negligencia, y cómo se evalúa?</summary><div class="answer">En el hemisferio no dominante (derecho); se evalúa con la prueba de cancelación y la bisección de líneas. <span class="cite">diapo 31</span></div></details>
+<details class="qa"><summary>19. Midriasis dolorosa con cefalea intensa: ¿qué significa y por qué es urgencia?</summary><div class="answer">Sugiere compromiso del NC III (ptosis, ojo abajo y afuera, midriasis); en contexto de cefalea intensa oriente a aneurisma comunicante posterior. <span class="cite">diapo 34</span></div></details>
+<details class="qa"><summary>20. ¿Cómo distingue una paresia facial central de una periférica y qué localiza cada una?</summary><div class="answer">Central (NMS): paresia solo de la parte inferior de la hemicara, con frente relativamente preservada por su inervación bilateral → lesión hemisférica contralateral. Periférica: paresia de toda la hemicara incluida la frente → parálisis de Bell, parotiditis, Ramsay Hunt. <span class="cite">diapo 35</span></div></details>
+<details class="qa"><summary>21. Patrón NC VII + NC VIII: ¿dónde localiza la lesión?</summary><div class="answer">Ángulo pontocerebeloso (schwannoma vestibular, meningioma) o conducto auditivo interno; también ganglio geniculado (Ramsay Hunt). <span class="cite">diapo 38</span></div></details>
+<details class="qa"><summary>22. Hemiparesia derecha + afasia no fluente: ¿patrón y localización?</summary><div class="answer">Lesión fronto-parietal del hemisferio dominante: hemisferio izquierdo (área de Broca, cápsula interna). <span class="cite">diapo 41</span></div></details>
+</section>
+<section id="sec-diapositivas-sin-texto-extraible" class="card">
+<div class="section-kicker"><span class="n">22</span> Diapositivas 1–40</div>
+<h2>Diapositivas sin texto extraíble</h2>
+<ul>
+<li><strong><span class="cite">diapo 1</span>:</strong> portada del deck; solo el título “Del síntoma neurológico a la primera hipótesis sindromática”.</li>
+<li><strong><span class="cite">diapo 3</span>:</strong> separador de sección: “Alteración del Nivel de Conciencia”.</li>
+<li><strong><span class="cite">diapo 7</span>:</strong> separador de sección: “Convulsiones”; solo es visible la pregunta “¿Qué ocurrió antes, durante y después?”.</li>
+<li><strong><span class="cite">diapo 10</span>:</strong> separador de sección: “Debilidad Muscular”.</li>
+<li><strong><span class="cite">diapo 14</span>:</strong> separador de sección “Trastornos Sensitivos” sobre un mapa de dermatomas (vista anterior y posterior); el contenido de la imagen no es interpretable desde el texto.</li>
+<li><strong><span class="cite">diapo 22</span>:</strong> separador de sección: “Estado Mental, Funciones Corticales y Nervios Craneanos”.</li>
+<li><strong><span class="cite">diapo 24</span>:</strong> separador de sección: “Evaluación del Estado Mental — Los Cuatro Dominios del Estado Mental”.</li>
+<li><strong><span class="cite">diapo 32</span>:</strong> separador de sección: “Nervios Craneanos — Los 12 Pares Craneanos: Enfoque Funcional”.</li>
+<li><strong><span class="cite">diapo 40</span>:</strong> diapositiva con el esquema síntomas → patrón → localización → etiología; solo esos cuatro rótulos son legibles (el detalle del esquema no está en el material).</li>
+</ul>
+
+</section>
+  </main>
+</div>
+
+<footer>
+  <div class="foot-inner">
+    <div><strong>Guía de estudio — Del Síntoma Neurológico al Síndrome</strong><br>Certamen 3 · Semiología del sistema nervioso · Clase 2 de 4</div>
+    <div>Fuente: <code>clase 2 semiologia sitema nervioso.pdf</code> · 42 diapositivas<br>
+    Citaciones <code>[diapo N]</code> = número de diapositiva del PDF.<br>
+    Elaborada el 23 de noviembre de 2026.</div>
+  </div>
+</footer>
+
+<script>
+  const root = document.documentElement;
+  const themeBtn = document.getElementById('themeBtn');
+  const printBtn = document.getElementById('printBtn');
+
+  function setTheme(theme){
+    root.dataset.theme = theme;
+    const dark = theme === 'dark';
+    themeBtn.textContent = dark ? 'Modo claro' : 'Modo oscuro';
+    themeBtn.setAttribute('aria-pressed', String(dark));
+    try { localStorage.setItem('guia-theme', theme); } catch(e) {}
+  }
+  try {
+    const saved = localStorage.getItem('guia-theme');
+    if (saved === 'dark' || saved === 'light') setTheme(saved);
+  } catch(e) {}
+  themeBtn.addEventListener('click', () => setTheme(root.dataset.theme === 'dark' ? 'light' : 'dark'));
+  printBtn.addEventListener('click', () => window.print());
+  window.addEventListener('beforeprint', () => document.querySelectorAll('details').forEach(d => d.open = true));
+
+  const links = [...document.querySelectorAll('.toc a[href^="#"]')];
+  const sections = [...document.querySelectorAll('main section[id]')];
+  if ('IntersectionObserver' in window) {
+    const obs = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        const id = entry.target.id;
+        links.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + id));
+      });
+    }, {rootMargin: '-15% 0px -70% 0px', threshold: 0});
+    sections.forEach(s => obs.observe(s));
+  }
+
+  document.querySelectorAll('.openAll').forEach(b => b.addEventListener('click', () =>
+    b.closest('section').querySelectorAll('details.qa').forEach(d => d.open = true)));
+  document.querySelectorAll('.closeAll').forEach(b => b.addEventListener('click', () =>
+    b.closest('section').querySelectorAll('details.qa').forEach(d => d.open = false)));
+</script>
+</body>
+</html>

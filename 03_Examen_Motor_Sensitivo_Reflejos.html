@@ -1,0 +1,1654 @@
+<!doctype html>
+<html lang="es-CL" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Guía de estudio del Certamen 3 de Semiología (sistema nervioso), con citas por número de diapositiva.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f5c57'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='34' fill='%23d9f0ea' text-anchor='middle'%3EN%3C/text%3E%3C/svg%3E">
+<meta property="og:title" content="Semiología C3 — Sistema nervioso">
+<meta property="og:description" content="Guía de estudio del Certamen 3 de Semiología (sistema nervioso), con citas por número de diapositiva.">
+<meta property="og:type" content="website">
+
+<title>Guía de estudio — Examen Motor, Sensitivo y Reflejos · Semiología C3</title>
+<style>  :root{
+    --bg:#f6f4ee;
+    --surface:#fffdf8;
+    --surface-2:#efeae0;
+    --surface-3:#e6dfd1;
+    --ink:#1d2a2e;
+    --muted:#5d6b70;
+    --line:#d8d1c3;
+    --brand:#0f5c57;
+    --brand-2:#147d74;
+    --brand-3:#d9f0ea;
+    --accent:#b45309;
+    --accent-2:#fef3c7;
+    --rose:#9f1239;
+    --rose-2:#ffe4e6;
+    --blue:#1e3a8a;
+    --blue-2:#dbeafe;
+    --shadow:0 10px 30px rgba(20,40,40,.08);
+    --radius:16px;
+    --serif:Georgia,"Iowan Old Style","Palatino Linotype",Palatino,serif;
+    --sans:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  }
+  [data-theme="dark"]{
+    --bg:#0f1617;
+    --surface:#162022;
+    --surface-2:#1d2a2c;
+    --surface-3:#263638;
+    --ink:#e8eeec;
+    --muted:#a7b6b2;
+    --line:#2c3c3d;
+    --brand:#5eead4;
+    --brand-2:#2dd4bf;
+    --brand-3:#123330;
+    --accent:#fbbf24;
+    --accent-2:#3a2a0a;
+    --rose:#fb7185;
+    --rose-2:#3b1119;
+    --blue:#93c5fd;
+    --blue-2:#12233f;
+    --shadow:0 10px 30px rgba(0,0,0,.35);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;
+    font-family:var(--sans);
+    line-height:1.65;
+    color:var(--ink);
+    background:var(--bg);
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--brand-2);text-decoration-thickness:1px;text-underline-offset:2px}
+  a:hover{color:var(--brand)}
+  :focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:4px}
+  .skip-link{
+    position:absolute;left:-9999px;top:0;background:var(--surface);color:var(--ink);
+    padding:.7rem 1rem;z-index:100;border:1px solid var(--line);border-radius:0 0 10px 0
+  }
+  .skip-link:focus{left:0}
+
+  /* HERO */
+  .hero{
+    background:
+      radial-gradient(1200px 500px at 85% -10%,rgba(255,255,255,.16),transparent 60%),
+      linear-gradient(135deg,#082f2c 0%,#0d4b47 55%,#147d74 100%);
+    color:#f7fbfa;
+    padding:clamp(2rem,5vw,4.2rem) clamp(1.2rem,4vw,3rem) clamp(2.4rem,5vw,3.6rem);
+    position:relative;
+    overflow:hidden;
+  }
+  .hero::after{
+    content:"";position:absolute;right:-120px;bottom:-160px;width:420px;height:420px;
+    border:1px solid rgba(255,255,255,.18);border-radius:50%;
+    box-shadow:0 0 0 40px rgba(255,255,255,.04),0 0 0 90px rgba(255,255,255,.03);
+    pointer-events:none;
+  }
+  .hero-inner{max-width:1120px;margin:0 auto;position:relative;z-index:1}
+  .eyebrow{
+    display:inline-flex;align-items:center;gap:.5rem;
+    font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;
+    color:#bff3e9;font-weight:700;margin:0 0 1rem
+  }
+  .eyebrow::before{content:"";width:28px;height:1px;background:#bff3e9;display:inline-block}
+  .hero h1{
+    font-family:var(--serif);
+    font-size:clamp(2rem,5.4vw,4rem);
+    line-height:1.06;
+    margin:0 0 .7rem;
+    letter-spacing:-.02em;
+    max-width:15ch;
+    text-wrap:balance;
+  }
+  .hero .lede{
+    font-size:clamp(1.02rem,2vw,1.28rem);
+    max-width:70ch;color:#d7f1ec;margin:.4rem 0 1.6rem
+  }
+  .hero .lede em{color:#fff}
+  .meta-grid{
+    display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));
+    gap:.75rem;margin:1.6rem 0 1.2rem;max-width:1000px
+  }
+  .meta-grid div{
+    background:rgba(255,255,255,.08);
+    border:1px solid rgba(255,255,255,.16);
+    border-radius:12px;padding:.7rem .85rem;backdrop-filter:blur(3px)
+  }
+  .meta-grid span{
+    display:block;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;
+    color:#a8dfd6;font-weight:700;margin-bottom:.2rem
+  }
+  .meta-grid strong{font-size:.92rem;font-weight:600;color:#f7fbfa;line-height:1.35}
+  .hero-actions{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1.1rem}
+  .btn{
+    appearance:none;border:1px solid rgba(255,255,255,.28);
+    background:rgba(255,255,255,.10);color:#fff;
+    padding:.62rem .95rem;border-radius:10px;font:inherit;font-size:.9rem;font-weight:650;
+    cursor:pointer;transition:background .15s ease,transform .15s ease
+  }
+  .btn:hover{background:rgba(255,255,255,.2);transform:translateY(-1px)}
+  .btn.primary{background:#fff;color:#0b4a45;border-color:#fff}
+  .btn.primary:hover{background:#e9fbf6}
+
+  /* LAYOUT */
+  .shell{
+    max-width:1420px;margin:0 auto;
+    display:grid;grid-template-columns:290px minmax(0,1fr);
+    gap:clamp(1rem,3vw,2.4rem);
+    padding:2rem clamp(1rem,3vw,2rem) 4rem;
+    align-items:start;
+  }
+  .sidebar{
+    position:sticky;top:1rem;align-self:start;
+    max-height:calc(100vh - 2rem);overflow:auto;
+    background:var(--surface);border:1px solid var(--line);
+    border-radius:var(--radius);padding:1rem;
+    box-shadow:var(--shadow);
+    scrollbar-width:thin;
+  }
+  .sidebar h2{
+    font-family:var(--sans);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--muted);margin:.2rem 0 .7rem
+  }
+  .toc{list-style:none;margin:0;padding:0;font-size:.9rem}
+  .toc li{margin:.12rem 0}
+  .toc a{
+    display:block;padding:.42rem .55rem;border-radius:8px;color:var(--ink);
+    text-decoration:none;border-left:3px solid transparent;line-height:1.3
+  }
+  .toc a:hover{background:var(--surface-2)}
+  .toc a.active{background:var(--brand-3);border-left-color:var(--brand-2);font-weight:700;color:var(--brand)}
+  .toc .figs{
+    margin-top:.9rem;padding-top:.8rem;border-top:1px solid var(--line);
+    display:flex;flex-wrap:wrap;gap:.35rem;align-items:center;font-size:.82rem;color:var(--muted)
+  }
+  .toc .figs a{
+    display:inline-flex;align-items:center;justify-content:center;
+    width:1.7rem;height:1.7rem;border:1px solid var(--line);border-radius:7px;
+    padding:0;background:var(--surface-2);font-weight:700;color:var(--brand)
+  }
+  main{min-width:0}
+  .card{
+    background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+    padding:clamp(1.1rem,2.6vw,2rem);box-shadow:var(--shadow);margin:1.35rem 0;
+    scroll-margin-top:1rem;
+  }
+  .card > :first-child{margin-top:0}
+  .card > :last-child{margin-bottom:0}
+  .section-kicker{
+    display:inline-flex;align-items:center;gap:.5rem;
+    font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--brand-2);font-weight:800;margin-bottom:.45rem
+  }
+  .section-kicker .n{
+    display:inline-flex;align-items:center;justify-content:center;
+    min-width:1.55rem;height:1.55rem;padding:0 .35rem;border-radius:6px;
+    background:var(--brand);color:#fff;font-size:.75rem;letter-spacing:0
+  }
+  h2{
+    font-family:var(--serif);font-size:clamp(1.55rem,3.2vw,2.2rem);
+    line-height:1.15;margin:.1rem 0 .8rem;letter-spacing:-.015em;text-wrap:balance
+  }
+  h3{font-family:var(--serif);font-size:clamp(1.18rem,2.2vw,1.45rem);line-height:1.25;margin:1.6rem 0 .55rem}
+  h4{font-size:1rem;margin:1.2rem 0 .4rem;letter-spacing:.01em}
+  p{margin:.65rem 0}
+  ul,ol{margin:.55rem 0 .8rem;padding-left:1.35rem}
+  li{margin:.28rem 0}
+  li::marker{color:var(--brand-2)}
+  strong{font-weight:750}
+  em{font-style:italic}
+  .cite{
+    display:inline-block;font-size:.74rem;font-weight:700;line-height:1.2;
+    color:var(--brand);background:var(--brand-3);
+    border:1px solid color-mix(in srgb,var(--brand-2) 25%,transparent);
+    padding:.08rem .38rem;border-radius:5px;white-space:nowrap;vertical-align:.08em
+  }
+  .small{font-size:.88rem;color:var(--muted)}
+  .th-abbr{display:none}
+  .muted{color:var(--muted)}
+
+  /* CALLOUTS */
+  .keybox,.databox,.warnbox,.quotebox{
+    border-radius:12px;padding:1rem 1.05rem;margin:1rem 0;border:1px solid var(--line)
+  }
+  .keybox{background:var(--brand-3);border-left:5px solid var(--brand-2)}
+  .databox{background:var(--accent-2);border-left:5px solid var(--accent)}
+  .warnbox{background:var(--rose-2);border-left:5px solid var(--rose)}
+  .quotebox{background:var(--surface-2);border-left:5px solid var(--blue);font-family:var(--serif);font-size:1.05rem}
+  .box-title{
+    display:block;font-family:var(--sans);font-size:.72rem;letter-spacing:.11em;
+    text-transform:uppercase;font-weight:800;margin-bottom:.35rem
+  }
+  .keybox .box-title{color:var(--brand)}
+  .databox .box-title{color:var(--accent)}
+  .warnbox .box-title{color:var(--rose)}
+  .quotebox .box-title{color:var(--blue)}
+
+  /* GRIDS */
+  .grid-2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem;margin:1rem 0}
+  .grid-3{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:.85rem;margin:1rem 0}
+  .stat{
+    background:var(--surface-2);border:1px solid var(--line);border-radius:12px;
+    padding:.9rem 1rem
+  }
+  .stat b{display:block;font-family:var(--serif);font-size:1.65rem;line-height:1.1;color:var(--brand)}
+  .stat span{display:block;font-size:.82rem;color:var(--muted);margin-top:.25rem}
+  .mini-card{
+    background:var(--surface-2);border:1px solid var(--line);border-radius:12px;padding:.9rem 1rem
+  }
+  .mini-card h4{margin:.05rem 0 .35rem;font-size:.98rem}
+  .mini-card p,.mini-card ul{font-size:.9rem;margin:.35rem 0}
+  .tag{
+    display:inline-block;font-size:.72rem;font-weight:800;letter-spacing:.04em;
+    padding:.15rem .5rem;border-radius:999px;background:var(--brand-3);color:var(--brand);
+    border:1px solid color-mix(in srgb,var(--brand-2) 25%,transparent)
+  }
+  .tag.amber{background:var(--accent-2);color:var(--accent);border-color:color-mix(in srgb,var(--accent) 25%,transparent)}
+  .tag.rose{background:var(--rose-2);color:var(--rose);border-color:color-mix(in srgb,var(--rose) 25%,transparent)}
+
+  /* TABLES */
+  .table-wrap{
+    overflow-x:auto;border:1px solid var(--line);border-radius:12px;margin:1rem 0;
+    background:var(--surface);-webkit-overflow-scrolling:touch
+  }
+  table{width:100%;border-collapse:collapse;font-size:.88rem;min-width:720px}
+  caption{
+    caption-side:top;text-align:left;padding:.8rem .9rem .2rem;
+    font-size:.82rem;color:var(--muted);font-weight:600
+  }
+  th,td{padding:.62rem .7rem;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}
+  th{
+    background:var(--surface-2);font-size:.76rem;letter-spacing:.04em;text-transform:uppercase;
+    color:var(--muted);font-weight:800;position:sticky;top:0;z-index:1
+  }
+  tbody tr:nth-child(even) td{background:color-mix(in srgb,var(--surface-2) 45%,var(--surface))}
+  tbody tr:hover td{background:var(--brand-3)}
+  td.nw{white-space:nowrap}
+  .t1{min-width:1180px;font-size:.8rem}
+  .t1 th,.t1 td{padding:.5rem .55rem}
+  .t1 td:first-child{font-weight:650}
+
+  /* FIGURES */
+  figure.diagram{
+    margin:1.25rem 0;background:#fbfaf6;border:1px solid #d8d1c3;border-radius:14px;
+    padding:1rem;color:#1d2a2e;box-shadow:0 4px 16px rgba(20,40,40,.05)
+  }
+  figure.diagram svg{display:block;width:100%;height:auto}
+  figure.diagram figcaption{font-size:.86rem;color:#5d6b70;margin:.75rem .15rem 0;line-height:1.5}
+  figure.diagram figcaption b{color:#1d2a2e}
+  .fig-label{
+    display:inline-block;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;
+    font-weight:800;color:#0f5c57;background:#d9f0ea;border:1px solid #b7e4da;
+    padding:.15rem .5rem;border-radius:999px;margin-bottom:.6rem
+  }
+
+  /* DETAILS Q&A */
+  details.qa{
+    border:1px solid var(--line);border-radius:12px;background:var(--surface-2);
+    padding:.2rem .9rem;margin:.55rem 0
+  }
+  details.qa summary{
+    cursor:pointer;font-weight:700;padding:.65rem 0;list-style:none;
+    display:flex;gap:.55rem;align-items:flex-start
+  }
+  details.qa summary::-webkit-details-marker{display:none}
+  details.qa summary::before{
+    content:"+";flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;
+    width:1.35rem;height:1.35rem;border-radius:6px;background:var(--brand);color:#fff;
+    font-weight:800;font-size:.95rem;line-height:1;margin-top:.1rem
+  }
+  details.qa[open] summary::before{content:"−"}
+  details.qa .answer{padding:.1rem 0 .9rem 1.95rem;font-size:.94rem}
+  details.qa .answer p:first-child{margin-top:0}
+  .qa-tools{display:flex;gap:.5rem;flex-wrap:wrap;margin:.7rem 0 1rem}
+  .qa-tools button{
+    font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;
+    background:var(--surface);color:var(--ink);border:1px solid var(--line);
+    padding:.4rem .65rem;border-radius:8px
+  }
+  .qa-tools button:hover{background:var(--brand-3);border-color:var(--brand-2)}
+
+  /* CHECKLIST */
+  .checklist{list-style:none;padding-left:0}
+  .checklist li{padding-left:1.7rem;position:relative;margin:.45rem 0}
+  .checklist li::before{
+    content:"✓";position:absolute;left:0;top:.05rem;color:var(--brand-2);font-weight:900
+  }
+
+  /* FOOTER */
+  footer{
+    border-top:1px solid var(--line);background:var(--surface);
+    padding:2rem clamp(1rem,4vw,3rem);color:var(--muted);font-size:.86rem
+  }
+  footer .foot-inner{max-width:1120px;margin:0 auto;display:flex;gap:1rem;flex-wrap:wrap;justify-content:space-between}
+  footer strong{color:var(--ink)}
+
+  @media (max-width:980px){
+    .shell{grid-template-columns:1fr;padding-top:1.2rem}
+    .sidebar{position:static;max-height:none;order:-1}
+    .toc{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.1rem}
+  }
+  @media (max-width:560px){
+    .hero h1{max-width:none}
+    .meta-grid{grid-template-columns:1fr}
+    .card{padding:1rem}
+    table{font-size:.82rem}
+  }
+  @media print{
+    :root{--bg:#fff;--surface:#fff;--surface-2:#f3f3f3;--surface-3:#eee;--ink:#111;--muted:#444;--line:#bbb;--shadow:none}
+    @page{margin:12mm}
+    body{background:#fff;font-size:10.5pt}
+    .table-wrap{overflow:visible!important;border:none!important}
+    table{min-width:0!important;width:100%!important;font-size:6.4pt!important;table-layout:fixed}
+    .t1{min-width:0!important;font-size:6.4pt!important}
+    .t1 th:nth-child(1){width:13%}
+    .t1 th:nth-child(2){width:6%}
+    .t1 th:nth-child(3){width:11%}
+    .t1 th:nth-child(4){width:11%}
+    .t1 th:nth-child(5){width:7%}
+    .t1 th:nth-child(6){width:6%}
+    .t1 th:nth-child(7){width:17%}
+    .t1 th:nth-child(8){width:18%}
+    .t1 th:nth-child(9){width:7%}
+    th,td{padding:.2rem .2rem!important;word-break:normal;overflow-wrap:anywhere;hyphens:auto}
+    th{position:static!important;word-break:normal!important;overflow-wrap:normal!important;hyphens:none!important}
+    thead{display:table-header-group}
+    .hero{background:#fff;color:#111;padding:0 0 1rem;border-bottom:2px solid #111}
+    .hero .lede,.meta-grid span{color:#333}
+    .meta-grid div{background:#f4f4f4;border-color:#ccc}
+    .meta-grid strong{color:#111}
+    .hero-actions,.sidebar,.skip-link,.qa-tools{display:none!important}
+    .shell{display:block;max-width:none;padding:0}
+    .card{box-shadow:none;border:1px solid #ccc;break-inside:avoid;page-break-inside:avoid}
+    h2,h3{break-after:avoid}
+    figure.diagram,.table-wrap,details.qa{break-inside:avoid;page-break-inside:avoid}
+    .th-full{display:none}
+    .th-abbr{display:inline}
+    a{color:#111;text-decoration:none}
+  }
+  p,li,td,figcaption{text-wrap:pretty}
+  blockquote{
+    margin:1.1rem 0;padding:.9rem 1.1rem;background:var(--surface-2);
+    border-left:4px solid var(--brand-2);border-radius:0 12px 12px 0;color:var(--ink)
+  }
+  blockquote p{margin:.4rem 0}
+  .guide-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem;margin:1.2rem 0}
+  .guide-grid a{display:block;text-decoration:none;color:inherit;background:var(--surface);
+    border:1px solid var(--line);border-radius:var(--radius);padding:1rem 1.1rem;box-shadow:var(--shadow);
+    transition:transform .15s ease,border-color .15s ease}
+  .guide-grid a:hover{transform:translateY(-2px);border-color:var(--brand-2)}
+  .guide-grid a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+  .guide-grid .gn{font-family:var(--serif);font-size:1.6rem;color:var(--brand-2);line-height:1}
+  .guide-grid h3{margin:.3rem 0 .4rem;font-size:1.05rem;font-family:var(--sans);font-weight:700;color:var(--ink)}
+  .guide-grid p{margin:0;font-size:.9rem;color:var(--muted)}
+  .badges{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.7rem}
+  .badges span{font-size:.72rem;font-weight:700;letter-spacing:.03em;background:var(--brand-3);
+    color:var(--brand);border-radius:999px;padding:.18rem .55rem}
+  caption{caption-side:top;text-align:left;font-size:.82rem;font-weight:700;color:var(--muted);padding:.2rem .2rem .5rem}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+<header class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">Certamen 3 · Semiología · Sistema nervioso</p>
+    <h1>Examen Motor, Sensitivo y Reflejos</h1>
+    <p class="lede">Clase 3 de 4. Guía de estudio construida desde las diapositivas de la clase, con cada afirmación clínica citada por número de diapositiva.</p>
+    <div class="meta-grid">
+      <div><span>Clase</span><strong>3 de 4</strong></div>
+      <div><span>Diapositivas</span><strong>74 de 74 cubiertas</strong></div>
+      <div><span>Citas distintas</span><strong>74</strong></div>
+      <div><span>Preguntas</span><strong>35</strong></div>
+      <div><span>Fuente</span><strong><code>clase 3 parte II.pdf</code></strong></div>
+      <div><span>Ramo</span><strong>Semiología · Medicina UBB · 2026-2</strong></div>
+    </div>
+    <div class="hero-actions">
+      <button class="btn primary" id="printBtn" type="button">Imprimir / guardar PDF</button>
+      <button class="btn" id="themeBtn" type="button" aria-pressed="false">Modo oscuro</button>
+      <a class="btn" href="#alcance">Empezar por el alcance</a>
+    </div>
+  </div>
+</header>
+
+<div class="shell">
+  <aside class="sidebar" aria-label="Índice de la guía">
+    <h2>Contenido</h2>
+    <nav>
+      <ul class="toc">
+                <li><a href="#alcance">Alcance y método</a></li>
+        <li><a href="#sec-inspeccion-observar-antes-de-tocar">Inspección: observar antes de tocar</a></li>
+        <li><a href="#sec-estado-mental-posturas-y-movimientos-anormales">Estado mental, posturas y movimientos anormales</a></li>
+        <li><a href="#sec-inspeccion-de-la-marcha-patrones-iniciales">Inspección de la marcha: patrones iniciales</a></li>
+        <li><a href="#sec-palpacion-y-trofismo-muscular">Palpación y trofismo muscular</a></li>
+        <li><a href="#sec-tono-muscular-espasticidad-vs-rigidez">Tono muscular: espasticidad vs rigidez</a></li>
+        <li><a href="#sec-fasciculaciones">Fasciculaciones</a></li>
+        <li><a href="#sec-fuerza-muscular-escala-mrc-y-patrones-de-distribucion">Fuerza muscular: escala MRC y patrones de distribución</a></li>
+        <li><a href="#sec-principios-practicos-y-errores-en-la-exploracion-de-la-fuerza">Principios prácticos y errores en la exploración de la fuerza</a></li>
+        <li><a href="#sec-motoneurona-superior-vs-inferior">Motoneurona superior vs inferior</a></li>
+        <li><a href="#sec-sistema-sensitivo-modalidades-y-vias">Sistema sensitivo: modalidades y vías</a></li>
+        <li><a href="#sec-tecnica-de-exploracion-sensitiva-por-modalidad">Técnica de exploración sensitiva por modalidad</a></li>
+        <li><a href="#sec-integracion-cortical-de-la-sensibilidad">Integración cortical de la sensibilidad</a></li>
+        <li><a href="#sec-sindromes-sensitivos-topograficos-y-brown-sequard">Síndromes sensitivos topográficos y Brown-Séquard</a></li>
+        <li><a href="#sec-percusion-en-neurologia">Percusión en neurología</a></li>
+        <li><a href="#sec-reflejos-osteotendinosos-arco-niveles-y-graduacion">Reflejos osteotendinosos: arco, niveles y graduación</a></li>
+        <li><a href="#sec-significado-clinico-de-las-alteraciones-reflejas">Significado clínico de las alteraciones reflejas</a></li>
+        <li><a href="#sec-signo-de-babinski">Signo de Babinski</a></li>
+        <li><a href="#sec-caso-clinico-hemiparesia-derecha">Caso clínico: hemiparesia derecha</a></li>
+        <li><a href="#sec-coordinacion-y-cerebelo">Coordinación y cerebelo</a></li>
+        <li><a href="#sec-equilibrio-prueba-de-romberg">Equilibrio: prueba de Romberg</a></li>
+        <li><a href="#sec-marcha-observacion-sistematica-maniobras-y-patrones-patologicos">Marcha: observación sistemática, maniobras y patrones patológicos</a></li>
+        <li><a href="#sec-signos-meningeos">Signos meníngeos</a></li>
+        <li><a href="#sec-integracion-final-y-sindromes-neurologicos-clasicos">Integración final y síndromes neurológicos clásicos</a></li>
+        <li><a href="#sec-conceptos-clave-y-siglas">Conceptos clave y siglas</a></li>
+        <li><a href="#sec-preguntas-probables">Preguntas probables</a></li>
+        <li><a href="#sec-diapositivas-sin-texto-extraible">Diapositivas sin texto extraíble</a></li>
+      </ul>
+      <div class="figs">
+        <strong>Otras guías:</strong>
+        <a href="01_Anamnesis_y_Razonamiento_Localizador.html" title="Anamnesis y razonamiento localizador">1</a><a href="02_Del_Sintoma_Al_Sindrome.html" title="Del síntoma al síndrome">2</a><a href="04_Integracion_Sindromes_Neurologicos.html" title="Integración y síndromes neurológicos">4</a>
+        <a href="index.html" title="Índice del certamen">Índice</a>
+      </div>
+    </nav>
+  </aside>
+
+  <main id="contenido">
+
+<section id="alcance" class="card">
+  <div class="section-kicker"><span class="n">00</span> Alcance</div>
+  <h2>Qué cubre esta guía</h2>
+  <div class="keybox">
+    <span class="box-title">Alcance</span>
+    Archivo fuente `clase 3 parte II.pdf` (deck completo, 74 diapositivas). Cubre las diapositivas 1–74 de 74: inspección, palpación, trofismo, tono, fuerza (escala MRC), sensibilidad, reflejos osteotendinosos, signo de Babinski, caso de hemiparesia, coordinación/cerebelo, equilibrio (Romberg), marcha y signos meníngeos. Queda fuera: `clase 3 parte I.pdf` es el mismo deck sin las 2 diapositivas finales (subconjunto de este archivo; no se usa como fuente). Las diapositivas 1, 2, 13, 29, 40, 47, 48, 51, 53, 61 y 70 son solo-imagen (títulos divisores y fotografías de técnica) y su contenido se limita a lo evidente; se detallan al final.
+  </div>
+  <p class="small">Clase 3 de 4 del Certamen 3 (Semiología del sistema nervioso). Fuente: <code>clase 3 parte II.pdf</code>. Las citas <span class="cite">diapo N</span> corresponden al número de diapositiva del PDF. Texto extraído con <code>pdftotext -layout</code> y, en las diapositivas sin capa de texto, OCR <code>tesseract -l spa</code>.</p>
+</section>
+<section id="sec-inspeccion-observar-antes-de-tocar" class="card">
+<div class="section-kicker"><span class="n">01</span> Diapositivas 3–5</div>
+<h2>Inspección: observar antes de tocar</h2>
+<p>La inspección es el primer paso del examen neurológico y comienza cuando el paciente entra a la consulta; una observación cuidadosa puede revelar información crucial antes del contacto físico <span class="cite">diapo 4</span>. La pregunta rectora es qué información se puede obtener antes de tocar al paciente <span class="cite">diapo 3</span>.</p>
+<p>Elementos de la inspección general <span class="cite">diapo 4, diapo 5</span>:</p>
+<ul>
+<li><strong>Evaluación cognitiva y conductual:</strong> estado de conciencia (alerta, somnoliento, estuporoso), conducta y comportamiento social, signos de confusión o desorientación <span class="cite">diapo 4</span>.</li>
+<li><strong>Postura:</strong> posición mantenida del cuerpo en reposo; puede revelar hemiplejia, rigidez axial, posturas distónicas o compensaciones antálgicas <span class="cite">diapo 5</span>.</li>
+<li><strong>Movimientos espontáneos:</strong> temblor en reposo, corea, atetosis, mioclonías u otros movimientos involuntarios que no dependen de la exploración activa <span class="cite">diapo 5</span>.</li>
+<li><strong>Simetría corporal y asimetrías:</strong> diferencias entre hemicuerpos en volumen muscular, posición de extremidades o expresión facial, que orientan a lesiones focales <span class="cite">diapo 4, diapo 5</span>.</li>
+<li><strong>Fasciculaciones:</strong> contracciones musculares involuntarias visibles que sugieren afectación de motoneurona inferior <span class="cite">diapo 4, diapo 5</span>.</li>
+<li><strong>Atrofias:</strong> pérdida de masa muscular, que puede indicar denervación o desuso prolongado <span class="cite">diapo 4, diapo 5</span>.</li>
+<li><strong>Tipo de marcha:</strong> patrón de deambulación que refleja la función del sistema motor y del equilibrio <span class="cite">diapo 4</span>.</li>
+</ul>
+
+</section>
+<section id="sec-estado-mental-posturas-y-movimientos-anormales" class="card">
+<div class="section-kicker"><span class="n">02</span> Diapositivas 6–8</div>
+<h2>Estado mental, posturas y movimientos anormales</h2>
+<h3 class="sub" id="correlación-estado-mental--localización-cerebral-diapo-6">Correlación estado mental – localización cerebral <span class="cite">diapo 6</span></h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Alteración</th>
+<th>Característica</th>
+<th>Localización posible</th>
+<th>Ejemplos clínicos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Confusión aguda</td>
+<td>Desorientación + alteración de atención</td>
+<td>Disfunción cortical difusa</td>
+<td>Delirium metabólico</td>
+</tr>
+<tr>
+<td>Afasia</td>
+<td>Alteración del lenguaje</td>
+<td>Hemisferio dominante (áreas 44, 45, 22)</td>
+<td>ACV isquémico</td>
+</tr>
+<tr>
+<td>Cambios conductuales</td>
+<td>Desinhibición, apatía</td>
+<td>Lóbulos frontales</td>
+<td>Tumores frontales, TCE</td>
+</tr>
+<tr>
+<td>Coma</td>
+<td>No responde a estímulos</td>
+<td>Tronco u hemisferios difusos</td>
+<td>Hemorragia intracerebral</td>
+</tr>
+</tbody>
+</table></div>
+<h3 class="sub" id="posturas-anormales-diapo-6-diapo-8">Posturas anormales <span class="cite">diapo 6, diapo 8</span></h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Postura</th>
+<th>Hallazgo visual</th>
+<th>Mecanismo</th>
+<th>Implicancia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Decorticación</td>
+<td>Brazos en flexión (flexionados rígidamente sobre el pecho con puños cerrados, rotación interna de miembros superiores, piernas extendidas y rígidas, postura simétrica bilateral)</td>
+<td>Lesión supratentorial con preservación relativa del tronco encefálico</td>
+<td>Pronóstico intermedio; daño grave pero con funciones vitales básicas mantenidas</td>
+</tr>
+<tr>
+<td>Descerebración</td>
+<td>Extensión rígida (brazos y piernas extendidos rígidamente hacia afuera, dedos de los pies en flexión plantar, rigidez extensora generalizada)</td>
+<td>Lesión de tronco encefálico con compromiso de centros vitales</td>
+<td>Pronóstico grave, frecuentemente irreversible</td>
+</tr>
+<tr>
+<td>Opistótonos</td>
+<td>Arqueamiento dorsal (cabeza y cuello arqueados hacia atrás)</td>
+<td>Irritación meníngea</td>
+<td>Tétanos, meningitis</td>
+</tr>
+</tbody>
+</table></div>
+<p>Estas posturas son una emergencia neurológica absoluta que requiere atención inmediata en cuidados intensivos; la descerebración implica alto riesgo de progresión a estado vegetativo persistente, coma prolongado, parálisis severa o muerte cerebral <span class="cite">diapo 8</span>. La diapo 9 refuerza visualmente lo mismo: decorticación = lesión de hemisferios cerebrales o cápsula interna; descerebración = lesión de mesencéfalo, tronco encefálico o protuberancia.</p>
+<h3 class="sub" id="movimientos-anormales-y-su-localización-diapo-7">Movimientos anormales y su localización <span class="cite">diapo 7</span></h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Movimiento</th>
+<th>Descripción</th>
+<th>Localización</th>
+<th>Patología frecuente</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Temblor en reposo</td>
+<td>Rítmico, 4–6 Hz</td>
+<td>Sistema extrapiramidal</td>
+<td>Parkinson</td>
+</tr>
+<tr>
+<td>Temblor de intención</td>
+<td>Aumenta al llegar al blanco</td>
+<td>Cerebelo</td>
+<td>Esclerosis múltiple</td>
+</tr>
+<tr>
+<td>Corea</td>
+<td>Breve, irregular</td>
+<td>Núcleo caudado</td>
+<td>Corea de Huntington</td>
+</tr>
+<tr>
+<td>Fasciculaciones</td>
+<td>Ondas musculares</td>
+<td>Motoneurona inferior</td>
+<td>ELA</td>
+</tr>
+</tbody>
+</table></div>
+
+</section>
+<section id="sec-inspeccion-de-la-marcha-patrones-iniciales" class="card">
+<div class="section-kicker"><span class="n">03</span> Diapositivas 10–12</div>
+<h2>Inspección de la marcha: patrones iniciales</h2>
+<ul>
+<li><strong>Marcha hemiparética:</strong> arrastre y movimiento semicircular (circunducción) de la pierna afectada como mecanismo compensatorio; el brazo del lado afectado queda inmóvil y pegado al cuerpo; dificultad para avanzar. Causa frecuente: ACV que afecta el control motor unilateral <span class="cite">diapo 10</span>.</li>
+<li><strong>Marcha parkinsoniana:</strong> pasos pequeños y rápidos (festinación), tronco encorvado con flexión anterior marcada, cabeza inclinada hacia adelante, pérdida del braceo pendular; se asocia a enfermedad de Parkinson y parkinsonismos secundarios; acompañada de rigidez generalizada, temblor de reposo y bradicinesia <span class="cite">diapo 10</span>.</li>
+<li><strong>Marcha atáxica:</strong> base de sustentación ancha para compensar la falta de coordinación, movimientos irregulares y tambaleos, dificultad para caminar en línea recta, imposibilidad de mantener el equilibrio con ojos cerrados; causas: lesiones cerebelosas, intoxicaciones (especialmente alcohólica), enfermedades degenerativas; alto riesgo de caídas <span class="cite">diapo 11</span>.</li>
+<li><strong>Marcha en steppage:</strong> el pie cae con los dedos apuntando abajo por debilidad de la dorsiflexión; el paciente eleva exageradamente la rodilla (marcha equina) para que los dedos no tropiecen; causada por neuropatía peronea o lesión de nervios periféricos de los dorsiflexores; requiere evaluación electromiográfica <span class="cite">diapo 11</span>.</li>
+<li><strong>Otros tipos <span class="cite">diapo 12</span>:</strong> marcha miopática (“de pato”, por debilidad de la musculatura pélvica con balanceo lateral exagerado del tronco); marcha espástica en tijeras (piernas rígidas que se cruzan al caminar, común en parálisis cerebral infantil y lesiones medulares); marcha antálgica (compensatoria por dolor, que limita el apoyo completo en el miembro afectado).</li>
+</ul>
+<p>Correlación marcha–nivel (diapo 7): hemiparética → vía piramidal (ACV); atáxica → cerebelo (alcoholismo); steppage → nervio periférico (neuropatía fibular); parkinsoniana → ganglios basales (Parkinson).</p>
+
+</section>
+<section id="sec-palpacion-y-trofismo-muscular" class="card">
+<div class="section-kicker"><span class="n">04</span> Diapositivas 14–20</div>
+<h2>Palpación y trofismo muscular</h2>
+<p>La palpación evalúa características del tejido muscular imperceptibles a la simple observación; se enfoca en tres elementos: tono muscular, trofismo muscular y dolor/sensibilidad profunda <span class="cite">diapo 14</span>.</p>
+<p><strong>Trofismo:</strong> estado nutricional y estructural del músculo; su valoración aporta información sobre la integridad del eje nervio-músculo y orienta la localización de la lesión <span class="cite">diapo 15, diapo 18</span>. La inspección y palpación detectan cambios en volumen, consistencia y simetría; la distribución de la atrofia (focal vs generalizada, proximal vs distal) junto con la velocidad de instauración orienta el origen neurógeno o miógeno <span class="cite">diapo 20</span>.</p>
+<p><strong>Correlación anatómica de la atrofia</strong> <span class="cite">diapo 18</span>:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Nivel</th>
+<th>Patrón de atrofia</th>
+<th>Acompañantes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Músculo (miopático)</td>
+<td>Atrofia con enzimas musculares elevadas</td>
+<td>Sin fasciculaciones prominentes</td>
+</tr>
+<tr>
+<td>Nervio periférico</td>
+<td>Atrofia en territorio del nervio afectado</td>
+<td>Posibles fasciculaciones y pérdida sensitiva asociada</td>
+</tr>
+<tr>
+<td>Motoneurona inferior (asta anterior)</td>
+<td>Atrofia segmentaria</td>
+<td>Fasciculaciones activas, arreflexia; hallazgo clásico en ELA y poliomielitis</td>
+</tr>
+</tbody>
+</table></div>
+
+</section>
+<section id="sec-tono-muscular-espasticidad-vs-rigidez" class="card">
+<div class="section-kicker"><span class="n">05</span> Diapositivas 16–22</div>
+<h2>Tono muscular: espasticidad vs rigidez</h2>
+<p>El tono muscular es la resistencia que ofrece el músculo al movimiento pasivo: un estado de tensión continua, de bajo nivel, involuntario, que depende de la integridad del SNC y SNP. Se evalúa movilizando pasivamente las articulaciones con el paciente lo más relajado posible <span class="cite">diapo 17</span>.</p>
+<ul>
+<li><strong>Hipotonía:</strong> disminución de la resistencia al movimiento pasivo; las extremidades se sienten “flácidas”, con mayor rango de movimiento pasivo; asociada a lesión de cerebelo, nervio periférico o de la motoneurona inferior <span class="cite">diapo 17</span>.</li>
+<li><strong>Hipertonía espástica:</strong> aumento de resistencia velocidad-dependiente (a mayor velocidad de movilización, mayor resistencia); característica de lesión de la vía corticoespinal (motoneurona superior); produce el fenómeno de navaja <span class="cite">diapo 17, diapo 19</span>.</li>
+<li><strong>Hipertonía rígida:</strong> aumento de resistencia relativamente independiente de la velocidad; afecta flexores y extensores; produce el fenómeno de “rueda dentada” (resistencia escalonada, en trinquete) <span class="cite">diapo 17, diapo 19</span>.</li>
+</ul>
+<p>Correlación clínico-topográfica del tono <span class="cite">diapo 16</span>:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Tipo de tono</th>
+<th>Característica</th>
+<th>Localización lesional</th>
+<th>Interpretación clínica</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Espástico</td>
+<td>Aumento dependiente de velocidad</td>
+<td>Motoneurona superior</td>
+<td>ACV, traumatismo craneoencefálico, esclerosis múltiple</td>
+</tr>
+<tr>
+<td>Rígido</td>
+<td>Resistencia uniforme constante</td>
+<td>Ganglios basales</td>
+<td>Enfermedad de Parkinson, parkinsonismos</td>
+</tr>
+<tr>
+<td>Flácido</td>
+<td>Sin resistencia al movimiento</td>
+<td>Motoneurona inferior</td>
+<td>Radiculopatías, neuropatías, lesión medular aguda</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Tabla comparativa: espasticidad vs rigidez</strong> <span class="cite">diapo 22, diapo 17</span></p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Característica</th>
+<th>Espasticidad</th>
+<th>Rigidez</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nivel lesional</td>
+<td>Motoneurona superior, tracto corticoespinal</td>
+<td>Extrapiramidal, ganglios basales</td>
+</tr>
+<tr>
+<td>Dependencia de velocidad</td>
+<td>Velocidad-dependiente</td>
+<td>Velocidad-independiente</td>
+</tr>
+<tr>
+<td>Fenómeno clínico</td>
+<td>Navaja</td>
+<td>Rueda dentada</td>
+</tr>
+<tr>
+<td>Signos acompañantes</td>
+<td>Hiperreflexia y Babinski</td>
+<td>Bradicinesia y temblor</td>
+</tr>
+</tbody>
+</table></div>
+
+</section>
+<section id="sec-fasciculaciones" class="card">
+<div class="section-kicker"><span class="n">06</span> Diapositiva 21</div>
+<h2>Fasciculaciones</h2>
+<p>Contracciones involuntarias, espontáneas y visibles de grupos de fibras musculares inervadas por una misma unidad motora. Su presencia en contexto de atrofia y debilidad constituye un signo de denervación activa que obliga a descartar patología de motoneurona inferior, especialmente ELA en el adulto. Las fasciculaciones aisladas, sin atrofia ni debilidad, son frecuentemente benignas y no deben interpretarse de forma aislada <span class="cite">diapo 21</span>.</p>
+
+</section>
+<section id="sec-fuerza-muscular-escala-mrc-y-patrones-de-distribucion" class="card">
+<div class="section-kicker"><span class="n">07</span> Diapositivas 23–24</div>
+<h2>Fuerza muscular: escala MRC y patrones de distribución</h2>
+<p>La evaluación sistemática de la fuerza sigue un orden anatómico reproducible, valorando cada grupo muscular según la escala del Medical Research Council (0–5). El patrón de distribución de la debilidad es más significativo diagnósticamente que el grado numérico aislado <span class="cite">diapo 24</span>.</p>
+<p><strong>Escala MRC completa</strong> <span class="cite">diapo 23</span>:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Grado</th>
+<th>Hallazgo clínico</th>
+<th>Interpretación funcional</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>Sin contracción visible ni palpable</td>
+<td>Parálisis completa</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Contracción mínima visible o palpable, sin movimiento</td>
+<td>Parálisis casi completa</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Movimiento activo en toda la amplitud, pero sin vencer la gravedad</td>
+<td>Debilidad grave</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Movimiento activo contra la gravedad, sin resistencia adicional</td>
+<td>Debilidad moderada</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Movimiento activo contra resistencia, pero reducido respecto al normal</td>
+<td>Debilidad leve-moderada</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Fuerza normal frente a resistencia máxima del explorador</td>
+<td>Normal</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Patrones de distribución</strong> <span class="cite">diapo 24</span>:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Patrón</th>
+<th>Distribución</th>
+<th>Orientación</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Debilidad proximal</td>
+<td>Cinturas escapular y pélvica</td>
+<td>Miopatía</td>
+</tr>
+<tr>
+<td>Debilidad distal</td>
+<td>Manos y pies</td>
+<td>Neuropatía periférica</td>
+</tr>
+<tr>
+<td>Debilidad hemicorporal</td>
+<td>Un lado del cuerpo</td>
+<td>Lesión cerebral central</td>
+</tr>
+<tr>
+<td>Paraparesia</td>
+<td>Ambas extremidades inferiores</td>
+<td>Lesión medular</td>
+</tr>
+</tbody>
+</table></div>
+
+</section>
+<section id="sec-principios-practicos-y-errores-en-la-exploracion-de-la-fuerza" class="card">
+<div class="section-kicker"><span class="n">08</span> Diapositivas 25–27</div>
+<h2>Principios prácticos y errores en la exploración de la fuerza</h2>
+<p>Determinar si el patrón es proximal o distal, simétrico o asimétrico, y si corresponde a territorio radicular, troncular o central <span class="cite">diapo 25</span>.</p>
+<ul>
+<li><strong>Grupos proximales:</strong> deltoides, bíceps, tríceps, iliopsoas, cuádriceps; la debilidad proximal simétrica orienta hacia miopatía o neuropatía inflamatoria (Guillain-Barré en fases iniciales) <span class="cite">diapo 25</span>.</li>
+<li><strong>Grupos distales:</strong> extensores de muñeca y dedos, flexores plantares y dorsales del pie; la debilidad distal sugiere neuropatía periférica o enfermedad de motoneurona <span class="cite">diapo 25</span>.</li>
+<li><strong>Patrones con valor localizador:</strong> hemipléjico (un hemicuerpo), parapléjico (ambas piernas), tetrapléjico (cuatro extremidades) o territorio de un nervio específico <span class="cite">diapo 25</span>.</li>
+</ul>
+<p><strong>Debilidad verdadera vs percibida</strong> <span class="cite">diapo 26</span>: la verdadera es pérdida objetiva de fuerza por lesión neurológica o muscular, medible y reproducible; la percibida es una sensación subjetiva causada por fatiga, dolor, simulación o factores psicológicos, sin déficit motor real. Signos observables: desviación o caída del miembro al mantener postura, uso compensatorio de músculos accesorios, asimetría en la activación entre hemicuerpos, temblor o inestabilidad al vencer resistencia <span class="cite">diapo 26</span>.</p>
+<p><strong>Errores comunes y soluciones</strong> <span class="cite">diapo 27</span>:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Error</th>
+<th>Solución</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Confundir fatiga con debilidad verdadera</td>
+<td>Repetir la prueba tras reposo breve: la debilidad neurológica persiste mientras la fatiga mejora; aplicar maniobras distractoras</td>
+</tr>
+<tr>
+<td>No valorar la colaboración del paciente (aceptar esfuerzo submáximo)</td>
+<td>Observar consistencia en múltiples pruebas, expresión facial, uso de sinergias</td>
+</tr>
+<tr>
+<td>Ignorar compensaciones musculares</td>
+<td>Estabilizar articulaciones proximales, aislar el grupo muscular, observar patrones de movimiento anormales</td>
+</tr>
+</tbody>
+</table></div>
+<p>Signos de alerta de pseudodebilidad: inconsistencia entre pruebas sucesivas, patrón “en dientes de sierra” al aplicar resistencia, discordancia entre fuerza y función observada, mejoría súbita con distracción <span class="cite">diapo 27</span>. Signos sutiles de debilidad real: desviación progresiva del miembro en prueba de Barré, temblor fino al mantener postura antigravitacional, asimetrías leves pero consistentes y reproducibles, compensaciones musculares estereotipadas <span class="cite">diapo 27</span>.</p>
+
+</section>
+<section id="sec-motoneurona-superior-vs-inferior" class="card">
+<div class="section-kicker"><span class="n">09</span> Diapositiva 28</div>
+<h2>Motoneurona superior vs inferior</h2>
+<p><strong>Tabla comparativa MNS vs MNI</strong> <span class="cite">diapo 28</span>:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Característica</th>
+<th>Motoneurona superior (central)</th>
+<th>Motoneurona inferior (periférica)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Patrón de debilidad</td>
+<td>Piramidal: flexores en MMSS, extensores en MMII</td>
+<td>Territorio del nervio o raíz afectados</td>
+</tr>
+<tr>
+<td>Tono</td>
+<td>Hipertonía espástica (navaja)</td>
+<td>Hipotonía (flacidez)</td>
+</tr>
+<tr>
+<td>ROT</td>
+<td>Hiperreflexia osteotendinosa</td>
+<td>Hiporreflexia o arreflexia</td>
+</tr>
+<tr>
+<td>Babinski</td>
+<td>Presente</td>
+<td>Ausente (respuesta flexora normal)</td>
+</tr>
+<tr>
+<td>Atrofia</td>
+<td>Sin atrofia significativa (o mínima por desuso)</td>
+<td>Atrofia muscular prominente</td>
+</tr>
+<tr>
+<td>Fasciculaciones</td>
+<td>Sin fasciculaciones</td>
+<td>Frecuentes</td>
+</tr>
+</tbody>
+</table></div>
+<p>Lesión de MNS: corteza motora, cápsula interna, tronco del encéfalo, médula espinal. Lesión de MNI: asta anterior medular, raíz, plexo, nervio periférico o unión neuromuscular <span class="cite">diapo 28</span>.</p>
+
+</section>
+<section id="sec-sistema-sensitivo-modalidades-y-vias" class="card">
+<div class="section-kicker"><span class="n">10</span> Diapositiva 30</div>
+<h2>Sistema sensitivo: modalidades y vías</h2>
+<p><strong>Clasificación de modalidades y sus vías</strong> <span class="cite">diapo 30</span>:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Modalidad</th>
+<th>Contenido</th>
+<th>Vía</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Superficial – tacto epicrítico</td>
+<td>Discriminación fina de estímulos táctiles suaves</td>
+<td>Cordón posterior</td>
+</tr>
+<tr>
+<td>Superficial – dolor (nocicepción)</td>
+<td>Respuesta a estímulos nociceptivos</td>
+<td>Espinotalámica lateral</td>
+</tr>
+<tr>
+<td>Superficial – temperatura</td>
+<td>Frío y calor</td>
+<td>Espinotalámica lateral (junto con el dolor)</td>
+</tr>
+<tr>
+<td>Profunda – vibración (palestesia)</td>
+<td>Exploración con diapasón de 128 Hz sobre prominencias óseas</td>
+<td>Cordón posterior</td>
+</tr>
+<tr>
+<td>Profunda – propiocepción (batiestesia)</td>
+<td>Percepción de la posición de los segmentos corporales; esencial para el equilibrio</td>
+<td>Cordón posterior</td>
+</tr>
+<tr>
+<td>Cortical – discriminación de dos puntos</td>
+<td>Diferenciar dos estímulos táctiles simultáneos próximos</td>
+<td>Requiere corteza parietal íntegra</td>
+</tr>
+<tr>
+<td>Cortical – grafestesia</td>
+<td>Reconocimiento de números o letras trazados sobre la piel</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cortical – estereognosia</td>
+<td>Reconocimiento de objetos por el tacto</td>
+<td>—</td>
+</tr>
+</tbody>
+</table></div>
+
+</section>
+<section id="sec-tecnica-de-exploracion-sensitiva-por-modalidad" class="card">
+<div class="section-kicker"><span class="n">11</span> Diapositivas 30–36</div>
+<h2>Técnica de exploración sensitiva por modalidad</h2>
+<p>Principios generales <span class="cite">diapo 31</span>:</p>
+<ul>
+<li><strong>Preparar al paciente:</strong> explicar cada prueba antes de realizarla; ojos cerrados durante la exploración para eliminar la información visual; verificar que entiende qué respuesta se pide.</li>
+<li><strong>Explorar de distal a proximal:</strong> comenzar en dedos de manos y pies y ascender; esto permite detectar el límite del déficit y definir si es en “guante y calcetín” (neuropatía periférica) o con nivel sensitivo definido (lesión medular).</li>
+<li><strong>Comparar hemicuerpos:</strong> aplicar el estímulo en ambos lados de forma simétrica y pedir comparación; las diferencias interlaterales son más importantes que los valores absolutos.</li>
+<li><strong>Documentar el patrón:</strong> radicular (dermatomal), troncular, “en guante y calcetín” o hemisensorial; el patrón tiene valor diagnóstico por sí mismo.</li>
+</ul>
+<p>Por modalidad:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Modalidad</th>
+<th>Técnica</th>
+<th>Vía implicada</th>
+<th>Alteraciones que detecta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Táctil superficial</td>
+<td>Estímulos suaves: algodón, pincel fino o gasa, sin presión significativa <span class="cite">diapo 32</span></td>
+<td>Espinotalámica ventral y corteza somatosensorial primaria <span class="cite">diapo 32</span></td>
+<td>Hipoestesia o hiperestesia cutánea <span class="cite">diapo 32</span></td>
+</tr>
+<tr>
+<td>Dolorosa</td>
+<td>Punta de alfiler o aguja estéril descartable sobre dermatomas; el paciente debe diferenciar punzante agudo de tacto/presión <span class="cite">diapo 33</span></td>
+<td>Tracto espinotalámico lateral <span class="cite">diapo 33</span></td>
+<td>Daño en vías nociceptivas ascendentes <span class="cite">diapo 33</span></td>
+</tr>
+<tr>
+<td>Vibratoria</td>
+<td>Diapasón de 128 Hz sobre prominencias óseas y articulaciones (interfalángicas distales de manos y pies); el paciente indica cuándo comienza y cesa la vibración <span class="cite">diapo 34</span></td>
+<td>Columna dorsal y lemnisco medial <span class="cite">diapo 34</span></td>
+<td>Daño en vías profundas de la propiocepción consciente <span class="cite">diapo 34</span></td>
+</tr>
+<tr>
+<td>Térmica</td>
+<td>Tubos con agua fría (10–15 °C) y caliente (40–45 °C), aplicados alternadamente con los ojos cerrados <span class="cite">diapo 35</span></td>
+<td>Espinotalámica lateral <span class="cite">diapo 35</span></td>
+<td>Lesiones tempranas en neuropatías periféricas o lesiones medulares incipientes <span class="cite">diapo 35</span></td>
+</tr>
+<tr>
+<td>Propioceptiva</td>
+<td>Mover pasivamente dedos o articulaciones con ojos cerrados, pidiendo indicar la dirección del movimiento (arriba, abajo, lateral) <span class="cite">diapo 36</span></td>
+<td>Cordón posterior <span class="cite">diapo 30</span></td>
+<td>Su alteración provoca ataxia sensorial e inestabilidad, detectada con el Romberg <span class="cite">diapo 36</span></td>
+</tr>
+</tbody>
+</table></div>
+
+</section>
+<section id="sec-integracion-cortical-de-la-sensibilidad" class="card">
+<div class="section-kicker"><span class="n">12</span> Diapositivas 30–37</div>
+<h2>Integración cortical de la sensibilidad</h2>
+<p>Pruebas de función sensitiva cortical superior, no solo de la vía periférica; su alteración indica daño en la corteza parietal posterior o en las vías ascendentes de integración sensorial <span class="cite">diapo 37, diapo 30</span>:</p>
+<ul>
+<li><strong>Estereognosia:</strong> reconocer objetos comunes por el tacto sin ayuda visual (llaves, monedas, bolígrafos en la palma) <span class="cite">diapo 37</span>.</li>
+<li><strong>Grafestesia:</strong> identificar números o letras escritos sobre la piel con un objeto romo <span class="cite">diapo 37</span>.</li>
+<li><strong>Discriminación de dos puntos:</strong> distinguir dos estímulos simultáneos aplicados cerca uno del otro; varía según la región corporal explorada <span class="cite">diapo 37</span>.</li>
+</ul>
+
+</section>
+<section id="sec-sindromes-sensitivos-topograficos-y-brown-sequard" class="card">
+<div class="section-kicker"><span class="n">13</span> Diapositivas 38–39</div>
+<h2>Síndromes sensitivos topográficos y Brown-Séquard</h2>
+<p>Cada nivel anatómico produce un patrón sensitivo característico <span class="cite">diapo 38</span>:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Nivel</th>
+<th>Patrón</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cortical</td>
+<td>Pérdida de sensibilidad discriminativa (estereognosia, grafestesia); sensibilidad elemental preservada</td>
+</tr>
+<tr>
+<td>Neuropatía</td>
+<td>Patrón “guante-calcetín” distal y simétrico; fibras largas más vulnerables</td>
+</tr>
+<tr>
+<td>Radicular</td>
+<td>Distribución en banda o franja siguiendo un dermatoma específico, con todas las modalidades afectadas</td>
+</tr>
+<tr>
+<td>Talámica</td>
+<td>Hemianestesia contralateral con dolor talámico; afecta todas las modalidades del hemicuerpo</td>
+</tr>
+<tr>
+<td>Medular completa</td>
+<td>Nivel sensitivo con anestesia de todas las modalidades por debajo de la lesión, bilateral</td>
+</tr>
+<tr>
+<td>Hemisección medular</td>
+<td><strong>Brown-Séquard:</strong> pérdida propioceptiva ipsilateral y termoalgésica contralateral</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Síndrome de Brown-Séquard</strong> (ejemplo de disociación sensitiva) <span class="cite">diapo 39, diapo 38</span>: en el lado ipsilateral a la lesión hay pérdida de propiocepción y vibración, además de debilidad motora; en el lado contralateral, pérdida termoalgésica (dolor y temperatura).</p>
+
+</section>
+<section id="sec-percusion-en-neurologia" class="card">
+<div class="section-kicker"><span class="n">14</span> Diapositivas 41–42</div>
+<h2>Percusión en neurología</h2>
+<p>La percusión neuromuscular y la evaluación de los ROT son elementos fundamentales: permiten valorar la integridad del arco reflejo y detectar lesiones de motoneurona superior o inferior. La técnica correcta requiere un martillo de reflejos adecuado y golpes precisos sobre los tendones específicos <span class="cite">diapo 41</span>.</p>
+<p>Signos específicos mediante percusión <span class="cite">diapo 42</span>:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Signo</th>
+<th>Maniobra</th>
+<th>Interpretación</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Signo de Tinel</td>
+<td>Percusión directa sobre el trayecto de un nervio periférico; parestesias que se irradian distalmente según la distribución del nervio</td>
+<td>Neuropatías por atrapamiento (túnel carpiano, túnel cubital)</td>
+</tr>
+<tr>
+<td>Percusión vertebral</td>
+<td>Percusión sobre las apófisis espinosas; dolor irradiado siguiendo un dermatoma</td>
+<td>Radiculopatía compresiva; útil en hernias discales o procesos expansivos espinales</td>
+</tr>
+<tr>
+<td>Percusión muscular</td>
+<td>Percusión directa sobre el vientre muscular; contracción prolongada y sostenida que tarda varios segundos en relajarse</td>
+<td>Característico de la distrofia miotónica y otras canalopatías musculares</td>
+</tr>
+</tbody>
+</table></div>
+
+</section>
+<section id="sec-reflejos-osteotendinosos-arco-niveles-y-graduacion" class="card">
+<div class="section-kicker"><span class="n">15</span> Diapositivas 40–45</div>
+<h2>Reflejos osteotendinosos: arco, niveles y graduación</h2>
+<p>El arco reflejo es el indicador de integridad neurológica; su exploración sistemática debe incluir los cinco reflejos principales, cada uno con valor localizador al explorar un segmento medular específico <span class="cite">diapo 40, diapo 43</span>.</p>
+<p><strong>Tabla: ROT principal → nivel neurológico</strong> <span class="cite">diapo 43</span></p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Reflejo</th>
+<th>Nervio</th>
+<th>Nivel medular</th>
+<th>Técnica</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bicipital</td>
+<td>Musculocutáneo</td>
+<td>C5–C6</td>
+<td>Percusión sobre el tendón del bíceps en la fosa antecubital</td>
+</tr>
+<tr>
+<td>Tricipital</td>
+<td>Radial</td>
+<td>C7–C8</td>
+<td>Percusión sobre el tendón del tríceps por encima del olécranon</td>
+</tr>
+<tr>
+<td>Braquiorradial</td>
+<td>Radial</td>
+<td>C5–C6</td>
+<td>Percusión sobre la apófisis estiloides del radio</td>
+</tr>
+<tr>
+<td>Patelar (rotuliano)</td>
+<td>Femoral</td>
+<td>L3–L4</td>
+<td>Percusión sobre el tendón rotuliano, rodilla en flexión de 90°</td>
+</tr>
+<tr>
+<td>Aquíleo</td>
+<td>Ciático (tibial)</td>
+<td>S1–S2</td>
+<td>Percusión sobre el tendón de Aquiles, pie en leve dorsiflexión</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Clasificación de las respuestas</strong> <span class="cite">diapo 44</span>: normales (respuesta apropiada y simétrica bilateral, indican integridad del arco reflejo y ausencia de lesión en vías motoras superiores o inferiores); hipoactivos (respuesta disminuida, sugieren afectación del arco a nivel periférico, radicular o del asta anterior); hiperactivos (respuesta exagerada, indican lesión de la vía piramidal y liberación de reflejos por pérdida de inhibición supraespinal). <strong>Areflexia:</strong> ausencia completa de respuesta, denota interrupción severa del arco reflejo, común en neuropatías graves o lesiones radiculares. <strong>Clonus:</strong> contracciones rítmicas involuntarias sostenidas, signo patológico de hiperexcitabilidad de la motoneurona superior <span class="cite">diapo 44</span>.</p>
+<p><strong>Escala de ROT 0–4+</strong> <span class="cite">diapo 45</span>:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Grado</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>Arreflexia: ausencia absoluta de respuesta; indica lesión grave del arco reflejo (nervio periférico, raíz o asta anterior)</td>
+</tr>
+<tr>
+<td>1+</td>
+<td>Hiporreflexia: respuesta disminuida o solo obtenida con maniobra de Jendrassik; puede indicar lesión periférica incipiente</td>
+</tr>
+<tr>
+<td>2+</td>
+<td>Normal: respuesta vigorosa y simétrica sin maniobras de facilitación</td>
+</tr>
+<tr>
+<td>3+</td>
+<td>Hiperreflexia: respuesta exagerada, puede propagarse a segmentos adyacentes; sugiere pérdida de inhibición corticoespinal</td>
+</tr>
+<tr>
+<td>4+</td>
+<td>Hiperreflexia con clono: respuesta muy exagerada con clonus sostenido; signo claro de lesión de motoneurona superior establecida</td>
+</tr>
+</tbody>
+</table></div>
+
+</section>
+<section id="sec-significado-clinico-de-las-alteraciones-reflejas" class="card">
+<div class="section-kicker"><span class="n">16</span> Diapositiva 46</div>
+<h2>Significado clínico de las alteraciones reflejas</h2>
+<ul>
+<li><strong>Hiporreflexia / arreflexia:</strong> lesión del arco reflejo a cualquier nivel — neuropatía periférica (diabética, alcohólica, inflamatoria), radiculopatía compresiva, lesión del asta anterior (ELA, poliomielitis), miopatía grave, fase aguda de lesión medular alta (shock espinal) <span class="cite">diapo 46</span>. La arreflexia generalizada en contexto de debilidad aguda ascendente es característica del síndrome de Guillain-Barré <span class="cite">diapo 46</span>.</li>
+<li><strong>Hiperreflexia:</strong> pérdida de la inhibición descendente de la motoneurona superior — lesión de la vía corticoespinal a cualquier nivel, ictus cerebral (fase crónica), esclerosis múltiple, lesión medular crónica, encefalopatía hipertensiva grave <span class="cite">diapo 46</span>.</li>
+</ul>
+
+</section>
+<section id="sec-signo-de-babinski" class="card">
+<div class="section-kicker"><span class="n">17</span> Diapositivas 49–50</div>
+<h2>Signo de Babinski</h2>
+<p><strong>Técnica</strong> <span class="cite">diapo 49</span>: se explora trazando un estímulo firme pero no doloroso a lo largo del borde externo de la planta del pie, desde el talón hacia los dedos, con un objeto de punta roma (mango del martillo de reflejos, llave, etc.).</p>
+<p><strong>Respuestas</strong> <span class="cite">diapo 49</span>:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Respuesta</th>
+<th>Hallazgo</th>
+<th>Significado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Normal (adulto)</td>
+<td>Flexión plantar del primer dedo (hallux) y del resto de los dedos</td>
+<td>Respuesta fisiológica normal con vía corticoespinal íntegra</td>
+</tr>
+<tr>
+<td>Signo de Babinski (patológico)</td>
+<td>Extensión lenta del hallux hacia arriba (dorsiflexión), a menudo con apertura o “abanico” de los demás dedos (signo del abanico o de Dupré)</td>
+<td>Respuesta extensora patológica en el adulto</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Significado y contexto</strong> <span class="cite">diapo 50</span>: indica compromiso de la vía corticoespinal — la vía corticoespinal no ejerce su inhibición normal sobre el arco reflejo plantar; puede ocurrir en cualquier punto del trayecto de la neurona piramidal, desde la corteza motora hasta la médula espinal. Debe interpretarse junto con el resto del síndrome neurológico (hiperreflexia, espasticidad, debilidad piramidal); un Babinski aislado sin otros signos piramidales debe explorarse con cuidado y repetirse, pues puede ser consecuencia de una técnica incorrecta <span class="cite">diapo 50</span>.</p>
+<p><strong>Signos equivalentes</strong> (misma respuesta extensora patológica por mecanismos equivalentes) <span class="cite">diapo 50</span>:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Signo</th>
+<th>Estímulo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Chaddock</td>
+<td>Estímulo en maléolo externo</td>
+</tr>
+<tr>
+<td>Oppenheim</td>
+<td>Presión sobre la tibia</td>
+</tr>
+<tr>
+<td>Gordon</td>
+<td>Compresión del músculo gastrocnemio</td>
+</tr>
+</tbody>
+</table></div>
+
+</section>
+<section id="sec-caso-clinico-hemiparesia-derecha" class="card">
+<div class="section-kicker"><span class="n">18</span> Diapositiva 52</div>
+<h2>Caso clínico: hemiparesia derecha</h2>
+<p>Caso: varón de 67 años, hipertenso, debilidad derecha de brazo y pierna de inicio brusco hace 2 horas; exploración: fuerza 2/5 en extremidad superior derecha y 3/5 en extremidad inferior derecha; hiperreflexia patelar y aquílea derechas (3+); Babinski positivo en pie derecho; reflejo plantar flexor en pie izquierdo; sensibilidad disminuida al tacto y al dolor en hemicuerpo derecho; sin alteración de reflejos en el hemicuerpo izquierdo <span class="cite">diapo 52</span>.</p>
+<ol type="1">
+<li><strong>¿Qué vía está afectada?</strong> La combinación de debilidad en patrón piramidal, hiperreflexia y Babinski indica afectación de la vía corticoespinal (motoneurona superior); la pérdida sensitiva hemisensorial sugiere compromiso de las vías sensitivas ascendentes del mismo lado <span class="cite">diapo 52</span>.</li>
+<li><strong>¿Central o periférica?</strong> Inequívocamente de motoneurona superior: hiperreflexia, Babinski, espasticidad incipiente, sin atrofia ni fasciculaciones; una lesión periférica produciría el patrón opuesto <span class="cite">diapo 52</span>.</li>
+<li><strong>¿Qué lado del SNC?</strong> Lesión del hemisferio cerebral izquierdo (la vía corticoespinal cruza en la decusación de las pirámides bulbares); el inicio brusco en paciente hipertenso es ictus isquémico o hemorrágico hasta demostrar lo contrario <span class="cite">diapo 52</span>.</li>
+<li><strong>¿Qué otros signos buscar?</strong> Afasia (si el hemisferio dominante es el izquierdo), desviación conjugada de la mirada hacia la izquierda, hemianopsia homónima derecha, parálisis facial central derecha, signos de irritación meníngea si se sospecha hemorragia <span class="cite">diapo 52</span>.</li>
+</ol>
+
+</section>
+<section id="sec-coordinacion-y-cerebelo" class="card">
+<div class="section-kicker"><span class="n">19</span> Diapositivas 55–58</div>
+<h2>Coordinación y cerebelo</h2>
+<p>La coordinación motora es la capacidad de realizar movimientos suaves, precisos y secuenciados en tiempo y espacio; depende de la integridad del cerebelo y sus conexiones con la médula espinal, el tronco del encéfalo y la corteza cerebral. Su alteración se denomina ataxia, que puede ser de origen cerebeloso, sensitivo (pérdida de propiocepción) o vestibular; la exploración sistemática permite distinguirlas, con implicaciones diagnósticas y terapéuticas diferentes <span class="cite">diapo 55</span>.</p>
+<p>El cerebelo coordina el movimiento comparando continuamente la intención motora (señal de la corteza) con la ejecución real (retroalimentación periférica); cuando falla, los movimientos pierden precisión, fluidez y coordinación temporal <span class="cite">diapo 56</span>.</p>
+<p><strong>Signos cerebelosos</strong> <span class="cite">diapo 56</span>:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Signo</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dismetría</td>
+<td>Incapacidad de alcanzar con precisión un objetivo; hipermétrica (sobrepasa) o hipométrica (queda corto); detectada en índice-nariz y talón-rodilla; indica disfunción del hemisferio cerebeloso ipsilateral a la extremidad afectada</td>
+</tr>
+<tr>
+<td>Disdiadococinesia</td>
+<td>Dificultad para movimientos alternantes rápidos rítmicos y regulares; movimientos lentos, irregulares, de amplitud variable; uno de los signos más sensibles de disfunción hemisférica cerebelosa, detectable precozmente</td>
+</tr>
+<tr>
+<td>Temblor de intención</td>
+<td>Aparece o aumenta durante el movimiento voluntario, al aproximarse al objetivo (diferente del temblor de reposo parkinsoniano)</td>
+</tr>
+<tr>
+<td>Ataxia</td>
+<td>Término general para la incoordinación motora; puede ser apendicular (extremidades), de la marcha u otras formas</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Pruebas de coordinación</strong> <span class="cite">diapo 57</span>:</p>
+<ul>
+<li><strong>Índice-nariz:</strong> el paciente extiende el brazo y lleva el índice a la punta de la nariz del explorador (o la propia), alternando con amplitud; se evalúa precisión, dismetría y temblor de intención.</li>
+<li><strong>Talón-rodilla:</strong> en decúbito supino, colocar el talón de un pie sobre la rodilla contralateral y deslizarlo suavemente por la tibia hasta el tobillo; valora precisión del trayecto (dismetría), estabilidad y contacto; equivalente del índice-nariz para las extremidades inferiores.</li>
+<li><strong>Movimientos alternantes rápidos:</strong> alternar rápidamente pronación y supinación de una mano sobre el muslo o la palma contralateral; evalúa rapidez, ritmo y regularidad; la dificultad se denomina disdiadococinesia, signo cardinal de disfunción del hemisferio cerebeloso ipsilateral.</li>
+</ul>
+<p><strong>Topografía del síndrome cerebeloso</strong> <span class="cite">diapo 58</span>:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Síndrome</th>
+<th>Signos</th>
+<th>Causas frecuentes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Neocerebeloso (hemisférico)</td>
+<td>Ataxia apendicular ipsilateral; dismetría, disdiadococinesia, temblor de intención; hipotonía ipsilateral; marcha con desviación hacia el lado afecto</td>
+<td>Ictus cerebeloso, tumor hemisférico, desmielinización (esclerosis múltiple), metástasis</td>
+</tr>
+<tr>
+<td>Vermiano / arquicerebeloso</td>
+<td>Ataxia troncal predominante (incapacidad de mantenerse sentado o de pie sin apoyo); ataxia de la marcha con base muy amplia; escasos signos en extremidades; nistagmo, disartria escandente</td>
+<td>Ataxia alcohólica crónica (vermis superior), tumores de vermis (meduloblastoma en niños), degeneraciones paraneoplásicas</td>
+</tr>
+</tbody>
+</table></div>
+
+</section>
+<section id="sec-equilibrio-prueba-de-romberg" class="card">
+<div class="section-kicker"><span class="n">20</span> Diapositivas 59–60</div>
+<h2>Equilibrio: prueba de Romberg</h2>
+<p>Técnica: el paciente de pie, con los pies juntos y brazos a lo largo del cuerpo; se le pide cerrar los ojos, con el explorador cerca para evitar caídas <span class="cite">diapo 59</span>. Evalúa la capacidad de mantener el equilibrio estático al eliminar la información visual <span class="cite">diapo 59</span>.</p>
+<p>El equilibrio depende de tres sistemas: propioceptivo, vestibular y visual; con ojos abiertos colaboran los tres; con ojos cerrados solo propiocepción y vestíbulo <span class="cite">diapo 60</span>.</p>
+<ul>
+<li><strong>Romberg positivo:</strong> el paciente se balancea o cae al cerrar los ojos, habiéndose mantenido bien con los ojos abiertos; indica que la visión estaba compensando un déficit propioceptivo o vestibular. Significa lesión de la sensibilidad profunda (cordón posterior, neuropatía periférica) o lesión vestibular, NO síndrome cerebeloso per se <span class="cite">diapo 60</span>.</li>
+<li><strong>Error frecuente: Romberg ≠ cerebelo.</strong> El paciente con síndrome cerebeloso puro es incapaz de mantenerse bien incluso con los ojos abiertos (su equilibrio ya está comprometido); al cerrar los ojos empeora algo más, pero la inestabilidad con ojos abiertos ya es el signo principal. Atribuir automáticamente un Romberg positivo al cerebelo es un error conceptual que conduce a diagnósticos equivocados <span class="cite">diapo 60</span>.</li>
+</ul>
+
+</section>
+<section id="sec-marcha-observacion-sistematica-maniobras-y-patrones-patologicos" class="card">
+<div class="section-kicker"><span class="n">21</span> Diapositivas 10–65</div>
+<h2>Marcha: observación sistemática, maniobras y patrones patológicos</h2>
+<p>La marcha integra la integridad del sistema piramidal, extrapiramidal, cerebeloso, vestibular y sensitivo, además de la musculatura y el esqueleto <span class="cite">diapo 62</span>. Elementos a observar <span class="cite">diapo 62</span>:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Interpretación</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Base de sustentación</td>
+<td>Base amplia sugiere ataxia cerebelosa o sensitiva; base estrecha o cruzada puede verse en paraparesia espástica</td>
+</tr>
+<tr>
+<td>Longitud del paso</td>
+<td>Paso corto y arrastrado característico del síndrome parkinsoniano; también miedo a caer, apraxia de la marcha o rigidez musculoesquelética</td>
+</tr>
+<tr>
+<td>Simetría y ritmo</td>
+<td>Asimetría característica de la marcha hemiparética; irregularidad del ritmo con base amplia sugiere ataxia cerebelosa o sensitiva</td>
+</tr>
+<tr>
+<td>Movimientos asociados</td>
+<td>Reducción o ausencia unilateral del braceo, signo precoz de enfermedad de Parkinson; ausencia bilateral sugiere parkinsonismo</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Maniobras de exploración</strong> <span class="cite">diapo 63</span>:</p>
+<ul>
+<li><strong>Marcha normal:</strong> observación basal sin instrucciones adicionales.</li>
+<li><strong>Marcha de talones:</strong> obliga a dorsiflexión del pie (músculos tibiales anteriores); la caída del pie (foot drop) impide realizarla; sugiere lesión del nervio ciático poplíteo externo (peroneo) o radiculopatía L4-L5.</li>
+<li><strong>Marcha de puntas:</strong> evalúa el tríceps sural y el nervio tibial (S1); la debilidad sugiere lesión de raíz S1.</li>
+<li><strong>Marcha en tándem:</strong> caminar con un pie directamente delante del otro; muy sensible para detectar ataxia cerebelosa o sensitiva leve, que se hace evidente al estrechar la base de sustentación al mínimo.</li>
+<li><strong>Retropulsión (marcha de espaldas):</strong> útil en el parkinsonismo <span class="cite">diapo 63</span>.</li>
+</ul>
+<p><strong>Tabla: patrones de marcha patológica</strong> <span class="cite">diapo 64, diapo 65, diapo 10, diapo 11, diapo 12</span></p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Patrón</th>
+<th>Descripción</th>
+<th>Nivel lesional / causa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hemiparética</td>
+<td>Pierna extendida y rígida (espástica) que avanza en semicírculo hacia fuera (circunducción); brazo ipsilateral en flexión y adosado al tronco</td>
+<td>Lesión unilateral de la vía corticoespinal (ictus, lesión medular hemilateral)</td>
+</tr>
+<tr>
+<td>Espástica (paraparesia)</td>
+<td>Ambas piernas; muslos se aproximan y las piernas se cruzan (“marcha en tijeras”)</td>
+<td>Lesión medular cervical o torácica bilateral de la vía corticoespinal (esclerosis múltiple, mielopatía cervical espondilótica)</td>
+</tr>
+<tr>
+<td>Atáxica cerebelosa</td>
+<td>Base amplia, irregular, zigzagueante, “parece borracho”; no mejora al abrir los ojos (a diferencia de la ataxia sensitiva); tándem imposible; desviación hacia el lado afecto en lesiones hemisféricas</td>
+<td>Cerebelo</td>
+</tr>
+<tr>
+<td>Parkinsoniana</td>
+<td>Pasos cortos y arrastrados (marcha festinante), postura en flexión axial, ausencia de braceo, dificultad para iniciar la marcha (bloqueo o “freezing”), propulsión y retropulsión positivas</td>
+<td>Síndrome parkinsoniano (ganglios basales)</td>
+</tr>
+<tr>
+<td>Neuropática (steppage)</td>
+<td>Elevación exagerada de la rodilla por caída del pie (foot drop); no puede apoyar el talón</td>
+<td>Paresia de la musculatura dorsiflexora: nervio peroneo común, radiculopatía L4-L5 o neuropatía periférica motora</td>
+</tr>
+<tr>
+<td>Atáxica sensitiva</td>
+<td>Base amplia e inestabilidad que mejora con la visión</td>
+<td>Pérdida de propiocepción (cordón posterior, neuropatía) <span class="cite">diapo 60, diapo 38</span></td>
+</tr>
+<tr>
+<td>Miopática</td>
+<td>“Marcha de pato” por debilidad de la musculatura pélvica, con balanceo lateral exagerado del tronco</td>
+<td>Miopatía <span class="cite">diapo 12</span></td>
+</tr>
+<tr>
+<td>Antálgica</td>
+<td>Compensatoria por dolor que limita el apoyo completo en el miembro afectado</td>
+<td>Dolor osteoarticular <span class="cite">diapo 12</span></td>
+</tr>
+</tbody>
+</table></div>
+
+</section>
+<section id="sec-signos-meningeos" class="card">
+<div class="section-kicker"><span class="n">22</span> Diapositivas 66–71</div>
+<h2>Signos meníngeos</h2>
+<p>Los signos meníngeos indican irritación de las meninges; en el contexto clínico adecuado constituyen una urgencia neurológica hasta demostrar lo contrario. La causa más temida es la meningitis bacteriana aguda, que puede ser fatal en horas si no se trata precozmente <span class="cite">diapo 66</span>. Deben interpretarse siempre con el contexto: su sensibilidad es variable y pueden estar ausentes en inmunodeprimidos, ancianos o fases muy precoces; la ausencia de signos meníngeos NO descarta meningitis <span class="cite">diapo 66</span>.</p>
+<p><strong>Los tres signos meníngeos clásicos</strong> <span class="cite">diapo 67–69</span>:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Signo</th>
+<th>Técnica</th>
+<th>Positividad</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rigidez de nuca</td>
+<td>Flexión pasiva del cuello en decúbito supino</td>
+<td>Resistencia a la flexión (pero no a la rotación lateral, lo que la diferencia de la rigidez cervical musculoesquelética); el mentón no llega al esternón y la resistencia es involuntaria. Es el signo meníngeo más sensible, aunque variable</td>
+</tr>
+<tr>
+<td>Kernig</td>
+<td>Decúbito supino, flexión de cadera a 90° e intento de extensión de rodilla</td>
+<td>Resistencia o dolor con la extensión, porque tensa las meninges inflamadas a lo largo de la raíz; la flexión de rodilla alivia el dolor de inmediato; explorar bilateralmente</td>
+</tr>
+<tr>
+<td>Brudzinski</td>
+<td>Flexión pasiva del cuello en decúbito supino</td>
+<td>Flexión refleja involuntaria de rodillas y caderas, bilateral; indica irritación meníngea severa; refleja el intento de reducir la tensión meníngea; suele aparecer junto con la rigidez de nuca</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Contexto clínico</strong> <span class="cite">diapo 71</span>:</p>
+<ul>
+<li><strong>Tríada clásica de meningitis:</strong> fiebre + cefalea + rigidez de nuca; alta especificidad, pero sensibilidad limitada: muchos pacientes con meningitis bacteriana no presentan la tríada completa.</li>
+<li><strong>Síntomas acompañantes clave:</strong> fiebre (ausente en inmunosuprimidos y ancianos, sin que eso descarte); cefalea intensa de inicio brusco (el “peor dolor de cabeza de su vida” obliga a descartar hemorragia subaracnoidea antes que meningitis); fotofobia y fonofobia; vómitos frecuentemente en proyectil, sin náuseas previas, por hipertensión intracraneal.</li>
+<li><strong>Signos de alarma urgente:</strong> alteración del nivel de conciencia (hipertensión intracraneal grave o cerebritis difusa, mal pronóstico); convulsiones (focales o generalizadas); petequias o púrpura (en contexto febril con meningismo, indican meningococcemia hasta demostrar lo contrario: emergencia vital); papiledema (hipertensión intracraneal establecida).</li>
+</ul>
+
+</section>
+<section id="sec-integracion-final-y-sindromes-neurologicos-clasicos" class="card">
+<div class="section-kicker"><span class="n">23</span> Diapositivas 72–74</div>
+<h2>Integración final y síndromes neurológicos clásicos</h2>
+<p>El examen neurológico es un sistema: la inspección, el tono y la fuerza, la sensibilidad y los reflejos convergen en la hipótesis de localización <span class="cite">diapo 72</span>. Reglas de integración <span class="cite">diapo 74</span>:</p>
+<ul>
+<li>El examen solo se domina con práctica repetida; explorarse entre compañeros, explorar a todos los pacientes aunque no sean neurológicos, y comparar siempre ambos lados.</li>
+<li>Ningún signo tiene valor aislado: hiperreflexia, Babinski y espasticidad juntos dicen mucho más que cada uno por separado; pensar siempre en síndromes, no en signos.</li>
+<li>El contexto siempre manda: el mismo signo puede tener distintos significados según el contexto clínico, la edad del paciente y el resto del cuadro; la localización neurológica es razonamiento clínico, no memorización de signos.</li>
+</ul>
+<p><strong>Tabla: síndromes neurológicos clásicos y su localización</strong> <span class="cite">diapo 73</span></p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Síndrome</th>
+<th>Tono</th>
+<th>Fuerza</th>
+<th>Reflejos</th>
+<th>Babinski</th>
+<th>Atrofia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Motoneurona superior (central)</td>
+<td>Espástica ↑</td>
+<td>↓ patrón piramidal</td>
+<td>↑ hiperreflexia</td>
+<td>Positivo</td>
+<td>Leve (desuso)</td>
+</tr>
+<tr>
+<td>Motoneurona inferior (periférica)</td>
+<td>Fláccida ↓</td>
+<td>↓ territorio nervio/raíz</td>
+<td>↓ hipo/arreflexia</td>
+<td>Negativo</td>
+<td>Prominente</td>
+</tr>
+<tr>
+<td>Cerebeloso</td>
+<td>Hipotonía ipsilateral</td>
+<td>Normal o leve ↓</td>
+<td>Normal o ↓</td>
+<td>Negativo</td>
+<td>Ausente</td>
+</tr>
+<tr>
+<td>Extrapiramidal</td>
+<td>Rigidez (rueda dentada)</td>
+<td>Normal</td>
+<td>Normal</td>
+<td>Negativo</td>
+<td>Ausente</td>
+</tr>
+<tr>
+<td>Neuropatía periférica</td>
+<td>Fláccida ↓</td>
+<td>↓ distal simétrica</td>
+<td>↓ hipo/arreflexia</td>
+<td>Negativo</td>
+<td>Moderada distal</td>
+</tr>
+<tr>
+<td>Meningitis / irritación meníngea</td>
+<td>Normal</td>
+<td>Normal</td>
+<td>Variable</td>
+<td>Variable</td>
+<td>Ausente</td>
+</tr>
+</tbody>
+</table></div>
+
+</section>
+<section id="sec-conceptos-clave-y-siglas" class="card">
+<div class="section-kicker"><span class="n">24</span> Diapositivas 4–71</div>
+<h2>Conceptos clave y siglas</h2>
+<ul>
+<li><strong>Inspección:</strong> primer paso del examen neurológico, desde que el paciente entra a la consulta; postura, movimientos anormales, asimetrías, fasciculaciones, atrofia y marcha <span class="cite">diapo 4, 5</span>.</li>
+<li><strong>Trofismo:</strong> estado nutricional y estructural del músculo; su distribución (focal/generalizada, proximal/distal) y velocidad de instauración orientan origen neurógeno o miógeno <span class="cite">diapo 15, 20</span>.</li>
+<li><strong>Tono muscular:</strong> resistencia del músculo al movimiento pasivo <span class="cite">diapo 17</span>.</li>
+<li><strong>Fenómeno de navaja:</strong> resistencia espástica que cede bruscamente; velocidad-dependiente <span class="cite">diapo 17, 22</span>.</li>
+<li><strong>Rueda dentada (trinquete):</strong> resistencia escalonada propia de la rigidez extrapiramidal <span class="cite">diapo 17, 22</span>.</li>
+<li><strong>Fasciculaciones:</strong> contracciones visibles de una unidad motora; con atrofia y debilidad, signo de denervación activa (descartar ELA) <span class="cite">diapo 21</span>.</li>
+<li><strong>Escala MRC (0–5):</strong> graduación de la fuerza muscular del Medical Research Council <span class="cite">diapo 23</span>.</li>
+<li><strong>Patrón piramidal:</strong> debilidad con flexores en MMSS y extensores en MMII, propia de MNS <span class="cite">diapo 28</span>.</li>
+<li><strong>Barré:</strong> prueba postural para detectar debilidad sutil (desviación progresiva del miembro) <span class="cite">diapo 27</span>.</li>
+<li><strong>Tacto epicrítico / palestesia / batiestesia:</strong> tacto fino, vibración y propiocepción, vías del cordón posterior <span class="cite">diapo 30</span>.</li>
+<li><strong>Guante y calcetín:</strong> patrón sensitivo distal simétrico de la neuropatía periférica <span class="cite">diapo 31, 38</span>.</li>
+<li><strong>Brown-Séquard:</strong> hemisección medular; pérdida propioceptiva y motora ipsilateral, termoalgésica contralateral <span class="cite">diapo 38, 39</span>.</li>
+<li><strong>Tinel:</strong> parestesias distales a la percusión de un nervio; neuropatías por atrapamiento <span class="cite">diapo 42</span>.</li>
+<li><strong>Jendrassik:</strong> maniobra de facilitación para obtener reflejos <span class="cite">diapo 45</span>.</li>
+<li><strong>Clonus:</strong> contracciones rítmicas sostenidas; hiperexcitabilidad de la MNS <span class="cite">diapo 44</span>.</li>
+<li><strong>Babinski / Chaddock / Oppenheim / Gordon:</strong> signos de la vía corticoespinal con respuesta extensora equivalente <span class="cite">diapo 50</span>.</li>
+<li><strong>Decusación de las pirámides:</strong> cruce de la vía corticoespinal en el bulbo, base de la localización contralateral de lesiones hemisféricas <span class="cite">diapo 52</span>.</li>
+<li><strong>Ataxia:</strong> incoordinación motora; cerebelosa, sensitiva o vestibular <span class="cite">diapo 55</span>.</li>
+<li><strong>Dismetría / disdiadococinesia:</strong> error de alcance y dificultad de movimientos alternantes, signos cerebelosos hemisféricos <span class="cite">diapo 56</span>.</li>
+<li><strong>Romberg:</strong> prueba de equilibrio estático con ojos cerrados; positivo indica déficit propioceptivo o vestibular, no cerebeloso <span class="cite">diapo 60</span>.</li>
+<li><strong>Circunducción / festinación / foot drop / freezing:</strong> semiología de las marchas hemiparética, parkinsoniana y neuropática <span class="cite">diapo 10, 64, 65</span>.</li>
+<li><strong>Meningismo / tríada de meningitis:</strong> rigidez de nuca, fiebre y cefalea; su ausencia no descarta meningitis <span class="cite">diapo 66, 71</span>.</li>
+<li><strong>Siglas usadas:</strong> SNC (sistema nervioso central), SNP (sistema nervioso periférico), MNS (motoneurona superior), MNI (motoneurona inferior), ROT (reflejos osteotendinosos), MRC (Medical Research Council), MMSS/MMII (miembros superiores/inferiores), ACV (accidente cerebrovascular), TCE (traumatismo craneoencefálico), ELA (esclerosis lateral amiotrófica).</li>
+</ul>
+
+</section>
+<section id="sec-preguntas-probables" class="card">
+<div class="section-kicker"><span class="n">25</span> Diapositivas 4–74</div>
+<h2>Preguntas probables</h2>
+<div class="qa-tools"><button class="openAll" type="button">Abrir todas</button><button class="closeAll" type="button">Cerrar todas</button></div>
+<details class="qa"><summary>1. ¿Qué información obtiene la inspección antes de tocar al paciente?</summary><div class="answer">Estado de conciencia y conducta, postura espontánea, movimientos anormales, simetría corporal, fasciculaciones, atrofias y tipo de marcha <span class="cite">diapo 4, 5</span>.</div></details>
+<details class="qa"><summary>2. ¿Qué sugieren fasciculaciones con atrofia y debilidad en un adulto?</summary><div class="answer">Denervación activa de motoneurona inferior; obliga a descartar ELA. Fasciculaciones aisladas sin atrofia ni debilidad son frecuentemente benignas <span class="cite">diapo 21</span>.</div></details>
+<details class="qa"><summary>3. Diferencia central entre espasticidad y rigidez.</summary><div class="answer">La espasticidad es velocidad-dependiente, por lesión de la vía corticoespinal (MNS), con fenómeno de navaja, hiperreflexia y Babinski; la rigidez es velocidad-independiente, por lesión de ganglios basales, con fenómeno de rueda dentada, bradicinesia y temblor <span class="cite">diapo 17, 22</span>.</div></details>
+<details class="qa"><summary>4. Paciente MRC grado 2 en un grupo muscular: ¿qué significa?</summary><div class="answer">Movimiento activo en toda la amplitud pero sin vencer la gravedad; debilidad grave <span class="cite">diapo 23</span>.</div></details>
+<details class="qa"><summary>5. Debilidad proximal simétrica de cinturas, ¿qué orienta?</summary><div class="answer">Debilidad distal de manos y pies, ¿qué orienta? Paraparesia, ¿qué orienta? Proximal → miopatía (o Guillain-Barré inicial); distal → neuropatía periférica o enfermedad de motoneurona; paraparesia → lesión medular <span class="cite">diapo 24</span>.</div></details>
+<details class="qa"><summary>6. Tres errores comunes al evaluar fuerza y sus soluciones.</summary><div class="answer">Confundir fatiga con debilidad (repetir tras reposo, maniobras distractoras); aceptar esfuerzo submáximo (observar consistencia entre pruebas); ignorar compensaciones (estabilizar articulaciones proximales y aislar el grupo muscular) <span class="cite">diapo 27</span>.</div></details>
+<details class="qa"><summary>7. Complete el patrón MNS: tono, ROT, Babinski, atrofia, fasciculaciones.</summary><div class="answer">Hipertonía espástica (navaja), hiperreflexia, Babinski positivo, atrofia mínima por desuso, sin fasciculaciones. Lesión en corteza motora, cápsula interna, tronco encefálico o médula <span class="cite">diapo 28</span>.</div></details>
+<details class="qa"><summary>8. Complete el patrón MNI: tono, ROT, Babinski, atrofia, fasciculaciones.</summary><div class="answer">Hipotonía (flacidez), hiporreflexia o arreflexia, Babinski ausente, atrofia prominente, fasciculaciones frecuentes. Lesión en asta anterior, raíz, plexo, nervio periférico o unión neuromuscular <span class="cite">diapo 28</span>.</div></details>
+<details class="qa"><summary>9. ¿Qué modalidades sensitivas viajan por el cordón posterior y cuáles por la espinotalámica lateral?</summary><div class="answer">Cordón posterior: tacto epicrítico, vibración y propiocepción. Espinotalámica lateral: dolor y temperatura <span class="cite">diapo 30</span>.</div></details>
+<details class="qa"><summary>10. ¿Por qué se explora la sensibilidad de distal a proximal y con los ojos cerrados?</summary><div class="answer">Ojos cerrados eliminan la información visual; de distal a proximal se detecta el límite del déficit y se distingue patrón “guante y calcetín” (neuropatía) de nivel sensitivo definido (lesión medular) <span class="cite">diapo 31</span>.</div></details>
+<details class="qa"><summary>11. ¿Qué diapasón se usa para vibración y dónde se aplica?</summary><div class="answer">Diapasón de 128 Hz sobre prominencias óseas y articulaciones, especialmente las interfalángicas distales de manos y pies <span class="cite">diapo 34</span>.</div></details>
+<details class="qa"><summary>12. ¿Qué temperaturas se usan para explorar sensibilidad térmica?</summary><div class="answer">Frío 10–15 °C y calor 40–45 °C, aplicados alternadamente con ojos cerrados; viaja por la espinotalámica lateral <span class="cite">diapo 35</span>.</div></details>
+<details class="qa"><summary>13. ¿Qué es un Romberg positivo y qué NO indica?</summary><div class="answer">Pérdida del equilibrio al cerrar los ojos habiéndose mantenido bien con ojos abiertos; indica déficit propioceptivo (cordón posterior, neuropatía) o vestibular, NO síndrome cerebeloso per se. El paciente cerebeloso está inestable incluso con ojos abiertos <span class="cite">diapo 60</span>.</div></details>
+<details class="qa"><summary>14. Describa el patrón sensitivo del síndrome de Brown-Séquard.</summary><div class="answer">Hemisección medular: pérdida de propiocepción y vibración (y debilidad motora) ipsilateral; pérdida termoalgésica contralateral <span class="cite">diapo 38, 39</span>.</div></details>
+<details class="qa"><summary>15. Reflejos bicipital, tricipital, braquiorradial, patelar y aquíleo: ¿niveles?</summary><div class="answer">Bicipital C5–C6 (musculocutáneo); tricipital C7–C8 (radial); braquiorradial C5–C6 (radial); patelar L3–L4 (femoral); aquíleo S1–S2 (ciático/tibial) <span class="cite">diapo 43</span>.</div></details>
+<details class="qa"><summary>16. Escala de ROT 0–4+: ¿qué indica el 4+?</summary><div class="answer">Hiperreflexia con clonus sostenido, signo claro de lesión de motoneurona superior establecida. El 3+ es hiperreflexia con posible propagación; el 2+ es normal; el 1+ hiporreflexia con Jendrassik; el 0 arreflexia <span class="cite">diapo 45</span>.</div></details>
+<details class="qa"><summary>17. Arreflexia generalizada con debilidad aguda ascendente, ¿qué sugiere?</summary><div class="answer">Síndrome de Guillain-Barré <span class="cite">diapo 46</span>.</div></details>
+<details class="qa"><summary>18. Técnica correcta del reflejo plantar.</summary><div class="answer">Estímulo firme pero no doloroso a lo largo del borde externo de la planta, del talón hacia los dedos, con objeto de punta roma (mango del martillo de reflejos, llave) <span class="cite">diapo 49</span>.</div></details>
+<details class="qa"><summary>19. ¿Qué es el signo del abanico o de Dupré?</summary><div class="answer">Apertura de los demás dedos que acompaña a la dorsiflexión lenta del hallux en el Babinski patológico <span class="cite">diapo 49</span>.</div></details>
+<details class="qa"><summary>20. Babinski aislado sin otros signos piramidales, ¿qué hacer?</summary><div class="answer">Explorarlo con cuidado y repetirlo; puede ser consecuencia de una técnica incorrecta. Debe interpretarse junto con el resto del síndrome neurológico <span class="cite">diapo 50</span>.</div></details>
+<details class="qa"><summary>21. Signos equivalentes al Babinski y sus estímulos.</summary><div class="answer">Chaddock (estímulo en maléolo externo), Oppenheim (presión sobre la tibia), Gordon (compresión del gastrocnemio); todos producen la misma respuesta extensora patológica <span class="cite">diapo 50</span>.</div></details>
+<details class="qa"><summary>22. Varón hipertenso con hemiparesia derecha, Babinski derecho y hemisensibilidad disminuida derecha: localización.</summary><div class="answer">MNS central: vía corticoespinal y vías sensitivas ascendentes del hemisferio izquierdo (la vía cruza en la decusación de las pirámides bulbares); inicio brusco en hipertenso = ictus isquémico o hemorrágico hasta demostrar lo contrario. Buscar además afasia, desviación conjugada de la mirada a la izquierda, hemianopsia homónima derecha y parálisis facial central derecha <span class="cite">diapo 52</span>.</div></details>
+<details class="qa"><summary>23. ¿Qué distingue la ataxia cerebelosa de la sensitiva en la marcha?</summary><div class="answer">La cerebelosa no mejora al abrir los ojos (base amplia, irregular, zigzagueante) y el tándem es imposible; la sensitiva mejora con la visión (Romberg positivo) <span class="cite">diapo 65, 60</span>.</div></details>
+<details class="qa"><summary>24. Marcha de talones y marcha de puntas: ¿qué exploran cada una?</summary><div class="answer">Talones: dorsiflexores tibiales anteriores; su imposibilidad (foot drop) sugiere lesión del nervio ciático poplíteo externo (peroneo) o radiculopatía L4-L5. Puntas: tríceps sural y nervio tibial (S1); la debilidad sugiere lesión de raíz S1 <span class="cite">diapo 63</span>.</div></details>
+<details class="qa"><summary>25. ¿Qué maniobra es la más sensible para detectar ataxia leve?</summary><div class="answer">La marcha en tándem: al estrechar la base al mínimo, una incoordinación cerebelosa o sensitiva discreta se hace evidente <span class="cite">diapo 63</span>.</div></details>
+<details class="qa"><summary>26. Kernig: técnica y criterio de positividad.</summary><div class="answer">Decúbito supino, cadera flexionada a 90° e intento de extensión de rodilla; positivo si la extensión provoca resistencia o dolor, que se alivia al flexionar la rodilla; explorar bilateralmente <span class="cite">diapo 68</span>.</div></details>
+<details class="qa"><summary>27. ¿En qué consiste el signo de Brudzinski?</summary><div class="answer">Al flexionar pasivamente el cuello en decúbito supino aparece flexión refleja involuntaria de rodillas y caderas, bilateral; indica irritación meníngea severa <span class="cite">diapo 69</span>.</div></details>
+<details class="qa"><summary>28. ¿La ausencia de signos meníngeos descarta meningitis?</summary><div class="answer">No: su sensibilidad es variable y pueden estar ausentes en inmunodeprimidos, ancianos o fases muy precoces. La tríada clásica tiene alta especificidad pero baja sensibilidad <span class="cite">diapo 66, 71</span>.</div></details>
+<details class="qa"><summary>29. Petequias o púrpura con fiebre y meningismo, ¿qué indican?</summary><div class="answer">Meningococcemia hasta demostrar lo contrario; emergencia vital. Otros signos de alarma: alteración de conciencia, convulsiones, papiledema <span class="cite">diapo 71</span>.</div></details>
+<details class="qa"><summary>30. Síndrome extrapiramidal: complete tono, fuerza, ROT, Babinski y atrofia.</summary><div class="answer">Rigidez con rueda dentada; fuerza normal; ROT normal; Babinski negativo; atrofia ausente <span class="cite">diapo 73</span>.</div></details>
+<details class="qa"><summary>31. ¿Por qué la localización neurológica es “razonamiento clínico y no memorización de signos”?</summary><div class="answer">Ningún signo tiene valor aislado: hiperreflexia, Babinski y espasticidad juntos dicen mucho más que por separado; el mismo signo cambia de significado según contexto clínico, edad y resto del cuadro; hay que pensar en síndromes <span class="cite">diapo 74</span>.</div></details>
+<details class="qa"><summary>32. Percusión del vientre muscular con contracción prolongada de varios segundos, ¿qué indica?</summary><div class="answer">Fenómeno miotónico: característico de la distrofia miotónica y otras canalopatías musculares <span class="cite">diapo 42</span>.</div></details>
+<details class="qa"><summary>33. Signo de Tinel, ¿técnica y utilidad?</summary><div class="answer">Percusión directa sobre el trayecto de un nervio periférico; parestesias irradiadas distalmente según la distribución del nervio; útil en neuropatías por atrapamiento (túnel carpiano, túnel cubital) <span class="cite">diapo 42</span>.</div></details>
+<details class="qa"><summary>34. Diferencias entre ataxia apendicular y troncal en topografía cerebelosa.</summary><div class="answer">La apendicular (dismetría, disdiadococinesia, temblor de intención, hipotonía ipsilateral, marcha desviada al lado afecto) corresponde al síndrome neocerebeloso hemisférico; la troncal (incapacidad de sentarse o estar de pie sin apoyo, marcha con base muy amplia, escasos signos en extremidades, nistagmo y disartria escandente) al síndrome vermiano <span class="cite">diapo 58</span>.</div></details>
+<details class="qa"><summary>35. Temblor en reposo 4–6 Hz vs temblor de intención: localización de cada uno.</summary><div class="answer">Reposo 4–6 Hz: sistema extrapiramidal (Parkinson). De intención: cerebelo (aumenta al aproximarse al blanco; en el material se relaciona con esclerosis múltiple) <span class="cite">diapo 7, 56</span>.</div></details>
+</section>
+<section id="sec-diapositivas-sin-texto-extraible" class="card">
+<div class="section-kicker"><span class="n">26</span> Cierre</div>
+<h2>Diapositivas sin texto extraíble</h2>
+<ul>
+<li><strong>Diapo 1:</strong> solo imagen (portada visual del deck); sin texto legible.</li>
+<li><strong>Diapo 2:</strong> título: “Examen Motor, Sensitivo y Reflejos — el examen neurológico como herramienta de localización”.</li>
+<li><strong>Diapo 13:</strong> solo imagen, sin contenido textual interpretable (probable esquema o fotografía de técnica; no está en el material).</li>
+<li><strong>Diapo 29:</strong> título divisor “Sistema Sensitivo” (con ícono decorativo).</li>
+<li><strong>Diapo 40:</strong> título divisor “Reflejos Osteotendinosos: el arco reflejo como indicador de integridad neurológica”.</li>
+<li><strong>Diapo 47:</strong> solo texto casi inutilizable (“SEMIOLOGIA”); título divisor.</li>
+<li><strong>Diapo 48:</strong> título divisor “El Signo de Babinski”.</li>
+<li><strong>Diapo 51:</strong> solo imagen, sin contenido textual interpretable (probable fotografía de técnica del plantar; no está en el material).</li>
+<li><strong>Diapo 53:</strong> título divisor “Localización neurológica”.</li>
+<li><strong>Diapo 61:</strong> título divisor “Test de Romberg: evaluación del equilibrio y coordinación”.</li>
+<li><strong>Diapo 70:</strong> solo imagen, sin texto legible (probable fotografía de técnica de signos meníngeos; no está en el material).</li>
+</ul>
+
+</section>
+  </main>
+</div>
+
+<footer>
+  <div class="foot-inner">
+    <div><strong>Guía de estudio — Examen Motor, Sensitivo y Reflejos</strong><br>Certamen 3 · Semiología del sistema nervioso · Clase 3 de 4</div>
+    <div>Fuente: <code>clase 3 parte II.pdf</code> · 74 diapositivas<br>
+    Citaciones <code>[diapo N]</code> = número de diapositiva del PDF.<br>
+    Elaborada el 23 de noviembre de 2026.</div>
+  </div>
+</footer>
+
+<script>
+  const root = document.documentElement;
+  const themeBtn = document.getElementById('themeBtn');
+  const printBtn = document.getElementById('printBtn');
+
+  function setTheme(theme){
+    root.dataset.theme = theme;
+    const dark = theme === 'dark';
+    themeBtn.textContent = dark ? 'Modo claro' : 'Modo oscuro';
+    themeBtn.setAttribute('aria-pressed', String(dark));
+    try { localStorage.setItem('guia-theme', theme); } catch(e) {}
+  }
+  try {
+    const saved = localStorage.getItem('guia-theme');
+    if (saved === 'dark' || saved === 'light') setTheme(saved);
+  } catch(e) {}
+  themeBtn.addEventListener('click', () => setTheme(root.dataset.theme === 'dark' ? 'light' : 'dark'));
+  printBtn.addEventListener('click', () => window.print());
+  window.addEventListener('beforeprint', () => document.querySelectorAll('details').forEach(d => d.open = true));
+
+  const links = [...document.querySelectorAll('.toc a[href^="#"]')];
+  const sections = [...document.querySelectorAll('main section[id]')];
+  if ('IntersectionObserver' in window) {
+    const obs = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        const id = entry.target.id;
+        links.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + id));
+      });
+    }, {rootMargin: '-15% 0px -70% 0px', threshold: 0});
+    sections.forEach(s => obs.observe(s));
+  }
+
+  document.querySelectorAll('.openAll').forEach(b => b.addEventListener('click', () =>
+    b.closest('section').querySelectorAll('details.qa').forEach(d => d.open = true)));
+  document.querySelectorAll('.closeAll').forEach(b => b.addEventListener('click', () =>
+    b.closest('section').querySelectorAll('details.qa').forEach(d => d.open = false)));
+</script>
+</body>
+</html>

@@ -1,0 +1,1219 @@
+<!doctype html>
+<html lang="es-CL" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Guía de estudio del Certamen 3 de Semiología (sistema nervioso), con citas por número de diapositiva.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f5c57'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='34' fill='%23d9f0ea' text-anchor='middle'%3EN%3C/text%3E%3C/svg%3E">
+<meta property="og:title" content="Semiología C3 — Sistema nervioso">
+<meta property="og:description" content="Guía de estudio del Certamen 3 de Semiología (sistema nervioso), con citas por número de diapositiva.">
+<meta property="og:type" content="website">
+
+<title>Guía de estudio — Introducción a la Semiología Neurológica y Anamnesis · Semiología C3</title>
+<style>  :root{
+    --bg:#f6f4ee;
+    --surface:#fffdf8;
+    --surface-2:#efeae0;
+    --surface-3:#e6dfd1;
+    --ink:#1d2a2e;
+    --muted:#5d6b70;
+    --line:#d8d1c3;
+    --brand:#0f5c57;
+    --brand-2:#147d74;
+    --brand-3:#d9f0ea;
+    --accent:#b45309;
+    --accent-2:#fef3c7;
+    --rose:#9f1239;
+    --rose-2:#ffe4e6;
+    --blue:#1e3a8a;
+    --blue-2:#dbeafe;
+    --shadow:0 10px 30px rgba(20,40,40,.08);
+    --radius:16px;
+    --serif:Georgia,"Iowan Old Style","Palatino Linotype",Palatino,serif;
+    --sans:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  }
+  [data-theme="dark"]{
+    --bg:#0f1617;
+    --surface:#162022;
+    --surface-2:#1d2a2c;
+    --surface-3:#263638;
+    --ink:#e8eeec;
+    --muted:#a7b6b2;
+    --line:#2c3c3d;
+    --brand:#5eead4;
+    --brand-2:#2dd4bf;
+    --brand-3:#123330;
+    --accent:#fbbf24;
+    --accent-2:#3a2a0a;
+    --rose:#fb7185;
+    --rose-2:#3b1119;
+    --blue:#93c5fd;
+    --blue-2:#12233f;
+    --shadow:0 10px 30px rgba(0,0,0,.35);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;
+    font-family:var(--sans);
+    line-height:1.65;
+    color:var(--ink);
+    background:var(--bg);
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--brand-2);text-decoration-thickness:1px;text-underline-offset:2px}
+  a:hover{color:var(--brand)}
+  :focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:4px}
+  .skip-link{
+    position:absolute;left:-9999px;top:0;background:var(--surface);color:var(--ink);
+    padding:.7rem 1rem;z-index:100;border:1px solid var(--line);border-radius:0 0 10px 0
+  }
+  .skip-link:focus{left:0}
+
+  /* HERO */
+  .hero{
+    background:
+      radial-gradient(1200px 500px at 85% -10%,rgba(255,255,255,.16),transparent 60%),
+      linear-gradient(135deg,#082f2c 0%,#0d4b47 55%,#147d74 100%);
+    color:#f7fbfa;
+    padding:clamp(2rem,5vw,4.2rem) clamp(1.2rem,4vw,3rem) clamp(2.4rem,5vw,3.6rem);
+    position:relative;
+    overflow:hidden;
+  }
+  .hero::after{
+    content:"";position:absolute;right:-120px;bottom:-160px;width:420px;height:420px;
+    border:1px solid rgba(255,255,255,.18);border-radius:50%;
+    box-shadow:0 0 0 40px rgba(255,255,255,.04),0 0 0 90px rgba(255,255,255,.03);
+    pointer-events:none;
+  }
+  .hero-inner{max-width:1120px;margin:0 auto;position:relative;z-index:1}
+  .eyebrow{
+    display:inline-flex;align-items:center;gap:.5rem;
+    font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;
+    color:#bff3e9;font-weight:700;margin:0 0 1rem
+  }
+  .eyebrow::before{content:"";width:28px;height:1px;background:#bff3e9;display:inline-block}
+  .hero h1{
+    font-family:var(--serif);
+    font-size:clamp(2rem,5.4vw,4rem);
+    line-height:1.06;
+    margin:0 0 .7rem;
+    letter-spacing:-.02em;
+    max-width:15ch;
+    text-wrap:balance;
+  }
+  .hero .lede{
+    font-size:clamp(1.02rem,2vw,1.28rem);
+    max-width:70ch;color:#d7f1ec;margin:.4rem 0 1.6rem
+  }
+  .hero .lede em{color:#fff}
+  .meta-grid{
+    display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));
+    gap:.75rem;margin:1.6rem 0 1.2rem;max-width:1000px
+  }
+  .meta-grid div{
+    background:rgba(255,255,255,.08);
+    border:1px solid rgba(255,255,255,.16);
+    border-radius:12px;padding:.7rem .85rem;backdrop-filter:blur(3px)
+  }
+  .meta-grid span{
+    display:block;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;
+    color:#a8dfd6;font-weight:700;margin-bottom:.2rem
+  }
+  .meta-grid strong{font-size:.92rem;font-weight:600;color:#f7fbfa;line-height:1.35}
+  .hero-actions{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1.1rem}
+  .btn{
+    appearance:none;border:1px solid rgba(255,255,255,.28);
+    background:rgba(255,255,255,.10);color:#fff;
+    padding:.62rem .95rem;border-radius:10px;font:inherit;font-size:.9rem;font-weight:650;
+    cursor:pointer;transition:background .15s ease,transform .15s ease
+  }
+  .btn:hover{background:rgba(255,255,255,.2);transform:translateY(-1px)}
+  .btn.primary{background:#fff;color:#0b4a45;border-color:#fff}
+  .btn.primary:hover{background:#e9fbf6}
+
+  /* LAYOUT */
+  .shell{
+    max-width:1420px;margin:0 auto;
+    display:grid;grid-template-columns:290px minmax(0,1fr);
+    gap:clamp(1rem,3vw,2.4rem);
+    padding:2rem clamp(1rem,3vw,2rem) 4rem;
+    align-items:start;
+  }
+  .sidebar{
+    position:sticky;top:1rem;align-self:start;
+    max-height:calc(100vh - 2rem);overflow:auto;
+    background:var(--surface);border:1px solid var(--line);
+    border-radius:var(--radius);padding:1rem;
+    box-shadow:var(--shadow);
+    scrollbar-width:thin;
+  }
+  .sidebar h2{
+    font-family:var(--sans);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--muted);margin:.2rem 0 .7rem
+  }
+  .toc{list-style:none;margin:0;padding:0;font-size:.9rem}
+  .toc li{margin:.12rem 0}
+  .toc a{
+    display:block;padding:.42rem .55rem;border-radius:8px;color:var(--ink);
+    text-decoration:none;border-left:3px solid transparent;line-height:1.3
+  }
+  .toc a:hover{background:var(--surface-2)}
+  .toc a.active{background:var(--brand-3);border-left-color:var(--brand-2);font-weight:700;color:var(--brand)}
+  .toc .figs{
+    margin-top:.9rem;padding-top:.8rem;border-top:1px solid var(--line);
+    display:flex;flex-wrap:wrap;gap:.35rem;align-items:center;font-size:.82rem;color:var(--muted)
+  }
+  .toc .figs a{
+    display:inline-flex;align-items:center;justify-content:center;
+    width:1.7rem;height:1.7rem;border:1px solid var(--line);border-radius:7px;
+    padding:0;background:var(--surface-2);font-weight:700;color:var(--brand)
+  }
+  main{min-width:0}
+  .card{
+    background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+    padding:clamp(1.1rem,2.6vw,2rem);box-shadow:var(--shadow);margin:1.35rem 0;
+    scroll-margin-top:1rem;
+  }
+  .card > :first-child{margin-top:0}
+  .card > :last-child{margin-bottom:0}
+  .section-kicker{
+    display:inline-flex;align-items:center;gap:.5rem;
+    font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--brand-2);font-weight:800;margin-bottom:.45rem
+  }
+  .section-kicker .n{
+    display:inline-flex;align-items:center;justify-content:center;
+    min-width:1.55rem;height:1.55rem;padding:0 .35rem;border-radius:6px;
+    background:var(--brand);color:#fff;font-size:.75rem;letter-spacing:0
+  }
+  h2{
+    font-family:var(--serif);font-size:clamp(1.55rem,3.2vw,2.2rem);
+    line-height:1.15;margin:.1rem 0 .8rem;letter-spacing:-.015em;text-wrap:balance
+  }
+  h3{font-family:var(--serif);font-size:clamp(1.18rem,2.2vw,1.45rem);line-height:1.25;margin:1.6rem 0 .55rem}
+  h4{font-size:1rem;margin:1.2rem 0 .4rem;letter-spacing:.01em}
+  p{margin:.65rem 0}
+  ul,ol{margin:.55rem 0 .8rem;padding-left:1.35rem}
+  li{margin:.28rem 0}
+  li::marker{color:var(--brand-2)}
+  strong{font-weight:750}
+  em{font-style:italic}
+  .cite{
+    display:inline-block;font-size:.74rem;font-weight:700;line-height:1.2;
+    color:var(--brand);background:var(--brand-3);
+    border:1px solid color-mix(in srgb,var(--brand-2) 25%,transparent);
+    padding:.08rem .38rem;border-radius:5px;white-space:nowrap;vertical-align:.08em
+  }
+  .small{font-size:.88rem;color:var(--muted)}
+  .th-abbr{display:none}
+  .muted{color:var(--muted)}
+
+  /* CALLOUTS */
+  .keybox,.databox,.warnbox,.quotebox{
+    border-radius:12px;padding:1rem 1.05rem;margin:1rem 0;border:1px solid var(--line)
+  }
+  .keybox{background:var(--brand-3);border-left:5px solid var(--brand-2)}
+  .databox{background:var(--accent-2);border-left:5px solid var(--accent)}
+  .warnbox{background:var(--rose-2);border-left:5px solid var(--rose)}
+  .quotebox{background:var(--surface-2);border-left:5px solid var(--blue);font-family:var(--serif);font-size:1.05rem}
+  .box-title{
+    display:block;font-family:var(--sans);font-size:.72rem;letter-spacing:.11em;
+    text-transform:uppercase;font-weight:800;margin-bottom:.35rem
+  }
+  .keybox .box-title{color:var(--brand)}
+  .databox .box-title{color:var(--accent)}
+  .warnbox .box-title{color:var(--rose)}
+  .quotebox .box-title{color:var(--blue)}
+
+  /* GRIDS */
+  .grid-2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem;margin:1rem 0}
+  .grid-3{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:.85rem;margin:1rem 0}
+  .stat{
+    background:var(--surface-2);border:1px solid var(--line);border-radius:12px;
+    padding:.9rem 1rem
+  }
+  .stat b{display:block;font-family:var(--serif);font-size:1.65rem;line-height:1.1;color:var(--brand)}
+  .stat span{display:block;font-size:.82rem;color:var(--muted);margin-top:.25rem}
+  .mini-card{
+    background:var(--surface-2);border:1px solid var(--line);border-radius:12px;padding:.9rem 1rem
+  }
+  .mini-card h4{margin:.05rem 0 .35rem;font-size:.98rem}
+  .mini-card p,.mini-card ul{font-size:.9rem;margin:.35rem 0}
+  .tag{
+    display:inline-block;font-size:.72rem;font-weight:800;letter-spacing:.04em;
+    padding:.15rem .5rem;border-radius:999px;background:var(--brand-3);color:var(--brand);
+    border:1px solid color-mix(in srgb,var(--brand-2) 25%,transparent)
+  }
+  .tag.amber{background:var(--accent-2);color:var(--accent);border-color:color-mix(in srgb,var(--accent) 25%,transparent)}
+  .tag.rose{background:var(--rose-2);color:var(--rose);border-color:color-mix(in srgb,var(--rose) 25%,transparent)}
+
+  /* TABLES */
+  .table-wrap{
+    overflow-x:auto;border:1px solid var(--line);border-radius:12px;margin:1rem 0;
+    background:var(--surface);-webkit-overflow-scrolling:touch
+  }
+  table{width:100%;border-collapse:collapse;font-size:.88rem;min-width:720px}
+  caption{
+    caption-side:top;text-align:left;padding:.8rem .9rem .2rem;
+    font-size:.82rem;color:var(--muted);font-weight:600
+  }
+  th,td{padding:.62rem .7rem;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}
+  th{
+    background:var(--surface-2);font-size:.76rem;letter-spacing:.04em;text-transform:uppercase;
+    color:var(--muted);font-weight:800;position:sticky;top:0;z-index:1
+  }
+  tbody tr:nth-child(even) td{background:color-mix(in srgb,var(--surface-2) 45%,var(--surface))}
+  tbody tr:hover td{background:var(--brand-3)}
+  td.nw{white-space:nowrap}
+  .t1{min-width:1180px;font-size:.8rem}
+  .t1 th,.t1 td{padding:.5rem .55rem}
+  .t1 td:first-child{font-weight:650}
+
+  /* FIGURES */
+  figure.diagram{
+    margin:1.25rem 0;background:#fbfaf6;border:1px solid #d8d1c3;border-radius:14px;
+    padding:1rem;color:#1d2a2e;box-shadow:0 4px 16px rgba(20,40,40,.05)
+  }
+  figure.diagram svg{display:block;width:100%;height:auto}
+  figure.diagram figcaption{font-size:.86rem;color:#5d6b70;margin:.75rem .15rem 0;line-height:1.5}
+  figure.diagram figcaption b{color:#1d2a2e}
+  .fig-label{
+    display:inline-block;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;
+    font-weight:800;color:#0f5c57;background:#d9f0ea;border:1px solid #b7e4da;
+    padding:.15rem .5rem;border-radius:999px;margin-bottom:.6rem
+  }
+
+  /* DETAILS Q&A */
+  details.qa{
+    border:1px solid var(--line);border-radius:12px;background:var(--surface-2);
+    padding:.2rem .9rem;margin:.55rem 0
+  }
+  details.qa summary{
+    cursor:pointer;font-weight:700;padding:.65rem 0;list-style:none;
+    display:flex;gap:.55rem;align-items:flex-start
+  }
+  details.qa summary::-webkit-details-marker{display:none}
+  details.qa summary::before{
+    content:"+";flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;
+    width:1.35rem;height:1.35rem;border-radius:6px;background:var(--brand);color:#fff;
+    font-weight:800;font-size:.95rem;line-height:1;margin-top:.1rem
+  }
+  details.qa[open] summary::before{content:"−"}
+  details.qa .answer{padding:.1rem 0 .9rem 1.95rem;font-size:.94rem}
+  details.qa .answer p:first-child{margin-top:0}
+  .qa-tools{display:flex;gap:.5rem;flex-wrap:wrap;margin:.7rem 0 1rem}
+  .qa-tools button{
+    font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;
+    background:var(--surface);color:var(--ink);border:1px solid var(--line);
+    padding:.4rem .65rem;border-radius:8px
+  }
+  .qa-tools button:hover{background:var(--brand-3);border-color:var(--brand-2)}
+
+  /* CHECKLIST */
+  .checklist{list-style:none;padding-left:0}
+  .checklist li{padding-left:1.7rem;position:relative;margin:.45rem 0}
+  .checklist li::before{
+    content:"✓";position:absolute;left:0;top:.05rem;color:var(--brand-2);font-weight:900
+  }
+
+  /* FOOTER */
+  footer{
+    border-top:1px solid var(--line);background:var(--surface);
+    padding:2rem clamp(1rem,4vw,3rem);color:var(--muted);font-size:.86rem
+  }
+  footer .foot-inner{max-width:1120px;margin:0 auto;display:flex;gap:1rem;flex-wrap:wrap;justify-content:space-between}
+  footer strong{color:var(--ink)}
+
+  @media (max-width:980px){
+    .shell{grid-template-columns:1fr;padding-top:1.2rem}
+    .sidebar{position:static;max-height:none;order:-1}
+    .toc{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.1rem}
+  }
+  @media (max-width:560px){
+    .hero h1{max-width:none}
+    .meta-grid{grid-template-columns:1fr}
+    .card{padding:1rem}
+    table{font-size:.82rem}
+  }
+  @media print{
+    :root{--bg:#fff;--surface:#fff;--surface-2:#f3f3f3;--surface-3:#eee;--ink:#111;--muted:#444;--line:#bbb;--shadow:none}
+    @page{margin:12mm}
+    body{background:#fff;font-size:10.5pt}
+    .table-wrap{overflow:visible!important;border:none!important}
+    table{min-width:0!important;width:100%!important;font-size:6.4pt!important;table-layout:fixed}
+    .t1{min-width:0!important;font-size:6.4pt!important}
+    .t1 th:nth-child(1){width:13%}
+    .t1 th:nth-child(2){width:6%}
+    .t1 th:nth-child(3){width:11%}
+    .t1 th:nth-child(4){width:11%}
+    .t1 th:nth-child(5){width:7%}
+    .t1 th:nth-child(6){width:6%}
+    .t1 th:nth-child(7){width:17%}
+    .t1 th:nth-child(8){width:18%}
+    .t1 th:nth-child(9){width:7%}
+    th,td{padding:.2rem .2rem!important;word-break:normal;overflow-wrap:anywhere;hyphens:auto}
+    th{position:static!important;word-break:normal!important;overflow-wrap:normal!important;hyphens:none!important}
+    thead{display:table-header-group}
+    .hero{background:#fff;color:#111;padding:0 0 1rem;border-bottom:2px solid #111}
+    .hero .lede,.meta-grid span{color:#333}
+    .meta-grid div{background:#f4f4f4;border-color:#ccc}
+    .meta-grid strong{color:#111}
+    .hero-actions,.sidebar,.skip-link,.qa-tools{display:none!important}
+    .shell{display:block;max-width:none;padding:0}
+    .card{box-shadow:none;border:1px solid #ccc;break-inside:avoid;page-break-inside:avoid}
+    h2,h3{break-after:avoid}
+    figure.diagram,.table-wrap,details.qa{break-inside:avoid;page-break-inside:avoid}
+    .th-full{display:none}
+    .th-abbr{display:inline}
+    a{color:#111;text-decoration:none}
+  }
+  p,li,td,figcaption{text-wrap:pretty}
+  blockquote{
+    margin:1.1rem 0;padding:.9rem 1.1rem;background:var(--surface-2);
+    border-left:4px solid var(--brand-2);border-radius:0 12px 12px 0;color:var(--ink)
+  }
+  blockquote p{margin:.4rem 0}
+  .guide-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem;margin:1.2rem 0}
+  .guide-grid a{display:block;text-decoration:none;color:inherit;background:var(--surface);
+    border:1px solid var(--line);border-radius:var(--radius);padding:1rem 1.1rem;box-shadow:var(--shadow);
+    transition:transform .15s ease,border-color .15s ease}
+  .guide-grid a:hover{transform:translateY(-2px);border-color:var(--brand-2)}
+  .guide-grid a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+  .guide-grid .gn{font-family:var(--serif);font-size:1.6rem;color:var(--brand-2);line-height:1}
+  .guide-grid h3{margin:.3rem 0 .4rem;font-size:1.05rem;font-family:var(--sans);font-weight:700;color:var(--ink)}
+  .guide-grid p{margin:0;font-size:.9rem;color:var(--muted)}
+  .badges{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.7rem}
+  .badges span{font-size:.72rem;font-weight:700;letter-spacing:.03em;background:var(--brand-3);
+    color:var(--brand);border-radius:999px;padding:.18rem .55rem}
+  caption{caption-side:top;text-align:left;font-size:.82rem;font-weight:700;color:var(--muted);padding:.2rem .2rem .5rem}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+<header class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">Certamen 3 · Semiología · Sistema nervioso</p>
+    <h1>Introducción a la Semiología Neurológica y Anamnesis</h1>
+    <p class="lede">Clase 1 de 4. Guía de estudio construida desde las diapositivas de la clase, con cada afirmación clínica citada por número de diapositiva.</p>
+    <div class="meta-grid">
+      <div><span>Clase</span><strong>1 de 4</strong></div>
+      <div><span>Diapositivas</span><strong>41 de 41 cubiertas</strong></div>
+      <div><span>Citas distintas</span><strong>32</strong></div>
+      <div><span>Preguntas</span><strong>17</strong></div>
+      <div><span>Fuente</span><strong><code>Clase 1 semiologia neurologica .pdf</code></strong></div>
+      <div><span>Ramo</span><strong>Semiología · Medicina UBB · 2026-2</strong></div>
+    </div>
+    <div class="hero-actions">
+      <button class="btn primary" id="printBtn" type="button">Imprimir / guardar PDF</button>
+      <button class="btn" id="themeBtn" type="button" aria-pressed="false">Modo oscuro</button>
+      <a class="btn" href="#alcance">Empezar por el alcance</a>
+    </div>
+  </div>
+</header>
+
+<div class="shell">
+  <aside class="sidebar" aria-label="Índice de la guía">
+    <h2>Contenido</h2>
+    <nav>
+      <ul class="toc">
+                <li><a href="#alcance">Alcance y método</a></li>
+        <li><a href="#sec-la-cadena-diagnostica-en-neurologia">La cadena diagnóstica en neurología</a></li>
+        <li><a href="#sec-organizacion-funcional-del-snc">Organización funcional del SNC</a></li>
+        <li><a href="#sec-organizacion-funcional-del-snp">Organización funcional del SNP</a></li>
+        <li><a href="#sec-los-cinco-sistemas-funcionales-y-el-razonamiento-localizador">Los cinco sistemas funcionales y el razonamiento localizador</a></li>
+        <li><a href="#sec-motivos-de-consulta-sintomas-positivos-y-negativos">Motivos de consulta: síntomas positivos y negativos</a></li>
+        <li><a href="#sec-sintomas-cognitivos-y-de-coordinacion">Síntomas cognitivos y de coordinación</a></li>
+        <li><a href="#sec-la-anamnesis-neurologica-estructurada">La anamnesis neurológica estructurada</a></li>
+        <li><a href="#sec-la-cefalea-caracterizacion-y-red-flags">La cefalea: caracterización y red flags</a></li>
+        <li><a href="#sec-mareo-y-vertigo">Mareo y vértigo</a></li>
+        <li><a href="#sec-snc-vs-snp-y-niveles-de-localizacion">SNC vs. SNP y niveles de localización</a></li>
+        <li><a href="#sec-antecedentes-velocidad-de-instauracion-y-errores-frecuentes">Antecedentes, velocidad de instauración y errores frecuentes</a></li>
+        <li><a href="#sec-conceptos-clave-y-siglas">Conceptos clave y siglas</a></li>
+        <li><a href="#sec-preguntas-probables">Preguntas probables</a></li>
+        <li><a href="#sec-diapositivas-sin-texto-extraible">Diapositivas sin texto extraíble</a></li>
+      </ul>
+      <div class="figs">
+        <strong>Otras guías:</strong>
+        <a href="02_Del_Sintoma_Al_Sindrome.html" title="Del síntoma al síndrome">2</a><a href="03_Examen_Motor_Sensitivo_Reflejos.html" title="Examen motor, sensitivo y reflejos">3</a><a href="04_Integracion_Sindromes_Neurologicos.html" title="Integración y síndromes neurológicos">4</a>
+        <a href="index.html" title="Índice del certamen">Índice</a>
+      </div>
+    </nav>
+  </aside>
+
+  <main id="contenido">
+
+<section id="alcance" class="card">
+  <div class="section-kicker"><span class="n">00</span> Alcance</div>
+  <h2>Qué cubre esta guía</h2>
+  <div class="keybox">
+    <span class="box-title">Alcance</span>
+    archivo fuente `Clase 1 semiologia neurologica .pdf` (Clase 1 de 4, Certamen 3 — Semiología del sistema nervioso). Cubre las diapositivas 1–41 de 41. Quedan fuera de esta guía: exploración física neurológica, pares craneales, NIHSS y demás contenido de las clases siguientes (no está en el material de esta clase). Las diapositivas 5, 10, 14, 18, 22, 27, 32 y 33 son títulos divisores o imágenes sin texto útil; se listan al final.
+  </div>
+  <p class="small">Clase 1 de 4 del Certamen 3 (Semiología del sistema nervioso). Fuente: <code>Clase 1 semiologia neurologica .pdf</code>. Las citas <span class="cite">diapo N</span> corresponden al número de diapositiva del PDF. Texto extraído con <code>pdftotext -layout</code> y, en las diapositivas sin capa de texto, OCR <code>tesseract -l spa</code>.</p>
+</section>
+<section id="sec-la-cadena-diagnostica-en-neurologia" class="card">
+<div class="section-kicker"><span class="n">01</span> Diapositivas 3–9</div>
+<h2>La cadena diagnóstica en neurología</h2>
+<p>Lo que diferencia a la semiología neurológica: no solo identifica <strong>qué</strong> está mal, sino <strong>dónde</strong> está la lesión <span class="cite">diapo 4</span>. La cadena diagnóstica es:</p>
+<ul>
+<li><strong>Síntoma:</strong> lo que refiere el paciente subjetivamente (debilidad, hormigueo, cefalea, visión doble) <span class="cite">diapo 4</span>.</li>
+<li><strong>Signo:</strong> lo que el médico detecta en la exploración (paresia, hiperreflexia, Babinski, dismetría) <span class="cite">diapo 4</span>.</li>
+<li><strong>Síndrome:</strong> agrupación reconocible de síntomas y signos que apunta a un diagnóstico topográfico <span class="cite">diapo 4</span>.</li>
+<li><strong>Localización:</strong> determinar qué estructura anatómica explica el conjunto <span class="cite">diapo 4</span>.</li>
+<li><strong>Diagnóstico:</strong> integración del síndrome con la etiología probable (vascular, inflamatoria, degenerativa, etc.) <span class="cite">diapo 4</span>.</li>
+</ul>
+<p><strong>Concepto fundamental:</strong> cada función tiene una representación anatómica. La localización orienta el diagnóstico diferencial etiológico, determina qué exámenes solicitar, guía decisiones terapéuticas urgentes, predice pronóstico y permite detectar lesiones múltiples o diseminadas <span class="cite">diapo 9</span>.</p>
+<p>Caso activador de la clase: varón 67 años, 90 min de disartria + debilidad progresiva del brazo derecho, sin pérdida de conciencia ni trauma, hipertenso en tratamiento <span class="cite">diapo 3</span>.</p>
+
+</section>
+<section id="sec-organizacion-funcional-del-snc" class="card">
+<div class="section-kicker"><span class="n">02</span> Diapositiva 6</div>
+<h2>Organización funcional del SNC</h2>
+<p>El SNC es el conjunto de estructuras encefálicas y medulares que procesan, integran y coordinan toda la actividad neurológica <span class="cite">diapo 6</span>:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Estructura</th>
+<th>Función / clínica de su lesión <span class="cite">diapo 6</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cerebro (hemisferios)</td>
+<td>Funciones corticales superiores: lenguaje, memoria, funciones ejecutivas, percepción sensorial, control motor voluntario. Hemisferio dominante (habitualmente izquierdo) controla el lenguaje.</td>
+</tr>
+<tr>
+<td>Diencéfalo</td>
+<td>Tálamo: estación de relevo de información sensorial hacia la corteza. Hipotálamo: regula sistema autonómico, endocrino y ritmos circadianos.</td>
+</tr>
+<tr>
+<td>Tronco encefálico</td>
+<td>Mesencéfalo, protuberancia, bulbo. Núcleos de pares craneales III–XII, centros de conciencia (SARA), respiración y circulación. Lesiones devastadoras.</td>
+</tr>
+<tr>
+<td>Cerebelo</td>
+<td>Coordinación del movimiento, equilibrio, aprendizaje motor. Lesiones: ataxia, dismetría, nistagmo, <strong>no parálisis directa</strong>.</td>
+</tr>
+<tr>
+<td>Médula espinal</td>
+<td>Conduce vías motoras descendentes y sensitivas ascendentes. Lesiones: síndromes medulares según nivel y extensión (completo, hemicordal, central).</td>
+</tr>
+</tbody>
+</table></div>
+
+</section>
+<section id="sec-organizacion-funcional-del-snp" class="card">
+<div class="section-kicker"><span class="n">03</span> Diapositiva 7</div>
+<h2>Organización funcional del SNP</h2>
+<p>El SNP conecta el SNC con efectores y receptores. Sus lesiones producen un patrón opuesto al del SNC: hipotonía, hiporreflexia o arreflexia, atrofia muscular y déficit según distribución del nervio o raíz <span class="cite">diapo 7</span>.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Componente</th>
+<th>Clínica característica <span class="cite">diapo 7</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Raíces</td>
+<td>Territorio sensitivo (dermatoma) y motor (miotoma) propios. Radiculopatía: dolor irradiado en distribución radicular.</td>
+</tr>
+<tr>
+<td>Plexos</td>
+<td>Plexo braquial (C5–T1) y lumbosacro (L1–S3). Su afectación compromete múltiples raíces o nervios (cuadros complejos).</td>
+</tr>
+<tr>
+<td>Nervios periféricos</td>
+<td>Neuropatías difusas (polineuropatía) o focales (mononeuropatía, p. ej. síndrome del túnel carpiano).</td>
+</tr>
+<tr>
+<td>Unión neuromuscular</td>
+<td>Miastenia gravis como prototipo; fatigabilidad es el signo cardinal.</td>
+</tr>
+<tr>
+<td>Músculo</td>
+<td>Miopatías: debilidad proximal, sin alteración sensitiva ni de reflejos en estadios iniciales.</td>
+</tr>
+</tbody>
+</table></div>
+
+</section>
+<section id="sec-los-cinco-sistemas-funcionales-y-el-razonamiento-localizador" class="card">
+<div class="section-kicker"><span class="n">04</span> Diapositivas 11–13</div>
+<h2>Los cinco sistemas funcionales y el razonamiento localizador</h2>
+<p>Cinco sistemas funcionales a evaluar <span class="cite">diapo 11</span>: (1) motor (fuerza, reflejos, tono); (2) sensitivo (táctil, propioceptiva, térmica, dolorosa — cada modalidad puede afectarse de forma independiente); (3) autonómico (PA, FC, esfínteres, función sexual); (4) funciones corticales superiores (lenguaje, memoria, praxias, gnosias, atención — su alteración localiza en corteza); (5) coordinación y equilibrio (cerebelo y conexiones; ataxia como síntoma cardinal).</p>
+<p><strong>Las tres preguntas del razonamiento localizador</strong> <span class="cite">diapo 12</span>:</p>
+<ol type="1">
+<li><strong>¿Qué función está alterada?</strong> Primera decisión; no se puede localizar lo que no se identifica correctamente.</li>
+<li><strong>¿Dónde se encuentra anatómicamente esa función?</strong> Visualizar la vía: origen, trayecto, término (p. ej. vía piramidal: corteza motora → cápsula interna → tronco → médula → músculo; cada tramo produce un patrón distinto).</li>
+<li><strong>¿El patrón es compatible con esa localización?</strong> La coherencia síntoma–localización valida el razonamiento; si hay incongruencia, se replantea la hipótesis.</li>
+</ol>
+<p><strong>Ejemplo aplicado (caso activador):</strong> hemiparesia derecha + afasia → dos funciones distintas afectadas a la vez; el control motor derecho y el lenguaje (Broca y Wernicke) residen ambos en el hemisferio izquierdo dominante → localización: corteza cerebral o cápsula interna izquierda. La rapidez (90 min) orienta a ACV isquémico en territorio de arteria cerebral media izquierda <span class="cite">diapo 13</span>.</p>
+
+</section>
+<section id="sec-motivos-de-consulta-sintomas-positivos-y-negativos" class="card">
+<div class="section-kicker"><span class="n">05</span> Diapositivas 15–16</div>
+<h2>Motivos de consulta: síntomas positivos y negativos</h2>
+<h3 class="sub" id="síntomas-positivos-exceso-o-distorsión-de-función-diapo-15">Síntomas positivos (exceso o distorsión de función) <span class="cite">diapo 15</span></h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Síntoma</th>
+<th>Descripción / orientación <span class="cite">diapo 15</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Convulsiones</td>
+<td>Descarga eléctrica neuronal excesiva y sincrónica; focales o generalizadas. Distinguir de síncope y movimientos no epilépticos.</td>
+</tr>
+<tr>
+<td>Parestesias</td>
+<td>Hormigueo, pinchazos, quemazón, entumecimiento espontáneos; reflejan irritación o desmielinización de fibras sensitivas, no su destrucción.</td>
+</tr>
+<tr>
+<td>Fasciculaciones</td>
+<td>Contracciones visibles espontáneas de unidades motoras; orientan a motoneurona anterior o nervio periférico.</td>
+</tr>
+<tr>
+<td>Movimientos anormales</td>
+<td>Temblor, corea, distonía, atetosis, mioclonías; cada tipo orienta a una localización (ganglios basales, cerebelo, corteza).</td>
+</tr>
+<tr>
+<td>Dolor neuropático</td>
+<td>Quemante, eléctrico o punzante, en distribución de una vía nerviosa; se distingue del nociceptivo por calidad y distribución.</td>
+</tr>
+</tbody>
+</table></div>
+<h3 class="sub" id="síntomas-negativos-pérdida-de-función-diapo-16">Síntomas negativos (pérdida de función) <span class="cite">diapo 16</span></h3>
+<p>Indican destrucción o interrupción de una vía; son los que más orientan a lesiones estructurales graves y requieren evaluación urgente <span class="cite">diapo 16</span>.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Síntoma</th>
+<th>Clave localizadora <span class="cite">diapo 16</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Debilidad / paresia</td>
+<td>La distribución (monoparesia, hemiparesia, paraparesia, cuadriparesia; proximal vs. distal) orienta: cortical, medular, radicular o muscular.</td>
+</tr>
+<tr>
+<td>Pérdida de sensibilidad</td>
+<td>Guante/calcetín → neuropatía periférica; hemicuerpo → lesión central; pérdida disociada (temperatura sin tacto) → lesión medular central.</td>
+</tr>
+<tr>
+<td>Pérdida visual</td>
+<td>Amaurosis monocular (nervio óptico), hemianopsia (cintilla o corteza), cuadrantanopsia; la topografía localiza con precisión.</td>
+</tr>
+<tr>
+<td>Alteración del lenguaje</td>
+<td>Afasia (origen cortical) ≠ disartria (trastorno de articulación, origen motor); localizaciones distintas.</td>
+</tr>
+<tr>
+<td>Pérdida de conciencia</td>
+<td>Síncope, obnubilación, estupor, coma; velocidad de instauración, pródromos y recuperación orientan entre vascular, metabólica, epiléptica o estructural.</td>
+</tr>
+</tbody>
+</table></div>
+
+</section>
+<section id="sec-sintomas-cognitivos-y-de-coordinacion" class="card">
+<div class="section-kicker"><span class="n">06</span> Diapositiva 17</div>
+<h2>Síntomas cognitivos y de coordinación</h2>
+<p>Los síntomas cognitivos reflejan disfunción cortical o subcortical difusa o focal, y frecuentemente son infraidentificados porque paciente o familia los atribuyen al envejecimiento normal <span class="cite">diapo 17</span>:</p>
+<ul>
+<li>Confusión aguda: orientar siempre a causa orgánica hasta demostrar lo contrario.</li>
+<li>Alteración de memoria: distinguir memoria episódica, semántica y de trabajo.</li>
+<li>Desorientación témporo-espacial: signo de disfunción cortical significativa.</li>
+<li>Alteraciones conductuales (desinhibición, apatía, impulsividad): sugieren afectación frontal o límbica.</li>
+<li>Apraxia, agnosia, afasia: signos corticales de alto valor.</li>
+</ul>
+<p>Los síntomas de coordinación reflejan disfunción de cerebelo, vías vestibulares o propiocepción, y pueden confundirse con debilidad pura <span class="cite">diapo 17</span>. Pregunta clave: ¿pierde el equilibrio más con ojos cerrados (lesión sensitiva) o igual con ojos abiertos (lesión cerebelosa)? <span class="cite">diapo 17</span></p>
+<ul>
+<li>Ataxia: incoordinación con fuerza conservada; cerebelosa, sensitiva o vestibular.</li>
+<li>Inestabilidad: puede ser multifactorial en el anciano.</li>
+<li>Alteración de la marcha: atáxica, espástica, en estepaje, parkinsoniana, antiálgica; cada patrón orienta a una localización.</li>
+<li>Dismetría: error en dirección o amplitud del movimiento; signo cerebeloso cardinal.</li>
+</ul>
+
+</section>
+<section id="sec-la-anamnesis-neurologica-estructurada" class="card">
+<div class="section-kicker"><span class="n">07</span> Diapositivas 19–21</div>
+<h2>La anamnesis neurológica estructurada</h2>
+<p>Cuatro principios <span class="cite">diapo 19</span>:</p>
+<ol type="1">
+<li><strong>Cronológica:</strong> reconstruir la línea de tiempo desde el inicio exacto; velocidad de instauración (súbita vs. progresiva) y patrón de evolución (constante, fluctuante, episódico) orientan la etiología.</li>
+<li><strong>Orientada al síntoma:</strong> profundizar en el sistema funcional sospechado, no explorar todos por igual.</li>
+<li><strong>Semiológicamente precisa:</strong> traducir el lenguaje del paciente al clínico. «Mareo» puede ser vértigo, presíncope o desequilibrio; «debilidad» puede ser paresia, fatiga o dolor.</li>
+<li><strong>Contextualizada:</strong> HTA, diabetes, FA, neoplasias, medicación, hábitos tóxicos, historia familiar y contexto social pueden ser tan importantes como el síntoma principal.</li>
+</ol>
+<p><strong>Preguntas esenciales</strong> <span class="cite">diapo 20</span>: ¿cuándo comenzó exactamente?; ¿inicio súbito (segundos) o gradual (horas–días)?; ¿qué estaba haciendo?; ¿cuál fue el primer síntoma?; ¿en qué orden aparecieron los siguientes?; ¿progresó, se estabilizó o mejoró?; ¿episodios similares previos?; ¿duración, continuo o episódico?; factores desencadenantes; qué lo mejora/empeora; síntomas acompañantes; impacto funcional; consultas previas.</p>
+<h3 class="sub" id="el-último-momento-en-que-estaba-completamente-normal">El «último momento en que estaba completamente normal»</h3>
+<p>Pregunta que define la ventana terapéutica <span class="cite">diapo 21</span>. En el ACV isquémico agudo, la fibrinólisis intravenosa está indicada dentro de las <strong>4,5 horas desde el inicio de los síntomas</strong>. Si el paciente despertó con los síntomas, el inicio se define como la <strong>última vez que fue visto normal</strong>, no la hora del despertar <span class="cite">diapo 21</span>. Ante cualquier síntoma neurológico agudo: preguntar a paciente y acompañantes, revisar llamadas/mensajes/actividad registrada, consultar cámaras de seguridad si fuera necesario, y documentar la hora exacta en la ficha <span class="cite">diapo 21</span>.</p>
+
+</section>
+<section id="sec-la-cefalea-caracterizacion-y-red-flags" class="card">
+<div class="section-kicker"><span class="n">08</span> Diapositivas 23–26</div>
+<h2>La cefalea: caracterización y red flags</h2>
+<h3 class="sub" id="ejes-de-caracterización-diapo-23">Ejes de caracterización <span class="cite">diapo 23</span></h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Eje</th>
+<th>Contenido <span class="cite">diapo 23</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Inicio</td>
+<td>Súbito (máxima intensidad en segundos, «el peor dolor de cabeza de mi vida»): en sí mismo signo de alarma. Gradual: minutos u horas.</td>
+</tr>
+<tr>
+<td>Localización</td>
+<td>Frontal, temporal, occipital, hemicraneal o difusa. Unilateral siempre del mismo lado → migraña; bilateral difusa → tensional; occipital → fosa posterior o cervicogénica.</td>
+</tr>
+<tr>
+<td>Calidad</td>
+<td>Pulsátil → migraña; opresiva (banda) → tensional; punzante/lancinante → neuralgias; taladrante unilateral con síntomas autonómicos → cefaleas trigémino-autonómicas.</td>
+</tr>
+<tr>
+<td>Intensidad</td>
+<td>Escala 1–10; sirve para valorar respuesta y detectar cambio de patrón (cefalea habitual 7/10 que ahora es 10/10 merece atención).</td>
+</tr>
+<tr>
+<td>Síntomas asociados</td>
+<td>Náuseas/vómitos (migraña, HIC); fotofobia y fonofobia (migraña); aura visual (migraña); diplopía (pares craneales); fiebre y rigidez de nuca: signos de alarma mayores; cualquier déficit neurológico asociado es signo de alarma.</td>
+</tr>
+</tbody>
+</table></div>
+<h3 class="sub" id="la-pregunta-fundamental">La pregunta fundamental</h3>
+<p>«¿Esta cefalea es igual a las anteriores o es diferente?» <span class="cite">diapo 24</span></p>
+<ul>
+<li><strong>Igual a las anteriores:</strong> probable cefalea primaria habitual (migraña, tensional, en racimos); objetivo es optimizar tratamiento y calidad de vida. Aunque un cambio en frecuencia, duración o intensidad debe alertar sobre causa secundaria sobreañadida <span class="cite">diapo 24</span>.</li>
+<li><strong>Diferente:</strong> signo de alarma de alta sensibilidad; evaluación urgente para descartar: hemorragia subaracnoidea, trombosis de senos venosos, meningitis, hipertensión intracraneal, lesión estructural intracraneal <span class="cite">diapo 24</span>.</li>
+</ul>
+<h3 class="sub" id="red-flags-en-cefalea-diapo-25">Red flags en cefalea <span class="cite">diapo 25</span></h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Red flag</th>
+<th>Significado / conducta <span class="cite">diapo 25</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Inicio súbito («en trueno»)</td>
+<td>Máxima intensidad en &lt; 60 s; obliga a descartar hemorragia subaracnoidea aunque la exploración sea normal.</td>
+</tr>
+<tr>
+<td>Cambio de patrón</td>
+<td>Cambio en frecuencia, intensidad, localización o características de una cefalea conocida.</td>
+</tr>
+<tr>
+<td>Déficit neurológico</td>
+<td>Cualquier focalidad (hemiparesia, afasia, diplopía, ataxia, alteración de conciencia) → imagen cerebral urgente.</td>
+</tr>
+<tr>
+<td>Primera cefalea intensa</td>
+<td>Primera cefalea severa de la vida, especialmente después de los 50 años.</td>
+</tr>
+<tr>
+<td>Fiebre + rigidez de nuca</td>
+<td>Sugiere meningitis o encefalitis: emergencia hasta demostrar lo contrario; buscar Kernig y Brudzinski.</td>
+</tr>
+<tr>
+<td>Contextos de riesgo</td>
+<td>Cáncer o inmunosupresión (metástasis, absceso); embarazo o puerperio (trombosis venosa cerebral, eclampsia); cefalea desencadenada por esfuerzo, Valsalva o actividad sexual.</td>
+</tr>
+</tbody>
+</table></div>
+<h3 class="sub" id="cefaleas-primarias-más-frecuentes-diapo-26">Cefaleas primarias más frecuentes <span class="cite">diapo 26</span></h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Característica</th>
+<th>Migraña</th>
+<th>Tensional</th>
+<th>En racimos <span class="cite">diapo 26</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Localización</td>
+<td>Hemicraneal (puede ser bilateral)</td>
+<td>Bilateral difusa («en banda»)</td>
+<td>Orbitaria/periorbitaria unilateral</td>
+</tr>
+<tr>
+<td>Calidad</td>
+<td>Pulsátil</td>
+<td>Opresiva, no pulsátil</td>
+<td>Taladrante, muy intensa</td>
+</tr>
+<tr>
+<td>Duración</td>
+<td>4–72 horas</td>
+<td>30 min – 7 días</td>
+<td>15 min – 3 horas</td>
+</tr>
+<tr>
+<td>Síntomas asociados</td>
+<td>Náuseas, fotofobia, fonofobia; puede haber aura</td>
+<td>Sin náuseas, fotofobia leve</td>
+<td>Lagrimeo, rinorrea, ptosis, inquietud</td>
+</tr>
+<tr>
+<td>Frecuencia</td>
+<td>Variable, episódica</td>
+<td>Frecuente, puede ser crónica</td>
+<td>Racimos de semanas, luego remisión</td>
+</tr>
+</tbody>
+</table></div>
+
+</section>
+<section id="sec-mareo-y-vertigo" class="card">
+<div class="section-kicker"><span class="n">09</span> Diapositivas 28–31</div>
+<h2>Mareo y vértigo</h2>
+<p>La pregunta fundamental: «cuando dice que está mareado, ¿qué siente exactamente?» <span class="cite">diapo 28</span></p>
+<h3 class="sub" id="las-cuatro-categorías-del-mareo-diapo-29">Las cuatro categorías del «mareo» <span class="cite">diapo 29</span></h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Categoría</th>
+<th>Definición y descripción del paciente</th>
+<th>Origen <span class="cite">diapo 29</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vértigo</td>
+<td>Sensación ilusoria de movimiento del propio cuerpo o del entorno («todo me da vueltas», «el suelo se mueve»)</td>
+<td>Periférico (laberinto, nervio vestibular) o central (tronco, cerebelo); el central puede expresar ictus</td>
+</tr>
+<tr>
+<td>Presíncope</td>
+<td>Sensación de desmayo inminente sin perderla («siento que me voy a desmayar», «se me nubla la vista»)</td>
+<td>Hipoperfusión cerebral transitoria: vasovagal, ortostática, cardíaca; requiere evaluación cardiovascular</td>
+</tr>
+<tr>
+<td>Desequilibrio</td>
+<td>Dificultad para mantener estabilidad postural sin giro ni presíncope («me tambaleo», «tengo miedo de caerme»)</td>
+<td>Cerebeloso, sensitivo (neuropatía), parkinsoniano o multifactorial (anciano); marcha visiblemente alterada</td>
+</tr>
+<tr>
+<td>Mareo inespecífico</td>
+<td>Sensación difusa difícil de caracterizar («es como estar flotando», «sensación rara en la cabeza»)</td>
+<td>Frecuentemente no neurológico: ansiedad, depresión, hiperventilación, fármacos, hipoglucemia, anemia</td>
+</tr>
+</tbody>
+</table></div>
+<h3 class="sub" id="vértigo-periférico-vs-central-diapo-30">Vértigo periférico vs. central <span class="cite">diapo 30</span></h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Característica</th>
+<th>Periférico</th>
+<th>Central <span class="cite">diapo 30</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Intensidad</td>
+<td>Intensa, frecuentemente incapacitante</td>
+<td>Variable, puede ser leve pero persistente</td>
+</tr>
+<tr>
+<td>Inicio</td>
+<td>Brusco, relacionado con cambios posturales</td>
+<td>Progresivo o de inicio variable</td>
+</tr>
+<tr>
+<td>Síntomas cocleares</td>
+<td>Frecuentes: hipoacusia, acúfenos</td>
+<td>Ausentes (salvo lesión del VIII par)</td>
+</tr>
+<tr>
+<td>Otros síntomas neurológicos</td>
+<td>Ausentes</td>
+<td>Presentes: diplopía, disfagia, disartria, ataxia</td>
+</tr>
+<tr>
+<td>Nistagmo</td>
+<td>Horizonto-rotatorio, suprimido con fijación</td>
+<td>Variable, puede ser vertical, no suprimido</td>
+</tr>
+<tr>
+<td>Urgencia</td>
+<td>Baja (VPPB, neuritis vestibular)</td>
+<td>Alta: descartar ictus cerebeloso o de tronco</td>
+</tr>
+</tbody>
+</table></div>
+<h3 class="sub" id="causas-frecuentes-diapo-31">Causas frecuentes <span class="cite">diapo 31</span></h3>
+<p><strong>Periféricas:</strong></p>
+<ul>
+<li><strong>VPPB (vértigo posicional paroxístico benigno):</strong> la causa más frecuente de vértigo. Episodios breves (segundos) desencadenados por cambios de posición de la cabeza; se produce por canalitiasis del canal semicircular posterior; responde a maniobras de reposicionamiento <span class="cite">diapo 31</span>. El nombre describe el cuadro: <em>posicional</em> porque lo desencadena una posición de la cabeza, <em>paroxístico</em> porque son crisis breves y no un vértigo continuo, y <em>benigno</em> porque se ubica entre las causas periféricas de baja urgencia, sin signos neurológicos centrales <span class="cite">diapo 30, 31</span>. La canalitiasis es el depósito de partículas dentro del canal semicircular posterior: al mover la cabeza desplazan la endolinfa y desencadenan el vértigo. <em>(Glosa mecánica: no está en el material.)</em></li>
+<li><strong>Neuritis vestibular:</strong> vértigo intenso, súbito, continuo, de días, sin hipoacusia; frecuentemente postviral; no requiere neuroimagen urgente si la exploración es normal y no hay signos centrales.</li>
+<li><strong>Enfermedad de Ménière:</strong> tríada vértigo episódico + hipoacusia fluctuante + acúfenos; episodios de horas; deterioro auditivo progresivo.</li>
+</ul>
+<p><strong>Centrales (descartar urgentemente):</strong></p>
+<ul>
+<li><strong>Ictus de fosa posterior:</strong> cerebeloso o de tronco; puede presentarse como vértigo aislado (p. ej. territorio de la arteria cerebelosa posteroinferior); signos asociados: disartria, disfagia, diplopía, ataxia.</li>
+<li><strong>Esclerosis múltiple:</strong> el vértigo puede ser brote desmielinizante, en adultos jóvenes, con otras manifestaciones y episodios previos.</li>
+<li><strong>Tumores de fosa posterior:</strong> meningioma, schwannoma del VIII par, metástasis; vértigo progresivo con hipoacusia unilateral y, más tarde, signos de compresión de tronco.</li>
+</ul>
+
+</section>
+<section id="sec-snc-vs-snp-y-niveles-de-localizacion" class="card">
+<div class="section-kicker"><span class="n">10</span> Diapositivas 34–35</div>
+<h2>SNC vs. SNP y niveles de localización</h2>
+<h3 class="sub" id="diferencias-fundamentales-snc-vs-snp-diapo-34">Diferencias fundamentales SNC vs. SNP <span class="cite">diapo 34</span></h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Característica</th>
+<th>SNC</th>
+<th>SNP <span class="cite">diapo 34</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tono muscular</td>
+<td>Aumentado, espástico</td>
+<td>Disminuido, flácido</td>
+</tr>
+<tr>
+<td>Reflejos</td>
+<td>Aumentados, Babinski</td>
+<td>Disminuidos o ausentes</td>
+</tr>
+<tr>
+<td>Atrofia muscular</td>
+<td>Tardía, leve</td>
+<td>Precoz, intensa, con fasciculaciones</td>
+</tr>
+<tr>
+<td>Afectación sensitiva</td>
+<td>Distribución hemicuerpo o nivel medular</td>
+<td>Radicular, nervio periférico, calcetín/guante o dermatoma</td>
+</tr>
+<tr>
+<td>Ejemplos</td>
+<td>Ictus, lesión medular</td>
+<td>Radiculopatía, túnel carpiano</td>
+</tr>
+</tbody>
+</table></div>
+<h3 class="sub" id="niveles-de-localización-en-el-snc-diapo-35">Niveles de localización en el SNC <span class="cite">diapo 35</span></h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Nivel</th>
+<th>Clave clínica <span class="cite">diapo 35</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Corteza cerebral</td>
+<td>Déficit focal contralateral (motor, sensitivo, lenguaje, visual); puede asociar epilepsia focal; signos de liberación piramidal (espasticidad, Babinski); lesión bilateral: alteración cognitiva, marcha espástica.</td>
+</tr>
+<tr>
+<td>Cápsula interna y ganglios basales</td>
+<td>Hemiparesia/hemiplejia contralateral densa (concentra todas las fibras piramidales). Ganglios basales: trastornos del movimiento — parkinsonismo, corea, distonía.</td>
+</tr>
+<tr>
+<td>Tronco encefálico</td>
+<td>Síndromes alternos: pares craneales ipsilateral + déficit motor/sensitivo contralateral; nistagmo, vértigo, disfagia, disartria, alteración de conciencia.</td>
+</tr>
+<tr>
+<td>Cerebelo</td>
+<td>Ataxia ipsilateral, dismetría, disdiadococinesia, nistagmo; sin parálisis. Hemisferios: ataxia de extremidad; vermis: ataxia de marcha y tronco.</td>
+</tr>
+<tr>
+<td>Médula espinal</td>
+<td>Déficit bilateral por debajo del nivel; nivel sensitivo de gran valor localizador; síndrome de motoneurona superior; afectación de esfínteres.</td>
+</tr>
+</tbody>
+</table></div>
+
+</section>
+<section id="sec-antecedentes-velocidad-de-instauracion-y-errores-frecuentes" class="card">
+<div class="section-kicker"><span class="n">11</span> Diapositivas 36–41</div>
+<h2>Antecedentes, velocidad de instauración y errores frecuentes</h2>
+<h3 class="sub" id="antecedentes-con-alto-impacto-neurológico-diapo-36">Antecedentes con alto impacto neurológico <span class="cite">diapo 36</span></h3>
+<ul>
+<li><strong>HTA:</strong> principal factor de riesgo de ictus (isquémico y hemorrágico) y de encefalopatía hipertensiva.</li>
+<li><strong>Fibrilación auricular:</strong> factor de riesgo cardioembólico mayor; cambia el tratamiento agudo y la prevención secundaria.</li>
+<li><strong>Diabetes mellitus:</strong> neuropatía periférica, mononeuropatías, mayor riesgo cerebrovascular; la hipoglucemia puede mimetizar un ictus.</li>
+<li><strong>Neoplasia conocida:</strong> metástasis cerebrales, meningitis carcinomatosa, síndromes paraneoplásicos; todo síntoma neurológico en paciente oncológico obliga a descartar afectación del SNC.</li>
+<li><strong>Farmacología y hábitos:</strong> anticoagulantes y antiagregantes modulan el riesgo de hemorragia y determinan la decisión de fibrinólisis; inmunosupresores aumentan el riesgo de infecciones oportunistas del SNC; tabaco → ictus y aneurismas; alcohol crónico → neuropatía, síndrome de Wernicke, atrofia cerebelosa.</li>
+<li><strong>Historia familiar:</strong> enfermedades hereditarias del SNC, aneurismas cerebrales, Huntington, neuropatías hereditarias.</li>
+</ul>
+<h3 class="sub" id="velocidad-de-instauración-diapo-38">Velocidad de instauración <span class="cite">diapo 38</span></h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Velocidad</th>
+<th>Etiologías orientadas <span class="cite">diapo 38</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Segundos a minutos</td>
+<td>Vascular (ictus isquémico/hemorrágico), epiléptico (crisis o equivalente), metabólico agudo (hipoglucemia, arritmia). Máxima urgencia.</td>
+</tr>
+<tr>
+<td>Horas a días</td>
+<td>Inflamatorio/infeccioso (encefalitis, meningitis, neuritis); vascular subagudo (trombosis venosa cerebral, algunas vasculitis); tóxico-metabólico. Urgente pero con mayor margen.</td>
+</tr>
+<tr>
+<td>Semanas a meses</td>
+<td>Tumoral; desmielinizante progresivo (variantes de esclerosis múltiple); carencial (B12, tiamina); degenerativo de inicio.</td>
+</tr>
+<tr>
+<td>Meses a años</td>
+<td>Neurodegenerativo (Alzheimer, Parkinson, ELA, ataxias hereditarias) y hereditario; síntomas instalándose meses o años antes de la consulta.</td>
+</tr>
+</tbody>
+</table></div>
+<h3 class="sub" id="errores-frecuentes-en-la-anamnesis-inicial-diapo-37">Errores frecuentes en la anamnesis inicial <span class="cite">diapo 37</span></h3>
+<ol type="1">
+<li><strong>Asumir el significado del término del paciente:</strong> registrar «vértigo» sin preguntar qué siente exactamente, o «desmayo» sin aclarar si hubo pérdida de conciencia. Siempre pedir que el paciente describa el síntoma con sus propias palabras antes de interpretarlo.</li>
+<li><strong>No establecer la cronología con precisión:</strong> «empezó hace unos días» en vez de hora, contexto y síntoma inicial. Un inicio en segundos vs. en días es ya un diagnóstico diferencial.</li>
+<li><strong>No preguntar el «último momento normal»:</strong> imprescindible en el ictus aunque la causa final sea otra.</li>
+<li><strong>Ignorar los síntomas acompañantes:</strong> la cefalea que acompañó al «mareo», el hormigueo previo a la debilidad, la diplopía breve antes del síncope pueden ser diagnósticamente decisivos.</li>
+<li><strong>No reconocer los red flags:</strong> el error más grave (p. ej. cefalea en trueno o vértigo súbito con diplopía enviados a casa sin valoración urgente). Es una competencia de seguridad clínica básica.</li>
+</ol>
+<h3 class="sub" id="signos-de-alarma-neurológicos-generales-diapo-39">Signos de alarma neurológicos generales <span class="cite">diapo 39</span></h3>
+<p><strong>En la anamnesis:</strong> inicio súbito de cualquier déficit; progresión rápida (horas); síntomas neurológicos con fiebre; en paciente oncológico o inmunosuprimido; primera crisis convulsiva en adulto; pérdida de conciencia sin causa aparente; síndrome meníngeo (cefalea + rigidez de nuca + fiebre) <span class="cite">diapo 39</span>.</p>
+<p><strong>En la presentación:</strong> alteración del nivel de conciencia (cualquier grado); déficit focal de inicio agudo; signos meníngeos positivos; midriasis arreactiva o anisocoria de nueva aparición; papiledema (HIC); afasia de inicio agudo; diplopía de nueva aparición; disfagia o disartria agudas con otros signos neurológicos <span class="cite">diapo 39</span>.</p>
+<h3 class="sub" id="el-acompañante-como-informador">El acompañante como informador</h3>
+<p>El acompañante es frecuentemente el informador más valioso cuando el paciente tiene afectación de lenguaje, conciencia o memoria <span class="cite">diapo 40</span>. Aporta: descripción de crisis epilépticas y episodios de pérdida de conciencia (mayor precisión que el paciente; preguntar «¿qué observó usted exactamente?»); validación del último momento normal (determinante en ictus de paciente dormido o confuso); cambios subjetivos no referidos por el paciente (relevante en demencia y tumores frontales); y antecedentes neurológicos, medicación e historial de consultas cuando el paciente no puede referirlos <span class="cite">diapo 40</span>.</p>
+<p><strong>Resumen integrador:</strong> 3 preguntas localizadoras, 5 sistemas funcionales, 4 tipos de «mareo» y 9 red flags de cefalea <span class="cite">diapo 41</span>.</p>
+
+</section>
+<section id="sec-conceptos-clave-y-siglas" class="card">
+<div class="section-kicker"><span class="n">12</span> Diapositivas 2–36</div>
+<h2>Conceptos clave y siglas</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Término</th>
+<th>Definición [fuente]</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Síndrome topográfico</td>
+<td>Agrupación de síntomas y signos que apunta a un diagnóstico de localización <span class="cite">diapo 4</span></td>
+</tr>
+<tr>
+<td>Correlación anatomo-clínica</td>
+<td>Cada síntoma refleja una alteración anatómica localizable <span class="cite">diapo 2</span></td>
+</tr>
+<tr>
+<td>Dermatoma / miotoma</td>
+<td>Territorio sensitivo / motor de una raíz <span class="cite">diapo 7</span></td>
+</tr>
+<tr>
+<td>Vértigo</td>
+<td>Sensación ilusoria de movimiento del cuerpo o del entorno <span class="cite">diapo 29</span></td>
+</tr>
+<tr>
+<td>Presíncope</td>
+<td>Sensación de desmayo inminente sin llegar a perder conciencia <span class="cite">diapo 29</span></td>
+</tr>
+<tr>
+<td>Síntomas positivos / negativos</td>
+<td>Exceso o distorsión de función / pérdida de función <span class="cite">diapo 15</span><span class="cite">diapo 16</span></td>
+</tr>
+<tr>
+<td>Cefalea en trueno (thunderclap)</td>
+<td>Máxima intensidad en &lt; 60 segundos; descartar HSA <span class="cite">diapo 25</span></td>
+</tr>
+<tr>
+<td>Último momento normal</td>
+<td>Definición del inicio de síntomas; base de la ventana de fibrinólisis (4,5 h en ACV isquémico) <span class="cite">diapo 21</span></td>
+</tr>
+<tr>
+<td>Síndrome alterno</td>
+<td>Afectación de pares craneales ipsilateral + déficit motor/sensitivo contralateral (tronco) <span class="cite">diapo 35</span></td>
+</tr>
+<tr>
+<td>Pérdida disociada</td>
+<td>Alteración de temperatura sin tacto; orienta a lesión medular central <span class="cite">diapo 16</span></td>
+</tr>
+<tr>
+<td>Nivel sensitivo</td>
+<td>Límite por debajo del cual se pierde la sensibilidad en lesión medular <span class="cite">diapo 35</span></td>
+</tr>
+<tr>
+<td>Dismetría</td>
+<td>Error en dirección o amplitud del movimiento; signo cerebeloso cardinal <span class="cite">diapo 17</span></td>
+</tr>
+<tr>
+<td>SNC / SNP</td>
+<td>Sistema nervioso central / periférico <span class="cite">diapo 6</span><span class="cite">diapo 7</span></td>
+</tr>
+<tr>
+<td>SARA</td>
+<td>Formación reticular activadora ascendente, centro regulador de conciencia en el tronco <span class="cite">diapo 6</span></td>
+</tr>
+<tr>
+<td>HIC</td>
+<td>Hipertensión intracraneal <span class="cite">diapo 23</span></td>
+</tr>
+<tr>
+<td>HSA</td>
+<td>Hemorragia subaracnoidea <span class="cite">diapo 25</span></td>
+</tr>
+<tr>
+<td>FA</td>
+<td>Fibrilación auricular <span class="cite">diapo 36</span></td>
+</tr>
+<tr>
+<td>VPPB</td>
+<td>Vértigo posicional paroxístico benigno: causa más frecuente de vértigo, por canalitiasis del canal semicircular posterior <span class="cite">diapo 31</span></td>
+</tr>
+<tr>
+<td>ACV / ictus</td>
+<td>Accidente cerebrovascular <span class="cite">diapo 13</span></td>
+</tr>
+<tr>
+<td>ROT</td>
+<td>(No está en el material)</td>
+</tr>
+<tr>
+<td>NIHSS</td>
+<td>(No está en el material)</td>
+</tr>
+</tbody>
+</table></div>
+
+</section>
+<section id="sec-preguntas-probables" class="card">
+<div class="section-kicker"><span class="n">13</span> Diapositivas 4–40</div>
+<h2>Preguntas probables</h2>
+<div class="qa-tools"><button class="openAll" type="button">Abrir todas</button><button class="closeAll" type="button">Cerrar todas</button></div>
+<details class="qa"><summary>1. ¿Cuáles son los cinco eslabones de la cadena diagnóstica en neurología?</summary><div class="answer">Síntoma → signo → síndrome → localización → diagnóstico (integración con la etiología). <span class="cite">diapo 4</span></div></details>
+<details class="qa"><summary>2. ¿Por qué la localización anatómica cambia el manejo del paciente?</summary><div class="answer">Orienta el diagnóstico diferencial etiológico, determina qué exámenes solicitar, guía decisiones terapéuticas urgentes, predice pronóstico y permite detectar lesiones múltiples o diseminadas. <span class="cite">diapo 9</span></div></details>
+<details class="qa"><summary>3. Varón 67 años, 90 min de disartria + debilidad del brazo derecho: ¿cómo se aplica el razonamiento localizador?</summary><div class="answer">Funciones alteradas: motora derecha y lenguaje; ambas se localizan en el hemisferio izquierdo dominante (corteza motora, Broca, Wernicke); patrón compatible → lesión en corteza o cápsula interna izquierda; la rapidez orienta a ACV isquémico de arteria cerebral media izquierda. <span class="cite">diapo 13</span></div></details>
+<details class="qa"><summary>4. Diferencia entre síntomas positivos y negativos, con ejemplos.</summary><div class="answer">Positivos = exceso/distorsión de función (convulsiones, parestesias, fasciculaciones, movimientos anormales, dolor neuropático); negativos = pérdida de función (paresia, hipoestesia, pérdida visual, afasia, pérdida de conciencia); los negativos orientan más a lesión estructural grave. <span class="cite">diapo 15</span><span class="cite">diapo 16</span></div></details>
+<details class="qa"><summary>5. ¿Qué orienta la distribución de la pérdida de sensibilidad?</summary><div class="answer">Guante/calcetín → neuropatía periférica; hemicuerpo → lesión central; pérdida disociada (temperatura sin tacto) → lesión medular central. <span class="cite">diapo 16</span></div></details>
+<details class="qa"><summary>6. ¿Cuáles son los cuatro principios de la anamnesis neurológica?</summary><div class="answer">Cronológica, orientada al síntoma, semiológicamente precisa y contextualizada. <span class="cite">diapo 19</span></div></details>
+<details class="qa"><summary>7. ¿Por qué es crucial preguntar el «último momento en que estaba completamente normal»?</summary><div class="answer">Define la ventana terapéutica: en ACV isquémico la fibrinólisis IV está indicada dentro de 4,5 h desde el inicio; si despertó con síntomas, el inicio es la última vez visto normal, no la hora del despertar. <span class="cite">diapo 21</span></div></details>
+<details class="qa"><summary>8. Enumere al menos seis red flags de cefalea.</summary><div class="answer">Inicio súbito en trueno (&lt; 60 s), cambio de patrón, déficit neurológico asociado, primera cefalea intensa (especialmente &gt; 50 años), fiebre + rigidez de nuca, contextos de riesgo (cáncer, inmunosupresión, embarazo/puerperio, esfuerzo/Valsalva). <span class="cite">diapo 25</span></div></details>
+<details class="qa"><summary>9. Compare migraña, cefalea tensional y en racimos en calidad y duración.</summary><div class="answer">Migraña: pulsátil, 4–72 h, hemicraneal, con náuseas/fotofobia/fonofobia ± aura. Tensional: opresiva en banda, 30 min–7 días, bilateral, sin náuseas. En racimos: taladrante unilateral orbitaria, 15 min–3 h, con lagrimeo, rinorrea, ptosis e inquietud. <span class="cite">diapo 26</span></div></details>
+<details class="qa"><summary>10. ¿Cuáles son las cuatro categorías del «mareo» y qué pregunta las separa?</summary><div class="answer">«¿Qué siente exactamente?» → vértigo (movimiento ilusorio), presíncope (desmayo inminente), desequilibrio (inestabilidad postural sin giro), mareo inespecífico (sensación difusa, frecuentemente no neurológica). <span class="cite">diapo 28</span><span class="cite">diapo 29</span></div></details>
+<details class="qa"><summary>11. Cinco diferencias entre vértigo periférico y central.</summary><div class="answer">Periférico: intenso e incapacitante, brusco y postural, síntomas cocleares presentes, sin otros déficit neurológicos, nistagmo horizonto-rotatorio suprimido con fijación, baja urgencia. Central: variable pero persistente, otros déficit presentes (diplopía, disfagia, disartria, ataxia), nistagmo puede ser vertical y no suprimido, alta urgencia (descartar ictus). <span class="cite">diapo 30</span></div></details>
+<details class="qa"><summary>12. Triada de la enfermedad de Ménière y diferencias con la neuritis vestibular.</summary><div class="answer">Ménière: vértigo episódico (horas) + hipoacusia fluctuante + acúfenos, con deterioro auditivo progresivo. Neuritis vestibular: vértigo continuo de días, súbito, sin hipoacusia, frecuentemente postviral, sin neuroimagen urgente si la exploración es normal. <span class="cite">diapo 31</span></div></details>
+<details class="qa"><summary>13. Compare el patrón motor del SNC y del SNP.</summary><div class="answer">SNC: tono aumentado espástico, reflejos aumentados con Babinski, atrofia tardía y leve, déficit en hemicuerpo o nivel medular. SNP: tono disminuido flácido, reflejos disminuidos o ausentes, atrofia precoz e intensa con fasciculaciones, distribución radicular/periférica o calcetín-guante. <span class="cite">diapo 34</span></div></details>
+<details class="qa"><summary>14. ¿Qué produce una lesión del tronco encefálico y cómo se denomina el síndrome característico?</summary><div class="answer">Síndromes alternos: pares craneales ipsilateral + déficit motor/sensitivo contralateral; además nistagmo, vértigo, disfagia, disartria y alteración de conciencia. <span class="cite">diapo 35</span></div></details>
+<details class="qa"><summary>15. ¿Qué antecedente cambia la decisión de fibrinólisis en el ictus isquémico agudo?</summary><div class="answer">El uso de anticoagulantes y antiagregantes (modulan el riesgo de hemorragia cerebral y son determinantes en la decisión de fibrinólisis). <span class="cite">diapo 36</span></div></details>
+<details class="qa"><summary>16. ¿Qué etiologías orientan un déficit de inicio en segundos–minutos vs. semanas–meses?</summary><div class="answer">Segundos–minutos: vascular, epiléptico, metabólico agudo (hipoglucemia, arritmia). Semanas–meses: tumoral, desmielinizante progresivo, carencial (B12, tiamina), degenerativo inicial. <span class="cite">diapo 38</span></div></details>
+<details class="qa"><summary>17. ¿Por qué el acompañante es clave en la anamnesis neurológica?</summary><div class="answer">Es el informador más valioso cuando hay afectación de lenguaje, conciencia o memoria: describe crisis y pérdida de conciencia, valida el último momento normal, refiere cambios subjetivos y aporta antecedentes. <span class="cite">diapo 40</span></div></details>
+</section>
+<section id="sec-diapositivas-sin-texto-extraible" class="card">
+<div class="section-kicker"><span class="n">14</span> Cierre</div>
+<h2>Diapositivas sin texto extraíble</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Diapositiva</th>
+<th>Contenido</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5</td>
+<td>Título divisor: «Organización funcional del sistema nervioso».</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Título divisor: «Correlación anatomo-clínica».</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Título divisor: «Principales motivos de consulta neurológicos».</td>
+</tr>
+<tr>
+<td>18</td>
+<td>Título divisor: «La anamnesis neurológica estructurada».</td>
+</tr>
+<tr>
+<td>22</td>
+<td>Título divisor: «La cefalea: caracterización sistemática».</td>
+</tr>
+<tr>
+<td>27</td>
+<td>Título divisor: «Mareo y vértigo: diferenciación práctica».</td>
+</tr>
+<tr>
+<td>32</td>
+<td>Título divisor: «La semiología como herramienta de priorización».</td>
+</tr>
+<tr>
+<td>33</td>
+<td>Diapositiva con el método en cuatro pasos: «Escuchar – Identificar – Localizar – Actuar» (texto breve recuperado por OCR).</td>
+</tr>
+</tbody>
+</table></div>
+
+</section>
+  </main>
+</div>
+
+<footer>
+  <div class="foot-inner">
+    <div><strong>Guía de estudio — Introducción a la Semiología Neurológica y Anamnesis</strong><br>Certamen 3 · Semiología del sistema nervioso · Clase 1 de 4</div>
+    <div>Fuente: <code>Clase 1 semiologia neurologica .pdf</code> · 41 diapositivas<br>
+    Citaciones <code>[diapo N]</code> = número de diapositiva del PDF.<br>
+    Elaborada el 23 de noviembre de 2026.</div>
+  </div>
+</footer>
+
+<script>
+  const root = document.documentElement;
+  const themeBtn = document.getElementById('themeBtn');
+  const printBtn = document.getElementById('printBtn');
+
+  function setTheme(theme){
+    root.dataset.theme = theme;
+    const dark = theme === 'dark';
+    themeBtn.textContent = dark ? 'Modo claro' : 'Modo oscuro';
+    themeBtn.setAttribute('aria-pressed', String(dark));
+    try { localStorage.setItem('guia-theme', theme); } catch(e) {}
+  }
+  try {
+    const saved = localStorage.getItem('guia-theme');
+    if (saved === 'dark' || saved === 'light') setTheme(saved);
+  } catch(e) {}
+  themeBtn.addEventListener('click', () => setTheme(root.dataset.theme === 'dark' ? 'light' : 'dark'));
+  printBtn.addEventListener('click', () => window.print());
+  window.addEventListener('beforeprint', () => document.querySelectorAll('details').forEach(d => d.open = true));
+
+  const links = [...document.querySelectorAll('.toc a[href^="#"]')];
+  const sections = [...document.querySelectorAll('main section[id]')];
+  if ('IntersectionObserver' in window) {
+    const obs = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        const id = entry.target.id;
+        links.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + id));
+      });
+    }, {rootMargin: '-15% 0px -70% 0px', threshold: 0});
+    sections.forEach(s => obs.observe(s));
+  }
+
+  document.querySelectorAll('.openAll').forEach(b => b.addEventListener('click', () =>
+    b.closest('section').querySelectorAll('details.qa').forEach(d => d.open = true)));
+  document.querySelectorAll('.closeAll').forEach(b => b.addEventListener('click', () =>
+    b.closest('section').querySelectorAll('details.qa').forEach(d => d.open = false)));
+</script>
+</body>
+</html>

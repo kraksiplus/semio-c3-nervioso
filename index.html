@@ -1,0 +1,563 @@
+<!doctype html>
+<html lang="es-CL" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Certamen 3 — Semiología del Sistema Nervioso</title>
+<meta name="description" content="Cuatro guías de estudio de semiología del sistema nervioso: anamnesis, síntoma a síndrome, examen motor/sensitivo/reflejos y síndromes neurológicos. Cada afirmación citada por número de diapositiva.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f5c57'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='34' fill='%23d9f0ea' text-anchor='middle'%3EN%3C/text%3E%3C/svg%3E">
+<meta property="og:title" content="Semiología C3 — Sistema nervioso">
+<meta property="og:description" content="Cuatro guías de estudio de semiología del sistema nervioso: anamnesis, síntoma a síndrome, examen motor/sensitivo/reflejos y síndromes neurológicos. Cada afirmación citada por número de diapositiva.">
+<meta property="og:type" content="website">
+
+<style>  :root{
+    --bg:#f6f4ee;
+    --surface:#fffdf8;
+    --surface-2:#efeae0;
+    --surface-3:#e6dfd1;
+    --ink:#1d2a2e;
+    --muted:#5d6b70;
+    --line:#d8d1c3;
+    --brand:#0f5c57;
+    --brand-2:#147d74;
+    --brand-3:#d9f0ea;
+    --accent:#b45309;
+    --accent-2:#fef3c7;
+    --rose:#9f1239;
+    --rose-2:#ffe4e6;
+    --blue:#1e3a8a;
+    --blue-2:#dbeafe;
+    --shadow:0 10px 30px rgba(20,40,40,.08);
+    --radius:16px;
+    --serif:Georgia,"Iowan Old Style","Palatino Linotype",Palatino,serif;
+    --sans:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  }
+  [data-theme="dark"]{
+    --bg:#0f1617;
+    --surface:#162022;
+    --surface-2:#1d2a2c;
+    --surface-3:#263638;
+    --ink:#e8eeec;
+    --muted:#a7b6b2;
+    --line:#2c3c3d;
+    --brand:#5eead4;
+    --brand-2:#2dd4bf;
+    --brand-3:#123330;
+    --accent:#fbbf24;
+    --accent-2:#3a2a0a;
+    --rose:#fb7185;
+    --rose-2:#3b1119;
+    --blue:#93c5fd;
+    --blue-2:#12233f;
+    --shadow:0 10px 30px rgba(0,0,0,.35);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;
+    font-family:var(--sans);
+    line-height:1.65;
+    color:var(--ink);
+    background:var(--bg);
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--brand-2);text-decoration-thickness:1px;text-underline-offset:2px}
+  a:hover{color:var(--brand)}
+  :focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:4px}
+  .skip-link{
+    position:absolute;left:-9999px;top:0;background:var(--surface);color:var(--ink);
+    padding:.7rem 1rem;z-index:100;border:1px solid var(--line);border-radius:0 0 10px 0
+  }
+  .skip-link:focus{left:0}
+
+  /* HERO */
+  .hero{
+    background:
+      radial-gradient(1200px 500px at 85% -10%,rgba(255,255,255,.16),transparent 60%),
+      linear-gradient(135deg,#082f2c 0%,#0d4b47 55%,#147d74 100%);
+    color:#f7fbfa;
+    padding:clamp(2rem,5vw,4.2rem) clamp(1.2rem,4vw,3rem) clamp(2.4rem,5vw,3.6rem);
+    position:relative;
+    overflow:hidden;
+  }
+  .hero::after{
+    content:"";position:absolute;right:-120px;bottom:-160px;width:420px;height:420px;
+    border:1px solid rgba(255,255,255,.18);border-radius:50%;
+    box-shadow:0 0 0 40px rgba(255,255,255,.04),0 0 0 90px rgba(255,255,255,.03);
+    pointer-events:none;
+  }
+  .hero-inner{max-width:1120px;margin:0 auto;position:relative;z-index:1}
+  .eyebrow{
+    display:inline-flex;align-items:center;gap:.5rem;
+    font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;
+    color:#bff3e9;font-weight:700;margin:0 0 1rem
+  }
+  .eyebrow::before{content:"";width:28px;height:1px;background:#bff3e9;display:inline-block}
+  .hero h1{
+    font-family:var(--serif);
+    font-size:clamp(2rem,5.4vw,4rem);
+    line-height:1.06;
+    margin:0 0 .7rem;
+    letter-spacing:-.02em;
+    max-width:15ch;
+    text-wrap:balance;
+  }
+  .hero .lede{
+    font-size:clamp(1.02rem,2vw,1.28rem);
+    max-width:70ch;color:#d7f1ec;margin:.4rem 0 1.6rem
+  }
+  .hero .lede em{color:#fff}
+  .meta-grid{
+    display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));
+    gap:.75rem;margin:1.6rem 0 1.2rem;max-width:1000px
+  }
+  .meta-grid div{
+    background:rgba(255,255,255,.08);
+    border:1px solid rgba(255,255,255,.16);
+    border-radius:12px;padding:.7rem .85rem;backdrop-filter:blur(3px)
+  }
+  .meta-grid span{
+    display:block;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;
+    color:#a8dfd6;font-weight:700;margin-bottom:.2rem
+  }
+  .meta-grid strong{font-size:.92rem;font-weight:600;color:#f7fbfa;line-height:1.35}
+  .hero-actions{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1.1rem}
+  .btn{
+    appearance:none;border:1px solid rgba(255,255,255,.28);
+    background:rgba(255,255,255,.10);color:#fff;
+    padding:.62rem .95rem;border-radius:10px;font:inherit;font-size:.9rem;font-weight:650;
+    cursor:pointer;transition:background .15s ease,transform .15s ease
+  }
+  .btn:hover{background:rgba(255,255,255,.2);transform:translateY(-1px)}
+  .btn.primary{background:#fff;color:#0b4a45;border-color:#fff}
+  .btn.primary:hover{background:#e9fbf6}
+
+  /* LAYOUT */
+  .shell{
+    max-width:1420px;margin:0 auto;
+    display:grid;grid-template-columns:290px minmax(0,1fr);
+    gap:clamp(1rem,3vw,2.4rem);
+    padding:2rem clamp(1rem,3vw,2rem) 4rem;
+    align-items:start;
+  }
+  .sidebar{
+    position:sticky;top:1rem;align-self:start;
+    max-height:calc(100vh - 2rem);overflow:auto;
+    background:var(--surface);border:1px solid var(--line);
+    border-radius:var(--radius);padding:1rem;
+    box-shadow:var(--shadow);
+    scrollbar-width:thin;
+  }
+  .sidebar h2{
+    font-family:var(--sans);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--muted);margin:.2rem 0 .7rem
+  }
+  .toc{list-style:none;margin:0;padding:0;font-size:.9rem}
+  .toc li{margin:.12rem 0}
+  .toc a{
+    display:block;padding:.42rem .55rem;border-radius:8px;color:var(--ink);
+    text-decoration:none;border-left:3px solid transparent;line-height:1.3
+  }
+  .toc a:hover{background:var(--surface-2)}
+  .toc a.active{background:var(--brand-3);border-left-color:var(--brand-2);font-weight:700;color:var(--brand)}
+  .toc .figs{
+    margin-top:.9rem;padding-top:.8rem;border-top:1px solid var(--line);
+    display:flex;flex-wrap:wrap;gap:.35rem;align-items:center;font-size:.82rem;color:var(--muted)
+  }
+  .toc .figs a{
+    display:inline-flex;align-items:center;justify-content:center;
+    width:1.7rem;height:1.7rem;border:1px solid var(--line);border-radius:7px;
+    padding:0;background:var(--surface-2);font-weight:700;color:var(--brand)
+  }
+  main{min-width:0}
+  .card{
+    background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+    padding:clamp(1.1rem,2.6vw,2rem);box-shadow:var(--shadow);margin:1.35rem 0;
+    scroll-margin-top:1rem;
+  }
+  .card > :first-child{margin-top:0}
+  .card > :last-child{margin-bottom:0}
+  .section-kicker{
+    display:inline-flex;align-items:center;gap:.5rem;
+    font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--brand-2);font-weight:800;margin-bottom:.45rem
+  }
+  .section-kicker .n{
+    display:inline-flex;align-items:center;justify-content:center;
+    min-width:1.55rem;height:1.55rem;padding:0 .35rem;border-radius:6px;
+    background:var(--brand);color:#fff;font-size:.75rem;letter-spacing:0
+  }
+  h2{
+    font-family:var(--serif);font-size:clamp(1.55rem,3.2vw,2.2rem);
+    line-height:1.15;margin:.1rem 0 .8rem;letter-spacing:-.015em;text-wrap:balance
+  }
+  h3{font-family:var(--serif);font-size:clamp(1.18rem,2.2vw,1.45rem);line-height:1.25;margin:1.6rem 0 .55rem}
+  h4{font-size:1rem;margin:1.2rem 0 .4rem;letter-spacing:.01em}
+  p{margin:.65rem 0}
+  ul,ol{margin:.55rem 0 .8rem;padding-left:1.35rem}
+  li{margin:.28rem 0}
+  li::marker{color:var(--brand-2)}
+  strong{font-weight:750}
+  em{font-style:italic}
+  .cite{
+    display:inline-block;font-size:.74rem;font-weight:700;line-height:1.2;
+    color:var(--brand);background:var(--brand-3);
+    border:1px solid color-mix(in srgb,var(--brand-2) 25%,transparent);
+    padding:.08rem .38rem;border-radius:5px;white-space:nowrap;vertical-align:.08em
+  }
+  .small{font-size:.88rem;color:var(--muted)}
+  .th-abbr{display:none}
+  .muted{color:var(--muted)}
+
+  /* CALLOUTS */
+  .keybox,.databox,.warnbox,.quotebox{
+    border-radius:12px;padding:1rem 1.05rem;margin:1rem 0;border:1px solid var(--line)
+  }
+  .keybox{background:var(--brand-3);border-left:5px solid var(--brand-2)}
+  .databox{background:var(--accent-2);border-left:5px solid var(--accent)}
+  .warnbox{background:var(--rose-2);border-left:5px solid var(--rose)}
+  .quotebox{background:var(--surface-2);border-left:5px solid var(--blue);font-family:var(--serif);font-size:1.05rem}
+  .box-title{
+    display:block;font-family:var(--sans);font-size:.72rem;letter-spacing:.11em;
+    text-transform:uppercase;font-weight:800;margin-bottom:.35rem
+  }
+  .keybox .box-title{color:var(--brand)}
+  .databox .box-title{color:var(--accent)}
+  .warnbox .box-title{color:var(--rose)}
+  .quotebox .box-title{color:var(--blue)}
+
+  /* GRIDS */
+  .grid-2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem;margin:1rem 0}
+  .grid-3{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:.85rem;margin:1rem 0}
+  .stat{
+    background:var(--surface-2);border:1px solid var(--line);border-radius:12px;
+    padding:.9rem 1rem
+  }
+  .stat b{display:block;font-family:var(--serif);font-size:1.65rem;line-height:1.1;color:var(--brand)}
+  .stat span{display:block;font-size:.82rem;color:var(--muted);margin-top:.25rem}
+  .mini-card{
+    background:var(--surface-2);border:1px solid var(--line);border-radius:12px;padding:.9rem 1rem
+  }
+  .mini-card h4{margin:.05rem 0 .35rem;font-size:.98rem}
+  .mini-card p,.mini-card ul{font-size:.9rem;margin:.35rem 0}
+  .tag{
+    display:inline-block;font-size:.72rem;font-weight:800;letter-spacing:.04em;
+    padding:.15rem .5rem;border-radius:999px;background:var(--brand-3);color:var(--brand);
+    border:1px solid color-mix(in srgb,var(--brand-2) 25%,transparent)
+  }
+  .tag.amber{background:var(--accent-2);color:var(--accent);border-color:color-mix(in srgb,var(--accent) 25%,transparent)}
+  .tag.rose{background:var(--rose-2);color:var(--rose);border-color:color-mix(in srgb,var(--rose) 25%,transparent)}
+
+  /* TABLES */
+  .table-wrap{
+    overflow-x:auto;border:1px solid var(--line);border-radius:12px;margin:1rem 0;
+    background:var(--surface);-webkit-overflow-scrolling:touch
+  }
+  table{width:100%;border-collapse:collapse;font-size:.88rem;min-width:720px}
+  caption{
+    caption-side:top;text-align:left;padding:.8rem .9rem .2rem;
+    font-size:.82rem;color:var(--muted);font-weight:600
+  }
+  th,td{padding:.62rem .7rem;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}
+  th{
+    background:var(--surface-2);font-size:.76rem;letter-spacing:.04em;text-transform:uppercase;
+    color:var(--muted);font-weight:800;position:sticky;top:0;z-index:1
+  }
+  tbody tr:nth-child(even) td{background:color-mix(in srgb,var(--surface-2) 45%,var(--surface))}
+  tbody tr:hover td{background:var(--brand-3)}
+  td.nw{white-space:nowrap}
+  .t1{min-width:1180px;font-size:.8rem}
+  .t1 th,.t1 td{padding:.5rem .55rem}
+  .t1 td:first-child{font-weight:650}
+
+  /* FIGURES */
+  figure.diagram{
+    margin:1.25rem 0;background:#fbfaf6;border:1px solid #d8d1c3;border-radius:14px;
+    padding:1rem;color:#1d2a2e;box-shadow:0 4px 16px rgba(20,40,40,.05)
+  }
+  figure.diagram svg{display:block;width:100%;height:auto}
+  figure.diagram figcaption{font-size:.86rem;color:#5d6b70;margin:.75rem .15rem 0;line-height:1.5}
+  figure.diagram figcaption b{color:#1d2a2e}
+  .fig-label{
+    display:inline-block;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;
+    font-weight:800;color:#0f5c57;background:#d9f0ea;border:1px solid #b7e4da;
+    padding:.15rem .5rem;border-radius:999px;margin-bottom:.6rem
+  }
+
+  /* DETAILS Q&A */
+  details.qa{
+    border:1px solid var(--line);border-radius:12px;background:var(--surface-2);
+    padding:.2rem .9rem;margin:.55rem 0
+  }
+  details.qa summary{
+    cursor:pointer;font-weight:700;padding:.65rem 0;list-style:none;
+    display:flex;gap:.55rem;align-items:flex-start
+  }
+  details.qa summary::-webkit-details-marker{display:none}
+  details.qa summary::before{
+    content:"+";flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;
+    width:1.35rem;height:1.35rem;border-radius:6px;background:var(--brand);color:#fff;
+    font-weight:800;font-size:.95rem;line-height:1;margin-top:.1rem
+  }
+  details.qa[open] summary::before{content:"−"}
+  details.qa .answer{padding:.1rem 0 .9rem 1.95rem;font-size:.94rem}
+  details.qa .answer p:first-child{margin-top:0}
+  .qa-tools{display:flex;gap:.5rem;flex-wrap:wrap;margin:.7rem 0 1rem}
+  .qa-tools button{
+    font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;
+    background:var(--surface);color:var(--ink);border:1px solid var(--line);
+    padding:.4rem .65rem;border-radius:8px
+  }
+  .qa-tools button:hover{background:var(--brand-3);border-color:var(--brand-2)}
+
+  /* CHECKLIST */
+  .checklist{list-style:none;padding-left:0}
+  .checklist li{padding-left:1.7rem;position:relative;margin:.45rem 0}
+  .checklist li::before{
+    content:"✓";position:absolute;left:0;top:.05rem;color:var(--brand-2);font-weight:900
+  }
+
+  /* FOOTER */
+  footer{
+    border-top:1px solid var(--line);background:var(--surface);
+    padding:2rem clamp(1rem,4vw,3rem);color:var(--muted);font-size:.86rem
+  }
+  footer .foot-inner{max-width:1120px;margin:0 auto;display:flex;gap:1rem;flex-wrap:wrap;justify-content:space-between}
+  footer strong{color:var(--ink)}
+
+  @media (max-width:980px){
+    .shell{grid-template-columns:1fr;padding-top:1.2rem}
+    .sidebar{position:static;max-height:none;order:-1}
+    .toc{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.1rem}
+  }
+  @media (max-width:560px){
+    .hero h1{max-width:none}
+    .meta-grid{grid-template-columns:1fr}
+    .card{padding:1rem}
+    table{font-size:.82rem}
+  }
+  @media print{
+    :root{--bg:#fff;--surface:#fff;--surface-2:#f3f3f3;--surface-3:#eee;--ink:#111;--muted:#444;--line:#bbb;--shadow:none}
+    @page{margin:12mm}
+    body{background:#fff;font-size:10.5pt}
+    .table-wrap{overflow:visible!important;border:none!important}
+    table{min-width:0!important;width:100%!important;font-size:6.4pt!important;table-layout:fixed}
+    .t1{min-width:0!important;font-size:6.4pt!important}
+    .t1 th:nth-child(1){width:13%}
+    .t1 th:nth-child(2){width:6%}
+    .t1 th:nth-child(3){width:11%}
+    .t1 th:nth-child(4){width:11%}
+    .t1 th:nth-child(5){width:7%}
+    .t1 th:nth-child(6){width:6%}
+    .t1 th:nth-child(7){width:17%}
+    .t1 th:nth-child(8){width:18%}
+    .t1 th:nth-child(9){width:7%}
+    th,td{padding:.2rem .2rem!important;word-break:normal;overflow-wrap:anywhere;hyphens:auto}
+    th{position:static!important;word-break:normal!important;overflow-wrap:normal!important;hyphens:none!important}
+    thead{display:table-header-group}
+    .hero{background:#fff;color:#111;padding:0 0 1rem;border-bottom:2px solid #111}
+    .hero .lede,.meta-grid span{color:#333}
+    .meta-grid div{background:#f4f4f4;border-color:#ccc}
+    .meta-grid strong{color:#111}
+    .hero-actions,.sidebar,.skip-link,.qa-tools{display:none!important}
+    .shell{display:block;max-width:none;padding:0}
+    .card{box-shadow:none;border:1px solid #ccc;break-inside:avoid;page-break-inside:avoid}
+    h2,h3{break-after:avoid}
+    figure.diagram,.table-wrap,details.qa{break-inside:avoid;page-break-inside:avoid}
+    .th-full{display:none}
+    .th-abbr{display:inline}
+    a{color:#111;text-decoration:none}
+  }
+  p,li,td,figcaption{text-wrap:pretty}
+  blockquote{
+    margin:1.1rem 0;padding:.9rem 1.1rem;background:var(--surface-2);
+    border-left:4px solid var(--brand-2);border-radius:0 12px 12px 0;color:var(--ink)
+  }
+  blockquote p{margin:.4rem 0}
+  .guide-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem;margin:1.2rem 0}
+  .guide-grid a{display:block;text-decoration:none;color:inherit;background:var(--surface);
+    border:1px solid var(--line);border-radius:var(--radius);padding:1rem 1.1rem;box-shadow:var(--shadow);
+    transition:transform .15s ease,border-color .15s ease}
+  .guide-grid a:hover{transform:translateY(-2px);border-color:var(--brand-2)}
+  .guide-grid a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+  .guide-grid .gn{font-family:var(--serif);font-size:1.6rem;color:var(--brand-2);line-height:1}
+  .guide-grid h3{margin:.3rem 0 .4rem;font-size:1.05rem;font-family:var(--sans);font-weight:700;color:var(--ink)}
+  .guide-grid p{margin:0;font-size:.9rem;color:var(--muted)}
+  .badges{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.7rem}
+  .badges span{font-size:.72rem;font-weight:700;letter-spacing:.03em;background:var(--brand-3);
+    color:var(--brand);border-radius:999px;padding:.18rem .55rem}
+  caption{caption-side:top;text-align:left;font-size:.82rem;font-weight:700;color:var(--muted);padding:.2rem .2rem .5rem}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+<header class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">Semiología · Medicina UBB · 2026-2</p>
+    <h1>Certamen 3<br>Sistema nervioso</h1>
+    <p class="lede">Cuatro clases, 206 diapositivas únicas y una guía por clase, con cada afirmación clínica citada por número de diapositiva.</p>
+    <div class="meta-grid">
+      <div><span>Clases</span><strong>4 de 4 cubiertas</strong></div>
+      <div><span>Diapositivas</span><strong>206 únicas · 279 con la parte duplicada</strong></div>
+      <div><span>Guías</span><strong>4 · 1.652 líneas</strong></div>
+      <div><span>Preguntas</span><strong>104 en las guías + 40 en el banco</strong></div>
+      <div><span>Fuente</span><strong><code>Semio/Certamen 3/</code> · 5 PDF</strong></div>
+    </div>
+    <div class="hero-actions">
+      <button class="btn primary" id="printBtn" type="button">Imprimir / guardar PDF</button>
+      <button class="btn" id="themeBtn" type="button" aria-pressed="false">Modo oscuro</button>
+      <a class="btn" href="#guias">Ir a las guías</a>
+    </div>
+  </div>
+</header>
+
+<div class="shell">
+  <aside class="sidebar" aria-label="Índice">
+    <h2>Contenido</h2>
+    <nav>
+      <ul class="toc">
+        <li><a href="#guias">Guías</a></li>
+        <li><a href="#orden">Orden de estudio</a></li>
+        <li><a href="#cobertura">Cobertura</a></li>
+        <li><a href="#fuentes">Notas de fuente</a></li>
+        <li><a href="#banco">Banco de preguntas</a></li>
+      </ul>
+      <div class="figs">
+        <strong>Repo:</strong> <a href="https://github.com/kraksiplus/semio-c3-nervioso" title="Repositorio en GitHub">GitHub</a>
+        
+      </div>
+    </nav>
+  </aside>
+
+  <main id="contenido">
+
+<section id="guias" class="card">
+  <div class="section-kicker"><span class="n">01</span> Material</div>
+  <h2>Guías por clase</h2>
+  <div class="guide-grid">
+    <a href="01_Anamnesis_y_Razonamiento_Localizador.html">
+      <span class="gn">01</span>
+      <h3>Introducción a la Semiología Neurológica y Anamnesis</h3>
+      <p>Cadena diagnóstica, SNC vs SNP, tres preguntas del razonamiento, síntomas positivos y negativos, anamnesis, cefalea y red flags, vértigo periférico vs central.</p>
+      <div class="badges"><span>Clase 1</span><span>41 diapos</span><span>17 preguntas</span></div>
+    </a>
+    <a href="02_Del_Sintoma_Al_Sindrome.html">
+      <span class="gn">02</span>
+      <h3>Del Síntoma Neurológico al Síndrome</h3>
+      <p>Conciencia, convulsión vs síncope, debilidad y su distribución, sensibilidad, estado mental, pares craneales I–XII.</p>
+      <div class="badges"><span>Clase 2</span><span>42 diapos</span><span>22 preguntas</span></div>
+    </a>
+    <a href="03_Examen_Motor_Sensitivo_Reflejos.html">
+      <span class="gn">03</span>
+      <h3>Examen Motor, Sensitivo y Reflejos</h3>
+      <p>Inspección, tono, escala MRC, MNS vs MNI, sensibilidad y Brown-Séquard, ROT, Babinski, cerebelo, Romberg, marcha, signos meníngeos.</p>
+      <div class="badges"><span>Clase 3</span><span>74 diapos</span><span>35 preguntas</span></div>
+    </a>
+    <a href="04_Integracion_Sindromes_Neurologicos.html">
+      <span class="gn">04</span>
+      <h3>Integración Clínica y Síndromes Neurológicos</h3>
+      <p>Síndromes piramidal, extrapiramidal, cerebeloso y meníngeo; ACV y territorios; epilepsia; Parkinson; neuropatías; casos.</p>
+      <div class="badges"><span>Clase 4</span><span>49 diapos</span><span>30 preguntas</span></div>
+    </a>
+    <a href="preguntas/05_Banco_Preguntas_C3.json">
+      <span class="gn">05</span>
+      <h3>Banco de preguntas</h3>
+      <p>40 preguntas de 5 alternativas, formato QuestApp, con pista y argumento por pregunta.</p>
+      <div class="badges"><span>JSON</span><span>40 preguntas</span><span>4 clases</span></div>
+    </a>
+  </div>
+</section>
+
+<section id="orden" class="card">
+  <div class="section-kicker"><span class="n">02</span> Método</div>
+  <h2>Orden de estudio sugerido</h2>
+  <ol>
+    <li><strong>01 — Anamnesis y razonamiento:</strong> fija el marco. Cómo se razona y qué se pregunta antes de tocar al paciente.</li>
+    <li><strong>02 — Del síntoma al síndrome:</strong> traduce cada síntoma a patrón: conciencia, convulsión, debilidad, sensibilidad, pares craneales.</li>
+    <li><strong>03 — Examen motor, sensitivo y reflejos:</strong> el examen físico completo. Es la clase más larga y la de mayor rendimiento práctico.</li>
+    <li><strong>04 — Integración y síndromes:</strong> cierra con los cinco síndromes y casos clínicos.</li>
+  </ol>
+  <div class="keybox">
+    <span class="box-title">Cómo usar las guías</span>
+    Cada afirmación clínica lleva una cita de la forma <span class="cite">diapo N</span>, donde N es el número de diapositiva del PDF original. Si una cifra no está en el material, la guía lo dice: “no está en el material”. Las preguntas de cada guía tienen respuesta oculta; conviene responder antes de abrirla.
+  </div>
+</section>
+
+<section id="cobertura" class="card">
+  <div class="section-kicker"><span class="n">03</span> Verificación</div>
+  <h2>Cobertura por clase</h2>
+  <div class="table-wrap">
+    <table>
+      <caption>Diapositivas cubiertas y citas distintas por guía</caption>
+      <thead><tr><th>Clase</th><th>Archivo fuente</th><th>Diapos</th><th>Cubiertas</th><th>Citas distintas</th><th>Preguntas</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td><code>Clase 1 semiologia neurologica .pdf</code></td><td>41</td><td>41</td><td>31</td><td>17</td></tr>
+        <tr><td>2</td><td><code>clase 2 semiologia sitema nervioso.pdf</code></td><td>42</td><td>42</td><td>42</td><td>22</td></tr>
+        <tr><td>3</td><td><code>clase 3 parte II.pdf</code></td><td>74</td><td>74</td><td>74</td><td>35</td></tr>
+        <tr><td>4</td><td><code>Clase-4-Integracion-Clinica-y-Sindromes-Neurologicos.pdf</code></td><td>49</td><td>49</td><td>47</td><td>30</td></tr>
+        <tr><td><strong>Total</strong></td><td>4 decks distintos</td><td><strong>206</strong></td><td><strong>206</strong></td><td>—</td><td><strong>104</strong></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="fuentes" class="card">
+  <div class="section-kicker"><span class="n">04</span> Trazabilidad</div>
+  <h2>Notas de fuente</h2>
+  <ul>
+    <li><code>clase 3 parte I.pdf</code> (73 diapos) está contenido en <code>clase 3 parte II.pdf</code> (74 diapos): las 73 páginas de la parte I son idénticas a las páginas 2–74 de la parte II, que agrega 2 diapositivas de cierre. Las guías usan la parte II; no hay contenido perdido.</li>
+    <li><code>Clase 1 semiologia neurologica .pdf</code> es el mismo archivo que está en <code>Certamen 2/</code> (md5 <code>c592aaca2ffc573b1b436429069dc82c</code>). La guía 01 reemplaza a la vieja <code>01_Semiologia_Neurologica.md</code>, que no tenía citas por diapositiva.</li>
+    <li>Texto de respaldo sin citas, generado con <code>markitdown</code> (<code>Clases/convert.sh</code>), en <code>parse/</code>.</li>
+    <li>Extracción para las guías: <code>pdftotext -layout</code> por página y OCR <code>tesseract -l spa</code> en las 81 diapositivas sin capa de texto (fotografías de técnica y divisores). Cada guía lista al final sus diapositivas solo-imagen.</li>
+    <li>Los PDF originales no se modificaron ni renombraron.</li>
+  </ul>
+  <div class="warnbox">
+    <span class="box-title">Lo que las guías no hacen</span>
+    No agregan contenido ausente de las diapositivas: sin dosis, sin escalas que el deck no muestre, sin correlación de conocimiento general. Cuando un tema clásico no aparece, queda dicho en el texto.
+  </div>
+</section>
+
+<section id="banco" class="card">
+  <div class="section-kicker"><span class="n">05</span> Práctica</div>
+  <h2>Banco de preguntas</h2>
+  <p>40 preguntas en <code>preguntas/05_Banco_Preguntas_C3.json</code>, con el esquema <code>version / titulo / preguntas</code> que usa QuestApp. Reparto: 9 de la clase 01, 10 de la 02, 12 de la 03 y 9 de la 04; incluye preguntas de suficiencia con afirmaciones I–III y viñetas clínicas.</p>
+  <div class="grid-2">
+    <div class="mini-card"><span class="tag">Sin sesgo de longitud</span><p>La correcta es la alternativa más larga en 10 de 40 casos, y elegir siempre la más larga acierta 19 %, por debajo del azar (20 %).</p></div>
+    <div class="mini-card"><span class="tag">Respuestas balanceadas</span><p>La correcta se reparte 8/8/8/8/8 entre los cinco índices, de modo que no se puede adivinar por posición.</p></div>
+  </div>
+</section>
+
+  </main>
+</div>
+
+<footer>
+  <div class="foot-inner">
+    <div><strong>Certamen 3 — Semiología del sistema nervioso</strong><br>Medicina UBB · 2026-2</div>
+    <div>Fuentes: 5 PDF en <code>Semio/Certamen 3/</code> · 206 diapositivas únicas<br>
+    Citaciones <code>[diapo N]</code> = número de diapositiva del PDF.<br>
+    Elaborado el 23 de noviembre de 2026.</div>
+  </div>
+</footer>
+
+<script>
+  const root = document.documentElement;
+  const themeBtn = document.getElementById('themeBtn');
+  const printBtn = document.getElementById('printBtn');
+  function setTheme(theme){
+    root.dataset.theme = theme;
+    const dark = theme === 'dark';
+    themeBtn.textContent = dark ? 'Modo claro' : 'Modo oscuro';
+    themeBtn.setAttribute('aria-pressed', String(dark));
+    try { localStorage.setItem('guia-theme', theme); } catch(e) {}
+  }
+  try {
+    const saved = localStorage.getItem('guia-theme');
+    if (saved === 'dark' || saved === 'light') setTheme(saved);
+  } catch(e) {}
+  themeBtn.addEventListener('click', () => setTheme(root.dataset.theme === 'dark' ? 'light' : 'dark'));
+  printBtn.addEventListener('click', () => window.print());
+  window.addEventListener('beforeprint', () => document.querySelectorAll('details').forEach(d => d.open = true));
+</script>
+</body>
+</html>
