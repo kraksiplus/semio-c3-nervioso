@@ -1,0 +1,846 @@
+{
+ "version": 1,
+ "titulo": "Semiología C3 — Set B: clases 3 y 4",
+ "preguntas": [
+  {
+   "id": "c3b-01",
+   "enunciado": "Un paciente entra caminando a la consulta y se sienta. ¿Qué elementos se pueden evaluar en esa inspección, antes de tocarlo?",
+   "alternativas": [
+    "Reflejos osteotendinosos, clonus y Babinski",
+    "Postura, fasciculaciones y tipo de marcha",
+    "Palestesia, batiestesia y sensibilidad térmica",
+    "Tono muscular, trofismo y fuerza segmentaria",
+    "Estereognosia, grafestesia y dos puntos"
+   ],
+   "respuesta": 1,
+   "pista": "Piense en lo que se obtiene solo mirando, sin maniobra ni instrumento.",
+   "argumento": "Correcta: postura, fasciculaciones y tipo de marcha; la inspección recoge además conciencia, movimientos anormales, simetría y atrofias antes del contacto (Guía 03, diapo 4–5). Incorrectas: los reflejos y el clonus exigen martillo y percusión; la palestesia y la térmica requieren diapasón y tubos; el tono y la fuerza se valoran movilizando y venciendo resistencia; la estereognosia y la grafestesia son pruebas corticales con objetos y trazos."
+  },
+  {
+   "id": "c3b-02",
+   "enunciado": "En la secuencia síntoma → signo → función alterada → localización → síndrome → diagnóstico, ¿en qué paso se genera la hipótesis etiológica?",
+   "alternativas": [
+    "En el primero, al definir el síntoma",
+    "En el segundo, al encontrar los signos clave",
+    "En el sexto, tras construir el síndrome",
+    "En el tercero, al nombrar la función",
+    "En el cuarto, al localizar la lesión"
+   ],
+   "respuesta": 2,
+   "pista": "Cuente los pasos: la enfermedad aparece recién cuando el patrón ya está armado.",
+   "argumento": "Correcta: en el sexto paso, único momento en que se proponen enfermedades concretas (Guía 04, diapo 3). Incorrectas: los pasos 1 a 5 solo describen síntoma, signos, función, localización y síndrome; adelantar el nombre de la enfermedad en cualquiera de ellos cierra la búsqueda de alternativas, error descrito en la diapo 4."
+  },
+  {
+   "id": "c3b-03",
+   "enunciado": "Un paciente en coma muestra brazos flexionados y rígidos sobre el pecho, con puños cerrados y rotación interna, y piernas extendidas y rígidas, en forma bilateral y simétrica. ¿Qué postura describe y qué sugiere?",
+   "alternativas": [
+    "Descerebración, por lesión de tronco",
+    "Decorticación, por lesión supratentorial",
+    "Opistótonos, por irritación meníngea",
+    "Rigidez en rueda dentada, por ganglios basales",
+    "Espasticidad generalizada, por vía corticoespinal"
+   ],
+   "respuesta": 1,
+   "pista": "Mire el patrón de brazos flexionados con piernas extendidas y piense qué nivel está relativamente preservado.",
+   "argumento": "Correcta: decorticación, propia de lesión supratentorial con tronco relativamente preservado; su pronóstico es intermedio (Guía 03, diapo 6 y 8). Incorrectas: la descerebración da extensión rígida de brazos y piernas con compromiso de tronco y pronóstico grave; el opistótonos arquea cabeza y cuello hacia atrás; la rueda dentada es un hallazgo del tono pasivo, no una postura de coma; la espasticidad generalizada no explica la disociación brazo flexionado y pierna extendida."
+  },
+  {
+   "id": "c3b-04",
+   "enunciado": "¿Qué error evita el método que exige construir el síndrome antes de nombrar la enfermedad?",
+   "alternativas": [
+    "Explorar la sensibilidad antes de los reflejos tendinosos",
+    "Pedir imágenes antes de examinar al paciente",
+    "Registrar el síntoma sin jerarquizar su valor",
+    "Nombrar la enfermedad antes de construir el síndrome",
+    "Comparar ambos hemicuerpos de forma sistemática"
+   ],
+   "respuesta": 3,
+   "pista": "El vicio está en el orden del razonamiento, no en el orden de las maniobras.",
+   "argumento": "Correcta: el error frecuente es plantear el diagnóstico directo ('parece un ACV') antes de analizar signos y síndrome, lo que cierra la mente a alternativas (Guía 04, diapo 4). Incorrectas: el orden entre sensibilidad y reflejos no define el método; pedir imágenes antes de examinar es un exceso distinto, no el que el método nombra; registrar el síntoma es el paso 1 y no un error; comparar hemicuerpos es una conducta correcta."
+  },
+  {
+   "id": "c3b-05",
+   "enunciado": "Una mujer de 40 años presenta movimientos breves e irregulares que fluyen de un segmento a otro sin propósito, y su padre tuvo un cuadro similar. ¿Qué movimiento es y dónde se localiza la lesión?",
+   "alternativas": [
+    "Corea, en el núcleo caudado",
+    "Atetosis, en el globo pálido",
+    "Mioclonía, en la corteza motora",
+    "Temblor de intención, en el cerebelo",
+    "Fasciculación, en el asta anterior"
+   ],
+   "respuesta": 0,
+   "pista": "Distinga un movimiento arrítmico y migratorio de un temblor regular y de una sacudida brusca aislada.",
+   "argumento": "Correcta: corea, movimiento breve e irregular asociado al núcleo caudado y a la corea de Huntington, coherente con el antecedente familiar (Guía 03, diapo 7). Incorrectas: la atetosis es más lenta y reptante; la mioclonía es una sacudida brusca y aislada; el temblor de intención aparece al alcanzar el blanco y es rítmico; la fasciculación es una onda muscular visible por denervación, no un movimiento voluntario alterado."
+  },
+  {
+   "id": "c3b-06",
+   "enunciado": "Además de la hiperreflexia y el Babinski, ¿qué hallazgo de los reflejos superficiales completa el síndrome piramidal?",
+   "alternativas": [
+    "Exaltación de los reflejos abdominales",
+    "Preservación del cremasteriano bilateral",
+    "Arreflexia aquílea con hipotonía marcada",
+    "Fasciculaciones con amiotrofia distal precoz",
+    "Abolición de abdominales y cremasterianos"
+   ],
+   "respuesta": 4,
+   "pista": "Recuerde que la lesión de la primera neurona suprime los reflejos cutáneos, no los exalta.",
+   "argumento": "Correcta: la abolición de los reflejos abdominales y cremasterianos forma parte de la clínica del síndrome piramidal (Guía 04, diapo 7). Incorrectas: exaltarlos o preservarlos contradice el patrón; la arreflexia con hipotonía corresponde a lesión periférica; las fasciculaciones con amiotrofia precoz son de motoneurona inferior."
+  },
+  {
+   "id": "c3b-07",
+   "enunciado": "Un hombre de 35 años nota contracciones visibles en ambos muslos, sin debilidad ni atrofia, y su examen neurológico es normal. ¿Cómo se interpretan?",
+   "alternativas": [
+    "Obligan a descartar ELA de inmediato",
+    "Indican lesión de la vía corticoespinal descendente",
+    "Corresponden a miotonía por canalopatía",
+    "Son frecuentemente benignas si no hay déficit",
+    "Confirman denervación de asta anterior"
+   ],
+   "respuesta": 3,
+   "pista": "El valor del signo depende de que lo acompañen atrofia y debilidad.",
+   "argumento": "Correcta: las fasciculaciones aisladas, sin atrofia ni debilidad, son frecuentemente benignas y no deben interpretarse de forma aislada (Guía 03, diapo 21). Incorrectas: solo en contexto de atrofia y debilidad constituyen denervación activa que obliga a descartar ELA; no son signo piramidal; la miotonía se explora percutiendo el vientre muscular, no observando ondas; la denervación de asta anterior exige atrofia segmentaria y arreflexia."
+  },
+  {
+   "id": "c3b-08",
+   "enunciado": "¿Qué conjunto de hallazgos define al síndrome extrapiramidal?",
+   "alternativas": [
+    "Espasticidad, hiperreflexia y Babinski",
+    "Ataxia, dismetría y temblor de intención",
+    "Debilidad distal, arreflexia y amiotrofia marcada",
+    "Rigidez de nuca, fotofobia y cefalea",
+    "Bradicinesia, rigidez y temblor de reposo"
+   ],
+   "respuesta": 4,
+   "pista": "Ubique la lesión en los ganglios basales y pregunte qué tono y qué temblor produce.",
+   "argumento": "Correcta: bradicinesia, rigidez (rueda dentada o tubo de plomo) y temblor de reposo de 4–6 Hz, con reflejos normales y sin Babinski (Guía 04, diapo 12). Incorrectas: espasticidad con hiperreflexia y Babinski es piramidal; ataxia con dismetría y temblor de intención es cerebelosa; debilidad distal con arreflexia y amiotrofia es neuropática; rigidez de nuca con fotofobia y cefalea es meníngea."
+  },
+  {
+   "id": "c3b-09",
+   "enunciado": "Al explorar el cuádriceps, el paciente extiende la rodilla venciendo la gravedad y también una resistencia moderada, pero con menos fuerza que el lado sano. ¿Qué grado de la escala MRC corresponde?",
+   "alternativas": [
+    "Grado 3: vence solo la gravedad",
+    "Grado 2: no vence la gravedad",
+    "Grado 4: vence resistencia reducida",
+    "Grado 1: contracción palpable sin movimiento",
+    "Grado 5: fuerza normal máxima"
+   ],
+   "respuesta": 2,
+   "pista": "Fíjese en si logra vencer resistencia y en si esa fuerza es igual a la del lado sano.",
+   "argumento": "Correcta: el grado 4 es movimiento activo contra resistencia, pero reducido respecto de lo normal (Guía 03, diapo 23). Incorrectas: el grado 3 vence la gravedad sin resistencia adicional; el 2 se mueve en toda la amplitud pero no vence la gravedad; el 1 muestra contracción visible o palpable sin movimiento; el 5 es fuerza normal frente a resistencia máxima."
+  },
+  {
+   "id": "c3b-10",
+   "enunciado": "¿Cuál es el signo cardinal del síndrome parkinsoniano y qué lo caracteriza?",
+   "alternativas": [
+    "Temblor de reposo de 4 a 6 Hz",
+    "Rigidez en rueda dentada, bilateral y constante",
+    "Inestabilidad postural con caídas",
+    "Hiperreflexia con clonus aquíleo",
+    "Bradicinesia: lentitud de inicio y ejecución"
+   ],
+   "respuesta": 4,
+   "pista": "El signo cardinal es el que explica la hipomimia y la micrografía.",
+   "argumento": "Correcta: la bradicinesia es el signo cardinal, con lentitud en el inicio y la ejecución del movimiento, hipomimia, micrografía y reducción del braceo (Guía 04, diapo 12). Incorrectas: el temblor de reposo es frecuente pero no obligatorio ni cardinal; la rigidez acompaña al cuadro; la inestabilidad postural aparece en estadios avanzados; la hiperreflexia con clonus pertenece al síndrome piramidal."
+  },
+  {
+   "id": "c3b-11",
+   "enunciado": "Un paciente refiere dificultad para peinarse y para subir escaleras, con debilidad simétrica de cinturas y reflejos normales. ¿Qué patrón presenta y qué orienta?",
+   "alternativas": [
+    "Debilidad distal, orienta a neuropatía",
+    "Debilidad proximal, orienta a miopatía",
+    "Hemiparesia, orienta a lesión cerebral unilateral",
+    "Paraparesia, orienta a lesión medular",
+    "Tetraplejia, orienta a lesión cervical"
+   ],
+   "respuesta": 1,
+   "pista": "Peinarse y subir escaleras comprometen cintura escapular y pélvica, no manos ni pies.",
+   "argumento": "Correcta: la debilidad proximal de cinturas orienta a miopatía, y también a neuropatía inflamatoria en fases iniciales (Guía 03, diapo 24–25). Incorrectas: la distal de manos y pies sugiere neuropatía o enfermedad de motoneurona; la hemicorporal sugiere lesión cerebral; la paraparesia y la tetraplejia corresponden a lesión medular y no a este patrón simétrico de cinturas."
+  },
+  {
+   "id": "c3b-12",
+   "enunciado": "Un hombre de 70 años tiene temblor en la mano derecha cuando esta reposa sobre la falda; cesa al extender el brazo y desaparece mientras duerme. ¿Qué temblor es?",
+   "alternativas": [
+    "De intención, propio del cerebelo",
+    "De reposo, propio del parkinsonismo",
+    "Postural, propio de la neuropatía",
+    "Mioclónico, propio de la corteza",
+    "Fascicular, propio del asta anterior"
+   ],
+   "respuesta": 1,
+   "pista": "El dato clave es que desaparece con el movimiento voluntario y con el sueño.",
+   "argumento": "Correcta: temblor de reposo de 4–6 Hz, que disminuye con el movimiento voluntario y desaparece durante el sueño (Guía 04, diapo 12). Incorrectas: el de intención aparece o aumenta al acercarse al objetivo; el postural se mantiene contra gravedad; el mioclónico es una sacudida, no una oscilación rítmica; el fascicular es una contracción muscular visible de otra naturaleza."
+  },
+  {
+   "id": "c3b-13",
+   "enunciado": "Sobre motoneurona superior e inferior: I) La atrofia prominente con fasciculaciones orienta a motoneurona inferior. II) El Babinski con hiperreflexia orienta a motoneurona superior. III) La lesión de motoneurona superior produce hipotonía fláccida.",
+   "alternativas": [
+    "Solo I y III",
+    "Solo II y III",
+    "Solo I",
+    "Solo I y II",
+    "I, II y III"
+   ],
+   "respuesta": 3,
+   "pista": "Revise el tono que corresponde a cada nivel: la flacidez es periférica.",
+   "argumento": "Suficiencia. I: V, la atrofia prominente y las fasciculaciones son del patrón inferior (Guía 03, diapo 28). II: V, Babinski e hiperreflexia definen el patrón superior. III: F, la lesión de motoneurona superior da hipertonía espástica, no flacidez; la hipotonía corresponde a la inferior. Por eso la respuesta es solo I y II."
+  },
+  {
+   "id": "c3b-14",
+   "enunciado": "Un paciente con parkinsonismo presenta caídas durante el primer año y no puede mirar hacia arriba ni hacia abajo. ¿Qué entidad es más probable?",
+   "alternativas": [
+    "Enfermedad de Parkinson idiopática",
+    "Parálisis supranuclear progresiva",
+    "Parkinsonismo por antipsicóticos",
+    "Atrofia multisistémica con disautonomía",
+    "Polineuropatía desmielinizante crónica"
+   ],
+   "respuesta": 1,
+   "pista": "Las caídas precoces y el defecto de la mirada vertical son señales de alarma específicas.",
+   "argumento": "Correcta: parálisis supranuclear progresiva, con parálisis de la mirada vertical, caídas precoces, rigidez axial predominante y poca respuesta a levodopa (Guía 04, diapo 39). Incorrectas: la EP idiopática es asimétrica, con temblor prominente y progresión lenta, sin caídas en el primer año; el parkinsonismo farmacológico es simétrico y reversible; la AMS se define por disautonomía prominente; la polineuropatía no produce parkinsonismo."
+  },
+  {
+   "id": "c3b-15",
+   "enunciado": "Sobre las vías sensitivas: I) El tacto epicrítico asciende por el cordón posterior. II) El dolor y la temperatura ascienden por el cordón posterior. III) La propiocepción consciente asciende por el cordón posterior.",
+   "alternativas": [
+    "Solo I y II",
+    "Solo II y III",
+    "Solo II",
+    "Solo I y III",
+    "I, II y III"
+   ],
+   "respuesta": 3,
+   "pista": "Separe las modalidades epicríticas y profundas de las termoalgésicas.",
+   "argumento": "Suficiencia. I: V, el tacto epicrítico viaja por el cordón posterior. II: F, el dolor y la temperatura van por la espinotalámica lateral. III: V, la propiocepción consciente comparte el cordón posterior con la vibración (Guía 03, diapo 30). La respuesta es solo I y III."
+  },
+  {
+   "id": "c3b-16",
+   "enunciado": "Parkinsonismo simétrico con hipotensión ortostática, incontinencia urinaria y escasa respuesta a levodopa. ¿Qué entidad corresponde?",
+   "alternativas": [
+    "Parálisis supranuclear progresiva",
+    "Atrofia multisistémica",
+    "Enfermedad de Parkinson idiopática",
+    "Parkinsonismo vascular unilateral",
+    "Síndrome de Guillain-Barré"
+   ],
+   "respuesta": 1,
+   "pista": "El rasgo que domina el cuadro no es motor sino autonómico.",
+   "argumento": "Correcta: atrofia multisistémica, parkinsonismo con disfunción autonómica prominente y escasa respuesta a levodopa (Guía 04, diapo 39). Incorrectas: la PSP se define por el defecto de mirada vertical y caídas precoces; la EP idiopática es asimétrica y responde inicialmente a levodopa; el parkinsonismo vascular no se define por disautonomía; el Guillain-Barré es una polineuropatía aguda ascendente."
+  },
+  {
+   "id": "c3b-17",
+   "enunciado": "¿Por qué la sensibilidad se explora de distal a proximal y con los ojos cerrados?",
+   "alternativas": [
+    "Evita el dolor y acorta el tiempo del examen completo",
+    "Explora la vía piramidal y la coordinación",
+    "Permite valorar el trofismo y el tono basal",
+    "Define el límite del déficit y evita la visión",
+    "Descarta el síndrome meníngeo y la fiebre"
+   ],
+   "respuesta": 3,
+   "pista": "Piense en el patrón que se busca: guante y calcetín frente a nivel definido.",
+   "argumento": "Correcta: los ojos cerrados eliminan la información visual y el ascenso desde los dedos permite ubicar el límite del déficit y distinguir el patrón en guante y calcetín de un nivel medular (Guía 03, diapo 31). Incorrectas: la prueba no busca evitar dolor ni acortar el examen; la vía piramidal se explora con fuerza y reflejos; el trofismo y el tono se valoran por inspección y movilización pasiva; el síndrome meníngeo se explora con otras maniobras."
+  },
+  {
+   "id": "c3b-18",
+   "enunciado": "Una mujer de 68 años desarrolla temblor y lentitud simétricos dos meses después de iniciar metoclopramida por náuseas crónicas. ¿Qué parkinsonismo es y qué conducta corresponde?",
+   "alternativas": [
+    "Idiopático, de inicio asimétrico y progresivo",
+    "Vascular, por múltiples infartos de ganglios basales",
+    "Farmacológico, reversible al retirar el fármaco",
+    "Atípico, con parálisis de la mirada vertical",
+    "Tóxico, por exposición crónica a manganeso"
+   ],
+   "respuesta": 2,
+   "pista": "Relacione el inicio del cuadro con el fármaco y recuerde el patrón simétrico.",
+   "argumento": "Correcta: parkinsonismo farmacológico, la causa más frecuente de parkinsonismo secundario, habitualmente simétrico y reversible al retirar el agente (Guía 04, diapo 39). Incorrectas: la EP idiopática es asimétrica y no revierte al suspender un fármaco; el vascular no se relaciona con metoclopramida; la PSP muestra defecto de mirada vertical; el manganeso es un tóxico posible pero el antecedente aquí es farmacológico."
+  },
+  {
+   "id": "c3b-19",
+   "enunciado": "¿Con qué instrumento y en qué sitio se explora la palestesia?",
+   "alternativas": [
+    "Diapasón de 256 Hz sobre la piel del dorso",
+    "Diapasón de 128 Hz sobre prominencias óseas",
+    "Martillo de reflejos percutiendo el tendón distal",
+    "Monofilamento de 10 g sobre los dedos",
+    "Tubo con agua fría sobre la planta del pie"
+   ],
+   "respuesta": 1,
+   "pista": "La prueba es vibratoria y se aplica donde el hueso está superficial.",
+   "argumento": "Correcta: diapasón de 128 Hz sobre prominencias óseas y articulaciones, en especial las interfalángicas distales de manos y pies (Guía 03, diapo 34). Incorrectas: la frecuencia descrita es 128 Hz; el martillo percute tendones para los reflejos; el monofilamento evalúa tacto y presión; el tubo con agua fría explora la sensibilidad térmica."
+  },
+  {
+   "id": "c3b-20",
+   "enunciado": "Sobre las ataxias: I) La cerebelosa empeora marcadamente al cerrar los ojos. II) La sensitiva tiene Romberg positivo. III) La vestibular cursa con vértigo y nistagmo que empeora con los movimientos de cabeza.",
+   "alternativas": [
+    "Solo I y II",
+    "Solo I y III",
+    "Todas son correctas",
+    "I, II y III",
+    "Solo II y III"
+   ],
+   "respuesta": 4,
+   "pista": "Recuerde cuál de las tres depende de la visión para compensar.",
+   "argumento": "Suficiencia. I: F, la cerebelosa no empeora con los ojos cerrados, pues ya está inestable con ellos abiertos. II: V, la sensitiva empeora al cerrar los ojos y da Romberg positivo. III: V, la vestibular se acompaña de vértigo, náuseas, nistagmo y desviación al mismo lado (Guía 04, diapo 18). La respuesta es solo II y III."
+  },
+  {
+   "id": "c3b-21",
+   "enunciado": "¿Qué temperaturas se usan en los tubos para explorar la sensibilidad térmica?",
+   "alternativas": [
+    "Frío 0–5 °C y calor 50–55 °C",
+    "Frío 10–15 °C y calor 40–45 °C",
+    "Frío 20–25 °C y calor 30–35 °C",
+    "Frío 5–10 °C y calor 45–50 °C",
+    "Frío 15–20 °C y calor 35–40 °C"
+   ],
+   "respuesta": 1,
+   "pista": "El frío debe ser claramente frío y el calor claramente caliente, pero sin riesgo de quemar.",
+   "argumento": "Correcta: frío de 10–15 °C y calor de 40–45 °C, aplicados alternadamente con los ojos cerrados (Guía 03, diapo 35). Incorrectas: 0–5 °C y 50–55 °C exceden el rango descrito y arriesgan daño; 20–25 °C y 30–35 °C quedan demasiado cerca de la temperatura cutánea y no discriminan; 5–10 °C con 45–50 °C y 15–20 °C con 35–40 °C tampoco corresponden a los valores del material."
+  },
+  {
+   "id": "c3b-22",
+   "enunciado": "Hombre de 55 años, bebedor habitual, con marcha de base amplia e inestabilidad progresiva, dismetría bilateral dedo-nariz, habla escandida, sensibilidad conservada y Romberg negativo. ¿Qué ataxia y qué causa probable?",
+   "alternativas": [
+    "Sensitiva, por déficit de vitamina B12",
+    "Cerebelosa, por degeneración alcohólica",
+    "Vestibular, por neuritis del octavo par",
+    "Espástica, por mielopatía cervical",
+    "Frontal, por hidrocefalia a presión normal"
+   ],
+   "respuesta": 1,
+   "pista": "La sensibilidad conservada y el Romberg negativo descartan el origen cordonal.",
+   "argumento": "Correcta: ataxia cerebelosa por degeneración cerebelosa alcohólica, que afecta de preferencia el vermis anterior y da ataxia sobre todo de la marcha (Guía 04, diapo 19). Incorrectas: la sensitiva tendría Romberg positivo y alteración de propiocepción; la vestibular cursa con vértigo y nistagmo; la espástica da hipertonía y reflejos exaltados; la frontal se asocia a hidrocefalia con apraxia de la marcha, no a dismetría apendicular."
+  },
+  {
+   "id": "c3b-23",
+   "enunciado": "Un paciente identifica una llave por el tacto cuando la ve, pero no logra reconocerla a ciegas, con sensibilidad elemental conservada. ¿Qué función está alterada y dónde se localiza?",
+   "alternativas": [
+    "Grafestesia, en la corteza occipital",
+    "Palestesia, en el cordón posterior",
+    "Batiestesia, en el cerebelo vermiano",
+    "Estereognosia, en la corteza parietal",
+    "Discriminación de dos puntos, en el tálamo"
+   ],
+   "respuesta": 3,
+   "pista": "Reconocer un objeto por el tacto es una función de integración cortical, no de vía periférica.",
+   "argumento": "Correcta: estereognosia, cuya alteración con sensibilidad elemental conservada indica daño de la corteza parietal posterior (Guía 03, diapo 30 y 37). Incorrectas: la grafestesia es identificar números trazados en la piel y no se localiza en la occipital; la palestesia es vibración y depende del cordón posterior; la batiestesia es propiocepción, no reconocimiento de objetos; la discriminación de dos puntos no es la prueba descrita."
+  },
+  {
+   "id": "c3b-24",
+   "enunciado": "¿Cuál es la tríada clásica de la meningitis y qué limitación tiene?",
+   "alternativas": [
+    "Fiebre, vómitos y fotofobia; alta sensibilidad",
+    "Fiebre, cefalea y rigidez de nuca; baja sensibilidad",
+    "Cefalea, papiledema y convulsiones; muy específica",
+    "Rigidez de nuca, Kernig y Brudzinski; siempre constante",
+    "Fiebre, petequias y púrpura; de curso benigno"
+   ],
+   "respuesta": 1,
+   "pista": "La tríada es específica pero muchos pacientes no la completan.",
+   "argumento": "Correcta: fiebre, cefalea y rigidez de nuca, con alta especificidad pero sensibilidad limitada, porque muchos pacientes con meningitis bacteriana no la presentan completa (Guía 03, diapo 71). Incorrectas: vómitos y fotofobia acompañan pero no forman la tríada; cefalea con papiledema y convulsiones describe alarma de hipertensión intracraneal; Kernig y Brudzinski son signos, no la tríada, y su ausencia no descarta; petequias y púrpura sugieren meningococcemia, una emergencia vital."
+  },
+  {
+   "id": "c3b-25",
+   "enunciado": "Tras una herida penetrante que hemisecciona la médula torácica, ¿qué patrón sensitivo y motor se espera?",
+   "alternativas": [
+    "Dolor y temperatura ipsilateral; fuerza contralateral",
+    "Todas las modalidades abolidas bajo la lesión",
+    "Propiocepción y fuerza ipsilateral; dolor contralateral",
+    "Solo vibración abolida en ambos pies y piernas",
+    "Anestesia en guante y calcetín distal simétrica"
+   ],
+   "respuesta": 2,
+   "pista": "Ubique cada vía según dónde cruzó respecto del nivel de la hemisección.",
+   "argumento": "Correcta: síndrome de Brown-Séquard, con pérdida de propiocepción y vibración y debilidad motora ipsilateral, y pérdida termoalgésica contralateral (Guía 03, diapo 38–39). Incorrectas: el dolor y la temperatura se pierden del lado opuesto; la anestesia de todas las modalidades bajo la lesión corresponde a sección medular completa; la abolición bilateral de vibración no es hemiseccional; el patrón en guante y calcetín es de polineuropatía."
+  },
+  {
+   "id": "c3b-26",
+   "enunciado": "En el signo de Kernig, ¿cómo se explora y cuándo se considera positivo?",
+   "alternativas": [
+    "Cadera a 45° y flexión de rodilla; duele bajo 90°",
+    "Flexión del cuello; aparece flexión de rodillas",
+    "Cadera a 90° y extensión de rodilla; duele sobre 135°",
+    "Presión en la tibia; aparece extensión del hallux",
+    "Percusión del maléolo; aparece flexión plantar"
+   ],
+   "respuesta": 2,
+   "pista": "La maniobra estira la raíz lumbar; el ángulo de positividad está descrito.",
+   "argumento": "Correcta: en decúbito supino se flexiona la cadera a 90° y se intenta extender la rodilla; es positivo si aparece resistencia dolorosa por encima de los 135° (Guía 04, diapo 22). Incorrectas: flexionar la rodilla alivia, no reproduce el signo; la flexión del cuello con flexión refleja de rodillas es Brudzinski; la presión tibia con extensión del hallux es Oppenheim; la percusión del maléolo es Chaddock."
+  },
+  {
+   "id": "c3b-27",
+   "enunciado": "La percusión sobre el trayecto del nervio mediano en la muñeca provoca parestesias que irradian a los dedos. ¿Qué signo es y qué sugiere?",
+   "alternativas": [
+    "Hoffmann, en lesión de vía piramidal",
+    "Chaddock, en lesión de la vía corticoespinal",
+    "Romberg, en déficit propioceptivo",
+    "Tinel, en neuropatía por atrapamiento",
+    "Brudzinski, en irritación meníngea"
+   ],
+   "respuesta": 3,
+   "pista": "El signo se busca percutiendo un nervio, no un tendón ni la planta.",
+   "argumento": "Correcta: signo de Tinel, parestesias distales a la percusión de un nervio periférico, útil en neuropatías por atrapamiento como el túnel carpiano (Guía 03, diapo 42). Incorrectas: Hoffmann y Chaddock son respuestas de vía corticoespinal; Romberg es una prueba de equilibrio; Brudzinski se obtiene con la flexión del cuello."
+  },
+  {
+   "id": "c3b-28",
+   "enunciado": "Un hombre de 24 años con otitis media consulta por fiebre de 39 °C, cefalea holocraneana y rigidez de nuca; el LCR muestra pleocitosis neutrofílica, proteínas elevadas y glucosa baja. ¿Qué cuadro explica ese líquido?",
+   "alternativas": [
+    "Meningitis bacteriana aguda",
+    "Meningitis vírica autolimitada",
+    "Hemorragia subaracnoidea",
+    "Meningitis tuberculosa crónica",
+    "Encefalitis herpética temporal"
+   ],
+   "respuesta": 0,
+   "pista": "Mire el tipo celular y la glucosa: el patrón neutrofílico con glucosa baja es el más agresivo.",
+   "argumento": "Correcta: meningitis bacteriana aguda, con pleocitosis neutrofílica, proteínas elevadas y glucosa baja, y mortalidad superior al 50 % sin tratamiento (Guía 04, diapo 23). Incorrectas: la vírica da pleocitosis linfocitaria con glucosa normal; la HSA se reconoce por xantocromía; la tuberculosa y carcinomatosa son de instauración insidiosa; la encefalitis herpética se define por compromiso del parénquima y alteración de conciencia."
+  },
+  {
+   "id": "c3b-29",
+   "enunciado": "Al percutir directamente el vientre muscular, la contracción se mantiene varios segundos antes de relajarse. ¿Qué indica?",
+   "alternativas": [
+    "Fasciculación, en lesión de asta anterior",
+    "Clonus, en lesión de motoneurona superior",
+    "Mioquimia, en irritación del nervio facial",
+    "Signo de Tinel, en atrapamiento de un nervio periférico",
+    "Fenómeno miotónico, en distrofia miotónica"
+   ],
+   "respuesta": 4,
+   "pista": "Distinga una contracción sostenida que tarda en ceder de una respuesta refleja repetitiva.",
+   "argumento": "Correcta: fenómeno miotónico, característico de la distrofia miotónica y otras canalopatías musculares (Guía 03, diapo 42). Incorrectas: la fasciculación es una onda visible espontánea; el clonus son contracciones rítmicas sostenidas obtenidas estirando el tendón; la mioquimia es continua y ondulante, sin contracción sostenida provocada; el Tinel es parestesia por percusión de un nervio."
+  },
+  {
+   "id": "c3b-30",
+   "enunciado": "Hombre de 45 años con cefalea de inicio brusco, la peor de su vida, sin fiebre; el LCR muestra xantocromía. ¿Qué cuadro es más probable?",
+   "alternativas": [
+    "Meningitis bacteriana de curso agudo",
+    "Meningitis vírica con LCR claro",
+    "ACV isquémico en territorio de ACM",
+    "Hemorragia subaracnoidea por aneurisma",
+    "Estado migrañoso sin déficit focal"
+   ],
+   "respuesta": 3,
+   "pista": "La ausencia de fiebre y el color del líquido orientan el mecanismo.",
+   "argumento": "Correcta: hemorragia subaracnoidea, cefalea en trueno hiperaguda sin fiebre, con xantocromía en el LCR y rotura de aneurisma como causa habitual (Guía 04, diapo 23). Incorrectas: la meningitis bacteriana cursa con fiebre y pleocitosis; la vírica tiene LCR claro; el ACV isquémico no da xantocromía; la migraña no produce sangrado subaracnoideo."
+  },
+  {
+   "id": "c3b-31",
+   "enunciado": "Sobre los reflejos osteotendinosos: I) El bicipital explora C5–C6 por el nervio musculocutáneo. II) El aquíleo explora S1–S2 por el ciático. III) El patelar explora L5–S1 por el femoral.",
+   "alternativas": [
+    "Solo I y II",
+    "Solo I y III",
+    "Solo II y III",
+    "Solo III",
+    "I, II y III"
+   ],
+   "respuesta": 0,
+   "pista": "Recuerde el nivel del patelar: es más alto de lo que sugiere la intuición.",
+   "argumento": "Suficiencia. I: V, bicipital por musculocutáneo en C5–C6. II: V, aquíleo por ciático (tibial) en S1–S2. III: F, el patelar explora L3–L4 por el femoral (Guía 03, diapo 43). La respuesta es solo I y II."
+  },
+  {
+   "id": "c3b-32",
+   "enunciado": "Sobre el ACV: I) El 80 % es isquémico y el 20 % hemorrágico. II) El déficit es focal y de instauración aguda. III) Una evolución subaguda en días apoya el diagnóstico de ACV.",
+   "alternativas": [
+    "Solo I y II",
+    "Solo I y III",
+    "Solo II y III",
+    "Solo I",
+    "I, II y III"
+   ],
+   "respuesta": 0,
+   "pista": "Recuerde que la clave semiológica es focalidad más instalación brusca.",
+   "argumento": "Suficiencia. I: V, la distribución descrita es 80 % isquémico y 20 % hemorrágico, con tratamientos opuestos. II: V, el déficit focal de instauración aguda define el síndrome. III: F, una evolución subaguda en días obliga a reconsiderar el diagnóstico (Guía 04, diapo 25). La respuesta es solo I y II."
+  },
+  {
+   "id": "c3b-33",
+   "enunciado": "En la escala de reflejos de 0 a 4+, ¿qué describe el grado 4+?",
+   "alternativas": [
+    "Hiperreflexia con clonus sostenido",
+    "Hiperreflexia sin propagación segmentaria",
+    "Respuesta normal, vigorosa y simétrica",
+    "Hiporreflexia que requiere Jendrassik",
+    "Arreflexia por lesión del arco reflejo"
+   ],
+   "respuesta": 0,
+   "pista": "El grado máximo agrega un fenómeno repetitivo a la exaltación.",
+   "argumento": "Correcta: hiperreflexia con clonus sostenido, signo claro de lesión de motoneurona superior establecida (Guía 03, diapo 45). Incorrectas: la hiperreflexia sin propagación corresponde a 3+; la respuesta normal y simétrica es 2+; la que requiere Jendrassik es 1+; la arreflexia es 0."
+  },
+  {
+   "id": "c3b-34",
+   "enunciado": "Una paciente despierta con hemiparesia; su esposo la vio normal a las 23:00 y a las 07:00 ya no hablaba. ¿Desde cuándo se cuenta la ventana de 4,5 horas?",
+   "alternativas": [
+    "Desde las 23:00, su último momento normal",
+    "Desde las 07:00, cuando fue encontrada",
+    "Desde el ingreso hospitalario, al examinarla",
+    "Desde la primera tomografía craneal simple",
+    "Desde el inicio de la anticoagulación oral"
+   ],
+   "respuesta": 0,
+   "pista": "Si el paciente despierta con el déficit, el reloj parte antes.",
+   "argumento": "Correcta: desde las 23:00, el último momento en que estaba normal; si despertó con el déficit, se toma el momento en que se durmió (Guía 04, diapo 26). Incorrectas: la hora del hallazgo, del ingreso, de la tomografía o de la anticoagulación no definen la elegibilidad para trombolisis; usar esas referencias retrasa o excluye indebidamente al paciente."
+  },
+  {
+   "id": "c3b-35",
+   "enunciado": "Un hombre presenta debilidad ascendente simétrica de las cuatro extremidades en tres días, con arreflexia generalizada. ¿Qué cuadro debe sospecharse?",
+   "alternativas": [
+    "Síndrome de Guillain-Barré",
+    "Esclerosis lateral amiotrófica",
+    "Mielopatía cervical compresiva",
+    "Miastenia gravis generalizada",
+    "Polineuropatía diabética crónica"
+   ],
+   "respuesta": 0,
+   "pista": "Curso agudo, ascendente y arreflexivo apunta al nervio, no a la médula ni al músculo.",
+   "argumento": "Correcta: síndrome de Guillain-Barré, polineuropatía aguda ascendente con arreflexia generalizada (Guía 03, diapo 46; Guía 04, diapo 43). Incorrectas: la ELA es crónica, con fasciculaciones y reflejos variables; la mielopatía cervical da hiperreflexia y Babinski; la miastenia no altera los reflejos y afecta la unión neuromuscular; la polineuropatía diabética es crónica y distal."
+  },
+  {
+   "id": "c3b-36",
+   "enunciado": "En el ACV agudo, un déficit motor que compromete solo el miembro inferior contralateral orienta a:",
+   "alternativas": [
+    "Arteria cerebral media",
+    "Arteria cerebral posterior",
+    "Arteria cerebelosa posteroinferior",
+    "Arteria cerebral anterior",
+    "Arteria comunicante posterior"
+   ],
+   "respuesta": 3,
+   "pista": "Piense qué territorio irriga la porción de la corteza motora donde está la pierna.",
+   "argumento": "Correcta: arteria cerebral anterior, que da déficit motor y sensitivo predominante en el miembro inferior contralateral y puede asociar abulia (Guía 04, diapo 26 y 29). Incorrectas: la cerebral media compromete brazo, cara y pierna con afasia o heminegligencia; la posterior da hemianopsia; la cerebelosa posteroinferior produce el síndrome de Wallenberg; la comunicante posterior no tiene este territorio."
+  },
+  {
+   "id": "c3b-37",
+   "enunciado": "¿Cuál de estas maniobras produce una respuesta extensora equivalente al signo de Babinski?",
+   "alternativas": [
+    "Percusión del tendón rotuliano, reflejo patelar",
+    "Flexión pasiva del cuello, signo de Brudzinski",
+    "Presión sobre la tibia, signo de Oppenheim",
+    "Percusión del nervio mediano, signo de Tinel",
+    "Dorsiflexión pasiva del pie, signo de clonus"
+   ],
+   "respuesta": 2,
+   "pista": "Los equivalentes cambian el estímulo, no la respuesta: extensión del hallux.",
+   "argumento": "Correcta: el signo de Oppenheim, con presión sobre la tibia, produce la misma respuesta extensora patológica que el Babinski (Guía 03, diapo 50). Incorrectas: el patelar es un reflejo osteotendinoso; Brudzinski explora irritación meníngea; Tinel explora un nervio periférico; el clonus es una respuesta rítmica de hiperexcitabilidad, no un equivalente del plantar."
+  },
+  {
+   "id": "c3b-38",
+   "enunciado": "En un ACV hemisférico, ¿hacia dónde se desvía la mirada conjugada y qué significa?",
+   "alternativas": [
+    "Hacia la lesión; el paciente mira su lesión",
+    "Hacia el lado sano; mira lejos del foco",
+    "Hacia arriba; sugiere lesión pontina",
+    "Hacia abajo; sugiere lesión talámica",
+    "Sin desviación; conserva la mirada"
+   ],
+   "respuesta": 0,
+   "pista": "Compare el sentido de la desviación hemisférica con el de la pontina.",
+   "argumento": "Correcta: hacia el lado de la lesión hemisférica, fenómeno descrito como 'el paciente mira su lesión' (Guía 04, diapo 26). Incorrectas: hacia el lado contrario ocurre en lesiones pontinas; las desviaciones verticales no corresponden a este signo; la ausencia de desviación no es la regla en una lesión hemisférica extensa."
+  },
+  {
+   "id": "c3b-39",
+   "enunciado": "Varón de 67 años, hipertenso, con hemiparesia y hemianestesia derechas, hiperreflexia y Babinski derechos, de inicio brusco. ¿Dónde se localiza la lesión?",
+   "alternativas": [
+    "Hemisferio derecho, bajo la decusación",
+    "Médula cervical derecha, segmento C5",
+    "Hemisferio izquierdo, sobre la decusación",
+    "Plexo braquial derecho, tronco superior",
+    "Raíz lumbar izquierda, segmento L5"
+   ],
+   "respuesta": 2,
+   "pista": "Siga el cruce de la vía corticoespinal en el bulbo y el lado del déficit.",
+   "argumento": "Correcta: hemisferio izquierdo por encima de la decusación de las pirámides, que explica el déficit derecho motor y sensitivo (Guía 03, diapo 52). Incorrectas: una lesión derecha daría déficit izquierdo; una medular cervical derecha no explica el hemicuerpo completo ni la hemianestesia; el plexo braquial solo afecta el miembro superior; una raíz lumbar izquierda daría un déficit radicular, no hemisómico."
+  },
+  {
+   "id": "c3b-40",
+   "enunciado": "¿Qué conjunto de hallazgos corresponde a la oclusión proximal de la arteria cerebral media izquierda en un diestro?",
+   "alternativas": [
+    "Hemiplejia, hemianestesia, hemianopsia y afasia",
+    "Solo hemiparesia crural contralateral y abulia",
+    "Hemianopsia homónima aislada sin paresia",
+    "Ataxia, vértigo, disartria y síndrome alterno",
+    "Amaurosis fugax monocular ipsilateral"
+   ],
+   "respuesta": 0,
+   "pista": "El hemisferio izquierdo dominante agrega el lenguaje al déficit motor.",
+   "argumento": "Correcta: hemiplejia contralateral, hemianestesia, hemianopsia homónima y afasia por compromiso del hemisferio dominante, con desviación de la mirada hacia la lesión (Guía 04, diapo 27). Incorrectas: el déficit crural con abulia es de la cerebral anterior; la hemianopsia aislada es de la posterior; ataxia con vértigo y síndrome alterno es vertebrobasilar; la amaurosis fugax es isquemia retiniana por la oftálmica."
+  },
+  {
+   "id": "c3b-41",
+   "enunciado": "Al pedir pronación y supinación rápidas de la mano, el movimiento es lento, irregular y de amplitud variable. ¿Cómo se llama y qué indica?",
+   "alternativas": [
+    "Disdiadococinesia, por lesión cerebelosa",
+    "Dismetría, por lesión del cordón posterior",
+    "Bradicinesia, por lesión de ganglios basales",
+    "Apraxia, por lesión de la corteza parietal",
+    "Espasticidad, por lesión corticoespinal"
+   ],
+   "respuesta": 0,
+   "pista": "El defecto está en la alternancia rítmica, no en alcanzar un blanco.",
+   "argumento": "Correcta: disdiadococinesia, uno de los signos más sensibles de disfunción del hemisferio cerebeloso ipsilateral (Guía 03, diapo 56–57). Incorrectas: la dismetría es error de alcance del objetivo; la bradicinesia es lentitud global con hipomimia y micrografía; la apraxia es incapacidad de ejecutar un acto aprendido; la espasticidad es un aumento del tono, no una alteración del ritmo."
+  },
+  {
+   "id": "c3b-42",
+   "enunciado": "Una mujer refiere no ver hacia la derecha; la campimetría confirma hemianopsia homónima derecha sin déficit motor ni sensitivo. ¿Qué territorio está comprometido?",
+   "alternativas": [
+    "Arteria cerebral media izquierda",
+    "Arteria cerebral posterior izquierda",
+    "Arteria cerebral anterior derecha",
+    "Arteria oftálmica derecha",
+    "Arteria cerebelosa posteroinferior"
+   ],
+   "respuesta": 1,
+   "pista": "La hemianopsia homónima sin paresia es la firma de un territorio occipital.",
+   "argumento": "Correcta: cerebral posterior izquierda, que produce hemianopsia homónima contralateral sin déficit motor (Guía 04, diapo 28). Incorrectas: la cerebral media agrega hemiplejia y hemianestesia; la anterior da déficit crural; la oftálmica produce amaurosis monocular; la cerebelosa posteroinferior da el síndrome de Wallenberg."
+  },
+  {
+   "id": "c3b-43",
+   "enunciado": "Un paciente con síndrome cerebeloso puro, ¿cómo se comporta en la prueba de Romberg?",
+   "alternativas": [
+    "Estable con ojos abiertos; cae al cerrarlos",
+    "Estable con ojos abiertos y también cerrados",
+    "Cae solo al cerrar los ojos, sin otro signo",
+    "No puede mantenerse de pie en ninguna condición",
+    "Inestable con ojos abiertos; empeora al cerrarlos"
+   ],
+   "respuesta": 4,
+   "pista": "Pregunte si la visión era lo que sostenía el equilibrio antes de cerrar los ojos.",
+   "argumento": "Correcta: ya está inestable con los ojos abiertos y empeora algo al cerrarlos; su signo principal es la inestabilidad previa, no el cambio (Guía 03, diapo 60). Incorrectas: mantenerse estable y caer solo al cerrar los ojos es el Romberg positivo propio del déficit propioceptivo o vestibular; la estabilidad en ambas condiciones no corresponde a un síndrome cerebeloso; la caída absoluta en toda condición excede lo descrito."
+  },
+  {
+   "id": "c3b-44",
+   "enunciado": "¿Cuál es el síndrome vertebrobasilar más frecuente y qué arteria lo produce?",
+   "alternativas": [
+    "Wallenberg, por cerebelosa posteroinferior",
+    "Wallenberg, por la arteria cerebral posterior",
+    "Síndrome alterno, por la arteria basilar",
+    "Síndrome talámico, por la cerebral media",
+    "Síndrome piramidal, por la cerebral anterior"
+   ],
+   "respuesta": 0,
+   "pista": "El nombre del síndrome y su arteria se repiten en la misma frase del material.",
+   "argumento": "Correcta: síndrome de Wallenberg, producido por la arteria cerebelosa posteroinferior, el más frecuente del territorio vertebrobasilar (Guía 04, diapo 30). Incorrectas: la cerebral posterior da hemianopsia y síndrome talámico; la basilar puede dar síndromes alternos pero no es la respuesta descrita; el talámico se asocia a la posterior; el piramidal corresponde a la cerebral anterior o media."
+  },
+  {
+   "id": "c3b-45",
+   "enunciado": "¿Qué exploran, respectivamente, la marcha de talones y la marcha de puntas?",
+   "alternativas": [
+    "Flexores plantares y dorsiflexores lumbares",
+    "Glúteos medios y cuádriceps, ambos proximales",
+    "Isquiotibiales y tibial anterior en distal",
+    "Solo el equilibrio estático y la propiocepción",
+    "Dorsiflexores (peroneo) y tríceps sural (S1)"
+   ],
+   "respuesta": 4,
+   "pista": "Caminar de talones exige levantar la punta del pie; de puntas, empujar con el sural.",
+   "argumento": "Correcta: talones explora los dorsiflexores tibiales anteriores, dependientes del peroneo, y puntas explora el tríceps sural con el tibial (S1) (Guía 03, diapo 63). Incorrectas: los flexores plantares corresponden a puntas y no a talones; glúteos y cuádriceps no son los grupos evaluados; isquiotibiales no participan de estas maniobras; equilibrio y tándem son pruebas distintas."
+  },
+  {
+   "id": "c3b-46",
+   "enunciado": "¿Qué dos datos del evento paroxístico apoyan con mayor fuerza el origen epiléptico?",
+   "alternativas": [
+    "Mordedura de la punta y recuperación inmediata",
+    "Movimientos irregulares y ausencia de confusión",
+    "Duración mayor de tres minutos y estrés previo",
+    "Mordedura lateral de lengua y estado postictal",
+    "Palidez intensa y desencadenante ortostático"
+   ],
+   "respuesta": 3,
+   "pista": "Distinga el dato específico de la crisis generalizada del que acompaña al síncope.",
+   "argumento": "Correcta: la mordedura lateral de lengua, muy específica de la crisis tónico-clónica generalizada, y la recuperación lenta y confusa del estado postictal (Guía 04, diapo 34). Incorrectas: la mordedura de punta y la recuperación inmediata son del síncope; los movimientos irregulares sin confusión sugieren evento no epiléptico; la duración mayor de tres minutos y el estrés emocional también apuntan a evento no epiléptico; la palidez con ortostatismo sugiere síncope."
+  },
+  {
+   "id": "c3b-47",
+   "enunciado": "Un paciente camina con pasos cortos que se aceleran, tronco en flexión y sin braceo. ¿Qué marcha es y qué la causa?",
+   "alternativas": [
+    "Helicópoda, por paraparesia espástica",
+    "Atáxica, por lesión del cerebelo",
+    "Steppage, por paresia del peroneo",
+    "Festinante, por síndrome parkinsoniano",
+    "Antálgica, por dolor osteoarticular"
+   ],
+   "respuesta": 3,
+   "pista": "La aceleración progresiva incontrolada tiene un nombre propio.",
+   "argumento": "Correcta: marcha festinante, con pasos cortos que se aceleran, postura en flexión y ausencia de braceo, propia del síndrome parkinsoniano (Guía 03, diapo 10 y 64). Incorrectas: la helicópoda o en tijeras es espástica; la atáxica tiene base amplia e irregular; la steppage eleva la rodilla por pie caído; la antálgica evita el apoyo por dolor."
+  },
+  {
+   "id": "c3b-48",
+   "enunciado": "¿Cuándo una crisis se considera estado epiléptico?",
+   "alternativas": [
+    "Cuando dura más de 30 segundos",
+    "Cuando dura más de 3 minutos",
+    "Cuando no cede en 5 minutos",
+    "Cuando se repite en 24 horas",
+    "Cuando deja confusión postictal"
+   ],
+   "respuesta": 2,
+   "pista": "Distinga la duración típica de una crisis del umbral que obliga a tratar.",
+   "argumento": "Correcta: cuando no cede en 5 minutos; el estado epiléptico es una urgencia que requiere tratamiento (Guía 04, diapo 34). Incorrectas: 30 segundos a 3 minutos es la duración típica de una crisis; superar 3 minutos todavía no define el estado; la repetición en 24 horas no es el criterio descrito; la confusión postictal es un hallazgo esperable, no el criterio de estado."
+  },
+  {
+   "id": "c3b-49",
+   "enunciado": "En la rigidez de nuca, ¿qué característica la distingue de la rigidez cervical musculoesquelética?",
+   "alternativas": [
+    "Resiste la rotación, no la flexión cervical",
+    "Aparece solo al mover los hombros",
+    "Cede de inmediato con la flexión de rodilla",
+    "Se acompaña siempre de Babinski positivo",
+    "Resiste la flexión, no la rotación lateral"
+   ],
+   "respuesta": 4,
+   "pista": "La maniobra meníngea es una flexión pasiva del cuello; compare qué movimiento se resiste.",
+   "argumento": "Correcta: la resistencia es a la flexión del cuello y no a la rotación lateral, con resistencia involuntaria y mentón que no llega al esternón (Guía 03, diapo 67). Incorrectas: la resistencia selectiva a la rotación no es el patrón meníngeo; mover los hombros no la explora; la flexión de rodilla alivia el dolor del Kernig; el Babinski no forma parte del signo."
+  },
+  {
+   "id": "c3b-50",
+   "enunciado": "Según la ILAE 2017, una crisis que se inicia en una red de un solo hemisferio, con la conciencia conservada, se clasifica como:",
+   "alternativas": [
+    "Focal con conciencia conservada",
+    "Generalizada desde el inicio",
+    "De inicio desconocido",
+    "Focal con generalización secundaria",
+    "Ausencia típica generalizada"
+   ],
+   "respuesta": 0,
+   "pista": "Fíjese en el sitio de inicio y en si la conciencia se mantiene.",
+   "argumento": "Correcta: focal con conciencia conservada, antes llamada simple (Guía 04, diapo 36). Incorrectas: la generalizada comienza en redes de ambos hemisferios a la vez; la de inicio desconocido se usa cuando falta información; la focal con generalización secundaria implica progresión bilateral posterior; la ausencia típica es una crisis generalizada."
+  },
+  {
+   "id": "c3b-51",
+   "enunciado": "En un paciente con lesión de vermis, la exploración muestra incapacidad de mantenerse sentado sin apoyo, marcha con base amplísima, nistagmo, disartria escandente y escasos signos apendiculares. ¿Qué síndrome cerebeloso es y qué predomina?",
+   "alternativas": [
+    "Hemisférico, con ataxia apendicular",
+    "Vermiano, con ataxia troncal predominante",
+    "Extrapiramidal, con rigidez y bradicinesia",
+    "Piramidal, con espasticidad y Babinski",
+    "Sensitivo, con Romberg positivo"
+   ],
+   "respuesta": 1,
+   "pista": "El predominio axial con extremidades relativamente indemnes apunta al vermis.",
+   "argumento": "Correcta: síndrome vermiano o arquicerebeloso, con ataxia troncal, base muy amplia y escasos signos apendiculares; el meduloblastoma es causa típica en niños (Guía 03, diapo 58). Incorrectas: el hemisférico da ataxia apendicular ipsilateral con dismetría y disdiadococinesia; el extrapiramidal cursa con rigidez y bradicinesia; el piramidal con espasticidad y Babinski; el sensitivo con Romberg positivo y pérdida de propiocepción."
+  },
+  {
+   "id": "c3b-52",
+   "enunciado": "Un hipertenso fumador de 62 años refiere tres episodios de ceguera monocular derecha de cinco minutos y torpeza transitoria de la mano derecha, todos recuperados; hoy el examen es normal. ¿Qué es y cuál es el riesgo inmediato?",
+   "alternativas": [
+    "ACV establecido; riesgo bajo en las próximas horas",
+    "Crisis epiléptica focal; riesgo de recidiva",
+    "Síncope; riesgo de caída y traumatismo",
+    "AIT; riesgo de ACV del 3–10 % en 48–72 h",
+    "Migraña con aura; riesgo cardiovascular nulo"
+   ],
+   "respuesta": 3,
+   "pista": "Recuerde que la normalidad del examen no elimina la emergencia.",
+   "argumento": "Correcta: accidente isquémico transitorio, déficit focal menor de 24 horas con recuperación completa, con riesgo de ACV del 3–10 % en las 48–72 horas siguientes (Guía 04, diapo 45–46). Incorrectas: un ACV deja déficit establecido; una crisis focal tendría semiología ictal; el síncope es pérdida de conciencia breve; la migraña con aura no deja hemiparesia con disartria de este modo."
+  },
+  {
+   "id": "c3b-53",
+   "enunciado": "¿Qué síndrome cursa con fuerza normal, rigidez en rueda dentada, reflejos normales y Babinski negativo?",
+   "alternativas": [
+    "Piramidal, por vía corticoespinal",
+    "Cerebeloso, por hemisferio ipsilateral",
+    "Extrapiramidal, por ganglios basales",
+    "Motoneurona inferior, por asta anterior",
+    "Meníngeo, por irritación de meninges"
+   ],
+   "respuesta": 2,
+   "pista": "Busque el síndrome que aumenta el tono sin paresia ni signos de vía larga.",
+   "argumento": "Correcta: extrapiramidal, con rigidez, fuerza normal, reflejos normales, Babinski negativo y sin atrofia (Guía 03, diapo 73). Incorrectas: el piramidal da paresia, espasticidad, hiperreflexia y Babinski; el cerebeloso da hipotonía ipsilateral y ataxia; el de motoneurona inferior da flacidez, arreflexia y atrofia; el meníngeo no altera fuerza ni tono de este modo."
+  },
+  {
+   "id": "c3b-54",
+   "enunciado": "¿Qué par de hallazgos separa con mayor claridad una neuropatía periférica de un síndrome piramidal?",
+   "alternativas": [
+    "Hiperreflexia aquílea frente a arreflexia rotuliana",
+    "Espasticidad leve frente a rigidez en rueda dentada",
+    "Atrofia tardía frente a amiotrofia por desuso",
+    "Temblor de reposo frente a temblor de intención",
+    "Arreflexia distal frente a hiperreflexia con Babinski"
+   ],
+   "respuesta": 4,
+   "pista": "Compare el reflejo y el signo plantar, que se mueven en direcciones opuestas.",
+   "argumento": "Correcta: la neuropatía da hiporreflexia o arreflexia con Babinski ausente, y el piramidal hiperreflexia con Babinski presente (Guía 04, diapo 42). Incorrectas: invertir el reflejo por segmento no define el patrón; la espasticidad frente a rigidez separa piramidal de extrapiramidal; el trofismo es un criterio secundario y tardío en el piramidal; los temblores separan extrapiramidal de cerebeloso."
+  },
+  {
+   "id": "c3b-55",
+   "enunciado": "¿Qué hallazgo apoya que la debilidad es real y no percibida?",
+   "alternativas": [
+    "Mejoría súbita de la fuerza al distraer al paciente",
+    "Inconsistencia entre exploraciones sucesivas",
+    "Desviación progresiva del brazo en la prueba de Barré",
+    "Patrón en dientes de sierra al aplicar resistencia",
+    "Discordancia entre la fuerza y la función referida"
+   ],
+   "respuesta": 2,
+   "pista": "Los signos de pseudodebilidad empeoran con la distracción; los de debilidad real persisten.",
+   "argumento": "Correcta: la desviación progresiva del miembro en la prueba de Barré es un signo sutil de debilidad verdadera, junto con el temblor fino al mantener la postura y las asimetrías reproducibles (Guía 03, diapo 27). Incorrectas: la mejoría con la distracción, la inconsistencia entre pruebas, el patrón en dientes de sierra y la discordancia entre fuerza y función son signos de alerta de pseudodebilidad."
+  },
+  {
+   "id": "c3b-56",
+   "enunciado": "¿Cuáles son las dos causas más frecuentes de polineuropatía en países occidentales?",
+   "alternativas": [
+    "Alcohol y quimioterapia con cisplatino",
+    "Hipotiroidismo y déficit de vitamina B12",
+    "Insuficiencia renal y amiloidosis",
+    "Infección por VIH y lepra",
+    "Diabetes mellitus y alcohol"
+   ],
+   "respuesta": 4,
+   "pista": "Una es metabólica y muy prevalente; la otra se asocia a déficit de tiamina.",
+   "argumento": "Correcta: diabetes mellitus, primera causa, y alcohol, segunda, este último con déficit de tiamina asociado (Guía 04, diapo 43). Incorrectas: la quimioterapia es causa tóxica relevante pero no la más frecuente; el hipotiroidismo y la B12 son causas menos prevalentes; la insuficiencia renal y la amiloidosis son secundarias; el VIH y la lepra no encabezan la frecuencia en Occidente."
+  },
+  {
+   "id": "c3b-57",
+   "enunciado": "Sobre el tono muscular: I) La espasticidad aumenta con la velocidad del movimiento pasivo. II) La rigidez afecta por igual a flexores y extensores. III) La rigidez produce el fenómeno de navaja.",
+   "alternativas": [
+    "Solo I y III",
+    "Solo II y III",
+    "Solo III",
+    "I, II y III",
+    "Solo I y II"
+   ],
+   "respuesta": 4,
+   "pista": "Asocie cada fenómeno —navaja y rueda dentada— con su tipo de hipertonía.",
+   "argumento": "Suficiencia. I: V, la espasticidad es velocidad-dependiente. II: V, la rigidez es relativamente independiente de la velocidad y afecta flexores y extensores. III: F, el fenómeno de navaja es de la espasticidad; la rigidez produce rueda dentada (Guía 03, diapo 17 y 22). La respuesta es solo I y II."
+  },
+  {
+   "id": "c3b-58",
+   "enunciado": "Sobre el síndrome piramidal: I) El Babinski es el signo más específico y puede preceder a los demás. II) Los reflejos abdominales y cremasterianos se conservan. III) La hiperreflexia resulta de la pérdida de inhibición supraespinal.",
+   "alternativas": [
+    "Solo I y II",
+    "Solo II y III",
+    "Solo I y III",
+    "Solo I",
+    "I, II y III"
+   ],
+   "respuesta": 2,
+   "pista": "Distinga qué reflejos se exaltan y cuáles se abolen.",
+   "argumento": "Suficiencia. I: V, el Babinski es el signo más específico y puede preceder al resto. II: F, los abdominales y cremasterianos se abolen. III: V, la hiperreflexia se explica por pérdida de la inhibición supraespinal (Guía 04, diapo 7). La respuesta es solo I y III."
+  },
+  {
+   "id": "c3b-59",
+   "enunciado": "Sobre la exploración sensitiva: I) El dolor y la temperatura ascienden por el cordón posterior. II) La vibración se explora con diapasón de 128 Hz sobre prominencias óseas. III) La propiocepción alterada produce ataxia sensitiva con Romberg positivo.",
+   "alternativas": [
+    "Solo I y II",
+    "Solo I y III",
+    "Todas son correctas",
+    "I, II y III",
+    "Solo II y III"
+   ],
+   "respuesta": 4,
+   "pista": "Corrija la vía del dolor y recuerde qué prueba de equilibrio delata la pérdida propioceptiva.",
+   "argumento": "Suficiencia. I: F, el dolor y la temperatura van por la espinotalámica lateral. II: V, la vibración se explora con diapasón de 128 Hz en prominencias óseas. III: V, la pérdida propioceptiva da ataxia sensitiva con Romberg positivo (Guía 03, diapo 30–36). La respuesta es solo II y III."
+  },
+  {
+   "id": "c3b-60",
+   "enunciado": "Sobre la crisis epiléptica y el síncope: I) El síncope dura segundos y recupera rápido, sin confusión. II) La crisis típica dura de 30 segundos a 3 minutos con postictal. III) El evento no epiléptico muestra actividad epileptiforme en el EEG ictal.",
+   "alternativas": [
+    "Solo I y III",
+    "Solo II y III",
+    "Solo I y II",
+    "Solo III",
+    "I, II y III"
+   ],
+   "respuesta": 2,
+   "pista": "Compare duración, recuperación y EEG de las tres entidades.",
+   "argumento": "Suficiencia. I: V, el síncope dura segundos y el paciente queda lúcido de inmediato. II: V, la crisis típica dura 30 segundos a 3 minutos y deja confusión postictal. III: F, en el evento no epiléptico el EEG ictal es normal; la actividad epileptiforme corresponde a la crisis (Guía 04, diapo 35). La respuesta es solo I y II."
+  }
+ ]
+}

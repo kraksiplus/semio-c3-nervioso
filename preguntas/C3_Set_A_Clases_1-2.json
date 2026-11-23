@@ -1,0 +1,846 @@
+{
+ "version": 1,
+ "titulo": "Semiología C3 — Set A: clases 1 y 2",
+ "preguntas": [
+  {
+   "id": "c3a-01",
+   "enunciado": "Al examinar a un paciente que consultó por debilidad, se objetivan Babinski e hiperreflexia. ¿Qué eslabón de la cadena diagnóstica representan esos hallazgos?",
+   "alternativas": [
+    "Síntomas referidos por el paciente",
+    "Signos objetivos de la exploración",
+    "Síndrome topográfico ya constituido",
+    "Diagnóstico etiológico de certeza",
+    "Localización anatómica definitiva"
+   ],
+   "respuesta": 1,
+   "pista": "Distinga lo que el paciente cuenta de lo que el médico provoca y observa.",
+   "argumento": "Correcta: son signos, porque el médico los detecta en la exploración y no dependen del relato. Un síntoma es lo que el paciente refiere subjetivamente, como la debilidad. El síndrome es la agrupación reconocible de síntomas y signos, no un hallazgo aislado. El diagnóstico integra el síndrome con la etiología y es un paso posterior. La localización es la inferencia anatómica que se construye después de identificar el síndrome."
+  },
+  {
+   "id": "c3a-02",
+   "enunciado": "En la evaluación de la conciencia, ¿qué se explora cuando se valora el contenido y no el nivel?",
+   "alternativas": [
+    "Respuesta a estímulos verbales y táctiles",
+    "Apertura ocular y respuesta al dolor",
+    "Orientación, atención, memoria y lenguaje",
+    "Grado de vigilia y ritmo sueño-vigilia",
+    "Reflejos de tronco y patrón respiratorio"
+   ],
+   "respuesta": 2,
+   "pista": "El contenido alude a la calidad de los procesos cognitivos durante la vigilia.",
+   "argumento": "Correcta: el contenido de conciencia comprende orientación, atención, memoria, lenguaje y razonamiento. La apertura ocular y la respuesta al dolor exploran el nivel, es decir, el arousal. La respuesta a estímulos verbales y táctiles también gradúa el nivel de vigilia. El ritmo sueño-vigilia pertenece al nivel, no a la calidad del contenido. Los reflejos de tronco y el patrón respiratorio valoran funciones del tronco en un paciente comatoso."
+  },
+  {
+   "id": "c3a-03",
+   "enunciado": "¿Qué patrón motor caracteriza a una lesión del sistema nervioso periférico?",
+   "alternativas": [
+    "Ataxia, dismetría y nistagmo",
+    "Espasticidad, hiperreflexia y Babinski",
+    "Hipertonía, clonus y atrofia tardía",
+    "Rigidez, temblor de reposo y bradicinesia",
+    "Hipotonía, hiporreflexia y atrofia precoz"
+   ],
+   "respuesta": 4,
+   "pista": "El patrón periférico es opuesto al central: piense en el tono y en el reflejo.",
+   "argumento": "Correcta: la lesión periférica da tono disminuido, reflejos disminuidos o abolidos y atrofia precoz, a veces con fasciculaciones. La espasticidad con hiperreflexia y Babinski es el patrón central. La hipertonía con clonus y atrofia tardía también corresponde al sistema nervioso central. La rigidez con temblor de reposo y bradicinesia describe un síndrome extrapiramidal. La ataxia con dismetría y nistagmo es un patrón cerebeloso."
+  },
+  {
+   "id": "c3a-04",
+   "enunciado": "Un paciente abre los ojos y retira el brazo solo ante un estímulo doloroso intenso, con respuesta mínima y no sostenida. ¿Qué grado del espectro de conciencia corresponde?",
+   "alternativas": [
+    "Somnolencia",
+    "Coma",
+    "Obnubilación",
+    "Estupor",
+    "Alerta"
+   ],
+   "respuesta": 3,
+   "pista": "El criterio del espectro es el estímulo necesario para despertar al paciente.",
+   "argumento": "Correcta: el estupor se define por responder solo a estímulos intensos y dolorosos, con respuesta mínima y no sostenida. El coma es la ausencia de respuesta a cualquier estímulo, sin apertura ocular. La obnubilación despierta con estímulos moderados y deja lentitud cognitiva marcada. La somnolencia responde a estímulos leves y es coherente brevemente. El alerta está despierto y orientado, con respuesta apropiada."
+  },
+  {
+   "id": "c3a-05",
+   "enunciado": "En el razonamiento localizador de tres preguntas, ¿cuál debe responderse primero?",
+   "alternativas": [
+    "Qué función está alterada",
+    "Dónde se ubica esa función",
+    "Si el patrón es compatible",
+    "Qué etiología explica el cuadro",
+    "Qué examen confirma la lesión"
+   ],
+   "respuesta": 0,
+   "pista": "No se puede localizar aquello que todavía no se ha identificado.",
+   "argumento": "Correcta: la primera decisión es identificar qué función está alterada, porque no se localiza lo que no se reconoce. Preguntar dónde se ubica esa función es el segundo paso, una vez identificada. La compatibilidad del patrón con la localización es el tercer paso, que valida el razonamiento. La etiología se integra al final, cuando ya existe una localización. El examen confirmatorio se elige después de plantear la hipótesis topográfica."
+  },
+  {
+   "id": "c3a-06",
+   "enunciado": "Una alteración del nivel de conciencia que se instala en forma gradual a lo largo de días orienta preferentemente a:",
+   "alternativas": [
+    "Traumatismo craneoencefálico reciente",
+    "Evento vascular o epiléptico agudo",
+    "Metabólica, infecciosa o tumoral",
+    "Intoxicación exógena de pocos segundos",
+    "Síncope vasovagal por ortostatismo"
+   ],
+   "respuesta": 2,
+   "pista": "Compare la velocidad de instalación: brusco frente a gradual.",
+   "argumento": "Correcta: el inicio gradual sugiere procesos metabólicos, infecciosos o tumorales. El inicio brusco orienta a causas vasculares, como ictus o hemorragia, o epilépticas. El traumatismo reciente suele producir un compromiso de conciencia inmediato. La intoxicación exógena de segundos es un evento agudo. El síncope vasovagal es un episodio brusco y transitorio, no progresivo en días."
+  },
+  {
+   "id": "c3a-07",
+   "enunciado": "Un varón de 67 años consulta por 90 minutos de disartria y debilidad progresiva del brazo derecho, sin pérdida de conciencia ni trauma. La combinación de hemiparesia derecha y afasia localiza la lesión en:",
+   "alternativas": [
+    "Corteza o cápsula interna izquierda",
+    "Corteza o cápsula interna derecha",
+    "Tronco del encéfalo derecho",
+    "Médula cervical alta izquierda",
+    "Cerebelo del hemisferio derecho"
+   ],
+   "respuesta": 0,
+   "pista": "El control motor derecho y el lenguaje comparten hemisferio dominante.",
+   "argumento": "Correcta: el brazo derecho y el lenguaje dependen del hemisferio izquierdo dominante, en corteza motora y áreas de Broca y Wernicke, o de su cápsula interna. El hemisferio derecho no explica la afasia en un diestro. El tronco derecho produciría un síndrome alterno, con par craneal ipsilateral y déficit contralateral. La médula cervical no compromete el lenguaje ni la cara. El cerebelo derecho daría ataxia ipsilateral, no hemiparesia con afasia."
+  },
+  {
+   "id": "c3a-08",
+   "enunciado": "Antes de perder el conocimiento, un paciente refiere una sensación epigástrica ascendente y una vivencia de «déjà vu». Esa fase de la crisis se denomina:",
+   "alternativas": [
+    "Fase ictal con clonías",
+    "Aura o fase prodrómica",
+    "Fase postictal confusional",
+    "Período intercrítico asintomático",
+    "Pródromo sincopal vagal"
+   ],
+   "respuesta": 1,
+   "pista": "Es un síntoma focal que antecede a la crisis y la anuncia.",
+   "argumento": "Correcta: el aura es el síntoma focal que precede a la crisis, con fenómenos epigástricos, visuales, déjà vu o miedo inexplicable. La fase ictal es la crisis misma, con pérdida de conciencia y clonías. La fase postictal es la confusión y somnolencia posteriores. El período intercrítico es el intervalo sin crisis, no un síntoma previo. El pródromo sincopal corresponde a mareo, náuseas y visión borrosa del síncope, no a esta semiología."
+  },
+  {
+   "id": "c3a-09",
+   "enunciado": "¿Cuál de los siguientes motivos de consulta corresponde a un síntoma negativo?",
+   "alternativas": [
+    "Parestesias en la mano derecha",
+    "Hemiparesia de inicio agudo",
+    "Fasciculaciones en el deltoides",
+    "Temblor de reposo distal",
+    "Dolor neuropático quemante"
+   ],
+   "respuesta": 1,
+   "pista": "Los negativos expresan pérdida de función, no exceso ni distorsión.",
+   "argumento": "Correcta: la paresia es pérdida de función y por eso es un síntoma negativo, el que más orienta a lesión estructural grave. Las parestesias son un síntoma positivo por irritación de fibras sensitivas. Las fasciculaciones son positivas, por descarga espontánea de unidades motoras. El temblor es un movimiento anormal, es decir, un fenómeno positivo. El dolor neuropático es positivo, por descarga ectópica en la vía sensitiva."
+  },
+  {
+   "id": "c3a-10",
+   "enunciado": "En el relato de una crisis convulsiva, ¿qué localización de la mordedura de lengua orienta a epilepsia?",
+   "alternativas": [
+    "En la punta de la lengua",
+    "Lateral, en el borde lingual",
+    "En el dorso lingual anterior",
+    "Indiferente en su localización",
+    "Siempre ausente en la crisis"
+   ],
+   "respuesta": 1,
+   "pista": "En el síncope la mordedura, si ocurre, compromete otro sector.",
+   "argumento": "Correcta: la mordedura lateral es característica de la crisis epiléptica generalizada tónico-clónica. La punta de la lengua se describe en el síncope. El dorso lingual anterior no es el patrón descrito en ninguna de las dos entidades. La localización no es indiferente: es un elemento discriminador del diferencial. La mordedura no está siempre ausente en la crisis; su ausencia no descarta epilepsia."
+  },
+  {
+   "id": "c3a-11",
+   "enunciado": "Una paciente refiere hormigueo y pinchazos espontáneos en ambos pies. Según el material, ese síntoma positivo refleja:",
+   "alternativas": [
+    "Disfunción de los ganglios basales",
+    "Destrucción completa de la vía sensitiva",
+    "Lesión de la motoneurona anterior",
+    "Irritación o desmielinización de fibras",
+    "Compromiso de la unión neuromuscular"
+   ],
+   "respuesta": 3,
+   "pista": "El hormigueo espontáneo aparece sin estímulo y no implica pérdida total.",
+   "argumento": "Correcta: las parestesias reflejan irritación o desmielinización de fibras sensitivas, no su destrucción. La destrucción completa produce pérdida de sensibilidad, un síntoma negativo. La motoneurona anterior genera fasciculaciones y debilidad, no hormigueo. Los ganglios basales producen movimientos anormales. La unión neuromuscular da fatigabilidad, como en la miastenia gravis."
+  },
+  {
+   "id": "c3a-12",
+   "enunciado": "Tras una crisis tónico-clónica generalizada, un paciente queda con hemiparesia derecha que se resuelve en pocas horas. ¿Cómo se interpreta ese hallazgo?",
+   "alternativas": [
+    "Hematoma subdural postraumático",
+    "Nuevo ictus isquémico establecido",
+    "Parálisis de Todd transitoria",
+    "Síndrome de Weber mesencefálico",
+    "Parálisis de Bell periférica"
+   ],
+   "respuesta": 2,
+   "pista": "Es un déficit focal que aparece en la fase postictal y se resuelve.",
+   "argumento": "Correcta: la parálisis de Todd es el déficit focal transitorio de la fase postictal. Un ictus establecido no se resuelve en horas y requeriría otro mecanismo. El hematoma subdural da cefalea y deterioro progresivo, no un déficit que cede. El síndrome de Weber combina paresia del III par con hemiparesia contralateral. La parálisis de Bell es una paresia facial periférica, no una hemiparesia."
+  },
+  {
+   "id": "c3a-13",
+   "enunciado": "Las fasciculaciones visibles en un músculo orientan a lesión de:",
+   "alternativas": [
+    "Cerebelo o vías vestibulares",
+    "Corteza motora o cápsula interna",
+    "Asta anterior o nervio periférico",
+    "Ganglios basales o tálamo sensitivo",
+    "Columnas dorsales de la médula"
+   ],
+   "respuesta": 2,
+   "pista": "Son contracciones espontáneas de unidades motoras denervadas.",
+   "argumento": "Correcta: las fasciculaciones orientan a motoneurona anterior o a nervio periférico. La corteza motora y la cápsula interna producen paresia espástica, no fasciculaciones. El cerebelo da ataxia y dismetría. Los ganglios basales producen trastornos del movimiento, como corea o distonía. Las columnas dorsales son una vía sensitiva y no generan actividad motora espontánea."
+  },
+  {
+   "id": "c3a-14",
+   "enunciado": "Sobre la diferencia entre crisis epiléptica y síncope: I) La mordedura lateral de lengua es característica de la crisis epiléptica.  II) La recuperación inmediata y completa es propia de la crisis epiléptica.  III) La cianosis cutánea orienta a crisis epiléptica y la palidez a síncope.",
+   "alternativas": [
+    "Solo I",
+    "Solo II",
+    "Solo I y II",
+    "Solo II y III",
+    "Solo I y III"
+   ],
+   "respuesta": 4,
+   "pista": "Revise el período posterior: la crisis deja confusión, el síncope no.",
+   "argumento": "I: V, la mordedura lateral es característica de la crisis. II: F, la recuperación inmediata y completa corresponde al síncope; la crisis deja fase postictal con confusión y somnolencia. III: V, la crisis se asocia a cianosis y el síncope a palidez. Por eso la respuesta es «Solo I y III»; toda opción que incluya II es falsa y las que excluyen I o III pierden un numeral verdadero."
+  },
+  {
+   "id": "c3a-15",
+   "enunciado": "Al traducir el «me mareo» del paciente a vértigo, presíncope o desequilibrio, se aplica el principio de la anamnesis llamado:",
+   "alternativas": [
+    "Orientada al síntoma",
+    "Cronológica y detallada",
+    "Semiológicamente precisa",
+    "Contextualizada al paciente",
+    "Estructurada por sistemas"
+   ],
+   "respuesta": 2,
+   "pista": "El principio alude al paso del lenguaje popular al término clínico.",
+   "argumento": "Correcta: el principio semiológicamente preciso consiste en traducir el lenguaje del paciente al lenguaje clínico. El cronológico reconstruye la línea de tiempo y la velocidad de instauración. El orientado al síntoma profundiza en el sistema funcional sospechado. El contextualizado recoge antecedentes, fármacos y hábitos. La estructura por sistemas es una forma de organizar la exploración, no el principio de traducción del relato."
+  },
+  {
+   "id": "c3a-16",
+   "enunciado": "Un paciente no levanta el brazo porque le duele al movilizarlo; al vencer la resistencia al dolor, la fuerza es normal. ¿Qué realidad clínica representa?",
+   "alternativas": [
+    "Fatiga de la unión neuromuscular",
+    "Dolor, no debilidad verdadera",
+    "Limitación mecánica articular",
+    "Debilidad verdadera proximal",
+    "Paresia de motoneurona superior"
+   ],
+   "respuesta": 1,
+   "pista": "Distinga la incapacidad para generar fuerza del freno que impone el dolor.",
+   "argumento": "Correcta: si al vencer la resistencia al dolor la fuerza es normal, el paciente no mueve por dolor y no por incapacidad. La fatiga es un agotamiento con el esfuerzo mantenido, con fuerza inicial normal que decrece. La limitación mecánica es rigidez articular o tendinosa, no dolor al vencer resistencia. La debilidad verdadera implica incapacidad real de generar fuerza. La paresia de motoneurona superior se acompaña de espasticidad, hiperreflexia y Babinski."
+  },
+  {
+   "id": "c3a-17",
+   "enunciado": "Sobre la cadena diagnóstica y el razonamiento localizador: I) El síndrome es solo la suma de síntomas, sin valor topográfico.  II) La localización antecede al diagnóstico etiológico.  III) Localizar permite predecir pronóstico y elegir exámenes.",
+   "alternativas": [
+    "Solo II",
+    "Solo II y III",
+    "Solo I y II",
+    "Solo III",
+    "Todas son correctas"
+   ],
+   "respuesta": 1,
+   "pista": "Recuerde para qué sirve localizar, además de nombrar la estructura.",
+   "argumento": "I: F, el síndrome es una agrupación reconocible de síntomas y signos que apunta a un diagnóstico topográfico, no una suma sin valor. II: V, la localización es la etapa que precede a la integración etiológica. III: V, localizar orienta el diferencial, determina exámenes, guía decisiones urgentes y predice pronóstico. Por eso la respuesta es «Solo II y III»; las opciones con I son falsas y las que excluyen II o III pierden un numeral verdadero."
+  },
+  {
+   "id": "c3a-18",
+   "enunciado": "Una debilidad que fluctúa a lo largo del día y empeora con el esfuerzo repetido sugiere:",
+   "alternativas": [
+    "Ictus isquémico de inicio hiperagudo",
+    "Miastenia o esclerosis múltiple",
+    "Miopatía inflamatoria progresiva",
+    "Compresión medular de curso lento",
+    "Polineuropatía sensitiva distal"
+   ],
+   "respuesta": 1,
+   "pista": "El curso fluctuante es una pista etiológica, no solo cronológica.",
+   "argumento": "Correcta: el curso fluctuante sugiere miastenia gravis o esclerosis múltiple. El ictus tiene inicio hiperagudo y luego un curso estable o de mejoría. La miopatía inflamatoria suele ser progresiva y proximal. La compresión medular evoluciona en forma sostenida, con nivel sensitivo. La polineuropatía distal es estable y de predominio sensitivo."
+  },
+  {
+   "id": "c3a-19",
+   "enunciado": "Un paciente despierta a las 07:00 con hemiparesia derecha; su hija lo vio normal a las 22:00 del día anterior. Para decidir fibrinólisis, el inicio de los síntomas se fija a las:",
+   "alternativas": [
+    "22:00 de la noche anterior",
+    "07:00 de la mañana del despertar",
+    "00:00 de la noche del episodio",
+    "06:00, una hora antes de despertar",
+    "Hora de llegada al servicio"
+   ],
+   "respuesta": 0,
+   "pista": "Cuando el paciente despierta con el déficit, el inicio se define por lo visto.",
+   "argumento": "Correcta: si despertó con los síntomas, el inicio es la última vez que fue visto normal, aquí las 22:00. La hora del despertar no se usa como inicio porque el déficit pudo instalarse antes. La medianoche es una estimación arbitraria sin respaldo en el relato. La hora previa al despertar tampoco corresponde a un momento documentado. La hora de llegada sirve para el registro, no para definir la ventana de fibrinólisis."
+  },
+  {
+   "id": "c3a-20",
+   "enunciado": "Una mujer refiere dificultad para levantarse de una silla, subir escalones y peinarse. ¿Qué patrón y localización corresponden?",
+   "alternativas": [
+    "Paraparesia de origen medular",
+    "Distal, de origen neuropático",
+    "Hemiparesia de origen cortical",
+    "Proximal, de origen miopático",
+    "Tetraparesia de origen troncal"
+   ],
+   "respuesta": 3,
+   "pista": "Los gestos referidos comprometen cintura escapular y pelviana.",
+   "argumento": "Correcta: la debilidad proximal, con dificultad para levantarse, subir escalones o peinarse, orienta a músculo. La distal da caída del pie o dificultad para abrir tarros, por neuropatía. La hemiparesia compromete un hemicuerpo y orienta a neurona motora superior contralateral. La paraparesia compromete ambas piernas, por lesión medular. La tetraparesia compromete los cuatro miembros, por lesión cervical, de tronco o proceso sistémico."
+  },
+  {
+   "id": "c3a-21",
+   "enunciado": "Una mujer describe cefalea hemicraneal pulsátil de 6 horas, con náuseas, fotofobia y fonofobia. ¿Qué cefalea primaria corresponde?",
+   "alternativas": [
+    "Cefalea cervicogénica occipital",
+    "Cefalea tensional",
+    "Cefalea en racimos",
+    "Migraña sin aura",
+    "Cefalea de fosa posterior"
+   ],
+   "respuesta": 3,
+   "pista": "Sume localización, calidad, duración y acompañantes en un solo patrón.",
+   "argumento": "Correcta: hemicraneal, pulsátil, con náuseas, fotofobia y fonofobia configura migraña, aquí sin aura. La tensional es bilateral, opresiva y sin náuseas. La cefalea en racimos es orbitaria, taladrante y con síntomas autonómicos. La cervicogénica es occipital y se vincula al cuello. La de fosa posterior es occipital y se asocia a signos de tronco o cerebelo."
+  },
+  {
+   "id": "c3a-22",
+   "enunciado": "Un paciente presenta debilidad de ambas piernas y un nivel sensitivo en el tórax. ¿Dónde localiza la lesión?",
+   "alternativas": [
+    "Cerebelo, vermis superior",
+    "Corteza motora parasagital bilateral",
+    "Nervios periféricos de ambos pies",
+    "Tronco del encéfalo, protuberancia",
+    "Médula espinal en ese nivel"
+   ],
+   "respuesta": 4,
+   "pista": "El nivel sensitivo es el límite horizontal bajo el cual se pierde sensibilidad.",
+   "argumento": "Correcta: paraparesia con nivel sensitivo orienta a médula espinal, por mielitis o compresión. La corteza parasagital bilateral puede dar paraparesia, pero no un nivel sensitivo. La polineuropatía distal da déficit en guante y calcetín, sin nivel. La protuberancia produce síndromes alternos con pares craneales. El vermis da ataxia de tronco y marcha, no un nivel sensitivo."
+  },
+  {
+   "id": "c3a-23",
+   "enunciado": "Sobre las banderas rojas de la cefalea: I) El inicio en trueno obliga a descartar hemorragia subaracnoidea aunque el examen sea normal.  II) Una exploración neurológica normal descarta una causa secundaria.  III) La primera cefalea intensa después de los 50 años es un signo de alarma.",
+   "alternativas": [
+    "Solo I",
+    "Solo II",
+    "Solo I y II",
+    "Todas son correctas",
+    "Solo I y III"
+   ],
+   "respuesta": 4,
+   "pista": "La normalidad del examen no borra una bandera roja de alta sensibilidad.",
+   "argumento": "I: V, la cefalea en trueno obliga a descartar hemorragia subaracnoidea aun con exploración normal. II: F, un examen normal no descarta causa secundaria; el trueno es precisamente el ejemplo. III: V, la primera cefalea intensa, sobre todo después de los 50 años, es signo de alarma. Por eso la respuesta es «Solo I y III»; incluir II invalida la opción y excluir I o III omite un numeral verdadero."
+  },
+  {
+   "id": "c3a-24",
+   "enunciado": "Sobre las vías sensitivas y la disociación: I) La vía espinotalámica cruza en el segmento espinal de entrada y conduce dolor y temperatura.  II) Las columnas dorsales cruzan dentro de la médula y conducen vibración y propiocepción.  III) La disociación sensitiva es característica de lesiones medulares intrínsecas como la siringomielia.",
+   "alternativas": [
+    "Solo I",
+    "Solo I y III",
+    "Solo I y II",
+    "Solo II",
+    "Todas son correctas"
+   ],
+   "respuesta": 1,
+   "pista": "Compare el punto de cruce de ambas vías: uno es medular y el otro es bulbar.",
+   "argumento": "I: V, la espinotalámica cruza en el segmento de entrada y asciende contralateral con dolor y temperatura. II: F, las columnas dorsales ascienden ipsilaterales y cruzan en el bulbo, no dentro de la médula; por eso su lesión da déficit ipsilateral. III: V, la disociación es típica de lesiones intrínsecas como la siringomielia. Por eso la respuesta es «Solo I y III»; las opciones con II son falsas y las que excluyen I o III pierden un numeral correcto."
+  },
+  {
+   "id": "c3a-25",
+   "enunciado": "Un hombre de 35 años presenta crisis de dolor orbitario unilateral taladrante de 40 minutos, con lagrimeo, rinorrea y ptosis del mismo lado. ¿Qué cuadro corresponde?",
+   "alternativas": [
+    "Cefalea tensional crónica",
+    "Migraña con aura visual",
+    "Cefalea en racimos",
+    "Neuralgia del trigémino",
+    "Cefalea por sinusitis aguda"
+   ],
+   "respuesta": 2,
+   "pista": "Dolor orbitario con síntomas autonómicos homolaterales y agitación.",
+   "argumento": "Correcta: el dolor orbitario taladrante, breve e intenso, con lagrimeo, rinorrea y ptosis, define una cefalea trigémino-autonómica, en racimos. La migraña es pulsátil, hemicraneal y con náuseas o fotofobia. La tensional es opresiva y bilateral. La neuralgia del trigémino da descargas eléctricas por territorios del V par, sin síntomas autonómicos. La sinusitis produce dolor facial con síntomas nasales infecciosos, no crisis de este patrón."
+  },
+  {
+   "id": "c3a-26",
+   "enunciado": "Un paciente describe dolor en franja por la cara lateral de la pierna hasta el pie, con hormigueo en el mismo territorio. ¿Qué patrón sensitivo corresponde?",
+   "alternativas": [
+    "Difuso y no territorial",
+    "En guante y calcetín",
+    "Hemicorporal completo",
+    "En banda o nivel sensitivo",
+    "Dermatomérico o radicular"
+   ],
+   "respuesta": 4,
+   "pista": "La franja sigue el territorio de una raíz, con dolor irradiado.",
+   "argumento": "Correcta: la franja lineal que sigue un dermatoma, con dolor irradiado, es un patrón radicular por hernia discal o espondilosis. El guante y calcetín es distal y simétrico, por polineuropatía. El hemicorporal compromete cara, brazo y pierna del mismo lado. El de banda es un límite horizontal, propio de lesión medular transversa. El difuso no territorial no corresponde a ninguno de los patrones descritos."
+  },
+  {
+   "id": "c3a-27",
+   "enunciado": "Una paciente con migraña conocida consulta porque la cefalea actual es idéntica a las previas. ¿Cuál es el objetivo principal del manejo?",
+   "alternativas": [
+    "Solicitar imagen cerebral urgente",
+    "Descartar una hemorragia subaracnoidea",
+    "Optimizar tratamiento y calidad de vida",
+    "Ingresar para punción lumbar inmediata",
+    "Suspender toda terapia preventiva"
+   ],
+   "respuesta": 2,
+   "pista": "Si la cefalea es la habitual, el foco cambia respecto de una cefalea nueva.",
+   "argumento": "Correcta: si la cefalea es igual a las anteriores, se trata de una cefalea primaria habitual y el objetivo es optimizar el tratamiento y la calidad de vida. Descartar hemorragia subaracnoidea corresponde a una cefalea diferente o en trueno. La imagen urgente se reserva para déficit, cambio de patrón o sospecha secundaria. La punción lumbar inmediata no está indicada por una cefalea idéntica a las previas. Suspender la prevención empeoraría el control de una cefalea primaria frecuente."
+  },
+  {
+   "id": "c3a-28",
+   "enunciado": "En las demencias degenerativas, ¿qué esfera de la orientación se deteriora habitualmente primero?",
+   "alternativas": [
+    "La de persona",
+    "La temporal",
+    "La de lugar",
+    "La de situación",
+    "Todas a la vez"
+   ],
+   "respuesta": 1,
+   "pista": "El paciente pierde primero la fecha antes que su nombre o el lugar.",
+   "argumento": "Correcta: la desorientación temporal es el primer dominio que se deteriora en las demencias degenerativas. La orientación de persona se conserva más tiempo. La de lugar se pierde después de la temporal. La de situación también se compromete más tarde. El deterioro no es simultáneo de las cuatro esferas: sigue un orden característico y progresivo."
+  },
+  {
+   "id": "c3a-29",
+   "enunciado": "Un adulto mayor refiere que «se tambalea» al caminar, sin giro del entorno ni sensación de desmayo, y su marcha se ve alterada. ¿Qué categoría de mareo corresponde?",
+   "alternativas": [
+    "Mareo inespecífico ansioso",
+    "Vértigo periférico posicional",
+    "Presíncope de origen vasovagal",
+    "Desequilibrio de la marcha",
+    "Vértigo central de tronco"
+   ],
+   "respuesta": 3,
+   "pista": "Hay inestabilidad postural sin giro y sin desmayo inminente.",
+   "argumento": "Correcta: el desequilibrio es dificultad para mantener la estabilidad postural, sin giro ni presíncope, con marcha alterada. El vértigo exige sensación ilusoria de movimiento. El presíncope es sensación de desmayo inminente. El mareo inespecífico es difuso y difícil de caracterizar. El vértigo central se acompaña de signos de tronco o cerebelo, no de una marcha inestable aislada."
+  },
+  {
+   "id": "c3a-30",
+   "enunciado": "¿Por qué se explora la atención antes que la memoria o el lenguaje?",
+   "alternativas": [
+    "Porque localiza la lesión en el cerebelo",
+    "Sin atención no se evalúan las demás",
+    "Porque es el dominio que falla más tarde",
+    "Porque depende del lóbulo occipital",
+    "Porque reemplaza a la orientación"
+   ],
+   "respuesta": 1,
+   "pista": "Piense en la atención como requisito de toda prueba cognitiva.",
+   "argumento": "Correcta: la atención es prerequisito para evaluar cualquier otra función cognitiva; sin ella la memoria, el lenguaje y las praxias no se evalúan de forma válida. No localiza en el cerebelo, que se ocupa de la coordinación. No es el dominio más tardío: en el delirium falla precozmente. No depende del lóbulo occipital, dedicado a la visión. No reemplaza a la orientación, que es otro dominio del estado mental."
+  },
+  {
+   "id": "c3a-31",
+   "enunciado": "Sobre las categorías del mareo: I) El presíncope es la sensación de desmayo inminente sin pérdida de conciencia.  II) El desequilibrio se acompaña de sensación de giro del entorno.  III) El mareo inespecífico suele tener causas no neurológicas.",
+   "alternativas": [
+    "Solo I y III",
+    "Solo II",
+    "Solo I y II",
+    "Solo I",
+    "Todas son correctas"
+   ],
+   "respuesta": 0,
+   "pista": "Separe el giro (vértigo) de la inestabilidad sin giro (desequilibrio).",
+   "argumento": "I: V, el presíncope es desmayo inminente sin perder la conciencia, por hipoperfusión transitoria. II: F, el desequilibrio es inestabilidad postural sin giro ni presíncope. III: V, el mareo inespecífico se asocia a ansiedad, hiperventilación, fármacos, hipoglucemia o anemia. Por eso la respuesta es «Solo I y III»; las opciones con II son falsas y las que excluyen I o III pierden un numeral verdadero."
+  },
+  {
+   "id": "c3a-32",
+   "enunciado": "Un paciente no comprende órdenes simples ni complejas y habla con fluidez, pero sin sentido aparente. ¿Qué área está comprometida?",
+   "alternativas": [
+    "Área de Wernicke",
+    "Circunvolución frontal inferior",
+    "Fascículo arqueado del hemisferio",
+    "Giro angular del lóbulo parietal",
+    "Lóbulo parietal no dominante"
+   ],
+   "respuesta": 0,
+   "pista": "La comprensión se explora con órdenes; su falla con habla fluida es clave.",
+   "argumento": "Correcta: la comprensión depende del área de Wernicke, en el temporal posterior del hemisferio dominante. Broca se ocupa de la expresión y su lesión da habla no fluente. El fascículo arqueado sostiene la repetición. El giro frontal inferior corresponde al área de Broca. El parietal no dominante se vincula con la atención al hemicampo, no con la comprensión del lenguaje."
+  },
+  {
+   "id": "c3a-33",
+   "enunciado": "Sobre el vértigo periférico y central: I) Los síntomas cocleares son frecuentes en el vértigo central.  II) El nistagmo vertical que no se suprime con la fijación orienta a origen central.  III) La diplopía y la disfagia acompañantes orientan a origen central.",
+   "alternativas": [
+    "Solo I",
+    "Solo II",
+    "Solo I y II",
+    "Solo II y III",
+    "Solo I y III"
+   ],
+   "respuesta": 3,
+   "pista": "Los cocleares acompañan al periférico; los de tronco, al central.",
+   "argumento": "I: F, los síntomas cocleares son frecuentes en el vértigo periférico y están ausentes en el central, salvo lesión del VIII par. II: V, el nistagmo vertical y no suprimido por la fijación es central. III: V, diplopía, disfagia, disartria y ataxia acompañan al central y obligan a descartar ictus. Por eso la respuesta es «Solo II y III»; las opciones con I son falsas y las que excluyen II o III pierden un numeral verdadero."
+  },
+  {
+   "id": "c3a-34",
+   "enunciado": "El habla espontánea es escasa y entrecortada, con esfuerzo, aunque la comprensión está conservada. ¿Qué componente y área corresponden?",
+   "alternativas": [
+    "Denominación, giro angular",
+    "Comprensión, área de Wernicke",
+    "Repetición, fascículo arqueado",
+    "Articulación, vías corticobulbares",
+    "Expresión, área de Broca"
+   ],
+   "respuesta": 4,
+   "pista": "La no fluencia con comprensión conservada apunta a un componente expresivo.",
+   "argumento": "Correcta: la expresión no fluente con comprensión conservada localiza en Broca, en la circunvolución frontal inferior del hemisferio dominante. La comprensión corresponde a Wernicke y su falla deja habla fluida sin sentido. La repetición alterada con lo demás conservado apunta al fascículo arqueado. La articulación comprometida con lenguaje intacto es disartria, de vías corticobulbares. La denominación aislada se explora aparte, y la anomia es el signo más precoz."
+  },
+  {
+   "id": "c3a-35",
+   "enunciado": "Una mujer de 60 años presenta episodios de segundos de vértigo al girarse en la cama, sin hipoacusia. ¿Cuál es el diagnóstico más probable?",
+   "alternativas": [
+    "Ictus cerebeloso posteroinferior",
+    "Neuritis vestibular postviral",
+    "Ménière con hidrops del oído interno",
+    "VPPB por canalitiasis posterior",
+    "Schwannoma vestibular del ángulo"
+   ],
+   "respuesta": 3,
+   "pista": "Episodios brevísimos y posicionales, sin síntomas cocleares ni centrales.",
+   "argumento": "Correcta: el vértigo posicional paroxístico benigno es la causa más frecuente de vértigo, por canalitiasis del canal semicircular posterior, con crisis de segundos al mover la cabeza. La neuritis vestibular es continua y de días. El Ménière asocia hipoacusia fluctuante y acúfenos. El ictus cerebeloso da un cuadro persistente con signos de tronco o cerebelo. El schwannoma vestibular produce hipoacusia unilateral progresiva."
+  },
+  {
+   "id": "c3a-36",
+   "enunciado": "¿Cuál es el síntoma más sensible y precoz de disfunción cortical del lenguaje?",
+   "alternativas": [
+    "La disartria de esfuerzo",
+    "La anomia al denominar objetos",
+    "La disprosodia cerebelosa",
+    "La voz nasal por paresia palatina",
+    "El mutismo por lesión bulbar"
+   ],
+   "respuesta": 1,
+   "pista": "Se explora pidiendo nombrar objetos presentados a la vista.",
+   "argumento": "Correcta: la anomia es el síntoma más sensible y precoz de disfunción cortical del lenguaje. La disartria es un trastorno de la articulación, no del sistema simbólico. La disprosodia es un rasgo del habla cerebelosa. La voz nasal por paresia palatina depende del X par. El mutismo por lesión bulbar compromete la producción, no la función cortical del lenguaje."
+  },
+  {
+   "id": "c3a-37",
+   "enunciado": "Un paciente presenta vértigo súbito y continuo de varios días, sin hipoacusia ni acúfenos, después de un cuadro viral. ¿Qué cuadro corresponde?",
+   "alternativas": [
+    "Esclerosis múltiple en brote",
+    "Enfermedad de Ménière",
+    "Vértigo posicional paroxístico benigno",
+    "Ictus de fosa posterior",
+    "Neuritis vestibular"
+   ],
+   "respuesta": 4,
+   "pista": "Vértigo continuo de días sin compromiso auditivo, tras un cuadro viral.",
+   "argumento": "Correcta: la neuritis vestibular da vértigo intenso, súbito y continuo de días, sin hipoacusia, frecuentemente postviral. El Ménière asocia hipoacusia fluctuante y acúfenos. El VPPB produce crisis de segundos con los cambios de posición. El ictus de fosa posterior agrega disartria, disfagia, diplopía o ataxia. La esclerosis múltiple puede dar vértigo, pero se acompaña de otras manifestaciones y episodios previos."
+  },
+  {
+   "id": "c3a-38",
+   "enunciado": "Sobre los sistemas de memoria: I) La memoria inmediata se evalúa recordando tres palabras tras cinco minutos.  II) La memoria reciente depende del hipocampo y del circuito de Papez.  III) La memoria remota suele estar preservada en las fases iniciales de las demencias.",
+   "alternativas": [
+    "Solo I",
+    "Solo II",
+    "Solo I y II",
+    "Solo I y III",
+    "Solo II y III"
+   ],
+   "respuesta": 4,
+   "pista": "Distinga repetir dígitos al instante de recordar palabras tras una distracción.",
+   "argumento": "I: F, recordar tres palabras tras cinco minutos evalúa memoria reciente o episódica; la inmediata se explora repitiendo dígitos al instante. II: V, la memoria reciente depende del hipocampo y del circuito de Papez y es la primera afectada en Alzheimer. III: V, la remota suele preservarse al inicio; su deterioro precoz orienta a demencia frontal o Huntington. Por eso la respuesta es «Solo II y III»."
+  },
+  {
+   "id": "c3a-39",
+   "enunciado": "¿Qué tríada define la enfermedad de Ménière?",
+   "alternativas": [
+    "Vértigo episódico, hipoacusia fluctuante y acúfenos",
+    "Vértigo postural breve, hipoacusia súbita y ptosis palpebral",
+    "Vértigo continuo, disartria y diplopía binocular",
+    "Vértigo súbito, fiebre y rigidez de nuca marcada",
+    "Vértigo progresivo, cefalea y fotofobia intensa"
+   ],
+   "respuesta": 0,
+   "pista": "Los tres componentes incluyen un síntoma auditivo fluctuante.",
+   "argumento": "Correcta: el Ménière combina vértigo episódico de horas, hipoacusia fluctuante y acúfenos, con deterioro auditivo progresivo. La ptosis no forma parte de la tríada y el vértigo postural breve es del VPPB. El vértigo continuo con disartria y diplopía sugiere causa central. La fiebre con rigidez de nuca sugiere meningitis. La cefalea con fotofobia pertenece a la migraña, no al Ménière."
+  },
+  {
+   "id": "c3a-40",
+   "enunciado": "Un paciente no logra peinarse ni saludar con la mano al pedírselo, pese a fuerza y sensibilidad normales. ¿Qué presenta y dónde localiza?",
+   "alternativas": [
+    "Ataxia, hemisferio cerebeloso",
+    "Agnosia, área parieto-occipital",
+    "Apraxia, parietal dominante",
+    "Disartria, vías corticobulbares",
+    "Negligencia, hemisferio derecho"
+   ],
+   "respuesta": 2,
+   "pista": "Falla un acto motor aprendido sin paresia, ataxia ni déficit sensitivo.",
+   "argumento": "Correcta: la apraxia es la alteración de actos motores aprendidos sin paresia, ataxia ni déficit sensitivo que la justifiquen, y orienta a lóbulo parietal, sobre todo dominante. La agnosia es un fallo de reconocimiento sensorial. La ataxia es incoordinación con fuerza conservada, de cerebelo. La disartria altera la articulación del habla. La negligencia es falta de atención al hemicampo contralateral."
+  },
+  {
+   "id": "c3a-41",
+   "enunciado": "Un déficit neurológico que se instala a lo largo de horas o días orienta preferentemente a:",
+   "alternativas": [
+    "Proceso inflamatorio o infeccioso",
+    "Evento vascular de inicio súbito",
+    "Enfermedad neurodegenerativa lenta",
+    "Tumor de crecimiento prolongado",
+    "Causa carencial de meses de evolución"
+   ],
+   "respuesta": 0,
+   "pista": "Ubique la velocidad entre los segundos y las semanas.",
+   "argumento": "Correcta: el curso de horas a días orienta a inflamatorio o infeccioso, como encefalitis, meningitis o neuritis, y a vascular subagudo. El evento vascular típico se instala en segundos o minutos. La enfermedad neurodegenerativa evoluciona en meses o años. El tumor se manifiesta en semanas o meses. La causa carencial se instala en semanas o meses."
+  },
+  {
+   "id": "c3a-42",
+   "enunciado": "Un paciente refiere pérdida del olfato en una fosa nasal. ¿Qué debe considerarse entre las causas de una anosmia unilateral?",
+   "alternativas": [
+    "Schwannoma vestibular ipsilateral",
+    "Neuritis del nervio óptico",
+    "Meningioma del surco olfatorio",
+    "Parálisis periférica del facial",
+    "Neuropatía del trigémino"
+   ],
+   "respuesta": 2,
+   "pista": "La anosmia unilateral puede ser el primer signo de una lesión frontal basal.",
+   "argumento": "Correcta: la anosmia unilateral puede ser el primer signo de un meningioma del surco olfatorio o de una lesión del lóbulo frontal basal. La neuritis óptica compromete la visión, no el olfato. El schwannoma vestibular da hipoacusia y vértigo. La parálisis facial periférica compromete la mímica. La neuropatía trigeminal altera la sensibilidad facial y la masticación."
+  },
+  {
+   "id": "c3a-43",
+   "enunciado": "¿Qué antecedente modifica directamente la decisión de fibrinólisis en un ACV isquémico agudo?",
+   "alternativas": [
+    "Tabaquismo activo de larga data",
+    "Historia familiar de aneurisma cerebral",
+    "Uso de anticoagulantes o antiagregantes",
+    "Diabetes mellitus tipo 2 conocida",
+    "Hipertensión arterial en tratamiento"
+   ],
+   "respuesta": 2,
+   "pista": "Piense en el antecedente que cambia el riesgo de hemorragia cerebral.",
+   "argumento": "Correcta: los anticoagulantes y antiagregantes modulan el riesgo de hemorragia y son determinantes en la decisión de fibrinólisis. La historia familiar de aneurisma orienta el riesgo de hemorragia subaracnoidea, no la indicación de fibrinólisis. El tabaquismo es factor de riesgo de ictus y aneurismas, pero no contraindica por sí mismo. La diabetes aumenta el riesgo cerebrovascular. La hipertensión es el principal factor de riesgo de ictus, pero no el antecedente que define la elegibilidad."
+  },
+  {
+   "id": "c3a-44",
+   "enunciado": "Un paciente no ve en la mitad derecha del campo visual de ambos ojos, con agudeza visual central conservada. ¿Dónde localiza la lesión?",
+   "alternativas": [
+    "Quiasma óptico completo",
+    "Nervio óptico derecho",
+    "Retroquiasmática izquierda",
+    "Retroquiasmática derecha",
+    "Retina temporal de ambos ojos"
+   ],
+   "respuesta": 2,
+   "pista": "La hemianopsia homónima se debe a una lesión por detrás del quiasma, del lado opuesto.",
+   "argumento": "Correcta: la hemianopsia homónima derecha indica lesión retroquiasmática izquierda, de cintilla o corteza. Una lesión del nervio óptico derecho da amaurosis monocular derecha. Una lesión completa del quiasma da hemianopsia bitemporal. La vía retroquiasmática derecha produce hemianopsia izquierda. La retina temporal de ambos ojos no produce este patrón homónimo."
+  },
+  {
+   "id": "c3a-45",
+   "enunciado": "En un paciente diabético en tratamiento, la hipoglucemia puede:",
+   "alternativas": [
+    "Impedir la evaluación neurológica",
+    "Descartar un evento vascular agudo",
+    "Excluir la necesidad de medir glicemia",
+    "Producir solo cefalea en trueno",
+    "Mimetizar un ictus con déficit focal"
+   ],
+   "respuesta": 4,
+   "pista": "Un trastorno metabólico agudo puede parecer un déficit vascular.",
+   "argumento": "Correcta: la hipoglucemia puede mimetizar un ictus y obliga a medir la glicemia. No descarta un evento vascular: puede coexistir o simularlo. No excluye la medición de glicemia, que es parte de la evaluación inicial. No produce cefalea en trueno, que orienta a hemorragia subaracnoidea. No impide la evaluación neurológica, aunque la condiciona."
+  },
+  {
+   "id": "c3a-46",
+   "enunciado": "Un paciente presenta ptosis, midriasis y el ojo desviado hacia abajo y afuera. ¿Qué par craneal está comprometido?",
+   "alternativas": [
+    "El III par craneal",
+    "El IV par craneal",
+    "El VI par craneal",
+    "El VII par craneal",
+    "El II par craneal"
+   ],
+   "respuesta": 0,
+   "pista": "El nervio afectado inerva el elevador del párpado y el esfínter pupilar.",
+   "argumento": "Correcta: el III par inerva el elevador del párpado y las fibras parasimpáticas del esfínter pupilar; su lesión da ptosis, midriasis y ojo abajo y afuera. El IV da diplopía vertical que empeora al mirar abajo y adentro. El VI da imposibilidad de abducir, con ojo en aducción. El VII compromete la mímica facial. El II compromete la visión y el reflejo fotomotor aferente."
+  },
+  {
+   "id": "c3a-47",
+   "enunciado": "Registrar «vértigo» sin preguntar qué siente exactamente el paciente corresponde al error de anamnesis denominado:",
+   "alternativas": [
+    "No precisar la cronología del cuadro",
+    "Asumir el significado del término",
+    "Omitir los síntomas acompañantes",
+    "No buscar los signos de alarma",
+    "No interrogar al acompañante"
+   ],
+   "respuesta": 1,
+   "pista": "El error está en interpretar la palabra sin pedir la descripción propia.",
+   "argumento": "Correcta: el error es asumir el significado del término del paciente sin pedir que describa el síntoma con sus palabras. No precisar la cronología es otro error, referido al tiempo y al contexto de inicio. Omitir acompañantes es no preguntar por el hormigueo previo o la cefalea simultánea. No buscar signos de alarma es el error más grave, pero no es el descrito. No interrogar al acompañante afecta la información, no la interpretación del término."
+  },
+  {
+   "id": "c3a-48",
+   "enunciado": "Un paciente presenta paresia de la hemicara inferior derecha, con la frente conservada, y desviación de la comisura. ¿Qué origen tiene?",
+   "alternativas": [
+    "Central, de hemisferio derecho",
+    "Periférica, por parálisis de Bell derecha",
+    "Periférica, por síndrome de Ramsay Hunt",
+    "Central, de hemisferio izquierdo",
+    "Nuclear, por lesión del VII derecho"
+   ],
+   "respuesta": 3,
+   "pista": "La frente está preservada porque recibe inervación bilateral.",
+   "argumento": "Correcta: la paresia de la parte inferior de la cara con frente preservada es central, por lesión hemisférica contralateral, aquí izquierda. La parálisis de Bell compromete toda la hemicara, incluida la frente, del mismo lado. El Ramsay Hunt también es periférico y se asocia a vesículas. Una lesión central derecha daría paresia facial izquierda. Una lesión nuclear del VII derecho sería periférica, con compromiso de la frente."
+  },
+  {
+   "id": "c3a-49",
+   "enunciado": "En un paciente con afasia que despertó con hemiparesia, ¿cuál es el aporte más valioso del acompañante?",
+   "alternativas": [
+    "Precisar la última vez que estuvo normal",
+    "Estimar la fuerza de cada grupo muscular",
+    "Interpretar el resultado de la neuroimagen",
+    "Definir la etiología del evento vascular",
+    "Explorar los reflejos osteotendinosos"
+   ],
+   "respuesta": 0,
+   "pista": "Con lenguaje y conciencia comprometidos, el testigo aporta la cronología.",
+   "argumento": "Correcta: el acompañante valida el último momento normal, dato determinante en un paciente dormido o confuso. No le corresponde estimar la fuerza, tarea del examen. Tampoco interpretar la neuroimagen ni definir la etiología. La exploración de reflejos es parte del examen físico del médico. Su valor está en la descripción de lo observado y en los antecedentes."
+  },
+  {
+   "id": "c3a-50",
+   "enunciado": "Un paciente no atiende al hemicampo izquierdo, con sensibilidad primaria conservada. ¿Qué hemisferio suele estar lesionado y cómo se evalúa?",
+   "alternativas": [
+    "Derecho, con prueba de dígitos",
+    "Izquierdo, con denominación de objetos",
+    "Derecho, con repetición de frases",
+    "Izquierdo, con series regresivas de 7",
+    "Derecho, con cancelación y bisección"
+   ],
+   "respuesta": 4,
+   "pista": "La negligencia es más frecuente y grave en el hemisferio no dominante.",
+   "argumento": "Correcta: la negligencia es más frecuente y grave con lesión del hemisferio no dominante derecho y se evalúa con cancelación y bisección de líneas. La denominación de objetos explora lenguaje. La repetición de frases explora el fascículo arqueado. Las series regresivas de 7 exploran atención. La prueba de dígitos explora memoria inmediata."
+  },
+  {
+   "id": "c3a-51",
+   "enunciado": "En una lesión del tronco encefálico, el patrón de pares craneales ipsilaterales con déficit motor contralateral se denomina:",
+   "alternativas": [
+    "Síndrome radicular",
+    "Síndrome cerebeloso",
+    "Síndrome medular central",
+    "Síndrome extrapiramidal",
+    "Síndrome alterno"
+   ],
+   "respuesta": 4,
+   "pista": "El nombre alude a que el compromiso queda en lados opuestos del cuerpo.",
+   "argumento": "Correcta: el síndrome alterno combina pares craneales ipsilaterales con déficit motor o sensitivo contralateral. El cerebeloso da ataxia ipsilateral, dismetría y nistagmo. El medular central produce déficit bilateral y disociación sensitiva. El extrapiramidal da trastornos del movimiento. El radicular da dolor irradiado en un dermatoma."
+  },
+  {
+   "id": "c3a-52",
+   "enunciado": "Ante una hipoacusia, ¿qué permite distinguir el uso del diapasón con las pruebas de Rinne y Weber?",
+   "alternativas": [
+    "Acúfeno objetivo del subjetivo",
+    "Hipoacusia central de periférica",
+    "Sordera cortical de la de tronco",
+    "Hipoacusia conductiva de neurosensorial",
+    "Vértigo periférico del central"
+   ],
+   "respuesta": 3,
+   "pista": "El diapasón separa el compromiso de oído externo o medio del de cóclea o VIII par.",
+   "argumento": "Correcta: Rinne y Weber distinguen la hipoacusia conductiva, de oído externo o medio, de la neurosensorial, de cóclea o VIII par. No separan hipoacusia central de periférica, porque ambas son neurosensoriales. Tampoco distinguen sordera cortical de tronco. El acúfeno no se clasifica con diapasón. El vértigo se evalúa con otra semiología, no con estas pruebas."
+  },
+  {
+   "id": "c3a-53",
+   "enunciado": "En un paciente con ataxia e incoordinación por lesión cerebelosa, ¿qué espera encontrar en la fuerza muscular?",
+   "alternativas": [
+    "Fuerza conservada, sin parálisis",
+    "Hemiplejia flácida contralateral",
+    "Paraparesia espástica con Babinski",
+    "Debilidad proximal simétrica pura",
+    "Arreflexia generalizada con atrofia"
+   ],
+   "respuesta": 0,
+   "pista": "El cerebelo coordina; no genera la contracción voluntaria.",
+   "argumento": "Correcta: la lesión cerebelosa da ataxia, dismetría y nistagmo, pero no parálisis directa. La hemiplejia flácida corresponde a una lesión de neurona motora superior en fase aguda. La paraparesia espástica con Babinski es medular. La debilidad proximal simétrica es de patrón miopático. La arreflexia con atrofia es del sistema nervioso periférico."
+  },
+  {
+   "id": "c3a-54",
+   "enunciado": "Al protruir la lengua, un paciente la desvía hacia la derecha, con atrofia y fasciculaciones de ese lado. ¿Qué par craneal está comprometido?",
+   "alternativas": [
+    "El XII par derecho",
+    "El XII par izquierdo",
+    "El VII par derecho",
+    "El X par derecho",
+    "El V par derecho"
+   ],
+   "respuesta": 0,
+   "pista": "La lengua protruida señala el lado de la lesión.",
+   "argumento": "Correcta: la lengua se desvía hacia el lado de la lesión del XII y, en lesiones crónicas, muestra atrofia y fasciculaciones; aquí el derecho. Una lesión izquierda desviaría la lengua a la izquierda. El VII compromete la mímica facial. El X da disfonía y paresia del paladar. El V altera la sensibilidad facial y la masticación."
+  },
+  {
+   "id": "c3a-55",
+   "enunciado": "Una hemiplejia densa y proporcionada de un hemicuerpo, sin afasia ni crisis focal, orienta a lesión de:",
+   "alternativas": [
+    "Cerebelo ipsilateral",
+    "Corteza motora contralateral",
+    "Médula cervical ipsilateral",
+    "Cápsula interna contralateral",
+    "Nervio periférico del brazo"
+   ],
+   "respuesta": 3,
+   "pista": "La densidad pareja del déficit sugiere que se interrumpieron todas las fibras juntas.",
+   "argumento": "Correcta: la cápsula interna concentra todas las fibras piramidales y su lesión da hemiplejia densa y proporcionada. La corteza motora produce déficit más focal, a menudo con afasia o crisis. La médula cervical da tetraparesia o déficit bilateral con nivel. El cerebelo da ataxia ipsilateral sin hemiplejia. Un nervio periférico compromete un territorio limitado, no un hemicuerpo."
+  },
+  {
+   "id": "c3a-56",
+   "enunciado": "Sobre los patrones localizadores de pares craneales: I) La paresia del III par con hemiparesia contralateral corresponde al síndrome de Weber.  II) La afectación conjunta de los pares VII y VIII orienta al seno cavernoso.  III) La disfonía con disfagia, disartria y paresia lingual configura un síndrome bulbar.",
+   "alternativas": [
+    "Solo I",
+    "Solo II",
+    "Solo I y II",
+    "Solo I y III",
+    "Todas son correctas"
+   ],
+   "respuesta": 3,
+   "pista": "Ubique cada combinación en su compartimento anatómico: mesencéfalo, ángulo o bulbo.",
+   "argumento": "I: V, el III con hemiparesia contralateral es el síndrome de Weber, en el pie del pedúnculo mesencefálico. II: F, los pares VII y VIII juntos orientan al ángulo pontocerebeloso o al conducto auditivo interno; el seno cavernoso alberga III, IV, VI y la rama V1. III: V, disfonía, disfagia, disartria y paresia lingual definen el síndrome bulbar por IX a XII. Por eso la respuesta es «Solo I y III»."
+  },
+  {
+   "id": "c3a-57",
+   "enunciado": "¿Qué elemento clínico sugiere que una hemiparesia se debe a lesión cortical y no capsular?",
+   "alternativas": [
+    "Atrofia muscular precoz con fasciculaciones",
+    "Déficit motor denso y proporcionado",
+    "Compromiso simétrico de ambos lados",
+    "Afasia o crisis focal asociada",
+    "Nivel sensitivo en el tronco"
+   ],
+   "respuesta": 3,
+   "pista": "La corteza agrega funciones superiores o actividad epiléptica al déficit motor.",
+   "argumento": "Correcta: el déficit focal cortical puede asociar epilepsia focal o afasia, porque compromete funciones corticales además de la vía motora. El déficit denso y proporcionado es propio de la cápsula interna. El compromiso simétrico bilateral orienta a lesión medular o difusa. La atrofia precoz con fasciculaciones es periférica. El nivel sensitivo en el tronco es medular."
+  },
+  {
+   "id": "c3a-58",
+   "enunciado": "Una paciente refiere que «toda la mano derecha está dormida» desde esta mañana y que se le caen los objetos. ¿Qué interpretación es correcta?",
+   "alternativas": [
+    "El territorio no aporta a la localización",
+    "Toda la mano sugiere túnel carpiano",
+    "Los dedos aislados sugieren lesión central",
+    "La mano completa sugiere radiculopatía",
+    "Toda la mano sugiere lesión central"
+   ],
+   "respuesta": 4,
+   "pista": "Compare el compromiso de la mano entera con el de dedos individuales.",
+   "argumento": "Correcta: el compromiso de toda la mano orienta a lesión central, porque los territorios periféricos respetan dedos o nervios concretos. El túnel carpiano compromete el territorio del mediano, no la mano completa. Los dedos aislados orientan a nervios periféricos o dermatomas C6-C8, no a lesión central. La radiculopatía sigue un dermatoma, no la mano entera. El territorio sí aporta: es uno de los datos que separa lo central de lo periférico."
+  },
+  {
+   "id": "c3a-59",
+   "enunciado": "Un déficit neurológico que se instala en segundos o minutos obliga a considerar, en primer lugar:",
+   "alternativas": [
+    "Desmielinizante de curso subagudo",
+    "Tumoral de crecimiento lento y progresivo",
+    "Vascular, epiléptico o metabólico",
+    "Carencial por déficit de vitamina B12",
+    "Neurodegenerativo de años de evolución"
+   ],
+   "respuesta": 2,
+   "pista": "Es la categoría de máxima urgencia dentro de la velocidad de instauración.",
+   "argumento": "Correcta: el inicio en segundos o minutos orienta a causa vascular, epiléptica o metabólica aguda, como hipoglucemia o arritmia, y constituye la máxima urgencia. El tumoral se instala en semanas o meses. El desmielizante progresivo es de semanas o meses. El carencial por B12 o tiamina es de semanas o meses. El neurodegenerativo evoluciona en meses o años."
+  },
+  {
+   "id": "c3a-60",
+   "enunciado": "Un paciente no reconoce las caras de sus familiares, aunque ve correctamente y nombra los objetos que se le muestran. ¿Qué alteración presenta y dónde localiza?",
+   "alternativas": [
+    "Prosopagnosia, parieto-occipital",
+    "Agnosia visual, lóbulo frontal",
+    "Apraxia, parietal dominante",
+    "Negligencia, hemisferio derecho",
+    "Anomia, área de Broca"
+   ],
+   "respuesta": 0,
+   "pista": "Reconoce el objeto pero no la identidad de la cara, sin déficit visual primario.",
+   "argumento": "Correcta: la prosopagnosia es la incapacidad de reconocer caras y orienta a áreas de asociación parieto-occipitales. La agnosia visual es no reconocer objetos vistos y no localiza en frontal. La apraxia afecta actos motores aprendidos. La negligencia es falta de atención al hemicampo contralateral. La anomia es un fallo de denominación, y aquí el paciente nombra los objetos."
+  }
+ ]
+}
