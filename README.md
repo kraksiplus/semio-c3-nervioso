@@ -16,13 +16,9 @@ Publicado en https://kraksiplus.github.io/semio-c3-nervioso/ con GitHub Pages.
 
 ## Preguntas
 
-| Archivo | Contenido |
-|---|---|
-| `preguntas/05_Banco_Preguntas_C3.json` | 40 preguntas de las cuatro clases |
-| `preguntas/C3_Set_A_Clases_1-2.json` | 60 preguntas de las clases 1 y 2 |
-| `preguntas/C3_Set_B_Clases_3-4.json` | 60 preguntas de las clases 3 y 4 |
-
-Todas de 5 alternativas, formato QuestApp (`id`, `enunciado`, `alternativas`, `respuesta`, `pista`, `argumento`).
+Este sitio publica solo las guías. La práctica está en
+[QuestApp](https://kraksiplus.github.io/QuestApp/): banco mixto de 40 preguntas y dos sets de 60
+(clases 1–2 y clases 3–4).
 
 ## Cómo está hecho
 
